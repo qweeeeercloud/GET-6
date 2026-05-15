@@ -28,4 +28,18 @@ describe('App', () => {
     await user.click(screen.getAllByRole('button', { name: '加入斩词本' })[0])
     expect(screen.getByRole('button', { name: /斩词本\s*1/ })).toBeInTheDocument()
   })
+
+  it('lets a learner go back to the previous word root', async () => {
+    const user = userEvent.setup()
+
+    render(<App />)
+
+    expect(screen.getByText(/1 \/ \d+/)).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: '下一个词根' }))
+    expect(screen.getByText(/2 \/ \d+/)).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: '上一个词根' }))
+    expect(screen.getByText(/1 \/ \d+/)).toBeInTheDocument()
+  })
 })

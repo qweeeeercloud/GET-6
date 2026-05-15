@@ -171,6 +171,11 @@
   color: #235447;
 }
 
+.root-nav {
+  display: flex;
+  gap: 8px;
+}
+
 .root-meta button {
   background: #ffffff;
   color: #235447;

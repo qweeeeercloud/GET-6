@@ -1,4 +1,13 @@
-import { AlertCircle, BookOpen, CheckCircle2, RotateCcw, Search, Trophy } from 'lucide-react'
+import {
+  AlertCircle,
+  BookOpen,
+  CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
+  RotateCcw,
+  Search,
+  Trophy,
+} from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import { cet6Metadata, cet6Roots, cet6Words } from './data/cet6'
@@ -31,7 +40,8 @@ function App() {
   const coverage = useMemo(() => getCoverageStats(cet6Words), [])
   const deck = useMemo(() => buildRootDeck(cet6Words, cet6Roots), [])
   const studyQueue = useMemo(() => getStudyQueue(cet6Words, progress), [progress])
-  const currentRoot = deck.rootDecks[rootIndex % deck.rootDecks.length]
+  const normalizedRootIndex = wrapIndex(rootIndex, deck.rootDecks.length)
+  const currentRoot = deck.rootDecks[normalizedRootIndex]
   const mistakeWords = useMemo(
     () => wordsByBook(cet6Words, progress, 'mistake'),
     [progress],
@@ -112,8 +122,9 @@ function App() {
         {view === 'study' ? (
           <RootPanel
             currentRoot={currentRoot}
-            index={rootIndex}
+            index={normalizedRootIndex}
             total={deck.rootDecks.length}
+            onPrevious={() => setRootIndex((current) => current - 1)}
             onNext={() => setRootIndex((current) => current + 1)}
           />
         ) : (
@@ -161,19 +172,25 @@ type RootPanelProps = {
   currentRoot: ReturnType<typeof buildRootDeck>['rootDecks'][number]
   index: number
   total: number
+  onPrevious: () => void
   onNext: () => void
 }
 
-function RootPanel({ currentRoot, index, onNext, total }: RootPanelProps) {
+function RootPanel({ currentRoot, index, onNext, onPrevious, total }: RootPanelProps) {
   return (
     <aside className="root-panel">
       <div className="root-meta">
         <span>
           {index + 1} / {total}
         </span>
-        <button aria-label="下一个词根" onClick={onNext} type="button">
-          <RotateCcw aria-hidden="true" size={18} />
-        </button>
+        <div className="root-nav">
+          <button aria-label="上一个词根" onClick={onPrevious} type="button">
+            <ChevronLeft aria-hidden="true" size={18} />
+          </button>
+          <button aria-label="下一个词根" onClick={onNext} type="button">
+            <ChevronRight aria-hidden="true" size={18} />
+          </button>
+        </div>
       </div>
       <h2>{currentRoot.title}</h2>
       <p className="root-meaning">{currentRoot.meaning}</p>
@@ -213,7 +230,7 @@ function WordCard({ onMove, progress, word }: WordCardProps) {
       </div>
       <p>{word.translation}</p>
       <div className="root-tags">
-        {word.rootIds.length > 0 ? word.rootIds.map((root) => <span key={root}>{root}</span>) : <span>补充词汇</span>}
+        {word.rootIds.length > 0 ? word.rootIds.map((root, index) => <span key={`${root}-${index}`}>{root}</span>) : <span>补充词汇</span>}
       </div>
       <div className="word-actions">
         <button onClick={() => onMove(word.word, 'mistake')} type="button">
@@ -265,6 +282,10 @@ function bookLabel(book: WordBook) {
   }
 
   return '学习中'
+}
+
+function wrapIndex(index: number, total: number) {
+  return ((index % total) + total) % total
 }
 
 export default App
