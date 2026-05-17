@@ -1,4 +1,6 @@
 export type WordBook = 'study' | 'mistake' | 'killed'
+export type MorphemeKind = 'prefix' | 'root' | 'suffix'
+export type MorphemeKindFilter = MorphemeKind | 'all'
 
 export type WordEntry = {
   word: string
@@ -15,6 +17,7 @@ export type RootEntry = {
   meaning: string
   origin?: string
   note: string
+  kind: MorphemeKind
 }
 
 export type ProgressState = {
@@ -38,16 +41,19 @@ export type RootDeckBuild = {
   supplementalWords: WordEntry[]
 }
 
+export type RootGroups = Record<MorphemeKind, RootEntry[]>
+
 const emptyProgress: ProgressState = {
   mistakeWords: [],
   killedWords: [],
 }
 
-const rootLabels: Record<string, Pick<RootEntry, 'meaning' | 'origin' | 'note'>> = {
+const rootLabels: Record<string, Pick<RootEntry, 'meaning' | 'origin' | 'note' | 'kind'>> = {
   port: {
     meaning: '携带，运送',
     origin: 'Latin',
     note: '把 port 想成“搬运通道”：transport 是运送，portable 是能带走。',
+    kind: 'root',
   },
 }
 
@@ -124,24 +130,33 @@ export function getCoverageStats(words: WordEntry[]): CoverageStats {
   }
 }
 
-export function buildRootDeck(words: WordEntry[], roots: RootEntry[] = []): RootDeckBuild {
+export function buildRootDeck(
+  words: WordEntry[],
+  roots: RootEntry[] = [],
+  kindFilter: MorphemeKindFilter = 'all',
+): RootDeckBuild {
   const rootMap = new Map<string, RootDeck>()
   const supplementalWords: WordEntry[] = []
 
   for (const word of words) {
-    if (word.rootIds.length === 0) {
-      supplementalWords.push(word)
+    const matchingRoots = word.rootIds
+      .map((rootId) => roots.find((entry) => entry.id === rootId) ?? createFallbackRoot(rootId))
+      .filter((root) => kindFilter === 'all' || root.kind === kindFilter)
+
+    if (matchingRoots.length === 0) {
+      if (word.rootIds.length === 0 || kindFilter === 'all') {
+        supplementalWords.push(word)
+      }
       continue
     }
 
-    for (const rootId of word.rootIds) {
-      const root = roots.find((entry) => entry.id === rootId) ?? createFallbackRoot(rootId)
-      const existing = rootMap.get(rootId)
+    for (const root of matchingRoots) {
+      const existing = rootMap.get(root.id)
 
       if (existing) {
         existing.words.push(word)
       } else {
-        rootMap.set(rootId, { ...root, words: [word] })
+        rootMap.set(root.id, { ...root, words: [word] })
       }
     }
   }
@@ -152,16 +167,46 @@ export function buildRootDeck(words: WordEntry[], roots: RootEntry[] = []): Root
   }
 }
 
+export function getRootGroups(word: WordEntry, roots: RootEntry[]): RootGroups {
+  const rootsById = new Map(roots.map((root) => [root.id, root]))
+  const groups: RootGroups = {
+    prefix: [],
+    root: [],
+    suffix: [],
+  }
+
+  for (const rootId of word.rootIds) {
+    const root = rootsById.get(rootId) ?? createFallbackRoot(rootId)
+    groups[root.kind].push(root)
+  }
+
+  return groups
+}
+
 function createFallbackRoot(rootId: string): RootEntry {
   const label = rootLabels[rootId]
+  const kind = label?.kind ?? inferKindFromId(rootId)
 
   return {
     id: rootId,
     title: rootId,
-    meaning: label?.meaning ?? '词根/词缀线索',
+    meaning: label?.meaning ?? '构词线索',
     origin: label?.origin,
     note: label?.note ?? `把 ${rootId} 作为这一组单词的共同记忆线索。`,
+    kind,
   }
+}
+
+function inferKindFromId(rootId: string): MorphemeKind {
+  if (rootId.startsWith('-')) {
+    return 'suffix'
+  }
+
+  if (rootId.endsWith('-')) {
+    return 'prefix'
+  }
+
+  return 'root'
 }
 
 function uniqueWords(words: string[]): string[] {

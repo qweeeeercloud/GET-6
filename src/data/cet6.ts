@@ -2,10 +2,13 @@ import type { RootEntry, WordEntry } from '../lib/vocab'
 
 export const cet6Metadata = {
   source: 'ECDICT via npm package ecdict, filtered by tag cet6',
-  generatedAt: "2026-05-15T11:00:47.721Z",
+  generatedAt: "2026-05-17T07:22:26.120Z",
   total: 5407,
   rooted: 3707,
   supplemental: 1700,
+  prefixes: 100,
+  roots: 340,
+  suffixes: 72,
 } as const
 
 export const cet6Roots = [
@@ -14,3542 +17,4096 @@ export const cet6Roots = [
     "title": "-ability/-ibility/-bility/-ubility",
     "meaning": "ability to do, be, or undergo",
     "origin": "Latin",
-    "note": "-ability/-ibility/-bility/-ubility 表示“ability to do, be, or undergo”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ability/-ibility/-bility/-ubility 是后缀，表示“ability to do, be, or undergo”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-able",
     "title": "-able/-ible/-ble",
     "meaning": "能够，可以被",
     "origin": "Latin",
-    "note": "-able/-ible/-ble 表示“能够，可以被”，来源 Latin，优先用它寻找同族词。"
+    "note": "-able/-ible/-ble 是后缀，表示“能够，可以被”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ably",
     "title": "-ably/-ibly",
     "meaning": "in the manner or way indicated by the adjective",
     "origin": "Latin",
-    "note": "-ably/-ibly 表示“in the manner or way indicated by the adjective”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ably/-ibly 是后缀，表示“in the manner or way indicated by the adjective”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-acious",
     "title": "-acious",
     "meaning": "full of, characterized by",
     "origin": "Latin",
-    "note": "-acious 表示“full of, characterized by”，来源 Latin，优先用它寻找同族词。"
+    "note": "-acious 是后缀，表示“full of, characterized by”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ad",
     "title": "-ad/-ade",
     "meaning": "group (of a certain number indicated by the base)",
     "origin": "Greek",
-    "note": "-ad/-ade 表示“group (of a certain number indicated by the base)”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ad/-ade 是后缀，表示“group (of a certain number indicated by the base)”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-age",
     "title": "-age",
     "meaning": "act, process, or result of (the action indicated by the verb base)",
     "origin": "Latin",
-    "note": "-age 表示“act, process, or result of (the action indicated by the verb base)”，来源 Latin，优先用它寻找同族词。"
+    "note": "-age 是后缀，表示“act, process, or result of (the action indicated by the verb base)”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-al",
     "title": "-al",
     "meaning": "行为、结果；与……有关",
     "origin": "Latin",
-    "note": "-al 表示“行为、结果；与……有关”，来源 Latin，优先用它寻找同族词。"
+    "note": "-al 是后缀，表示“行为、结果；与……有关”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-al",
     "title": "-al/-ial/-ual",
     "meaning": "行为、结果；与……有关",
     "origin": "Latin",
-    "note": "-al/-ial/-ual 表示“行为、结果；与……有关”，来源 Latin，优先用它寻找同族词。"
+    "note": "-al/-ial/-ual 是后缀，表示“行为、结果；与……有关”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-an",
     "title": "-an/-ian/-ean",
     "meaning": "in adjectives: from (a place) or pertaining to or following (a figure or school of thought); in nouns: person or thing from (a place) or associated with (an activity or school of thought).",
     "origin": "Latin",
-    "note": "-an/-ian/-ean 表示“in adjectives: from (a place) or pertaining to or following (a figure or school of thought); in nouns: person or thing from (a place) or associated with (an activity or school of thought).”，来源 Latin，优先用它寻找同族词。"
+    "note": "-an/-ian/-ean 是后缀，表示“in adjectives: from (a place) or pertaining to or following (a figure or school of thought); in nouns: person or thing from (a place) or associated with (an activity or school of thought).”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ance",
     "title": "-ance/-ence/-ency/-ancy",
     "meaning": "状态、性质或行为",
     "origin": "Latin",
-    "note": "-ance/-ence/-ency/-ancy 表示“状态、性质或行为”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ance/-ence/-ency/-ancy 是后缀，表示“状态、性质或行为”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ant",
     "title": "-ant/-ent",
     "meaning": "正在做……的；做……的人或物",
     "origin": "Latin",
-    "note": "-ant/-ent 表示“正在做……的；做……的人或物”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ant/-ent 是后缀，表示“正在做……的；做……的人或物”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ar",
     "title": "-ar",
     "meaning": "of, pertaining to, or resembling",
     "origin": "Latin",
-    "note": "-ar 表示“of, pertaining to, or resembling”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ar 是后缀，表示“of, pertaining to, or resembling”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-arian",
     "title": "-arian",
     "meaning": "one believing in; one associated with; one having (age)",
     "origin": "Latin",
-    "note": "-arian 表示“one believing in; one associated with; one having (age)”，来源 Latin，优先用它寻找同族词。"
+    "note": "-arian 是后缀，表示“one believing in; one associated with; one having (age)”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ary",
     "title": "-ary",
     "meaning": "相关的人、物、地点",
     "origin": "Latin",
-    "note": "-ary 表示“相关的人、物、地点”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ary 是后缀，表示“相关的人、物、地点”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ary",
     "title": "-ary",
     "meaning": "相关的人、物、地点",
     "origin": "Latin",
-    "note": "-ary 表示“相关的人、物、地点”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ary 是后缀，表示“相关的人、物、地点”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ate",
     "title": "-ate",
     "meaning": "使成为，造成，做",
     "origin": "Latin",
-    "note": "-ate 表示“使成为，造成，做”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ate 是后缀，表示“使成为，造成，做”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ation",
     "title": "-ation",
     "meaning": "行为、过程或结果",
     "origin": "Latin",
-    "note": "-ation 表示“行为、过程或结果”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ation 是后缀，表示“行为、过程或结果”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ator",
     "title": "-ator",
     "meaning": "a person or thing that does",
     "origin": "Latin",
-    "note": "-ator 表示“a person or thing that does”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ator 是后缀，表示“a person or thing that does”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-atory",
     "title": "-atory",
     "meaning": "place associated with",
     "origin": "Latin",
-    "note": "-atory 表示“place associated with”，来源 Latin，优先用它寻找同族词。"
+    "note": "-atory 是后缀，表示“place associated with”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-cy",
     "title": "-cy",
     "meaning": "state of or quality of",
     "origin": "Latin and Greek",
-    "note": "-cy 表示“state of or quality of”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "-cy 是后缀，表示“state of or quality of”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-dom",
     "title": "-dom",
     "meaning": "domain of; state of being",
     "origin": "Old English",
-    "note": "-dom 表示“domain of; state of being”，来源 Old English，优先用它寻找同族词。"
+    "note": "-dom 是后缀，表示“domain of; state of being”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ee",
     "title": "-ee",
     "meaning": "person who undergoes or receives",
     "origin": "Latin",
-    "note": "-ee 表示“person who undergoes or receives”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ee 是后缀，表示“person who undergoes or receives”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-eer",
     "title": "-eer",
     "meaning": "one who does or is related to",
     "origin": "Latin",
-    "note": "-eer 表示“one who does or is related to”，来源 Latin，优先用它寻找同族词。"
+    "note": "-eer 是后缀，表示“one who does or is related to”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-en",
     "title": "-en",
     "meaning": "made of",
     "origin": "Old English",
-    "note": "-en 表示“made of”，来源 Old English，优先用它寻找同族词。"
+    "note": "-en 是后缀，表示“made of”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-en",
     "title": "-en",
     "meaning": "to cause to be or become or have",
     "origin": "Old English",
-    "note": "-en 表示“to cause to be or become or have”，来源 Old English，优先用它寻找同族词。"
+    "note": "-en 是后缀，表示“to cause to be or become or have”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-er",
     "title": "-er/-or/-ar",
     "meaning": "a person or thing that does",
     "origin": "Latin",
-    "note": "-er/-or/-ar 表示“a person or thing that does”，来源 Latin，优先用它寻找同族词。"
+    "note": "-er/-or/-ar 是后缀，表示“a person or thing that does”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-escent",
     "title": "-escent",
     "meaning": "becoming; beginning to",
     "origin": "Latin",
-    "note": "-escent 表示“becoming; beginning to”，来源 Latin，优先用它寻找同族词。"
+    "note": "-escent 是后缀，表示“becoming; beginning to”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
+  },
+  {
+    "id": "-faction",
+    "title": "-faction/-ification/-efaction",
+    "meaning": "act or process of making or becoming",
+    "origin": "Latin",
+    "note": "-faction/-ification/-efaction 是后缀，表示“act or process of making or becoming”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-fic",
     "title": "-fic",
     "meaning": "making, doing, causing",
     "origin": "Latin",
-    "note": "-fic 表示“making, doing, causing”，来源 Latin，优先用它寻找同族词。"
+    "note": "-fic 是后缀，表示“making, doing, causing”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ful",
     "title": "-ful",
     "meaning": "充满，具有",
     "origin": "Old English",
-    "note": "-ful 表示“充满，具有”，来源 Old English，优先用它寻找同族词。"
+    "note": "-ful 是后缀，表示“充满，具有”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ful",
     "title": "-ful",
     "meaning": "充满，具有",
     "origin": "Old English",
-    "note": "-ful 表示“充满，具有”，来源 Old English，优先用它寻找同族词。"
+    "note": "-ful 是后缀，表示“充满，具有”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-fy",
     "title": "-fy/-ify/-efy",
     "meaning": "make, cause to be, become",
     "origin": "Latin",
-    "note": "-fy/-ify/-efy 表示“make, cause to be, become”，来源 Latin，优先用它寻找同族词。"
+    "note": "-fy/-ify/-efy 是后缀，表示“make, cause to be, become”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-hood",
     "title": "-hood",
     "meaning": "1. state, condition; 2.the whole group of",
     "origin": "Old English",
-    "note": "-hood 表示“1. state, condition; 2.the whole group of”，来源 Old English，优先用它寻找同族词。"
+    "note": "-hood 是后缀，表示“1. state, condition; 2.the whole group of”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ic",
     "title": "-ic",
     "meaning": "like, pertaining to",
     "origin": "Latin and Greek",
-    "note": "-ic 表示“like, pertaining to”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "-ic 是后缀，表示“like, pertaining to”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ician",
     "title": "-ician",
     "meaning": "practictioner of or expert in",
     "origin": "Latin",
-    "note": "-ician 表示“practictioner of or expert in”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ician 是后缀，表示“practictioner of or expert in”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ics",
     "title": "-ics",
     "meaning": "science, study, or practice of; properties of; practices pertaining to",
     "origin": "Greek",
-    "note": "-ics 表示“science, study, or practice of; properties of; practices pertaining to”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ics 是后缀，表示“science, study, or practice of; properties of; practices pertaining to”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ile",
     "title": "-ile/-il",
     "meaning": "capable of being or undergoing; pertaining to",
     "origin": "Latin",
-    "note": "-ile/-il 表示“capable of being or undergoing; pertaining to”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ile/-il 是后缀，表示“capable of being or undergoing; pertaining to”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ion",
     "title": "-ion",
     "meaning": "行为、过程或结果",
     "origin": "Latin",
-    "note": "-ion 表示“行为、过程或结果”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ion 是后缀，表示“行为、过程或结果”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ish",
     "title": "-ish",
     "meaning": "of, resembling; somewhat",
     "origin": "Old English",
-    "note": "-ish 表示“of, resembling; somewhat”，来源 Old English，优先用它寻找同族词。"
+    "note": "-ish 是后缀，表示“of, resembling; somewhat”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ism",
     "title": "-ism",
     "meaning": "act, process, state, practice, or instance of",
     "origin": "Greek",
-    "note": "-ism 表示“act, process, state, practice, or instance of”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ism 是后缀，表示“act, process, state, practice, or instance of”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ism",
     "title": "-ism",
     "meaning": "doctrine, belief, theory",
     "origin": "Greek",
-    "note": "-ism 表示“doctrine, belief, theory”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ism 是后缀，表示“doctrine, belief, theory”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ist",
     "title": "-ist",
     "meaning": "person who does or believes in",
     "origin": "Greek",
-    "note": "-ist 表示“person who does or believes in”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ist 是后缀，表示“person who does or believes in”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ite",
     "title": "-ite",
     "meaning": "处于某种状态的人或物",
     "origin": "Latin",
-    "note": "-ite 表示“处于某种状态的人或物”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ite 是后缀，表示“处于某种状态的人或物”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ite",
     "title": "-ite",
     "meaning": "处于某种状态的人或物",
     "origin": "Latin and Greek",
-    "note": "-ite 表示“处于某种状态的人或物”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "-ite 是后缀，表示“处于某种状态的人或物”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ite",
     "title": "-ite",
     "meaning": "处于某种状态的人或物",
     "origin": "Greek",
-    "note": "-ite 表示“处于某种状态的人或物”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ite 是后缀，表示“处于某种状态的人或物”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-itious",
     "title": "-itious",
     "meaning": "having the nature of, characterized by",
     "origin": "Latin",
-    "note": "-itious 表示“having the nature of, characterized by”，来源 Latin，优先用它寻找同族词。"
+    "note": "-itious 是后缀，表示“having the nature of, characterized by”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ive",
     "title": "-ive/-ative",
     "meaning": "倾向于，具有……性质",
     "origin": "Latin",
-    "note": "-ive/-ative 表示“倾向于，具有……性质”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ive/-ative 是后缀，表示“倾向于，具有……性质”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ization",
     "title": "-ization",
     "meaning": "act, fact, or process of",
     "origin": "Latin and Greek",
-    "note": "-ization 表示“act, fact, or process of”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "-ization 是后缀，表示“act, fact, or process of”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ize",
     "title": "-ize/-ise",
     "meaning": "使成为，使……化",
     "origin": "Greek",
-    "note": "-ize/-ise 表示“使成为，使……化”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ize/-ise 是后缀，表示“使成为，使……化”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-less",
     "title": "-less",
     "meaning": "without",
     "origin": "Middle English",
-    "note": "-less 表示“without”，来源 Middle English，优先用它寻找同族词。"
+    "note": "-less 是后缀，表示“without”，来源 Middle English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-like",
     "title": "-like",
     "meaning": "similar to, in the manner of",
     "origin": "Old English",
-    "note": "-like 表示“similar to, in the manner of”，来源 Old English，优先用它寻找同族词。"
+    "note": "-like 是后缀，表示“similar to, in the manner of”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-logy",
     "title": "-logy/-ology",
     "meaning": "study of, science of; written work; structure or principle",
     "origin": "Greek",
-    "note": "-logy/-ology 表示“study of, science of; written work; structure or principle”，来源 Greek，优先用它寻找同族词。"
+    "note": "-logy/-ology 是后缀，表示“study of, science of; written work; structure or principle”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ly",
     "title": "-ly",
     "meaning": "like; every (when attached to times)",
     "origin": "Old English",
-    "note": "-ly 表示“like; every (when attached to times)”，来源 Old English，优先用它寻找同族词。"
+    "note": "-ly 是后缀，表示“like; every (when attached to times)”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ly",
     "title": "-ly",
     "meaning": "in such a way or manner",
     "origin": "Old English",
-    "note": "-ly 表示“in such a way or manner”，来源 Old English，优先用它寻找同族词。"
+    "note": "-ly 是后缀，表示“in such a way or manner”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ment",
     "title": "-ment",
     "meaning": "行为、过程或结果",
     "origin": "Latin",
-    "note": "-ment 表示“行为、过程或结果”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ment 是后缀，表示“行为、过程或结果”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ness",
     "title": "-ness",
     "meaning": "state or quality of",
     "origin": "Old English",
-    "note": "-ness 表示“state or quality of”，来源 Old English，优先用它寻找同族词。"
+    "note": "-ness 是后缀，表示“state or quality of”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-oid",
     "title": "-oid",
     "meaning": "resembling, like",
     "origin": "Greek",
-    "note": "-oid 表示“resembling, like”，来源 Greek，优先用它寻找同族词。"
+    "note": "-oid 是后缀，表示“resembling, like”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ory",
     "title": "-ory/-atory",
     "meaning": "serving to, pertaining to",
     "origin": "Latin",
-    "note": "-ory/-atory 表示“serving to, pertaining to”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ory/-atory 是后缀，表示“serving to, pertaining to”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ose",
     "title": "-ose",
     "meaning": "having many or much of; tending toward",
     "origin": "Latin",
-    "note": "-ose 表示“having many or much of; tending toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ose 是后缀，表示“having many or much of; tending toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ose",
     "title": "-ose",
     "meaning": "carbohydrate, esp. sugar",
     "origin": "Greek",
-    "note": "-ose 表示“carbohydrate, esp. sugar”，来源 Greek，优先用它寻找同族词。"
+    "note": "-ose 是后缀，表示“carbohydrate, esp. sugar”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-osis",
     "title": "-osis",
     "meaning": "condition (usually medical) ",
     "origin": "Greek",
-    "note": "-osis 表示“condition (usually medical) ”，来源 Greek，优先用它寻找同族词。"
+    "note": "-osis 是后缀，表示“condition (usually medical) ”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-osity",
     "title": "-osity",
     "meaning": "state or condition of",
     "origin": "Latin",
-    "note": "-osity 表示“state or condition of”，来源 Latin，优先用它寻找同族词。"
+    "note": "-osity 是后缀，表示“state or condition of”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-otic",
     "title": "-otic",
     "meaning": "having or related to (a condition or state)",
     "origin": "Greek",
-    "note": "-otic 表示“having or related to (a condition or state)”，来源 Greek，优先用它寻找同族词。"
+    "note": "-otic 是后缀，表示“having or related to (a condition or state)”，来源 Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ous",
     "title": "-ous/-ious",
     "meaning": "充满，具有……特征",
     "origin": "Latin",
-    "note": "-ous/-ious 表示“充满，具有……特征”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ous/-ious 是后缀，表示“充满，具有……特征”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-tude",
     "title": "-tude",
     "meaning": "state or condition of",
     "origin": "Latin",
-    "note": "-tude 表示“state or condition of”，来源 Latin，优先用它寻找同族词。"
+    "note": "-tude 是后缀，表示“state or condition of”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ty",
     "title": "-ty/-ity/-uity/-eity",
     "meaning": "状态或性质",
     "origin": "Latin",
-    "note": "-ty/-ity/-uity/-eity 表示“状态或性质”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ty/-ity/-uity/-eity 是后缀，表示“状态或性质”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ule",
     "title": "-ule",
     "meaning": "small",
     "origin": "Latin",
-    "note": "-ule 表示“small”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ule 是后缀，表示“small”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
+  },
+  {
+    "id": "-ulent",
+    "title": "-ulent",
+    "meaning": "characterized by, full of",
+    "origin": "Latin",
+    "note": "-ulent 是后缀，表示“characterized by, full of”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ulous",
     "title": "-ulous",
     "meaning": "tending to, characterized by",
     "origin": "Latin",
-    "note": "-ulous 表示“tending to, characterized by”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ulous 是后缀，表示“tending to, characterized by”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-ure",
     "title": "-ure",
     "meaning": "行为或过程",
     "origin": "Latin",
-    "note": "-ure 表示“行为或过程”，来源 Latin，优先用它寻找同族词。"
+    "note": "-ure 是后缀，表示“行为或过程”，来源 Latin，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-y",
     "title": "-y",
     "meaning": "state, quality, act, or practice of",
     "origin": "Latin and Greek",
-    "note": "-y 表示“state, quality, act, or practice of”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "-y 是后缀，表示“state, quality, act, or practice of”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "-y",
     "title": "-y/-ey",
     "meaning": "characterized by; full of; tending to",
     "origin": "Old English",
-    "note": "-y/-ey 表示“characterized by; full of; tending to”，来源 Old English，优先用它寻找同族词。"
+    "note": "-y/-ey 是后缀，表示“characterized by; full of; tending to”，来源 Old English，优先用它寻找同族词。",
+    "kind": "suffix"
   },
   {
     "id": "a-",
     "title": "a-",
-    "meaning": "to, toward",
+    "meaning": "不，无；向，处于",
     "origin": "Latin",
-    "note": "a- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "a- 是前缀，表示“不，无；向，处于”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "a-",
     "title": "a-",
-    "meaning": "on",
+    "meaning": "不，无；向，处于",
     "origin": "Old English",
-    "note": "a- 表示“on”，来源 Old English，优先用它寻找同族词。"
+    "note": "a- 是前缀，表示“不，无；向，处于”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "a-",
     "title": "a-/an-",
-    "meaning": "not, without",
+    "meaning": "不，无；向，处于",
     "origin": "Greek",
-    "note": "a-/an- 表示“not, without”，来源 Greek，优先用它寻找同族词。"
+    "note": "a-/an- 是前缀，表示“不，无；向，处于”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ab-",
     "title": "ab-/abs-",
-    "meaning": "from, away from",
+    "meaning": "离开，偏离",
     "origin": "Latin",
-    "note": "ab-/abs- 表示“from, away from”，来源 Latin，优先用它寻找同族词。"
+    "note": "ab-/abs- 是前缀，表示“离开，偏离”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ac-",
     "title": "ac-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "ac- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "ac- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ac",
     "title": "ac/acr/acer",
     "meaning": "sharp, bitter, sour",
     "origin": "Latin",
-    "note": "ac/acr/acer 表示“sharp, bitter, sour”，来源 Latin，优先用它寻找同族词。"
+    "note": "ac/acr/acer 是词根，表示“sharp, bitter, sour”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "act",
     "title": "act/ag",
     "meaning": "做，驱动",
     "origin": "Latin",
-    "note": "act/ag 表示“做，驱动”，来源 Latin，优先用它寻找同族词。"
+    "note": "act/ag 是词根，表示“做，驱动”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ad-",
     "title": "ad-",
-    "meaning": "to, toward",
+    "meaning": "向，靠近，加强",
     "origin": "Latin",
-    "note": "ad- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "ad- 是前缀，表示“向，靠近，加强”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "aer",
     "title": "aer/aero",
     "meaning": "air, gas",
     "origin": "Greek",
-    "note": "aer/aero 表示“air, gas”，来源 Greek，优先用它寻找同族词。"
+    "note": "aer/aero 是词根，表示“air, gas”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "af-",
     "title": "af-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "af- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "af- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ag-",
     "title": "ag-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "ag- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "ag- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "agr",
     "title": "agr/agro/agri",
     "meaning": "field, farm, crop",
     "origin": "Latin",
-    "note": "agr/agro/agri 表示“field, farm, crop”，来源 Latin，优先用它寻找同族词。"
+    "note": "agr/agro/agri 是词根，表示“field, farm, crop”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
+  },
+  {
+    "id": "al-",
+    "title": "al-",
+    "meaning": "to, toward",
+    "origin": "Latin",
+    "note": "al- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "alg",
     "title": "alg/algo/-algia",
     "meaning": "pain",
     "origin": "Greek",
-    "note": "alg/algo/-algia 表示“pain”，来源 Greek，优先用它寻找同族词。"
+    "note": "alg/algo/-algia 是词根，表示“pain”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ali",
     "title": "ali",
     "meaning": "other, foreign",
     "origin": "Latin",
-    "note": "ali 表示“other, foreign”，来源 Latin，优先用它寻找同族词。"
+    "note": "ali 是词根，表示“other, foreign”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "allo",
     "title": "allo/all",
     "meaning": "其他，不同",
     "origin": "Greek",
-    "note": "allo/all 表示“其他，不同”，来源 Greek，优先用它寻找同族词。"
+    "note": "allo/all 是词根，表示“其他，不同”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "alt",
     "title": "alt/alti/alto",
     "meaning": "high",
     "origin": "Latin",
-    "note": "alt/alti/alto 表示“high”，来源 Latin，优先用它寻找同族词。"
+    "note": "alt/alti/alto 是词根，表示“high”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "alter",
     "title": "alter/altern/altr",
     "meaning": "other; change",
     "origin": "Latin",
-    "note": "alter/altern/altr 表示“other; change”，来源 Latin，优先用它寻找同族词。"
+    "note": "alter/altern/altr 是词根，表示“other; change”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "am",
     "title": "am/ama/amor",
     "meaning": "love, friendship",
     "origin": "Latin",
-    "note": "am/ama/amor 表示“love, friendship”，来源 Latin，优先用它寻找同族词。"
+    "note": "am/ama/amor 是词根，表示“love, friendship”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "amb",
     "title": "amb/ambl/ambul",
     "meaning": "walk",
     "origin": "Latin",
-    "note": "amb/ambl/ambul 表示“walk”，来源 Latin，优先用它寻找同族词。"
+    "note": "amb/ambl/ambul 是词根，表示“walk”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ambi-",
     "title": "ambi-",
     "meaning": "both, on both sides, around",
     "origin": "Latin",
-    "note": "ambi- 表示“both, on both sides, around”，来源 Latin，优先用它寻找同族词。"
+    "note": "ambi- 是前缀，表示“both, on both sides, around”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "an-",
     "title": "an-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "an- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "an- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ana-",
     "title": "ana-",
     "meaning": "up; against; back",
     "origin": "Greek",
-    "note": "ana- 表示“up; against; back”，来源 Greek，优先用它寻找同族词。"
+    "note": "ana- 是前缀，表示“up; against; back”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "anim",
     "title": "anim",
     "meaning": "mind, spirit, life",
     "origin": "Latin",
-    "note": "anim 表示“mind, spirit, life”，来源 Latin，优先用它寻找同族词。"
+    "note": "anim 是词根，表示“mind, spirit, life”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ann",
     "title": "ann/enn",
     "meaning": "year, years",
     "origin": "Latin",
-    "note": "ann/enn 表示“year, years”，来源 Latin，优先用它寻找同族词。"
+    "note": "ann/enn 是词根，表示“year, years”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ante-",
     "title": "ante-",
-    "meaning": "before",
+    "meaning": "在前，先于",
     "origin": "Latin",
-    "note": "ante- 表示“before”，来源 Latin，优先用它寻找同族词。"
+    "note": "ante- 是前缀，表示“在前，先于”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "anth",
     "title": "anth/antho",
     "meaning": "flower",
     "origin": "Greek",
-    "note": "anth/antho 表示“flower”，来源 Greek，优先用它寻找同族词。"
+    "note": "anth/antho 是词根，表示“flower”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "anthr",
     "title": "anthr/anthro/anthrop/anthropo",
     "meaning": "human being",
     "origin": "Greek",
-    "note": "anthr/anthro/anthrop/anthropo 表示“human being”，来源 Greek，优先用它寻找同族词。"
+    "note": "anthr/anthro/anthrop/anthropo 是词根，表示“human being”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "anti-",
     "title": "anti-",
-    "meaning": "against, opposed",
+    "meaning": "反对，抗",
     "origin": "Latin and Greek",
-    "note": "anti- 表示“against, opposed”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "anti- 是前缀，表示“反对，抗”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ap-",
     "title": "ap-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "ap- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "ap- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "apt",
     "title": "apt/ept",
     "meaning": "fit for",
     "origin": "Latin",
-    "note": "apt/ept 表示“fit for”，来源 Latin，优先用它寻找同族词。"
+    "note": "apt/ept 是词根，表示“fit for”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "aqu",
     "title": "aqu/aqua",
     "meaning": "water",
     "origin": "Latin",
-    "note": "aqu/aqua 表示“water”，来源 Latin，优先用它寻找同族词。"
+    "note": "aqu/aqua 是词根，表示“water”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ar-",
     "title": "ar-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "ar- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "ar- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "arbor",
     "title": "arbor",
     "meaning": "tree",
     "origin": "Latin",
-    "note": "arbor 表示“tree”，来源 Latin，优先用它寻找同族词。"
+    "note": "arbor 是词根，表示“tree”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "arch",
     "title": "arch/archi/arche (archae)/archeo/(archaeo)/-arch/-archy",
     "meaning": "first in rank or time",
     "origin": "Greek",
-    "note": "arch/archi/arche (archae)/archeo/(archaeo)/-arch/-archy 表示“first in rank or time”，来源 Greek，优先用它寻找同族词。"
+    "note": "arch/archi/arche (archae)/archeo/(archaeo)/-arch/-archy 是词根，表示“first in rank or time”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "arm",
     "title": "arm",
     "meaning": "arms, weapons",
     "origin": "Latin",
-    "note": "arm 表示“arms, weapons”，来源 Latin，优先用它寻找同族词。"
+    "note": "arm 是词根，表示“arms, weapons”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "as-",
     "title": "as-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "as- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "as- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "astr",
     "title": "astr/aster/astro",
     "meaning": "star",
     "origin": "Greek",
-    "note": "astr/aster/astro 表示“star”，来源 Greek，优先用它寻找同族词。"
+    "note": "astr/aster/astro 是词根，表示“star”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "at-",
     "title": "at-",
     "meaning": "to, toward",
     "origin": "Latin",
-    "note": "at- 表示“to, toward”，来源 Latin，优先用它寻找同族词。"
+    "note": "at- 是前缀，表示“to, toward”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "au",
     "title": "au/avi",
     "meaning": "bird",
     "origin": "Latin",
-    "note": "au/avi 表示“bird”，来源 Latin，优先用它寻找同族词。"
+    "note": "au/avi 是词根，表示“bird”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "aud",
     "title": "aud/audit/audio",
     "meaning": "hear",
     "origin": "Latin",
-    "note": "aud/audit/audio 表示“hear”，来源 Latin，优先用它寻找同族词。"
+    "note": "aud/audit/audio 是词根，表示“hear”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "aut",
     "title": "aut/auto",
     "meaning": "self",
     "origin": "Greek",
-    "note": "aut/auto 表示“self”，来源 Greek，优先用它寻找同族词。"
+    "note": "aut/auto 是前缀，表示“self”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ax",
     "title": "ax",
     "meaning": "axis",
     "origin": "Latin",
-    "note": "ax 表示“axis”，来源 Latin，优先用它寻找同族词。"
+    "note": "ax 是词根，表示“axis”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "bar",
     "title": "bar/baro",
     "meaning": "pressure, weight",
     "origin": "Greek",
-    "note": "bar/baro 表示“pressure, weight”，来源 Greek，优先用它寻找同族词。"
+    "note": "bar/baro 是词根，表示“pressure, weight”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "bat",
     "title": "bat",
     "meaning": "beat",
     "origin": "Latin",
-    "note": "bat 表示“beat”，来源 Latin，优先用它寻找同族词。"
+    "note": "bat 是词根，表示“beat”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "be-",
     "title": "be-",
     "meaning": "to cover or surround with; to act on or change another.",
     "origin": "Old English",
-    "note": "be- 表示“to cover or surround with; to act on or change another.”，来源 Old English，优先用它寻找同族词。"
+    "note": "be- 是前缀，表示“to cover or surround with; to act on or change another.”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "bell",
     "title": "bell/belli",
     "meaning": "war",
     "origin": "Latin",
-    "note": "bell/belli 表示“war”，来源 Latin，优先用它寻找同族词。"
+    "note": "bell/belli 是词根，表示“war”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ben",
     "title": "ben/bene/bon",
     "meaning": "good, well",
     "origin": "Latin",
-    "note": "ben/bene/bon 表示“good, well”，来源 Latin，优先用它寻找同族词。"
+    "note": "ben/bene/bon 是词根，表示“good, well”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "bi-",
     "title": "bi-/bin-",
-    "meaning": "two, twice, double",
+    "meaning": "二，双",
     "origin": "Latin",
-    "note": "bi-/bin- 表示“two, twice, double”，来源 Latin，优先用它寻找同族词。"
+    "note": "bi-/bin- 是前缀，表示“二，双”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "bio",
     "title": "bio/bi/-be",
     "meaning": "life, living, living things",
     "origin": "Greek",
-    "note": "bio/bi/-be 表示“life, living, living things”，来源 Greek，优先用它寻找同族词。"
+    "note": "bio/bi/-be 是词根，表示“life, living, living things”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "blast",
     "title": "blast/blasto",
     "meaning": "bud, generative cell",
     "origin": "Greek",
-    "note": "blast/blasto 表示“bud, generative cell”，来源 Greek，优先用它寻找同族词。"
+    "note": "blast/blasto 是词根，表示“bud, generative cell”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cad",
     "title": "cad/cas/cid",
     "meaning": "to fall",
     "origin": "Latin",
-    "note": "cad/cas/cid 表示“to fall”，来源 Latin，优先用它寻找同族词。"
+    "note": "cad/cas/cid 是词根，表示“to fall”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cap",
     "title": "cap/capit/cipit",
     "meaning": "头，抓住，取得",
     "origin": "Latin",
-    "note": "cap/capit/cipit 表示“头，抓住，取得”，来源 Latin，优先用它寻找同族词。"
+    "note": "cap/capit/cipit 是词根，表示“头，抓住，取得”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cap",
     "title": "cap/cip/capt/cept/-ceive/-ceit",
     "meaning": "头，抓住，取得",
     "origin": "Latin",
-    "note": "cap/cip/capt/cept/-ceive/-ceit 表示“头，抓住，取得”，来源 Latin，优先用它寻找同族词。"
+    "note": "cap/cip/capt/cept/-ceive/-ceit 是词根，表示“头，抓住，取得”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "carp",
     "title": "carp",
     "meaning": "fruit",
     "origin": "Greek",
-    "note": "carp 表示“fruit”，来源 Greek，优先用它寻找同族词。"
+    "note": "carp 是词根，表示“fruit”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cata-",
     "title": "cata-",
     "meaning": "down; completely, thoroughly; against; according to",
     "origin": "Greek",
-    "note": "cata- 表示“down; completely, thoroughly; against; according to”，来源 Greek，优先用它寻找同族词。"
+    "note": "cata- 是前缀，表示“down; completely, thoroughly; against; according to”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "caust",
     "title": "caust/caut",
     "meaning": "burn",
     "origin": "Greek",
-    "note": "caust/caut 表示“burn”，来源 Greek，优先用它寻找同族词。"
+    "note": "caust/caut 是词根，表示“burn”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ced",
     "title": "ced/ces/-ceed/-cede/-cess",
     "meaning": "to go; to go back or yield",
     "origin": "Latin",
-    "note": "ced/ces/-ceed/-cede/-cess 表示“to go; to go back or yield”，来源 Latin，优先用它寻找同族词。"
+    "note": "ced/ces/-ceed/-cede/-cess 是词根，表示“to go; to go back or yield”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "celer",
     "title": "celer",
     "meaning": "swift",
     "origin": "Latin",
-    "note": "celer 表示“swift”，来源 Latin，优先用它寻找同族词。"
+    "note": "celer 是词根，表示“swift”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cent",
     "title": "cent/centi",
     "meaning": "hundred, hundreth",
     "origin": "Latin",
-    "note": "cent/centi 表示“hundred, hundreth”，来源 Latin，优先用它寻找同族词。"
+    "note": "cent/centi 是词根，表示“hundred, hundreth”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "centr",
     "title": "centr/centri/centro",
     "meaning": "center",
     "origin": "Greek",
-    "note": "centr/centri/centro 表示“center”，来源 Greek，优先用它寻找同族词。"
+    "note": "centr/centri/centro 是词根，表示“center”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "chron",
     "title": "chron/chrono",
     "meaning": "time",
     "origin": "Greek",
-    "note": "chron/chrono 表示“time”，来源 Greek，优先用它寻找同族词。"
+    "note": "chron/chrono 是词根，表示“time”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cine",
     "title": "cine/kine/kinet/kinemat",
     "meaning": "motion",
     "origin": "Greek",
-    "note": "cine/kine/kinet/kinemat 表示“motion”，来源 Greek，优先用它寻找同族词。"
+    "note": "cine/kine/kinet/kinemat 是词根，表示“motion”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "circu-",
     "title": "circu-/circum-",
     "meaning": "around",
     "origin": "Latin",
-    "note": "circu-/circum- 表示“around”，来源 Latin，优先用它寻找同族词。"
+    "note": "circu-/circum- 是前缀，表示“around”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "cis",
     "title": "cis/cid/-cide",
     "meaning": "to cut, to kill",
     "origin": "Latin",
-    "note": "cis/cid/-cide 表示“to cut, to kill”，来源 Latin，优先用它寻找同族词。"
+    "note": "cis/cid/-cide 是词根，表示“to cut, to kill”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "civ",
     "title": "civ",
     "meaning": "citizen",
     "origin": "Latin",
-    "note": "civ 表示“citizen”，来源 Latin，优先用它寻找同族词。"
+    "note": "civ 是词根，表示“citizen”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "clam",
     "title": "clam/claim",
     "meaning": "to cry out",
     "origin": "Latin",
-    "note": "clam/claim 表示“to cry out”，来源 Latin，优先用它寻找同族词。"
+    "note": "clam/claim 是词根，表示“to cry out”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "claus",
     "title": "claus/clos/clud/clus",
     "meaning": "to close",
     "origin": "Latin",
-    "note": "claus/clos/clud/clus 表示“to close”，来源 Latin，优先用它寻找同族词。"
+    "note": "claus/clos/clud/clus 是词根，表示“to close”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "clin",
     "title": "clin/cline",
     "meaning": "lean, slope",
     "origin": "Greek",
-    "note": "clin/cline 表示“lean, slope”，来源 Greek，优先用它寻找同族词。"
+    "note": "clin/cline 是词根，表示“lean, slope”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "co-",
     "title": "co-",
-    "meaning": "with, together",
+    "meaning": "共同，一起",
     "origin": "Latin",
-    "note": "co- 表示“with, together”，来源 Latin，优先用它寻找同族词。"
+    "note": "co- 是前缀，表示“共同，一起”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "cogn",
     "title": "cogn/cognit/gnor",
     "meaning": "know, knowledge",
     "origin": "Latin",
-    "note": "cogn/cognit/gnor 表示“know, knowledge”，来源 Latin，优先用它寻找同族词。"
+    "note": "cogn/cognit/gnor 是词根，表示“know, knowledge”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "col-",
     "title": "col-",
     "meaning": "with, together",
     "origin": "Latin",
-    "note": "col- 表示“with, together”，来源 Latin，优先用它寻找同族词。"
+    "note": "col- 是前缀，表示“with, together”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "com-",
     "title": "com-",
     "meaning": "共同，一起",
     "origin": "Latin",
-    "note": "com- 表示“共同，一起”，来源 Latin，优先用它寻找同族词。"
+    "note": "com- 是前缀，表示“共同，一起”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "con-",
     "title": "con-",
     "meaning": "共同，一起",
     "origin": "Latin",
-    "note": "con- 表示“共同，一起”，来源 Latin，优先用它寻找同族词。"
+    "note": "con- 是前缀，表示“共同，一起”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "cor-",
     "title": "cor-",
     "meaning": "with, together",
     "origin": "Latin",
-    "note": "cor- 表示“with, together”，来源 Latin，优先用它寻找同族词。"
+    "note": "cor- 是前缀，表示“with, together”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "cor",
     "title": "cor/cour/cord",
     "meaning": "心",
     "origin": "Latin",
-    "note": "cor/cour/cord 表示“心”，来源 Latin，优先用它寻找同族词。"
+    "note": "cor/cour/cord 是词根，表示“心”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
+  },
+  {
+    "id": "corp",
+    "title": "corp/corpo/corpor/corpus",
+    "meaning": "body",
+    "origin": "Latin",
+    "note": "corp/corpo/corpor/corpus 是词根，表示“body”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cosm",
     "title": "cosm/cosmo",
     "meaning": "universe, world, order",
     "origin": "Greek",
-    "note": "cosm/cosmo 表示“universe, world, order”，来源 Greek，优先用它寻找同族词。"
+    "note": "cosm/cosmo 是词根，表示“universe, world, order”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "counter-",
     "title": "counter-/contra-",
     "meaning": "against, in the opposite direction",
     "origin": "Latin",
-    "note": "counter-/contra- 表示“against, in the opposite direction”，来源 Latin，优先用它寻找同族词。"
+    "note": "counter-/contra- 是前缀，表示“against, in the opposite direction”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "crat",
     "title": "crat/-cracy",
     "meaning": "government, rule",
     "origin": "Greek",
-    "note": "crat/-cracy 表示“government, rule”，来源 Greek，优先用它寻找同族词。"
+    "note": "crat/-cracy 是词根，表示“government, rule”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cred",
     "title": "cred/credit",
     "meaning": "believe",
     "origin": "Latin",
-    "note": "cred/credit 表示“believe”，来源 Latin，优先用它寻找同族词。"
+    "note": "cred/credit 是词根，表示“believe”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cumul",
     "title": "cumul",
     "meaning": "heap",
     "origin": "Latin",
-    "note": "cumul 表示“heap”，来源 Latin，优先用它寻找同族词。"
+    "note": "cumul 是词根，表示“heap”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cur",
     "title": "cur",
     "meaning": "关心，照料；跑动",
     "origin": "Latin",
-    "note": "cur 表示“关心，照料；跑动”，来源 Latin，优先用它寻找同族词。"
+    "note": "cur 是词根，表示“关心，照料；跑动”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cur",
     "title": "cur/curr/cor/corr/curs/cour/cours",
     "meaning": "关心，照料；跑动",
     "origin": "Latin",
-    "note": "cur/curr/cor/corr/curs/cour/cours 表示“关心，照料；跑动”，来源 Latin，优先用它寻找同族词。"
+    "note": "cur/curr/cor/corr/curs/cour/cours 是词根，表示“关心，照料；跑动”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "cycl",
     "title": "cycl/cyclo",
     "meaning": "wheel, circle",
     "origin": "Greek",
-    "note": "cycl/cyclo 表示“wheel, circle”，来源 Greek，优先用它寻找同族词。"
+    "note": "cycl/cyclo 是词根，表示“wheel, circle”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "de-",
     "title": "de-",
-    "meaning": "from; away from; down from; reverse, negate.",
+    "meaning": "向下，离开，否定",
     "origin": "Latin",
-    "note": "de- 表示“from; away from; down from; reverse, negate.”，来源 Latin，优先用它寻找同族词。"
+    "note": "de- 是前缀，表示“向下，离开，否定”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "deb",
     "title": "deb",
     "meaning": "owe",
     "origin": "Latin",
-    "note": "deb 表示“owe”，来源 Latin，优先用它寻找同族词。"
+    "note": "deb 是词根，表示“owe”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "deca",
     "title": "deca/dec/deci/deka",
     "meaning": "ten, tenth",
     "origin": "Greek",
-    "note": "deca/dec/deci/deka 表示“ten, tenth”，来源 Greek，优先用它寻找同族词。"
+    "note": "deca/dec/deci/deka 是词根，表示“ten, tenth”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dem",
     "title": "dem/demo",
     "meaning": "people, populace",
     "origin": "Greek",
-    "note": "dem/demo 表示“people, populace”，来源 Greek，优先用它寻找同族词。"
+    "note": "dem/demo 是词根，表示“people, populace”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dent",
     "title": "dent/denti",
     "meaning": "tooth, teeth",
     "origin": "Latin",
-    "note": "dent/denti 表示“tooth, teeth”，来源 Latin，优先用它寻找同族词。"
+    "note": "dent/denti 是词根，表示“tooth, teeth”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "derm",
     "title": "derm/derma/dermat/dermato",
     "meaning": "skin",
     "origin": "Greek",
-    "note": "derm/derma/dermat/dermato 表示“skin”，来源 Greek，优先用它寻找同族词。"
+    "note": "derm/derma/dermat/dermato 是词根，表示“skin”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "di-",
     "title": "di-",
-    "meaning": "not, apart, reverse, negate",
+    "meaning": "二，双",
     "origin": "Latin",
-    "note": "di- 表示“not, apart, reverse, negate”，来源 Latin，优先用它寻找同族词。"
+    "note": "di- 是前缀，表示“二，双”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "di-",
     "title": "di-/diplo-",
-    "meaning": "two, double",
+    "meaning": "二，双",
     "origin": "Greek",
-    "note": "di-/diplo- 表示“two, double”，来源 Greek，优先用它寻找同族词。"
+    "note": "di-/diplo- 是前缀，表示“二，双”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "di",
     "title": "di/diurn/journ",
     "meaning": "day",
     "origin": "Latin",
-    "note": "di/diurn/journ 表示“day”，来源 Latin，优先用它寻找同族词。"
+    "note": "di/diurn/journ 是词根，表示“day”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dia-",
     "title": "dia-/di-",
     "meaning": "across, apart, through, throughout",
     "origin": "Greek",
-    "note": "dia-/di- 表示“across, apart, through, throughout”，来源 Greek，优先用它寻找同族词。"
+    "note": "dia-/di- 是前缀，表示“across, apart, through, throughout”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "dic",
     "title": "dic/dict",
     "meaning": "speak, declare",
     "origin": "Latin",
-    "note": "dic/dict 表示“speak, declare”，来源 Latin，优先用它寻找同族词。"
+    "note": "dic/dict 是词根，表示“speak, declare”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dif-",
     "title": "dif-",
     "meaning": "not, apart, reverse, negate",
     "origin": "Latin",
-    "note": "dif- 表示“not, apart, reverse, negate”，来源 Latin，优先用它寻找同族词。"
+    "note": "dif- 是前缀，表示“not, apart, reverse, negate”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "dis-",
     "title": "dis-",
     "meaning": "不，分开，反向",
     "origin": "Latin",
-    "note": "dis- 表示“不，分开，反向”，来源 Latin，优先用它寻找同族词。"
+    "note": "dis- 是前缀，表示“不，分开，反向”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "divid",
     "title": "divid/divis",
     "meaning": "divide",
     "origin": "Latin",
-    "note": "divid/divis 表示“divide”，来源 Latin，优先用它寻找同族词。"
+    "note": "divid/divis 是词根，表示“divide”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "doc",
     "title": "doc/doct",
     "meaning": "teach",
     "origin": "Latin",
-    "note": "doc/doct 表示“teach”，来源 Latin，优先用它寻找同族词。"
+    "note": "doc/doct 是词根，表示“teach”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dom",
     "title": "dom",
     "meaning": "house",
     "origin": "Latin",
-    "note": "dom 表示“house”，来源 Latin，优先用它寻找同族词。"
+    "note": "dom 是词根，表示“house”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dom",
     "title": "dom/domin",
     "meaning": "master",
     "origin": "Latin",
-    "note": "dom/domin 表示“master”，来源 Latin，优先用它寻找同族词。"
+    "note": "dom/domin 是词根，表示“master”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "don",
     "title": "don/donat/dat",
     "meaning": "give",
     "origin": "Latin",
-    "note": "don/donat/dat 表示“give”，来源 Latin，优先用它寻找同族词。"
+    "note": "don/donat/dat 是词根，表示“give”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dox",
     "title": "dox/dogma",
     "meaning": "opinion, belief",
     "origin": "Greek",
-    "note": "dox/dogma 表示“opinion, belief”，来源 Greek，优先用它寻找同族词。"
+    "note": "dox/dogma 是词根，表示“opinion, belief”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "du",
     "title": "du/duo",
     "meaning": "two",
     "origin": "Latin",
-    "note": "du/duo 表示“two”，来源 Latin，优先用它寻找同族词。"
+    "note": "du/duo 是词根，表示“two”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "duc",
     "title": "duc/duct",
     "meaning": "lead; draw along",
     "origin": "Latin",
-    "note": "duc/duct 表示“lead; draw along”，来源 Latin，优先用它寻找同族词。"
+    "note": "duc/duct 是词根，表示“lead; draw along”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "dyn",
     "title": "dyn/dyna/dynam/dynamo",
     "meaning": "power, energy, strength",
     "origin": "Greek",
-    "note": "dyn/dyna/dynam/dynamo 表示“power, energy, strength”，来源 Greek，优先用它寻找同族词。"
+    "note": "dyn/dyna/dynam/dynamo 是词根，表示“power, energy, strength”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "e-",
     "title": "e-",
     "meaning": "out, out of, away",
     "origin": "Latin",
-    "note": "e- 表示“out, out of, away”，来源 Latin，优先用它寻找同族词。"
+    "note": "e- 是前缀，表示“out, out of, away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ec",
     "title": "ec/ect/ecto",
     "meaning": "向外，在外",
     "origin": "Greek",
-    "note": "ec/ect/ecto 表示“向外，在外”，来源 Greek，优先用它寻找同族词。"
+    "note": "ec/ect/ecto 是词根，表示“向外，在外”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "eco",
     "title": "eco",
     "meaning": "habitat, environment",
     "origin": "Greek",
-    "note": "eco 表示“habitat, environment”，来源 Greek，优先用它寻找同族词。"
+    "note": "eco 是词根，表示“habitat, environment”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ef-",
     "title": "ef-",
     "meaning": "out, out of, away",
     "origin": "Latin",
-    "note": "ef- 表示“out, out of, away”，来源 Latin，优先用它寻找同族词。"
+    "note": "ef- 是前缀，表示“out, out of, away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ego",
     "title": "ego",
     "meaning": "I, self",
     "origin": "Latin",
-    "note": "ego 表示“I, self”，来源 Latin，优先用它寻找同族词。"
+    "note": "ego 是词根，表示“I, self”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "electr",
     "title": "electr",
     "meaning": "electric",
     "origin": "Greek",
-    "note": "electr 表示“electric”，来源 Greek，优先用它寻找同族词。"
+    "note": "electr 是词根，表示“electric”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "en-",
     "title": "en-/em-",
-    "meaning": "in, into, inside",
+    "meaning": "使成为，进入",
     "origin": "Greek",
-    "note": "en-/em- 表示“in, into, inside”，来源 Greek，优先用它寻找同族词。"
+    "note": "en-/em- 是前缀，表示“使成为，进入”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "en-",
     "title": "en-/em-",
-    "meaning": "to put into; cause to be or have",
+    "meaning": "使成为，进入",
     "origin": "Latin",
-    "note": "en-/em- 表示“to put into; cause to be or have”，来源 Latin，优先用它寻找同族词。"
+    "note": "en-/em- 是前缀，表示“使成为，进入”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "endo-",
     "title": "endo-",
     "meaning": "inside",
     "origin": "Greek",
-    "note": "endo- 表示“inside”，来源 Greek，优先用它寻找同族词。"
+    "note": "endo- 是前缀，表示“inside”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "epi-",
     "title": "epi-/eph-/ep-",
     "meaning": "on, upon, over; beyond, after, outside",
     "origin": "Greek",
-    "note": "epi-/eph-/ep- 表示“on, upon, over; beyond, after, outside”，来源 Greek，优先用它寻找同族词。"
+    "note": "epi-/eph-/ep- 是前缀，表示“on, upon, over; beyond, after, outside”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "equ",
     "title": "equ/equi",
     "meaning": "equal",
     "origin": "Latin",
-    "note": "equ/equi 表示“equal”，来源 Latin，优先用它寻找同族词。"
+    "note": "equ/equi 是词根，表示“equal”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "erg",
     "title": "erg/ergo/urg",
     "meaning": "work",
     "origin": "Greek",
-    "note": "erg/ergo/urg 表示“work”，来源 Greek，优先用它寻找同族词。"
+    "note": "erg/ergo/urg 是词根，表示“work”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "err",
     "title": "err",
     "meaning": "error, wander",
     "origin": "Latin",
-    "note": "err 表示“error, wander”，来源 Latin，优先用它寻找同族词。"
+    "note": "err 是词根，表示“error, wander”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "es-",
     "title": "es-",
     "meaning": "out, out of, away",
     "origin": "Latin",
-    "note": "es- 表示“out, out of, away”，来源 Latin，优先用它寻找同族词。"
+    "note": "es- 是前缀，表示“out, out of, away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "esthes",
     "title": "esthes/aesthes/esthet/aesthet",
     "meaning": "feeling, sensation, sense perception",
     "origin": "Greek",
-    "note": "esthes/aesthes/esthet/aesthet 表示“feeling, sensation, sense perception”，来源 Greek，优先用它寻找同族词。"
+    "note": "esthes/aesthes/esthet/aesthet 是词根，表示“feeling, sensation, sense perception”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ev (aev)",
     "title": "ev (aev)",
     "meaning": "age, era",
     "origin": "Latin",
-    "note": "ev (aev) 表示“age, era”，来源 Latin，优先用它寻找同族词。"
+    "note": "ev (aev) 是词根，表示“age, era”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ex-",
     "title": "ex-",
-    "meaning": "out, out of, away from",
+    "meaning": "向外，前任",
     "origin": "Latin",
-    "note": "ex- 表示“out, out of, away from”，来源 Latin，优先用它寻找同族词。"
+    "note": "ex- 是前缀，表示“向外，前任”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "exo-",
     "title": "exo-",
     "meaning": "outer, outside",
     "origin": "Greek",
-    "note": "exo- 表示“outer, outside”，来源 Greek，优先用它寻找同族词。"
+    "note": "exo- 是前缀，表示“outer, outside”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "extr-",
     "title": "extr-/extra-/exter-",
     "meaning": "on the outside, beyond",
     "origin": "Latin",
-    "note": "extr-/extra-/exter- 表示“on the outside, beyond”，来源 Latin，优先用它寻找同族词。"
+    "note": "extr-/extra-/exter- 是前缀，表示“on the outside, beyond”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "fac",
     "title": "fac/fic/fec/fact/fect",
     "meaning": "做，制造",
     "origin": "Latin",
-    "note": "fac/fic/fec/fact/fect 表示“做，制造”，来源 Latin，优先用它寻找同族词。"
+    "note": "fac/fic/fec/fact/fect 是词根，表示“做，制造”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fall",
     "title": "fall/fals",
     "meaning": "to deceive",
     "origin": "Latin",
-    "note": "fall/fals 表示“to deceive”，来源 Latin，优先用它寻找同族词。"
+    "note": "fall/fals 是词根，表示“to deceive”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fem",
     "title": "fem/femin",
     "meaning": "female, woman",
     "origin": "Latin",
-    "note": "fem/femin 表示“female, woman”，来源 Latin，优先用它寻找同族词。"
+    "note": "fem/femin 是词根，表示“female, woman”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fer",
     "title": "fer/lat/-late",
     "meaning": "携带，带来",
     "origin": "Latin",
-    "note": "fer/lat/-late 表示“携带，带来”，来源 Latin，优先用它寻找同族词。"
+    "note": "fer/lat/-late 是词根，表示“携带，带来”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fid",
     "title": "fid",
     "meaning": "faith, trust",
     "origin": "Latin",
-    "note": "fid 表示“faith, trust”，来源 Latin，优先用它寻找同族词。"
+    "note": "fid 是词根，表示“faith, trust”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fig",
     "title": "fig",
     "meaning": "form",
     "origin": "Latin",
-    "note": "fig 表示“form”，来源 Latin，优先用它寻找同族词。"
+    "note": "fig 是词根，表示“form”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fil",
     "title": "fil",
     "meaning": "son or daughter",
     "origin": "Latin",
-    "note": "fil 表示“son or daughter”，来源 Latin，优先用它寻找同族词。"
+    "note": "fil 是词根，表示“son or daughter”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fil",
     "title": "fil",
     "meaning": "thread, line",
     "origin": "Latin",
-    "note": "fil 表示“thread, line”，来源 Latin，优先用它寻找同族词。"
+    "note": "fil 是词根，表示“thread, line”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fin",
     "title": "fin",
     "meaning": "end, limit",
     "origin": "Latin",
-    "note": "fin 表示“end, limit”，来源 Latin，优先用它寻找同族词。"
+    "note": "fin 是词根，表示“end, limit”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "firm",
     "title": "firm",
     "meaning": "make firm; support",
     "origin": "Latin",
-    "note": "firm 表示“make firm; support”，来源 Latin，优先用它寻找同族词。"
+    "note": "firm 是词根，表示“make firm; support”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fix",
     "title": "fix",
     "meaning": "fasten, attach",
     "origin": "Latin",
-    "note": "fix 表示“fasten, attach”，来源 Latin，优先用它寻找同族词。"
+    "note": "fix 是词根，表示“fasten, attach”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "flat",
     "title": "flat",
     "meaning": "blow, puff",
     "origin": "Latin",
-    "note": "flat 表示“blow, puff”，来源 Latin，优先用它寻找同族词。"
+    "note": "flat 是词根，表示“blow, puff”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "flect",
     "title": "flect/flex",
     "meaning": "bend",
     "origin": "Latin",
-    "note": "flect/flex 表示“bend”，来源 Latin，优先用它寻找同族词。"
+    "note": "flect/flex 是词根，表示“bend”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "flic",
     "title": "flic",
     "meaning": "strike",
     "origin": "Latin",
-    "note": "flic 表示“strike”，来源 Latin，优先用它寻找同族词。"
+    "note": "flic 是词根，表示“strike”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "foli",
     "title": "foli/foil",
     "meaning": "leaf, page",
     "origin": "Latin",
-    "note": "foli/foil 表示“leaf, page”，来源 Latin，优先用它寻找同族词。"
+    "note": "foli/foil 是词根，表示“leaf, page”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fore-",
     "title": "fore-",
-    "meaning": "before, in time or position",
+    "meaning": "在前，预先",
     "origin": "Old English",
-    "note": "fore- 表示“before, in time or position”，来源 Old English，优先用它寻找同族词。"
+    "note": "fore- 是前缀，表示“在前，预先”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "form",
     "title": "form",
     "meaning": "shape, form",
     "origin": "Latin",
-    "note": "form 表示“shape, form”，来源 Latin，优先用它寻找同族词。"
+    "note": "form 是词根，表示“shape, form”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fort",
     "title": "fort",
     "meaning": "strong",
     "origin": "Latin",
-    "note": "fort 表示“strong”，来源 Latin，优先用它寻找同族词。"
+    "note": "fort 是词根，表示“strong”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fort",
     "title": "fort",
     "meaning": "luck, chance",
     "origin": "Latin",
-    "note": "fort 表示“luck, chance”，来源 Latin，优先用它寻找同族词。"
+    "note": "fort 是词根，表示“luck, chance”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fract",
     "title": "fract/frag",
     "meaning": "break",
     "origin": "Latin",
-    "note": "fract/frag 表示“break”，来源 Latin，优先用它寻找同族词。"
+    "note": "fract/frag 是词根，表示“break”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fric",
     "title": "fric",
     "meaning": "rub",
     "origin": "Latin",
-    "note": "fric 表示“rub”，来源 Latin，优先用它寻找同族词。"
+    "note": "fric 是词根，表示“rub”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fug",
     "title": "fug/-fuge",
     "meaning": "flee",
     "origin": "Latin",
-    "note": "fug/-fuge 表示“flee”，来源 Latin，优先用它寻找同族词。"
+    "note": "fug/-fuge 是词根，表示“flee”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "funct",
     "title": "funct",
     "meaning": "perform",
     "origin": "Latin",
-    "note": "funct 表示“perform”，来源 Latin，优先用它寻找同族词。"
+    "note": "funct 是词根，表示“perform”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "fus",
     "title": "fus/found",
     "meaning": "pour, melt",
     "origin": "Latin",
-    "note": "fus/found 表示“pour, melt”，来源 Latin，优先用它寻找同族词。"
+    "note": "fus/found 是词根，表示“pour, melt”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "gam",
     "title": "gam/gamo/-gamy",
     "meaning": "marriage",
     "origin": "Greek",
-    "note": "gam/gamo/-gamy 表示“marriage”，来源 Greek，优先用它寻找同族词。"
+    "note": "gam/gamo/-gamy 是词根，表示“marriage”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "gen",
     "title": "gen/gener",
     "meaning": "birth, origin, race, kind",
     "origin": "Latin and Greek",
-    "note": "gen/gener 表示“birth, origin, race, kind”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "gen/gener 是词根，表示“birth, origin, race, kind”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "geo",
     "title": "geo",
     "meaning": "earth",
     "origin": "Greek",
-    "note": "geo 表示“earth”，来源 Greek，优先用它寻找同族词。"
+    "note": "geo 是词根，表示“earth”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "giga",
     "title": "giga",
     "meaning": "giant; billion",
     "origin": "Greek",
-    "note": "giga 表示“giant; billion”，来源 Greek，优先用它寻找同族词。"
+    "note": "giga 是词根，表示“giant; billion”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "gnos",
     "title": "gnos/gnosis/gnom/-gnomy",
     "meaning": "know, knowledge",
     "origin": "Greek",
-    "note": "gnos/gnosis/gnom/-gnomy 表示“know, knowledge”，来源 Greek，优先用它寻找同族词。"
+    "note": "gnos/gnosis/gnom/-gnomy 是词根，表示“know, knowledge”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "gon",
     "title": "gon",
     "meaning": "angle",
     "origin": "Greek",
-    "note": "gon 表示“angle”，来源 Greek，优先用它寻找同族词。"
+    "note": "gon 是词根，表示“angle”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "grad",
     "title": "grad/-grade",
     "meaning": "go, step, degree",
     "origin": "Latin",
-    "note": "grad/-grade 表示“go, step, degree”，来源 Latin，优先用它寻找同族词。"
+    "note": "grad/-grade 是词根，表示“go, step, degree”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "gram",
     "title": "gram",
     "meaning": "write",
     "origin": "Greek",
-    "note": "gram 表示“write”，来源 Greek，优先用它寻找同族词。"
+    "note": "gram 是词根，表示“write”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "graph",
     "title": "graph/-graphy",
     "meaning": "writing, drawing, recording",
     "origin": "Greek",
-    "note": "graph/-graphy 表示“writing, drawing, recording”，来源 Greek，优先用它寻找同族词。"
+    "note": "graph/-graphy 是词根，表示“writing, drawing, recording”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "grat",
     "title": "grat",
     "meaning": "pleasing",
     "origin": "Latin",
-    "note": "grat 表示“pleasing”，来源 Latin，优先用它寻找同族词。"
+    "note": "grat 是词根，表示“pleasing”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "grav",
     "title": "grav",
     "meaning": "heavy",
     "origin": "Latin",
-    "note": "grav 表示“heavy”，来源 Latin，优先用它寻找同族词。"
+    "note": "grav 是词根，表示“heavy”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "greg",
     "title": "greg",
     "meaning": "flock, gathering",
     "origin": "Latin",
-    "note": "greg 表示“flock, gathering”，来源 Latin，优先用它寻找同族词。"
+    "note": "greg 是词根，表示“flock, gathering”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "gress",
     "title": "gress",
     "meaning": "to walk, go",
     "origin": "Latin",
-    "note": "gress 表示“to walk, go”，来源 Latin，优先用它寻找同族词。"
+    "note": "gress 是词根，表示“to walk, go”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hab",
     "title": "hab/hib",
     "meaning": "hold, have",
     "origin": "Latin",
-    "note": "hab/hib 表示“hold, have”，来源 Latin，优先用它寻找同族词。"
+    "note": "hab/hib 是词根，表示“hold, have”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
+  },
+  {
+    "id": "heli",
+    "title": "heli/helio",
+    "meaning": "sun",
+    "origin": "Greek",
+    "note": "heli/helio 是词根，表示“sun”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "helic",
     "title": "helic/helico",
     "meaning": "spiral, circular",
     "origin": "Greek",
-    "note": "helic/helico 表示“spiral, circular”，来源 Greek，优先用它寻找同族词。"
+    "note": "helic/helico 是词根，表示“spiral, circular”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hem",
     "title": "hem/hemo/hemat/hemato/hema/-emia/-aemia",
     "meaning": "blood; blood condition",
     "origin": "Greek",
-    "note": "hem/hemo/hemat/hemato/hema/-emia/-aemia 表示“blood; blood condition”，来源 Greek，优先用它寻找同族词。"
+    "note": "hem/hemo/hemat/hemato/hema/-emia/-aemia 是词根，表示“blood; blood condition”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hemi-",
     "title": "hemi-",
     "meaning": "half, partly",
     "origin": "Greek",
-    "note": "hemi- 表示“half, partly”，来源 Greek，优先用它寻找同族词。"
+    "note": "hemi- 是前缀，表示“half, partly”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "her",
     "title": "her/hes",
     "meaning": "黏着，附着",
     "origin": "Latin",
-    "note": "her/hes 表示“黏着，附着”，来源 Latin，优先用它寻找同族词。"
+    "note": "her/hes 是词根，表示“黏着，附着”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hom",
     "title": "hom",
     "meaning": "man, human",
     "origin": "Latin",
-    "note": "hom 表示“man, human”，来源 Latin，优先用它寻找同族词。"
+    "note": "hom 是词根，表示“man, human”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "homo",
     "title": "homo/homeo/omal",
     "meaning": "one, same",
     "origin": "Greek",
-    "note": "homo/homeo/omal 表示“one, same”，来源 Greek，优先用它寻找同族词。"
+    "note": "homo/homeo/omal 是词根，表示“one, same”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "horr",
     "title": "horr/hor",
     "meaning": "tremble, bristle (as with fear)",
     "origin": "Latin",
-    "note": "horr/hor 表示“tremble, bristle (as with fear)”，来源 Latin，优先用它寻找同族词。"
+    "note": "horr/hor 是词根，表示“tremble, bristle (as with fear)”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hosp",
     "title": "hosp/host",
     "meaning": "host, guest",
     "origin": "Latin",
-    "note": "hosp/host 表示“host, guest”，来源 Latin，优先用它寻找同族词。"
+    "note": "hosp/host 是词根，表示“host, guest”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "host",
     "title": "host",
     "meaning": "stranger, enemy",
     "origin": "Latin",
-    "note": "host 表示“stranger, enemy”，来源 Latin，优先用它寻找同族词。"
+    "note": "host 是词根，表示“stranger, enemy”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hydr",
     "title": "hydr/hydro",
     "meaning": "water, hydrogen, liquid",
     "origin": "Greek",
-    "note": "hydr/hydro 表示“water, hydrogen, liquid”，来源 Greek，优先用它寻找同族词。"
+    "note": "hydr/hydro 是词根，表示“water, hydrogen, liquid”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "hyp-",
     "title": "hyp-/hypo-",
     "meaning": "under, below, less",
     "origin": "Greek",
-    "note": "hyp-/hypo- 表示“under, below, less”，来源 Greek，优先用它寻找同族词。"
+    "note": "hyp-/hypo- 是前缀，表示“under, below, less”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "i-",
     "title": "i-",
     "meaning": "not, without",
     "origin": "Latin",
-    "note": "i- 表示“not, without”，来源 Latin，优先用它寻找同族词。"
+    "note": "i- 是前缀，表示“not, without”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "icon",
     "title": "icon/icono",
     "meaning": "image",
     "origin": "Greek",
-    "note": "icon/icono 表示“image”，来源 Greek，优先用它寻找同族词。"
+    "note": "icon/icono 是词根，表示“image”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "idio",
     "title": "idio",
     "meaning": "particular or personal to; distinct",
     "origin": "Greek",
-    "note": "idio 表示“particular or personal to; distinct”，来源 Greek，优先用它寻找同族词。"
+    "note": "idio 是词根，表示“particular or personal to; distinct”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "il-",
     "title": "il-",
-    "meaning": "not, without",
+    "meaning": "不，无",
     "origin": "Latin",
-    "note": "il- 表示“not, without”，来源 Latin，优先用它寻找同族词。"
+    "note": "il- 是前缀，表示“不，无”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "il-",
     "title": "il-",
-    "meaning": "in, into, on",
+    "meaning": "不，无",
     "origin": "Latin",
-    "note": "il- 表示“in, into, on”，来源 Latin，优先用它寻找同族词。"
+    "note": "il- 是前缀，表示“不，无”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "im-",
     "title": "im-",
-    "meaning": "not, without",
+    "meaning": "不，无；进入",
     "origin": "Latin",
-    "note": "im- 表示“not, without”，来源 Latin，优先用它寻找同族词。"
+    "note": "im- 是前缀，表示“不，无；进入”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "im-",
     "title": "im-",
-    "meaning": "in, into, on",
+    "meaning": "不，无；进入",
     "origin": "Latin",
-    "note": "im- 表示“in, into, on”，来源 Latin，优先用它寻找同族词。"
+    "note": "im- 是前缀，表示“不，无；进入”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "imag",
     "title": "imag",
     "meaning": "likeness",
     "origin": "Latin",
-    "note": "imag 表示“likeness”，来源 Latin，优先用它寻找同族词。"
+    "note": "imag 是词根，表示“likeness”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "in-",
     "title": "in-",
-    "meaning": "in, into, on",
+    "meaning": "不，无；进入",
     "origin": "Latin",
-    "note": "in- 表示“in, into, on”，来源 Latin，优先用它寻找同族词。"
+    "note": "in- 是前缀，表示“不，无；进入”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "in-",
     "title": "in-",
-    "meaning": "not, without",
+    "meaning": "不，无；进入",
     "origin": "Latin",
-    "note": "in- 表示“not, without”，来源 Latin，优先用它寻找同族词。"
+    "note": "in- 是前缀，表示“不，无；进入”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
+  },
+  {
+    "id": "infra-",
+    "title": "infra-",
+    "meaning": "above, over",
+    "origin": "Latin",
+    "note": "infra- 是前缀，表示“above, over”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "init",
     "title": "init",
     "meaning": "beginning",
     "origin": "Latin",
-    "note": "init 表示“beginning”，来源 Latin，优先用它寻找同族词。"
+    "note": "init 是词根，表示“beginning”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "integ",
     "title": "integ",
     "meaning": "whole",
     "origin": "Latin",
-    "note": "integ 表示“whole”，来源 Latin，优先用它寻找同族词。"
+    "note": "integ 是词根，表示“whole”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "inter-",
     "title": "inter-",
-    "meaning": "between, among",
+    "meaning": "在……之间，相互",
     "origin": "Latin",
-    "note": "inter- 表示“between, among”，来源 Latin，优先用它寻找同族词。"
+    "note": "inter- 是前缀，表示“在……之间，相互”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "intro-",
     "title": "intro-",
-    "meaning": "inward, inside",
+    "meaning": "向内，内部",
     "origin": "Latin",
-    "note": "intro- 表示“inward, inside”，来源 Latin，优先用它寻找同族词。"
+    "note": "intro- 是前缀，表示“向内，内部”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ir-",
     "title": "ir-",
-    "meaning": "in, into, on",
+    "meaning": "不，无",
     "origin": "Latin",
-    "note": "ir- 表示“in, into, on”，来源 Latin，优先用它寻找同族词。"
+    "note": "ir- 是前缀，表示“不，无”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ir-",
     "title": "ir-",
-    "meaning": "not, without",
+    "meaning": "不，无",
     "origin": "Latin",
-    "note": "ir- 表示“not, without”，来源 Latin，优先用它寻找同族词。"
+    "note": "ir- 是前缀，表示“不，无”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "iso-",
     "title": "iso-",
     "meaning": "equal, same",
     "origin": "Greek",
-    "note": "iso- 表示“equal, same”，来源 Greek，优先用它寻找同族词。"
+    "note": "iso- 是前缀，表示“equal, same”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "it",
     "title": "it/itiner",
     "meaning": "journey, road",
     "origin": "Latin",
-    "note": "it/itiner 表示“journey, road”，来源 Latin，优先用它寻找同族词。"
+    "note": "it/itiner 是词根，表示“journey, road”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ject",
     "title": "ject/jet/jac",
     "meaning": "throw; lie",
     "origin": "Latin",
-    "note": "ject/jet/jac 表示“throw; lie”，来源 Latin，优先用它寻找同族词。"
+    "note": "ject/jet/jac 是词根，表示“throw; lie”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "jud",
     "title": "jud/jur/just",
     "meaning": "justice, law; swear",
     "origin": "Latin",
-    "note": "jud/jur/just 表示“justice, law; swear”，来源 Latin，优先用它寻找同族词。"
+    "note": "jud/jur/just 是词根，表示“justice, law; swear”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "junct",
     "title": "junct",
     "meaning": "join",
     "origin": "Latin",
-    "note": "junct 表示“join”，来源 Latin，优先用它寻找同族词。"
+    "note": "junct 是词根，表示“join”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "kilo",
     "title": "kilo",
     "meaning": "thousand",
     "origin": "Greek",
-    "note": "kilo 表示“thousand”，来源 Greek，优先用它寻找同族词。"
+    "note": "kilo 是词根，表示“thousand”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "labor",
     "title": "labor/laborat/lab",
     "meaning": "to work",
     "origin": "Latin",
-    "note": "labor/laborat/lab 表示“to work”，来源 Latin，优先用它寻找同族词。"
+    "note": "labor/laborat/lab 是词根，表示“to work”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "laps",
     "title": "laps",
     "meaning": "slip, fall back",
     "origin": "Latin",
-    "note": "laps 表示“slip, fall back”，来源 Latin，优先用它寻找同族词。"
+    "note": "laps 是词根，表示“slip, fall back”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lat",
     "title": "lat",
     "meaning": "侧面；携带",
     "origin": "Latin",
-    "note": "lat 表示“侧面；携带”，来源 Latin，优先用它寻找同族词。"
+    "note": "lat 是词根，表示“侧面；携带”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "leg",
     "title": "leg",
     "meaning": "法律；选择；阅读",
     "origin": "Latin",
-    "note": "leg 表示“法律；选择；阅读”，来源 Latin，优先用它寻找同族词。"
+    "note": "leg 是词根，表示“法律；选择；阅读”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "leg",
     "title": "leg/lect/lig",
     "meaning": "法律；选择；阅读",
     "origin": "Latin",
-    "note": "leg/lect/lig 表示“法律；选择；阅读”，来源 Latin，优先用它寻找同族词。"
+    "note": "leg/lect/lig 是词根，表示“法律；选择；阅读”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lex",
     "title": "lex/lect",
     "meaning": "speak, speech, word",
     "origin": "Greek",
-    "note": "lex/lect 表示“speak, speech, word”，来源 Greek，优先用它寻找同族词。"
+    "note": "lex/lect 是词根，表示“speak, speech, word”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "liber",
     "title": "liber",
     "meaning": "free",
     "origin": "Latin",
-    "note": "liber 表示“free”，来源 Latin，优先用它寻找同族词。"
+    "note": "liber 是词根，表示“free”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "libr",
     "title": "libr",
     "meaning": "book",
     "origin": "Latin",
-    "note": "libr 表示“book”，来源 Latin，优先用它寻找同族词。"
+    "note": "libr 是词根，表示“book”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "libra",
     "title": "libra/liber",
     "meaning": "balance, weight",
     "origin": "Latin",
-    "note": "libra/liber 表示“balance, weight”，来源 Latin，优先用它寻找同族词。"
+    "note": "libra/liber 是词根，表示“balance, weight”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lingu",
     "title": "lingu",
     "meaning": "language, tongue",
     "origin": "Latin",
-    "note": "lingu 表示“language, tongue”，来源 Latin，优先用它寻找同族词。"
+    "note": "lingu 是词根，表示“language, tongue”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lip",
     "title": "lip/lipo",
     "meaning": "fat",
     "origin": "Greek",
-    "note": "lip/lipo 表示“fat”，来源 Greek，优先用它寻找同族词。"
+    "note": "lip/lipo 是词根，表示“fat”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lit",
     "title": "lit/litera",
     "meaning": "letter, reading",
     "origin": "Latin",
-    "note": "lit/litera 表示“letter, reading”，来源 Latin，优先用它寻找同族词。"
+    "note": "lit/litera 是词根，表示“letter, reading”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lith",
     "title": "lith/litho/-lite/-lithic",
     "meaning": "mineral, rock, stone, fossil",
     "origin": "Greek",
-    "note": "lith/litho/-lite/-lithic 表示“mineral, rock, stone, fossil”，来源 Greek，优先用它寻找同族词。"
+    "note": "lith/litho/-lite/-lithic 是词根，表示“mineral, rock, stone, fossil”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "loc",
     "title": "loc",
     "meaning": "place",
     "origin": "Latin",
-    "note": "loc 表示“place”，来源 Latin，优先用它寻找同族词。"
+    "note": "loc 是词根，表示“place”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "log",
     "title": "log/logo/-logue",
     "meaning": "word, speech, written work",
     "origin": "Greek",
-    "note": "log/logo/-logue 表示“word, speech, written work”，来源 Greek，优先用它寻找同族词。"
+    "note": "log/logo/-logue 是词根，表示“word, speech, written work”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "loqu",
     "title": "loqu/locu",
     "meaning": "speak; speech",
     "origin": "Latin",
-    "note": "loqu/locu 表示“speak; speech”，来源 Latin，优先用它寻找同族词。"
+    "note": "loqu/locu 是词根，表示“speak; speech”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "luc",
     "title": "luc/lum",
     "meaning": "light; shine",
     "origin": "Latin",
-    "note": "luc/lum 表示“light; shine”，来源 Latin，优先用它寻找同族词。"
+    "note": "luc/lum 是词根，表示“light; shine”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "luct",
     "title": "luct",
     "meaning": "struggle",
     "origin": "Latin",
-    "note": "luct 表示“struggle”，来源 Latin，优先用它寻找同族词。"
+    "note": "luct 是词根，表示“struggle”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lud",
     "title": "lud/lus",
     "meaning": "to play",
     "origin": "Latin",
-    "note": "lud/lus 表示“to play”，来源 Latin，优先用它寻找同族词。"
+    "note": "lud/lus 是词根，表示“to play”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lun",
     "title": "lun/luni/luna",
     "meaning": "moon",
     "origin": "Latin",
-    "note": "lun/luni/luna 表示“moon”，来源 Latin，优先用它寻找同族词。"
+    "note": "lun/luni/luna 是词根，表示“moon”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lustr",
     "title": "lustr",
     "meaning": "shine",
     "origin": "Latin",
-    "note": "lustr 表示“shine”，来源 Latin，优先用它寻找同族词。"
+    "note": "lustr 是词根，表示“shine”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "lys",
     "title": "lys/lyt/-lyze",
     "meaning": "break down, disintegrate",
     "origin": "Greek",
-    "note": "lys/lyt/-lyze 表示“break down, disintegrate”，来源 Greek，优先用它寻找同族词。"
+    "note": "lys/lyt/-lyze 是词根，表示“break down, disintegrate”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "magn",
     "title": "magn/magna/magni/maj",
     "meaning": "great, large",
     "origin": "Latin",
-    "note": "magn/magna/magni/maj 表示“great, large”，来源 Latin，优先用它寻找同族词。"
+    "note": "magn/magna/magni/maj 是词根，表示“great, large”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mal",
     "title": "mal/male",
     "meaning": "bad, evil, ill",
     "origin": "Latin",
-    "note": "mal/male 表示“bad, evil, ill”，来源 Latin，优先用它寻找同族词。"
+    "note": "mal/male 是词根，表示“bad, evil, ill”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "man",
     "title": "man/mani/manu/main",
     "meaning": "手",
     "origin": "Latin",
-    "note": "man/mani/manu/main 表示“手”，来源 Latin，优先用它寻找同族词。"
+    "note": "man/mani/manu/main 是词根，表示“手”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mand",
     "title": "mand",
     "meaning": "give an order",
     "origin": "Latin",
-    "note": "mand 表示“give an order”，来源 Latin，优先用它寻找同族词。"
+    "note": "mand 是词根，表示“give an order”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mar",
     "title": "mar/mari",
     "meaning": "sea",
     "origin": "Latin",
-    "note": "mar/mari 表示“sea”，来源 Latin，优先用它寻找同族词。"
+    "note": "mar/mari 是词根，表示“sea”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "matr",
     "title": "matr/matri/mater",
     "meaning": "mother",
     "origin": "Latin",
-    "note": "matr/matri/mater 表示“mother”，来源 Latin，优先用它寻找同族词。"
+    "note": "matr/matri/mater 是词根，表示“mother”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "maxi",
     "title": "maxi",
     "meaning": "largest",
     "origin": "Latin",
-    "note": "maxi 表示“largest”，来源 Latin，优先用它寻找同族词。"
+    "note": "maxi 是词根，表示“largest”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mechan",
     "title": "mechan",
     "meaning": "machine; means",
     "origin": "Greek",
-    "note": "mechan 表示“machine; means”，来源 Greek，优先用它寻找同族词。"
+    "note": "mechan 是词根，表示“machine; means”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "medi",
     "title": "medi",
     "meaning": "middle",
     "origin": "Latin",
-    "note": "medi 表示“middle”，来源 Latin，优先用它寻找同族词。"
+    "note": "medi 是词根，表示“middle”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "melan",
     "title": "melan/melano",
     "meaning": "black",
     "origin": "Greek",
-    "note": "melan/melano 表示“black”，来源 Greek，优先用它寻找同族词。"
+    "note": "melan/melano 是词根，表示“black”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "memor",
     "title": "memor/member/membr",
     "meaning": "memory",
     "origin": "Latin",
-    "note": "memor/member/membr 表示“memory”，来源 Latin，优先用它寻找同族词。"
+    "note": "memor/member/membr 是词根，表示“memory”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ment",
     "title": "ment",
     "meaning": "思想，心智",
     "origin": "Latin",
-    "note": "ment 表示“思想，心智”，来源 Latin，优先用它寻找同族词。"
+    "note": "ment 是词根，表示“思想，心智”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mer",
     "title": "mer/-mere",
     "meaning": "part",
     "origin": "Greek",
-    "note": "mer/-mere 表示“part”，来源 Greek，优先用它寻找同族词。"
+    "note": "mer/-mere 是词根，表示“part”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "merge",
     "title": "merge/mers",
     "meaning": "sink, dip, dive",
     "origin": "Latin",
-    "note": "merge/mers 表示“sink, dip, dive”，来源 Latin，优先用它寻找同族词。"
+    "note": "merge/mers 是词根，表示“sink, dip, dive”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "meta-",
     "title": "meta-",
     "meaning": "change, between, after, beyond",
     "origin": "Greek",
-    "note": "meta- 表示“change, between, after, beyond”，来源 Greek，优先用它寻找同族词。"
+    "note": "meta- 是前缀，表示“change, between, after, beyond”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "metr",
     "title": "metr/-meter/-metry",
     "meaning": "measure",
     "origin": "Greek",
-    "note": "metr/-meter/-metry 表示“measure”，来源 Greek，优先用它寻找同族词。"
+    "note": "metr/-meter/-metry 是词根，表示“measure”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "micro-",
     "title": "micro-",
-    "meaning": "small",
+    "meaning": "微，小",
     "origin": "Greek",
-    "note": "micro- 表示“small”，来源 Greek，优先用它寻找同族词。"
+    "note": "micro- 是前缀，表示“微，小”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "mill",
     "title": "mill/milli/-illion",
     "meaning": "thousand",
     "origin": "Latin",
-    "note": "mill/milli/-illion 表示“thousand”，来源 Latin，优先用它寻找同族词。"
+    "note": "mill/milli/-illion 是词根，表示“thousand”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "min",
     "title": "min",
     "meaning": "小，使变小",
     "origin": "Latin",
-    "note": "min 表示“小，使变小”，来源 Latin，优先用它寻找同族词。"
+    "note": "min 是词根，表示“小，使变小”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "minist",
     "title": "minist/minst",
     "meaning": "serve, assist",
     "origin": "Latin",
-    "note": "minist/minst 表示“serve, assist”，来源 Latin，优先用它寻找同族词。"
+    "note": "minist/minst 是词根，表示“serve, assist”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mis-",
     "title": "mis-",
-    "meaning": "bad, badly, wrongly",
+    "meaning": "错误，坏",
     "origin": "Latin",
-    "note": "mis- 表示“bad, badly, wrongly”，来源 Latin，优先用它寻找同族词。"
+    "note": "mis- 是前缀，表示“错误，坏”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "mis",
     "title": "mis/miso",
     "meaning": "hate",
     "origin": "Greek",
-    "note": "mis/miso 表示“hate”，来源 Greek，优先用它寻找同族词。"
+    "note": "mis/miso 是词根，表示“hate”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mit",
     "title": "mit/mis/mitt/miss/-mise",
     "meaning": "发送，放出",
     "origin": "Latin",
-    "note": "mit/mis/mitt/miss/-mise 表示“发送，放出”，来源 Latin，优先用它寻找同族词。"
+    "note": "mit/mis/mitt/miss/-mise 是词根，表示“发送，放出”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mne",
     "title": "mne/mnes/mnest",
     "meaning": "memory",
     "origin": "Greek",
-    "note": "mne/mnes/mnest 表示“memory”，来源 Greek，优先用它寻找同族词。"
+    "note": "mne/mnes/mnest 是词根，表示“memory”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mob",
     "title": "mob/mot/mov",
     "meaning": "move",
     "origin": "Latin",
-    "note": "mob/mot/mov 表示“move”，来源 Latin，优先用它寻找同族词。"
+    "note": "mob/mot/mov 是词根，表示“move”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mon",
     "title": "mon",
     "meaning": "提醒，警告",
     "origin": "Latin",
-    "note": "mon 表示“提醒，警告”，来源 Latin，优先用它寻找同族词。"
+    "note": "mon 是词根，表示“提醒，警告”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mon",
     "title": "mon/mono",
     "meaning": "提醒，警告",
     "origin": "Greek",
-    "note": "mon/mono 表示“提醒，警告”，来源 Greek，优先用它寻找同族词。"
+    "note": "mon/mono 是词根，表示“提醒，警告”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "mort",
     "title": "mort",
     "meaning": "death",
     "origin": "Latin",
-    "note": "mort 表示“death”，来源 Latin，优先用它寻找同族词。"
+    "note": "mort 是词根，表示“death”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "multi-",
     "title": "multi-",
     "meaning": "many",
     "origin": "Latin",
-    "note": "multi- 表示“many”，来源 Latin，优先用它寻找同族词。"
+    "note": "multi- 是前缀，表示“many”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "mut",
     "title": "mut",
     "meaning": "change, interchange",
     "origin": "Latin",
-    "note": "mut 表示“change, interchange”，来源 Latin，优先用它寻找同族词。"
+    "note": "mut 是词根，表示“change, interchange”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "narr",
     "title": "narr",
     "meaning": "tell, give an account of",
     "origin": "Latin",
-    "note": "narr 表示“tell, give an account of”，来源 Latin，优先用它寻找同族词。"
+    "note": "narr 是词根，表示“tell, give an account of”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "nat",
     "title": "nat/nas",
     "meaning": "出生，天生",
     "origin": "Latin",
-    "note": "nat/nas 表示“出生，天生”，来源 Latin，优先用它寻找同族词。"
+    "note": "nat/nas 是词根，表示“出生，天生”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "naut",
     "title": "naut",
     "meaning": "ship; sailor",
     "origin": "Greek",
-    "note": "naut 表示“ship; sailor”，来源 Greek，优先用它寻找同族词。"
+    "note": "naut 是词根，表示“ship; sailor”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "nav",
     "title": "nav",
     "meaning": "ship",
     "origin": "Latin",
-    "note": "nav 表示“ship”，来源 Latin，优先用它寻找同族词。"
+    "note": "nav 是词根，表示“ship”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "neg",
     "title": "neg",
     "meaning": "no",
     "origin": "Latin",
-    "note": "neg 表示“no”，来源 Latin，优先用它寻找同族词。"
+    "note": "neg 是词根，表示“no”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "neo",
     "title": "neo",
     "meaning": "new, recent",
     "origin": "Greek",
-    "note": "neo 表示“new, recent”，来源 Greek，优先用它寻找同族词。"
+    "note": "neo 是词根，表示“new, recent”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "neur",
     "title": "neur/neuro",
     "meaning": "nerve",
     "origin": "Greek",
-    "note": "neur/neuro 表示“nerve”，来源 Greek，优先用它寻找同族词。"
+    "note": "neur/neuro 是词根，表示“nerve”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "nom",
     "title": "nom/nomin/nomen",
     "meaning": "name",
     "origin": "Latin",
-    "note": "nom/nomin/nomen 表示“name”，来源 Latin，优先用它寻找同族词。"
+    "note": "nom/nomin/nomen 是词根，表示“name”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "nom",
     "title": "nom/nomo/-nomy",
     "meaning": "law, system of laws",
     "origin": "Greek",
-    "note": "nom/nomo/-nomy 表示“law, system of laws”，来源 Greek，优先用它寻找同族词。"
+    "note": "nom/nomo/-nomy 是词根，表示“law, system of laws”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "non-",
     "title": "non-",
-    "meaning": "not",
+    "meaning": "不，非",
     "origin": "Latin",
-    "note": "non- 表示“not”，来源 Latin，优先用它寻找同族词。"
+    "note": "non- 是前缀，表示“不，非”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "non",
     "title": "non/nona",
     "meaning": "nine",
     "origin": "Latin",
-    "note": "non/nona 表示“nine”，来源 Latin，优先用它寻找同族词。"
+    "note": "non/nona 是词根，表示“nine”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "not",
     "title": "not",
     "meaning": "mark",
     "origin": "Latin",
-    "note": "not 表示“mark”，来源 Latin，优先用它寻找同族词。"
+    "note": "not 是词根，表示“mark”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "noun",
     "title": "noun/nunc",
     "meaning": "declare",
     "origin": "Latin",
-    "note": "noun/nunc 表示“declare”，来源 Latin，优先用它寻找同族词。"
+    "note": "noun/nunc 是词根，表示“declare”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "nov",
     "title": "nov",
     "meaning": "new",
     "origin": "Latin",
-    "note": "nov 表示“new”，来源 Latin，优先用它寻找同族词。"
+    "note": "nov 是词根，表示“new”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "numer",
     "title": "numer",
     "meaning": "number",
     "origin": "Latin",
-    "note": "numer 表示“number”，来源 Latin，优先用它寻找同族词。"
+    "note": "numer 是词根，表示“number”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "o-",
     "title": "o-",
     "meaning": "towards; against; away",
     "origin": "Latin",
-    "note": "o- 表示“towards; against; away”，来源 Latin，优先用它寻找同族词。"
+    "note": "o- 是前缀，表示“towards; against; away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ob-",
     "title": "ob-",
     "meaning": "towards; against; away",
     "origin": "Latin",
-    "note": "ob- 表示“towards; against; away”，来源 Latin，优先用它寻找同族词。"
+    "note": "ob- 是前缀，表示“towards; against; away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "oc-",
     "title": "oc-",
     "meaning": "towards; against; away",
     "origin": "Latin",
-    "note": "oc- 表示“towards; against; away”，来源 Latin，优先用它寻找同族词。"
+    "note": "oc- 是前缀，表示“towards; against; away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "oct",
     "title": "oct/octo/octa",
     "meaning": "eight",
     "origin": "Greek",
-    "note": "oct/octo/octa 表示“eight”，来源 Greek，优先用它寻找同族词。"
+    "note": "oct/octo/octa 是词根，表示“eight”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "of-",
     "title": "of-",
     "meaning": "towards; against; away",
     "origin": "Latin",
-    "note": "of- 表示“towards; against; away”，来源 Latin，优先用它寻找同族词。"
+    "note": "of- 是前缀，表示“towards; against; away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ont",
     "title": "ont/onto",
     "meaning": "being, existence",
     "origin": "Greek",
-    "note": "ont/onto 表示“being, existence”，来源 Greek，优先用它寻找同族词。"
+    "note": "ont/onto 是词根，表示“being, existence”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "onym",
     "title": "onym",
     "meaning": "name, word",
     "origin": "Greek",
-    "note": "onym 表示“name, word”，来源 Greek，优先用它寻找同族词。"
+    "note": "onym 是词根，表示“name, word”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "op-",
     "title": "op-",
     "meaning": "towards; against; away",
     "origin": "Latin",
-    "note": "op- 表示“towards; against; away”，来源 Latin，优先用它寻找同族词。"
+    "note": "op- 是前缀，表示“towards; against; away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "op",
     "title": "op/ops/opt/opto/ophthalm/ophthalmo/-opia/-opsy",
     "meaning": "eye, visual condition, vision, sight, inspection",
     "origin": "Greek",
-    "note": "op/ops/opt/opto/ophthalm/ophthalmo/-opia/-opsy 表示“eye, visual condition, vision, sight, inspection”，来源 Greek，优先用它寻找同族词。"
+    "note": "op/ops/opt/opto/ophthalm/ophthalmo/-opia/-opsy 是词根，表示“eye, visual condition, vision, sight, inspection”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "opt",
     "title": "opt",
     "meaning": "choose",
     "origin": "Latin",
-    "note": "opt 表示“choose”，来源 Latin，优先用它寻找同族词。"
+    "note": "opt 是词根，表示“choose”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "opt",
     "title": "opt",
     "meaning": "best",
     "origin": "Latin",
-    "note": "opt 表示“best”，来源 Latin，优先用它寻找同族词。"
+    "note": "opt 是词根，表示“best”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "orb",
     "title": "orb",
     "meaning": "wheel, circle",
     "origin": "Latin",
-    "note": "orb 表示“wheel, circle”，来源 Latin，优先用它寻找同族词。"
+    "note": "orb 是词根，表示“wheel, circle”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ord",
     "title": "ord/ordin",
     "meaning": "row, rank, order",
     "origin": "Latin",
-    "note": "ord/ordin 表示“row, rank, order”，来源 Latin，优先用它寻找同族词。"
+    "note": "ord/ordin 是词根，表示“row, rank, order”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ortho",
     "title": "ortho",
     "meaning": "straight, vertical, perpendicular; correct",
     "origin": "Greek",
-    "note": "ortho 表示“straight, vertical, perpendicular; correct”，来源 Greek，优先用它寻找同族词。"
+    "note": "ortho 是词根，表示“straight, vertical, perpendicular; correct”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "oste",
     "title": "oste/osteo",
     "meaning": "bone",
     "origin": "Greek",
-    "note": "oste/osteo 表示“bone”，来源 Greek，优先用它寻找同族词。"
+    "note": "oste/osteo 是词根，表示“bone”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "oto",
     "title": "oto/ot",
     "meaning": "ear",
     "origin": "Greek",
-    "note": "oto/ot 表示“ear”，来源 Greek，优先用它寻找同族词。"
+    "note": "oto/ot 是词根，表示“ear”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "out-",
     "title": "out-",
     "meaning": "out, outside, outward; beyond, better, more",
     "origin": "Old English",
-    "note": "out- 表示“out, outside, outward; beyond, better, more”，来源 Old English，优先用它寻找同族词。"
+    "note": "out- 是前缀，表示“out, outside, outward; beyond, better, more”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "ov",
     "title": "ov/ovi",
     "meaning": "egg",
     "origin": "Latin",
-    "note": "ov/ovi 表示“egg”，来源 Latin，优先用它寻找同族词。"
+    "note": "ov/ovi 是词根，表示“egg”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "over-",
     "title": "over-",
-    "meaning": "excessively, too much; over, on top, above",
+    "meaning": "过度，在上方",
     "origin": "Old English",
-    "note": "over- 表示“excessively, too much; over, on top, above”，来源 Old English，优先用它寻找同族词。"
+    "note": "over- 是前缀，表示“过度，在上方”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "pac",
     "title": "pac",
     "meaning": "peace",
     "origin": "Latin",
-    "note": "pac 表示“peace”，来源 Latin，优先用它寻找同族词。"
+    "note": "pac 是词根，表示“peace”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pale",
     "title": "pale/paleo",
     "meaning": "ancient",
     "origin": "Greek",
-    "note": "pale/paleo 表示“ancient”，来源 Greek，优先用它寻找同族词。"
+    "note": "pale/paleo 是词根，表示“ancient”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pan",
     "title": "pan/panto",
     "meaning": "all",
     "origin": "Greek",
-    "note": "pan/panto 表示“all”，来源 Greek，优先用它寻找同族词。"
+    "note": "pan/panto 是词根，表示“all”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "par",
     "title": "par",
     "meaning": "相等，准备",
     "origin": "Latin",
-    "note": "par 表示“相等，准备”，来源 Latin，优先用它寻找同族词。"
+    "note": "par 是词根，表示“相等，准备”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "par",
     "title": "par",
     "meaning": "相等，准备",
     "origin": "Latin",
-    "note": "par 表示“相等，准备”，来源 Latin，优先用它寻找同族词。"
+    "note": "par 是词根，表示“相等，准备”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "para",
     "title": "para",
     "meaning": "defense against",
     "origin": "Greek",
-    "note": "para 表示“defense against”，来源 Greek，优先用它寻找同族词。"
+    "note": "para 是词根，表示“defense against”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "para-",
     "title": "para-",
-    "meaning": "beside, alongside",
+    "meaning": "在旁，类似",
     "origin": "Greek",
-    "note": "para- 表示“beside, alongside”，来源 Greek，优先用它寻找同族词。"
+    "note": "para- 是前缀，表示“在旁，类似”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "path",
     "title": "path/patho/-pathic/-pathy",
     "meaning": "suffer, feel; disease",
     "origin": "Greek",
-    "note": "path/patho/-pathic/-pathy 表示“suffer, feel; disease”，来源 Greek，优先用它寻找同族词。"
+    "note": "path/patho/-pathic/-pathy 是词根，表示“suffer, feel; disease”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "patr",
     "title": "patr/patri/pater",
     "meaning": "father, fatherland",
     "origin": "Latin",
-    "note": "patr/patri/pater 表示“father, fatherland”，来源 Latin，优先用它寻找同族词。"
+    "note": "patr/patri/pater 是词根，表示“father, fatherland”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ped",
     "title": "ped/pedi/-pede",
     "meaning": "foot, feet",
     "origin": "Latin",
-    "note": "ped/pedi/-pede 表示“foot, feet”，来源 Latin，优先用它寻找同族词。"
+    "note": "ped/pedi/-pede 是词根，表示“foot, feet”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ped",
     "title": "ped/pedo",
     "meaning": "child",
     "origin": "Greek",
-    "note": "ped/pedo 表示“child”，来源 Greek，优先用它寻找同族词。"
+    "note": "ped/pedo 是词根，表示“child”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pel",
     "title": "pel/puls",
     "meaning": "drive, push",
     "origin": "Latin",
-    "note": "pel/puls 表示“drive, push”，来源 Latin，优先用它寻找同族词。"
+    "note": "pel/puls 是词根，表示“drive, push”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pend",
     "title": "pend/pens",
     "meaning": "hang; weigh; spend",
     "origin": "Latin",
-    "note": "pend/pens 表示“hang; weigh; spend”，来源 Latin，优先用它寻找同族词。"
+    "note": "pend/pens 是词根，表示“hang; weigh; spend”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "penta",
     "title": "penta/pent",
     "meaning": "five",
     "origin": "Greek",
-    "note": "penta/pent 表示“five”，来源 Greek，优先用它寻找同族词。"
+    "note": "penta/pent 是词根，表示“five”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "per-",
     "title": "per-",
     "meaning": "through, throughout; very",
     "origin": "Latin",
-    "note": "per- 表示“through, throughout; very”，来源 Latin，优先用它寻找同族词。"
+    "note": "per- 是前缀，表示“through, throughout; very”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "peri",
     "title": "peri",
     "meaning": "around, surrounding",
     "origin": "Greek",
-    "note": "peri 表示“around, surrounding”，来源 Greek，优先用它寻找同族词。"
+    "note": "peri 是词根，表示“around, surrounding”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "phil",
     "title": "phil/philo/-philia/-phile",
     "meaning": "love, fondness",
     "origin": "Greek",
-    "note": "phil/philo/-philia/-phile 表示“love, fondness”，来源 Greek，优先用它寻找同族词。"
+    "note": "phil/philo/-philia/-phile 是词根，表示“love, fondness”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "phon",
     "title": "phon/phono/-phone/-phony",
     "meaning": "sound, voice",
     "origin": "Greek",
-    "note": "phon/phono/-phone/-phony 表示“sound, voice”，来源 Greek，优先用它寻找同族词。"
+    "note": "phon/phono/-phone/-phony 是词根，表示“sound, voice”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "phor",
     "title": "phor/pher/-phore",
     "meaning": "carry, bear",
     "origin": "Greek",
-    "note": "phor/pher/-phore 表示“carry, bear”，来源 Greek，优先用它寻找同族词。"
+    "note": "phor/pher/-phore 是词根，表示“carry, bear”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "phot",
     "title": "phot/photo",
     "meaning": "light",
     "origin": "Greek",
-    "note": "phot/photo 表示“light”，来源 Greek，优先用它寻找同族词。"
+    "note": "phot/photo 是词根，表示“light”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "phys",
     "title": "phys/physio",
     "meaning": "nature, physical",
     "origin": "Greek",
-    "note": "phys/physio 表示“nature, physical”，来源 Greek，优先用它寻找同族词。"
+    "note": "phys/physio 是词根，表示“nature, physical”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "plac",
     "title": "plac",
     "meaning": "calm; please",
     "origin": "Latin",
-    "note": "plac 表示“calm; please”，来源 Latin，优先用它寻找同族词。"
+    "note": "plac 是词根，表示“calm; please”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "plas",
     "title": "plas/plast/plasm/-plasty",
     "meaning": "mold, form; growth",
     "origin": "Greek",
-    "note": "plas/plast/plasm/-plasty 表示“mold, form; growth”，来源 Greek，优先用它寻找同族词。"
+    "note": "plas/plast/plasm/-plasty 是词根，表示“mold, form; growth”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "plic",
     "title": "plic/plex/ply",
     "meaning": "fold, plait",
     "origin": "Latin",
-    "note": "plic/plex/ply 表示“fold, plait”，来源 Latin，优先用它寻找同族词。"
+    "note": "plic/plex/ply 是词根，表示“fold, plait”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "plu",
     "title": "plu/plur",
     "meaning": "more",
     "origin": "Latin",
-    "note": "plu/plur 表示“more”，来源 Latin，优先用它寻找同族词。"
+    "note": "plu/plur 是词根，表示“more”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pneum",
     "title": "pneum/pneumo/pneumon/pneumat/-pnea",
     "meaning": "air, breath, wind, spirit",
     "origin": "Greek",
-    "note": "pneum/pneumo/pneumon/pneumat/-pnea 表示“air, breath, wind, spirit”，来源 Greek，优先用它寻找同族词。"
+    "note": "pneum/pneumo/pneumon/pneumat/-pnea 是词根，表示“air, breath, wind, spirit”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pol",
     "title": "pol/polit/polis",
     "meaning": "city, citizen",
     "origin": "Greek",
-    "note": "pol/polit/polis 表示“city, citizen”，来源 Greek，优先用它寻找同族词。"
+    "note": "pol/polit/polis 是词根，表示“city, citizen”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "poly",
     "title": "poly",
     "meaning": "many",
     "origin": "Greek",
-    "note": "poly 表示“many”，来源 Greek，优先用它寻找同族词。"
+    "note": "poly 是词根，表示“many”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "popul",
     "title": "popul",
     "meaning": "the people",
     "origin": "Latin",
-    "note": "popul 表示“the people”，来源 Latin，优先用它寻找同族词。"
+    "note": "popul 是词根，表示“the people”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "port",
     "title": "port",
     "meaning": "carry",
     "origin": "Latin",
-    "note": "port 表示“carry”，来源 Latin，优先用它寻找同族词。"
+    "note": "port 是词根，表示“carry”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pos",
     "title": "pos/-pose/pon/-pone/-pound",
     "meaning": "放置，位置",
     "origin": "Latin",
-    "note": "pos/-pose/pon/-pone/-pound 表示“放置，位置”，来源 Latin，优先用它寻找同族词。"
+    "note": "pos/-pose/pon/-pone/-pound 是词根，表示“放置，位置”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "poss",
     "title": "poss/pot",
     "meaning": "able; power",
     "origin": "Latin",
-    "note": "poss/pot 表示“able; power”，来源 Latin，优先用它寻找同族词。"
+    "note": "poss/pot 是词根，表示“able; power”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "post-",
     "title": "post-",
-    "meaning": "after, behind",
+    "meaning": "在后，之后",
     "origin": "Latin",
-    "note": "post- 表示“after, behind”，来源 Latin，优先用它寻找同族词。"
+    "note": "post- 是前缀，表示“在后，之后”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "pre-",
     "title": "pre-",
     "meaning": "在前，预先",
     "origin": "Latin",
-    "note": "pre- 表示“在前，预先”，来源 Latin，优先用它寻找同族词。"
+    "note": "pre- 是前缀，表示“在前，预先”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "prim",
     "title": "prim/princ",
     "meaning": "first",
     "origin": "Latin",
-    "note": "prim/princ 表示“first”，来源 Latin，优先用它寻找同族词。"
+    "note": "prim/princ 是词根，表示“first”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pris",
     "title": "pris/-prise/prehens/-prehend",
     "meaning": "take, grasp",
     "origin": "Latin",
-    "note": "pris/-prise/prehens/-prehend 表示“take, grasp”，来源 Latin，优先用它寻找同族词。"
+    "note": "pris/-prise/prehens/-prehend 是词根，表示“take, grasp”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pro-",
     "title": "pro-",
-    "meaning": "向前，在前",
+    "meaning": "向前，支持，代替",
     "origin": "Greek",
-    "note": "pro- 表示“向前，在前”，来源 Greek，优先用它寻找同族词。"
+    "note": "pro- 是前缀，表示“向前，支持，代替”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "pro-",
     "title": "pro-",
-    "meaning": "向前，在前",
+    "meaning": "向前，支持，代替",
     "origin": "Latin",
-    "note": "pro- 表示“向前，在前”，来源 Latin，优先用它寻找同族词。"
+    "note": "pro- 是前缀，表示“向前，支持，代替”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "prob",
     "title": "prob/prov/-prove",
     "meaning": "good; test, prove",
     "origin": "Latin",
-    "note": "prob/prov/-prove 表示“good; test, prove”，来源 Latin，优先用它寻找同族词。"
+    "note": "prob/prov/-prove 是词根，表示“good; test, prove”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "proto",
     "title": "proto/prot",
     "meaning": "first, original, primitive",
     "origin": "Greek",
-    "note": "proto/prot 表示“first, original, primitive”，来源 Greek，优先用它寻找同族词。"
+    "note": "proto/prot 是词根，表示“first, original, primitive”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "psych",
     "title": "psych/psycho",
     "meaning": "mind, soul, mental process",
     "origin": "Greek",
-    "note": "psych/psycho 表示“mind, soul, mental process”，来源 Greek，优先用它寻找同族词。"
+    "note": "psych/psycho 是词根，表示“mind, soul, mental process”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "pter",
     "title": "pter/ptero/pteryg/pteryx",
     "meaning": "wing, fin",
     "origin": "Greek",
-    "note": "pter/ptero/pteryg/pteryx 表示“wing, fin”，来源 Greek，优先用它寻找同族词。"
+    "note": "pter/ptero/pteryg/pteryx 是词根，表示“wing, fin”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "put",
     "title": "put/putat",
     "meaning": "trim; count; reckon or suppose",
     "origin": "Latin",
-    "note": "put/putat 表示“trim; count; reckon or suppose”，来源 Latin，优先用它寻找同族词。"
+    "note": "put/putat 是词根，表示“trim; count; reckon or suppose”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "quadr",
     "title": "quadr/quart",
     "meaning": "four, fourth",
     "origin": "Latin",
-    "note": "quadr/quart 表示“four, fourth”，来源 Latin，优先用它寻找同族词。"
+    "note": "quadr/quart 是词根，表示“four, fourth”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "quer",
     "title": "quer/ques/quir/quis/quest",
     "meaning": "ask, seek",
     "origin": "Latin",
-    "note": "quer/ques/quir/quis/quest 表示“ask, seek”，来源 Latin，优先用它寻找同族词。"
+    "note": "quer/ques/quir/quis/quest 是词根，表示“ask, seek”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "radi",
     "title": "radi",
     "meaning": "ray, spoke",
     "origin": "Latin",
-    "note": "radi 表示“ray, spoke”，来源 Latin，优先用它寻找同族词。"
+    "note": "radi 是词根，表示“ray, spoke”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "radic",
     "title": "radic/radix",
     "meaning": "root",
     "origin": "Latin",
-    "note": "radic/radix 表示“root”，来源 Latin，优先用它寻找同族词。"
+    "note": "radic/radix 是词根，表示“root”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ram",
     "title": "ram/rami",
     "meaning": "branch",
     "origin": "Latin",
-    "note": "ram/rami 表示“branch”，来源 Latin，优先用它寻找同族词。"
+    "note": "ram/rami 是词根，表示“branch”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "rap",
     "title": "rap",
     "meaning": "seize, carry off by force",
     "origin": "Latin",
-    "note": "rap 表示“seize, carry off by force”，来源 Latin，优先用它寻找同族词。"
+    "note": "rap 是词根，表示“seize, carry off by force”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ras",
     "title": "ras/rad/raz",
     "meaning": "刮，擦",
     "origin": "Latin",
-    "note": "ras/rad/raz 表示“刮，擦”，来源 Latin，优先用它寻找同族词。"
+    "note": "ras/rad/raz 是词根，表示“刮，擦”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "re-",
     "title": "re-",
-    "meaning": "again; back or back again",
+    "meaning": "再次，回",
     "origin": "Latin",
-    "note": "re- 表示“again; back or back again”，来源 Latin，优先用它寻找同族词。"
+    "note": "re- 是前缀，表示“再次，回”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "reg",
     "title": "reg/rect/rig",
     "meaning": "统治，规则，引导",
     "origin": "Latin",
-    "note": "reg/rect/rig 表示“统治，规则，引导”，来源 Latin，优先用它寻找同族词。"
+    "note": "reg/rect/rig 是词根，表示“统治，规则，引导”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "retro-",
     "title": "retro-",
-    "meaning": "back, backward, behind",
+    "meaning": "向后，回顾",
     "origin": "Latin",
-    "note": "retro- 表示“back, backward, behind”，来源 Latin，优先用它寻找同族词。"
+    "note": "retro- 是前缀，表示“向后，回顾”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "rid",
     "title": "rid/ris",
     "meaning": "laugh",
     "origin": "Latin",
-    "note": "rid/ris 表示“laugh”，来源 Latin，优先用它寻找同族词。"
+    "note": "rid/ris 是词根，表示“laugh”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "rig",
     "title": "rig",
     "meaning": "stiff, rigid",
     "origin": "Latin",
-    "note": "rig 表示“stiff, rigid”，来源 Latin，优先用它寻找同族词。"
+    "note": "rig 是词根，表示“stiff, rigid”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "rog",
     "title": "rog/rogat",
     "meaning": "ask",
     "origin": "Latin",
-    "note": "rog/rogat 表示“ask”，来源 Latin，优先用它寻找同族词。"
+    "note": "rog/rogat 是词根，表示“ask”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "rot",
     "title": "rot",
     "meaning": "turn",
     "origin": "Latin",
-    "note": "rot 表示“turn”，来源 Latin，优先用它寻找同族词。"
+    "note": "rot 是词根，表示“turn”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "rub",
     "title": "rub",
     "meaning": "red",
     "origin": "Latin",
-    "note": "rub 表示“red”，来源 Latin，优先用它寻找同族词。"
+    "note": "rub 是词根，表示“red”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "rupt",
     "title": "rupt",
     "meaning": "to break, burst",
     "origin": "Latin",
-    "note": "rupt 表示“to break, burst”，来源 Latin，优先用它寻找同族词。"
+    "note": "rupt 是词根，表示“to break, burst”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sacr",
     "title": "sacr/sacri/secr",
     "meaning": "holy",
     "origin": "Latin",
-    "note": "sacr/sacri/secr 表示“holy”，来源 Latin，优先用它寻找同族词。"
+    "note": "sacr/sacri/secr 是词根，表示“holy”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "san",
     "title": "san",
     "meaning": "health",
     "origin": "Latin",
-    "note": "san 表示“health”，来源 Latin，优先用它寻找同族词。"
+    "note": "san 是词根，表示“health”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "scen",
     "title": "scen/scend",
     "meaning": "climb",
     "origin": "Latin",
-    "note": "scen/scend 表示“climb”，来源 Latin，优先用它寻找同族词。"
+    "note": "scen/scend 是词根，表示“climb”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sci",
     "title": "sci",
     "meaning": "to know",
     "origin": "Latin",
-    "note": "sci 表示“to know”，来源 Latin，优先用它寻找同族词。"
+    "note": "sci 是词根，表示“to know”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "scop",
     "title": "scop/-scope/-scopy",
     "meaning": "to view, to observe",
     "origin": "Greek",
-    "note": "scop/-scope/-scopy 表示“to view, to observe”，来源 Greek，优先用它寻找同族词。"
+    "note": "scop/-scope/-scopy 是词根，表示“to view, to observe”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "scrib",
     "title": "scrib/script",
     "meaning": "to write",
     "origin": "Latin",
-    "note": "scrib/script 表示“to write”，来源 Latin，优先用它寻找同族词。"
+    "note": "scrib/script 是词根，表示“to write”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "se-",
     "title": "se-",
     "meaning": "away, aside, apart",
     "origin": "Latin",
-    "note": "se- 表示“away, aside, apart”，来源 Latin，优先用它寻找同族词。"
+    "note": "se- 是前缀，表示“away, aside, apart”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sect",
     "title": "sect",
     "meaning": "to cut",
     "origin": "Latin",
-    "note": "sect 表示“to cut”，来源 Latin，优先用它寻找同族词。"
+    "note": "sect 是词根，表示“to cut”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sed",
     "title": "sed/sid/sess",
     "meaning": "sit; settle",
     "origin": "Latin",
-    "note": "sed/sid/sess 表示“sit; settle”，来源 Latin，优先用它寻找同族词。"
+    "note": "sed/sid/sess 是词根，表示“sit; settle”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "semi-",
     "title": "semi-/demi-",
     "meaning": "half, partly",
     "origin": "Latin",
-    "note": "semi-/demi- 表示“half, partly”，来源 Latin，优先用它寻找同族词。"
+    "note": "semi-/demi- 是前缀，表示“half, partly”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sen",
     "title": "sen",
     "meaning": "old",
     "origin": "Latin",
-    "note": "sen 表示“old”，来源 Latin，优先用它寻找同族词。"
+    "note": "sen 是词根，表示“old”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sens",
     "title": "sens/sent",
     "meaning": "to feel, to perceive",
     "origin": "Latin",
-    "note": "sens/sent 表示“to feel, to perceive”，来源 Latin，优先用它寻找同族词。"
+    "note": "sens/sent 是词根，表示“to feel, to perceive”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sequi",
     "title": "sequi/secut/seque",
     "meaning": "to follow",
     "origin": "Latin",
-    "note": "sequi/secut/seque 表示“to follow”，来源 Latin，优先用它寻找同族词。"
+    "note": "sequi/secut/seque 是词根，表示“to follow”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "serv",
     "title": "serv",
     "meaning": "slave",
     "origin": "Latin",
-    "note": "serv 表示“slave”，来源 Latin，优先用它寻找同族词。"
+    "note": "serv 是词根，表示“slave”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "serv",
     "title": "serv",
     "meaning": "save, keep",
     "origin": "Latin",
-    "note": "serv 表示“save, keep”，来源 Latin，优先用它寻找同族词。"
+    "note": "serv 是词根，表示“save, keep”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sex",
     "title": "sex",
     "meaning": "six",
     "origin": "Latin",
-    "note": "sex 表示“six”，来源 Latin，优先用它寻找同族词。"
+    "note": "sex 是词根，表示“six”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sim",
     "title": "sim/semb",
     "meaning": "like, similar",
     "origin": "Latin",
-    "note": "sim/semb 表示“like, similar”，来源 Latin，优先用它寻找同族词。"
+    "note": "sim/semb 是词根，表示“like, similar”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sist",
     "title": "sist",
     "meaning": "stand",
     "origin": "Latin",
-    "note": "sist 表示“stand”，来源 Latin，优先用它寻找同族词。"
+    "note": "sist 是词根，表示“stand”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sol",
     "title": "sol",
     "meaning": "sun",
     "origin": "Latin",
-    "note": "sol 表示“sun”，来源 Latin，优先用它寻找同族词。"
+    "note": "sol 是词根，表示“sun”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sol",
     "title": "sol/soli",
     "meaning": "alone",
     "origin": "Latin",
-    "note": "sol/soli 表示“alone”，来源 Latin，优先用它寻找同族词。"
+    "note": "sol/soli 是词根，表示“alone”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "solv",
     "title": "solv/solu/solut",
     "meaning": "loosen",
     "origin": "Latin",
-    "note": "solv/solu/solut 表示“loosen”，来源 Latin，优先用它寻找同族词。"
+    "note": "solv/solu/solut 是词根，表示“loosen”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "son",
     "title": "son",
     "meaning": "sound",
     "origin": "Latin",
-    "note": "son 表示“sound”，来源 Latin，优先用它寻找同族词。"
+    "note": "son 是词根，表示“sound”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "soph",
     "title": "soph/-sophy",
     "meaning": "wise, wisdom",
     "origin": "Greek",
-    "note": "soph/-sophy 表示“wise, wisdom”，来源 Greek，优先用它寻找同族词。"
+    "note": "soph/-sophy 是词根，表示“wise, wisdom”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "spect",
     "title": "spect/spec/spic/spectro",
     "meaning": "to see, look, watch",
     "origin": "Latin",
-    "note": "spect/spec/spic/spectro 表示“to see, look, watch”，来源 Latin，优先用它寻找同族词。"
+    "note": "spect/spec/spic/spectro 是词根，表示“to see, look, watch”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "spher",
     "title": "spher/-sphere",
     "meaning": "ball",
     "origin": "Greek",
-    "note": "spher/-sphere 表示“ball”，来源 Greek，优先用它寻找同族词。"
+    "note": "spher/-sphere 是词根，表示“ball”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "spir",
     "title": "spir/spiro",
     "meaning": "breathe",
     "origin": "Latin",
-    "note": "spir/spiro 表示“breathe”，来源 Latin，优先用它寻找同族词。"
+    "note": "spir/spiro 是词根，表示“breathe”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "spor",
     "title": "spor/sporo/spori",
     "meaning": "sowing; seed",
     "origin": "Greek",
-    "note": "spor/sporo/spori 表示“sowing; seed”，来源 Greek，优先用它寻找同族词。"
+    "note": "spor/sporo/spori 是词根，表示“sowing; seed”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sta",
     "title": "sta/stas/stat/stant/-stance",
     "meaning": "站立，稳定",
     "origin": "Latin and Greek",
-    "note": "sta/stas/stat/stant/-stance 表示“站立，稳定”，来源 Latin and Greek，优先用它寻找同族词。"
+    "note": "sta/stas/stat/stant/-stance 是词根，表示“站立，稳定”，来源 Latin and Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "strict",
     "title": "strict/string/strain",
     "meaning": "bind, tighten",
     "origin": "Latin",
-    "note": "strict/string/strain 表示“bind, tighten”，来源 Latin，优先用它寻找同族词。"
+    "note": "strict/string/strain 是词根，表示“bind, tighten”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "struct",
     "title": "struct",
     "meaning": "build",
     "origin": "Latin",
-    "note": "struct 表示“build”，来源 Latin，优先用它寻找同族词。"
+    "note": "struct 是词根，表示“build”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "su-",
     "title": "su-",
     "meaning": "under, below",
     "origin": "Latin",
-    "note": "su- 表示“under, below”，来源 Latin，优先用它寻找同族词。"
+    "note": "su- 是前缀，表示“under, below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sub-",
     "title": "sub-",
-    "meaning": "under, after",
+    "meaning": "在下，次级",
     "origin": "Latin",
-    "note": "sub- 表示“under, after”，来源 Latin，优先用它寻找同族词。"
+    "note": "sub- 是前缀，表示“在下，次级”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "suc-",
     "title": "suc-",
     "meaning": "under,  below",
     "origin": "Latin",
-    "note": "suc- 表示“under,  below”，来源 Latin，优先用它寻找同族词。"
+    "note": "suc- 是前缀，表示“under,  below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "suf-",
     "title": "suf-",
     "meaning": "under, below",
     "origin": "Latin",
-    "note": "suf- 表示“under, below”，来源 Latin，优先用它寻找同族词。"
+    "note": "suf- 是前缀，表示“under, below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sum-",
     "title": "sum-",
     "meaning": "under, below",
     "origin": "Latin",
-    "note": "sum- 表示“under, below”，来源 Latin，优先用它寻找同族词。"
+    "note": "sum- 是前缀，表示“under, below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sum",
     "title": "sum/summ",
     "meaning": "highest",
     "origin": "Latin",
-    "note": "sum/summ 表示“highest”，来源 Latin，优先用它寻找同族词。"
+    "note": "sum/summ 是词根，表示“highest”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sup-",
     "title": "sup-",
     "meaning": "under, below",
     "origin": "Latin",
-    "note": "sup- 表示“under, below”，来源 Latin，优先用它寻找同族词。"
+    "note": "sup- 是前缀，表示“under, below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "super-",
     "title": "super-/supra-/sur-",
-    "meaning": "above, over",
+    "meaning": "在上，超过",
     "origin": "Latin",
-    "note": "super-/supra-/sur- 表示“above, over”，来源 Latin，优先用它寻找同族词。"
+    "note": "super-/supra-/sur- 是前缀，表示“在上，超过”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sur-",
     "title": "sur-",
     "meaning": "under, below",
     "origin": "Latin",
-    "note": "sur- 表示“under, below”，来源 Latin，优先用它寻找同族词。"
+    "note": "sur- 是前缀，表示“under, below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "surg",
     "title": "surg/surr",
     "meaning": "rise",
     "origin": "Latin",
-    "note": "surg/surr 表示“rise”，来源 Latin，优先用它寻找同族词。"
+    "note": "surg/surr 是词根，表示“rise”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "sus-",
     "title": "sus-",
     "meaning": "under,  below",
     "origin": "Latin",
-    "note": "sus- 表示“under,  below”，来源 Latin，优先用它寻找同族词。"
+    "note": "sus- 是前缀，表示“under,  below”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sym-",
     "title": "sym-",
     "meaning": "with, together with",
     "origin": "Greek",
-    "note": "sym- 表示“with, together with”，来源 Greek，优先用它寻找同族词。"
+    "note": "sym- 是前缀，表示“with, together with”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "syn-",
     "title": "syn-",
-    "meaning": "with, together with",
+    "meaning": "共同，一起",
     "origin": "Greek",
-    "note": "syn- 表示“with, together with”，来源 Greek，优先用它寻找同族词。"
+    "note": "syn- 是前缀，表示“共同，一起”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "sys-",
     "title": "sys-",
     "meaning": "with, together with",
     "origin": "Greek",
-    "note": "sys- 表示“with, together with”，来源 Greek，优先用它寻找同族词。"
+    "note": "sys- 是前缀，表示“with, together with”，来源 Greek，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "tact",
     "title": "tact/tang/ting/tig",
     "meaning": "touch",
     "origin": "Latin",
-    "note": "tact/tang/ting/tig 表示“touch”，来源 Latin，优先用它寻找同族词。"
+    "note": "tact/tang/ting/tig 是词根，表示“touch”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tax",
     "title": "tax/taxo",
     "meaning": "arrangement, order",
     "origin": "Greek",
-    "note": "tax/taxo 表示“arrangement, order”，来源 Greek，优先用它寻找同族词。"
+    "note": "tax/taxo 是词根，表示“arrangement, order”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tele",
     "title": "tele/tel/telo",
     "meaning": "distance, end",
     "origin": "Greek",
-    "note": "tele/tel/telo 表示“distance, end”，来源 Greek，优先用它寻找同族词。"
+    "note": "tele/tel/telo 是词根，表示“distance, end”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "temp",
     "title": "temp/tempor",
     "meaning": "time",
     "origin": "Latin",
-    "note": "temp/tempor 表示“time”，来源 Latin，优先用它寻找同族词。"
+    "note": "temp/tempor 是词根，表示“time”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ten",
     "title": "ten/tin/tain",
     "meaning": "握住，保持",
     "origin": "Latin",
-    "note": "ten/tin/tain 表示“握住，保持”，来源 Latin，优先用它寻找同族词。"
+    "note": "ten/tin/tain 是词根，表示“握住，保持”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tend",
     "title": "tend/tent/tens",
     "meaning": "stretch",
     "origin": "Latin",
-    "note": "tend/tent/tens 表示“stretch”，来源 Latin，优先用它寻找同族词。"
+    "note": "tend/tent/tens 是词根，表示“stretch”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "term",
     "title": "term",
     "meaning": "end, boundary",
     "origin": "Latin",
-    "note": "term 表示“end, boundary”，来源 Latin，优先用它寻找同族词。"
+    "note": "term 是词根，表示“end, boundary”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "terr",
     "title": "terr/terra",
     "meaning": "earth, land",
     "origin": "Latin",
-    "note": "terr/terra 表示“earth, land”，来源 Latin，优先用它寻找同族词。"
+    "note": "terr/terra 是词根，表示“earth, land”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "text",
     "title": "text",
     "meaning": "weave",
     "origin": "Latin",
-    "note": "text 表示“weave”，来源 Latin，优先用它寻找同族词。"
+    "note": "text 是词根，表示“weave”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "the",
     "title": "the/theo",
     "meaning": "神",
     "origin": "Greek",
-    "note": "the/theo 表示“神”，来源 Greek，优先用它寻找同族词。"
+    "note": "the/theo 是词根，表示“神”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "therm",
     "title": "therm/thermo",
     "meaning": "heat, temperature",
     "origin": "Greek",
-    "note": "therm/thermo 表示“heat, temperature”，来源 Greek，优先用它寻找同族词。"
+    "note": "therm/thermo 是词根，表示“heat, temperature”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tom",
     "title": "tom/-tome/-tomy/-stomy",
     "meaning": "to cut",
     "origin": "Greek",
-    "note": "tom/-tome/-tomy/-stomy 表示“to cut”，来源 Greek，优先用它寻找同族词。"
+    "note": "tom/-tome/-tomy/-stomy 是词根，表示“to cut”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tort",
     "title": "tort",
     "meaning": "twist",
     "origin": "Latin",
-    "note": "tort 表示“twist”，来源 Latin，优先用它寻找同族词。"
+    "note": "tort 是词根，表示“twist”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tra-",
     "title": "tra-/trans-",
-    "meaning": "穿过，越过",
+    "meaning": "across, over, to the other side",
     "origin": "Latin",
-    "note": "tra-/trans- 表示“穿过，越过”，来源 Latin，优先用它寻找同族词。"
+    "note": "tra-/trans- 是前缀，表示“across, over, to the other side”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "tract",
     "title": "tract",
     "meaning": "draw, pull",
     "origin": "Latin",
-    "note": "tract 表示“draw, pull”，来源 Latin，优先用它寻找同族词。"
+    "note": "tract 是词根，表示“draw, pull”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "tri",
     "title": "tri",
-    "meaning": "三",
+    "meaning": "three",
     "origin": "Latin",
-    "note": "tri 表示“三”，来源 Latin，优先用它寻找同族词。"
+    "note": "tri 是词根，表示“three”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "trib",
     "title": "trib",
     "meaning": "grant; allot",
     "origin": "Latin",
-    "note": "trib 表示“grant; allot”，来源 Latin，优先用它寻找同族词。"
+    "note": "trib 是词根，表示“grant; allot”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "trit",
     "title": "trit",
     "meaning": "friction, wearing away",
     "origin": "Latin",
-    "note": "trit 表示“friction, wearing away”，来源 Latin，优先用它寻找同族词。"
+    "note": "trit 是词根，表示“friction, wearing away”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "trop",
     "title": "trop",
     "meaning": "turn, change",
     "origin": "Greek",
-    "note": "trop 表示“turn, change”，来源 Greek，优先用它寻找同族词。"
+    "note": "trop 是词根，表示“turn, change”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "troph",
     "title": "troph/tropho/-trophy",
     "meaning": "nourishment",
     "origin": "Greek",
-    "note": "troph/tropho/-trophy 表示“nourishment”，来源 Greek，优先用它寻找同族词。"
+    "note": "troph/tropho/-trophy 是词根，表示“nourishment”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "trud",
     "title": "trud/trus",
     "meaning": "push",
     "origin": "Latin",
-    "note": "trud/trus 表示“push”，来源 Latin，优先用它寻找同族词。"
+    "note": "trud/trus 是词根，表示“push”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "turb",
     "title": "turb",
     "meaning": "confusion",
     "origin": "Latin",
-    "note": "turb 表示“confusion”，来源 Latin，优先用它寻找同族词。"
+    "note": "turb 是词根，表示“confusion”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ultra-",
     "title": "ultra-",
     "meaning": "beyond, excessive",
     "origin": "Latin",
-    "note": "ultra- 表示“beyond, excessive”，来源 Latin，优先用它寻找同族词。"
+    "note": "ultra- 是前缀，表示“beyond, excessive”，来源 Latin，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "un-",
     "title": "un-",
-    "meaning": "not",
+    "meaning": "不，反向",
     "origin": "Old English",
-    "note": "un- 表示“not”，来源 Old English，优先用它寻找同族词。"
+    "note": "un- 是前缀，表示“不，反向”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "under-",
     "title": "under-",
-    "meaning": "below, not enough",
+    "meaning": "在下，不足",
     "origin": "Old English",
-    "note": "under- 表示“below, not enough”，来源 Old English，优先用它寻找同族词。"
+    "note": "under- 是前缀，表示“在下，不足”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "uni",
     "title": "uni",
     "meaning": "one",
     "origin": "Latin",
-    "note": "uni 表示“one”，来源 Latin，优先用它寻找同族词。"
+    "note": "uni 是词根，表示“one”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "urb",
     "title": "urb",
     "meaning": "city",
     "origin": "Latin",
-    "note": "urb 表示“city”，来源 Latin，优先用它寻找同族词。"
+    "note": "urb 是词根，表示“city”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vac",
     "title": "vac",
     "meaning": "empty",
     "origin": "Latin",
-    "note": "vac 表示“empty”，来源 Latin，优先用它寻找同族词。"
+    "note": "vac 是词根，表示“empty”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vad",
     "title": "vad/vas",
     "meaning": "to go",
     "origin": "Latin",
-    "note": "vad/vas 表示“to go”，来源 Latin，优先用它寻找同族词。"
+    "note": "vad/vas 是词根，表示“to go”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vag",
     "title": "vag",
     "meaning": "wander",
     "origin": "Latin",
-    "note": "vag 表示“wander”，来源 Latin，优先用它寻找同族词。"
+    "note": "vag 是词根，表示“wander”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "val",
     "title": "val/valu/valid",
     "meaning": "strength; worth",
     "origin": "Latin",
-    "note": "val/valu/valid 表示“strength; worth”，来源 Latin，优先用它寻找同族词。"
+    "note": "val/valu/valid 是词根，表示“strength; worth”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "var",
     "title": "var",
     "meaning": "different",
     "origin": "Latin",
-    "note": "var 表示“different”，来源 Latin，优先用它寻找同族词。"
+    "note": "var 是词根，表示“different”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "veni",
     "title": "veni/vent/ven/-vene",
     "meaning": "to come",
     "origin": "Latin",
-    "note": "veni/vent/ven/-vene 表示“to come”，来源 Latin，优先用它寻找同族词。"
+    "note": "veni/vent/ven/-vene 是词根，表示“to come”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "ver",
     "title": "ver",
     "meaning": "真实",
     "origin": "Latin",
-    "note": "ver 表示“真实”，来源 Latin，优先用它寻找同族词。"
+    "note": "ver 是词根，表示“真实”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "verb",
     "title": "verb",
     "meaning": "word",
     "origin": "Latin",
-    "note": "verb 表示“word”，来源 Latin，优先用它寻找同族词。"
+    "note": "verb 是词根，表示“word”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "verd",
     "title": "verd",
     "meaning": "green",
     "origin": "Latin",
-    "note": "verd 表示“green”，来源 Latin，优先用它寻找同族词。"
+    "note": "verd 是词根，表示“green”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vers",
     "title": "vers/vert",
     "meaning": "to turn; to be occupied with",
     "origin": "Latin",
-    "note": "vers/vert 表示“to turn; to be occupied with”，来源 Latin，优先用它寻找同族词。"
+    "note": "vers/vert 是词根，表示“to turn; to be occupied with”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vest",
     "title": "vest",
     "meaning": "clothe; clothing",
     "origin": "Latin",
-    "note": "vest 表示“clothe; clothing”，来源 Latin，优先用它寻找同族词。"
+    "note": "vest 是词根，表示“clothe; clothing”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "via",
     "title": "via",
     "meaning": "way",
     "origin": "Latin",
-    "note": "via 表示“way”，来源 Latin，优先用它寻找同族词。"
+    "note": "via 是词根，表示“way”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vic",
     "title": "vic",
     "meaning": "in place of",
     "origin": "Latin",
-    "note": "vic 表示“in place of”，来源 Latin，优先用它寻找同族词。"
+    "note": "vic 是词根，表示“in place of”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vid",
     "title": "vid/vis/-vise",
     "meaning": "see",
     "origin": "Latin",
-    "note": "vid/vis/-vise 表示“see”，来源 Latin，优先用它寻找同族词。"
+    "note": "vid/vis/-vise 是词根，表示“see”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vin",
     "title": "vin/vini/vint",
     "meaning": "wine",
     "origin": "Latin",
-    "note": "vin/vini/vint 表示“wine”，来源 Latin，优先用它寻找同族词。"
+    "note": "vin/vini/vint 是词根，表示“wine”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vinc",
     "title": "vinc/vict/vanq",
     "meaning": "conquer",
     "origin": "Latin",
-    "note": "vinc/vict/vanq 表示“conquer”，来源 Latin，优先用它寻找同族词。"
+    "note": "vinc/vict/vanq 是词根，表示“conquer”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vir",
     "title": "vir",
     "meaning": "man",
     "origin": "Latin",
-    "note": "vir 表示“man”，来源 Latin，优先用它寻找同族词。"
+    "note": "vir 是词根，表示“man”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "viv",
     "title": "viv/vivi/vit",
     "meaning": "life, living, live",
     "origin": "Latin",
-    "note": "viv/vivi/vit 表示“life, living, live”，来源 Latin，优先用它寻找同族词。"
+    "note": "viv/vivi/vit 是词根，表示“life, living, live”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "voc",
     "title": "voc/-voke",
     "meaning": "voice, to call",
     "origin": "Latin",
-    "note": "voc/-voke 表示“voice, to call”，来源 Latin，优先用它寻找同族词。"
+    "note": "voc/-voke 是词根，表示“voice, to call”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "void",
     "title": "void",
     "meaning": "empty",
     "origin": "Latin",
-    "note": "void 表示“empty”，来源 Latin，优先用它寻找同族词。"
+    "note": "void 是词根，表示“empty”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vol",
     "title": "vol",
     "meaning": "wish, intention, will",
     "origin": "Latin",
-    "note": "vol 表示“wish, intention, will”，来源 Latin，优先用它寻找同族词。"
+    "note": "vol 是词根，表示“wish, intention, will”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "volv",
     "title": "volv/volu/volut",
     "meaning": "roll, turn",
     "origin": "Latin",
-    "note": "volv/volu/volut 表示“roll, turn”，来源 Latin，优先用它寻找同族词。"
+    "note": "volv/volu/volut 是词根，表示“roll, turn”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "vor",
     "title": "vor",
     "meaning": "to eat",
     "origin": "Latin",
-    "note": "vor 表示“to eat”，来源 Latin，优先用它寻找同族词。"
+    "note": "vor 是词根，表示“to eat”，来源 Latin，优先用它寻找同族词。",
+    "kind": "root"
   },
   {
     "id": "with-",
     "title": "with-",
     "meaning": "back, away",
     "origin": "Old English",
-    "note": "with- 表示“back, away”，来源 Old English，优先用它寻找同族词。"
+    "note": "with- 是前缀，表示“back, away”，来源 Old English，优先用它寻找同族词。",
+    "kind": "prefix"
   },
   {
     "id": "xer",
     "title": "xer/xero/xeri",
     "meaning": "dry",
     "origin": "Greek",
-    "note": "xer/xero/xeri 表示“dry”，来源 Greek，优先用它寻找同族词。"
+    "note": "xer/xero/xeri 是词根，表示“dry”，来源 Greek，优先用它寻找同族词。",
+    "kind": "root"
   }
 ] satisfies RootEntry[]
 
@@ -3582,9 +4139,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ab-",
+      "via",
       "-ion",
-      "-ation",
-      "via"
+      "-ation"
     ]
   },
   {
@@ -3615,8 +4173,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ab-",
-      "mal",
-      "-al"
+      "-al",
+      "mal"
     ]
   },
   {
@@ -3688,8 +4246,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ab-",
-      "-ant",
-      "sens"
+      "sens",
+      "sen",
+      "-ant"
     ]
   },
   {
@@ -3706,8 +4265,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "solv",
       "ab-",
+      "solv",
       "sol"
     ]
   },
@@ -3740,8 +4299,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "ab-"
+      "ab-",
+      "-ion"
     ]
   },
   {
@@ -3759,8 +4318,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "tract",
       "ab-",
+      "tract",
       "act"
     ]
   },
@@ -3866,9 +4425,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "ac-",
-      "celer"
+      "celer",
+      "-ate"
     ]
   },
   {
@@ -3882,9 +4441,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "apt",
       "ac-",
-      "cap"
+      "cap",
+      "-ance",
+      "apt"
     ]
   },
   {
@@ -3902,8 +4462,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ced",
-      "ac-"
+      "ac-",
+      "ced"
     ]
   },
   {
@@ -3916,7 +4476,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ced",
-      "-ary",
       "-ary"
     ]
   },
@@ -3933,8 +4492,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ced",
       "ac-",
+      "ced",
       "-able"
     ]
   },
@@ -3968,9 +4527,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "dent",
       "ac-",
-      "cis"
+      "cad",
+      "-ant",
+      "-al",
+      "dent"
     ]
   },
   {
@@ -3987,9 +4548,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ac-",
       "-ate",
-      "don",
-      "ac-"
+      "don"
     ]
   },
   {
@@ -4005,9 +4566,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "don",
       "-ion",
-      "-ation",
-      "don"
+      "-ation"
     ]
   },
   {
@@ -4039,9 +4600,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -4058,9 +4619,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cor",
       "ac-",
-      "cur"
+      "cor",
+      "cur",
+      "ord"
     ]
   },
   {
@@ -4076,7 +4638,8 @@ export const cet6Words = [
     "rootIds": [
       "cor",
       "cur",
-      "ord"
+      "ord",
+      "-ance"
     ]
   },
   {
@@ -4110,9 +4673,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ac-",
+      "cumul",
       "-ate",
       "lat",
-      "ac-"
+      "fer"
     ]
   },
   {
@@ -4130,9 +4695,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cur",
       "ac-",
-      "cur"
+      "cur",
+      "-cy"
     ]
   },
   {
@@ -4149,9 +4714,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "ac-",
       "cur",
-      "ac-"
+      "-ate"
     ]
   },
   {
@@ -4184,8 +4749,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "tom",
-      "ac-"
+      "ac-",
+      "tom"
     ]
   },
   {
@@ -4233,9 +4798,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -4338,8 +4903,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "quer"
+      "quer",
+      "-ion"
     ]
   },
   {
@@ -4372,8 +4937,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "act"
+      "act",
+      "-ion"
     ]
   },
   {
@@ -4424,8 +4989,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "apt",
-      "ad-"
+      "ad-",
+      "apt"
     ]
   },
   {
@@ -4441,8 +5006,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dic",
-      "ad-"
+      "ad-",
+      "dic"
     ]
   },
   {
@@ -4510,9 +5075,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "ad-",
       "equ",
-      "ad-"
+      "-ate"
     ]
   },
   {
@@ -4529,8 +5094,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "her",
-      "ad-"
+      "ad-",
+      "her"
     ]
   },
   {
@@ -4546,9 +5111,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ad-",
+      "ject",
       "-ant",
-      "cent",
-      "ad-"
+      "cent"
     ]
   },
   {
@@ -4579,8 +5145,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "jud",
-      "ad-"
+      "ad-",
+      "jud"
     ]
   },
   {
@@ -4592,9 +5158,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-able",
       "sta",
-      "jud"
+      "jud",
+      "-able"
     ]
   },
   {
@@ -4611,9 +5177,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "minist",
+      "min",
       "-ion",
-      "-ation",
-      "min"
+      "-ation"
     ]
   },
   {
@@ -4626,8 +5193,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "-ation"
+      "-ation",
+      "-ion"
     ]
   },
   {
@@ -4645,9 +5212,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ad-",
+      "mit",
       "-ion",
-      "mis",
-      "mit"
+      "mis"
     ]
   },
   {
@@ -4663,8 +5231,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "cent",
+      "scen",
+      "-ant",
       "-escent"
     ]
   },
@@ -4683,9 +5252,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ad-",
       "opt",
-      "op",
-      "opt"
+      "op"
     ]
   },
   {
@@ -4698,8 +5267,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "ad-",
       "opt",
+      "-ion",
       "op"
     ]
   },
@@ -4760,9 +5330,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
+      "ad-",
       "vers",
-      "ad-"
+      "ver"
     ]
   },
   {
@@ -4779,9 +5349,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ad-",
+      "vers",
       "-ize",
-      "ver",
-      "vers"
+      "ver"
     ]
   },
   {
@@ -4852,9 +5423,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "ad-",
       "voc",
-      "ad-"
+      "-ate"
     ]
   },
   {
@@ -4869,8 +5440,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-al",
-      "aer"
+      "aer",
+      "-al"
     ]
   },
   {
@@ -4897,8 +5468,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "pac",
-      "aer"
+      "aer",
+      "pac"
     ]
   },
   {
@@ -4946,9 +5517,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
+      "af-",
       "fac",
-      "af-"
+      "ec"
     ]
   },
   {
@@ -4966,9 +5537,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "af-",
+      "fac",
       "-ion",
-      "ec",
-      "fac"
+      "ec"
     ]
   },
   {
@@ -4999,9 +5571,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "af-",
       "fil",
-      "af-"
+      "-ate"
     ]
   },
   {
@@ -5095,9 +5667,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "ag-",
-      "grav"
+      "grav",
+      "-ate"
     ]
   },
   {
@@ -5112,9 +5684,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "ag-",
       "gress",
-      "ag-"
+      "-ion"
     ]
   },
   {
@@ -5132,8 +5704,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "gress",
       "ag-",
+      "gress",
       "-ive"
     ]
   },
@@ -5148,8 +5720,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "-ation"
+      "-ation",
+      "-ion"
     ]
   },
   {
@@ -5181,8 +5753,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
-      "agr"
+      "agr",
+      "-able"
     ]
   },
   {
@@ -5199,8 +5771,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ure",
-      "agr"
+      "agr",
+      "-ure"
     ]
   },
   {
@@ -5309,6 +5881,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
+      "ali",
+      "ment",
       "-ment",
       "-ant"
     ]
@@ -5326,8 +5900,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-like",
-      "ali"
+      "ali",
+      "-like"
     ]
   },
   {
@@ -5343,8 +5917,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ive",
-      "ali"
+      "ali",
+      "-ive"
     ]
   },
   {
@@ -5357,9 +5931,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "leg",
+      "allo",
       "-ion",
-      "-ation",
-      "leg"
+      "-ation"
     ]
   },
   {
@@ -5375,7 +5950,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "leg",
+      "al-",
       "leg",
       "allo"
     ]
@@ -5393,8 +5968,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "leg",
-      "allo"
+      "allo",
+      "-ance"
     ]
   },
   {
@@ -5410,9 +5985,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "via",
-      "allo"
+      "allo",
+      "-ate"
     ]
   },
   {
@@ -5458,8 +6033,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "al-",
       "loc",
+      "-ate",
       "allo"
     ]
   },
@@ -5569,9 +6145,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "alter"
+      "alter",
+      "alt",
+      "-ion"
     ]
   },
   {
@@ -5587,9 +6164,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "alter",
       "-ate",
       "nat",
-      "alter"
+      "alt"
     ]
   },
   {
@@ -5606,9 +6184,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "alter",
       "-ive",
       "nat",
-      "alter"
+      "alt"
     ]
   },
   {
@@ -5625,8 +6204,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-tude",
-      "alt"
+      "alt",
+      "-tude"
     ]
   },
   {
@@ -5704,6 +6283,7 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "ambi-",
       "it",
       "-ant",
       "amb"
@@ -5720,8 +6300,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ty",
-      "amb",
-      "ambi-"
+      "ambi-",
+      "amb"
     ]
   },
   {
@@ -5738,9 +6318,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "amb",
       "ambi-",
-      "-ous"
+      "-ous",
+      "amb"
     ]
   },
   {
@@ -5757,9 +6337,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "it",
-      "amb"
+      "amb",
+      "-ion",
+      "ambi-"
     ]
   },
   {
@@ -5775,8 +6356,10 @@ export const cet6Words = [
     ],
     "rootIds": [
       "it",
+      "ambi-",
       "amb",
-      "-itious"
+      "-itious",
+      "-ous"
     ]
   },
   {
@@ -5885,9 +6468,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -5901,8 +6484,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "log",
       "ana-",
+      "log",
       "-ous"
     ]
   },
@@ -5916,8 +6499,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "log",
-      "ana-"
+      "ana-",
+      "log"
     ]
   },
   {
@@ -5933,9 +6516,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "log",
       "ana-",
-      "-logy"
+      "-logy",
+      "log"
     ]
   },
   {
@@ -5949,8 +6532,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "lys",
-      "ana-"
+      "ana-",
+      "lys"
     ]
   },
   {
@@ -5967,8 +6550,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "lys",
-      "ana-"
+      "ana-",
+      "lys"
     ]
   },
   {
@@ -5980,8 +6563,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "lys",
-      "ana-"
+      "ana-",
+      "lys"
     ]
   },
   {
@@ -6008,8 +6591,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "lys",
-      "ana-"
+      "ana-",
+      "lys"
     ]
   },
   {
@@ -6090,8 +6673,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ann",
-      "-ary",
-      "ver"
+      "vers",
+      "ver",
+      "-ary"
     ]
   },
   {
@@ -6108,9 +6692,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ann",
       "an-",
-      "noun"
+      "noun",
+      "ann"
     ]
   },
   {
@@ -6151,8 +6735,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "a-",
+      "onym",
       "non",
-      "onym"
+      "-ous"
     ]
   },
   {
@@ -6179,9 +6764,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ante-",
       "ten",
-      "ann",
-      "ante-"
+      "ann"
     ]
   },
   {
@@ -6198,9 +6783,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "ante-",
-      "anti-"
+      "anti-",
+      "cap",
+      "-ate"
     ]
   },
   {
@@ -6278,7 +6864,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "par",
-      "par",
       "para"
     ]
   },
@@ -6296,8 +6881,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "par",
-      "-ant",
-      "par"
+      "-ant"
     ]
   },
   {
@@ -6360,8 +6944,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -6423,8 +7005,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
-      "plic"
+      "plic",
+      "-able"
     ]
   },
   {
@@ -6442,9 +7024,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "plic",
       "-ion",
-      "-ation",
-      "plic"
+      "-ation"
     ]
   },
   {
@@ -6495,9 +7077,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -6643,8 +7225,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "prob",
-      "ap-"
+      "ap-",
+      "prob"
     ]
   },
   {
@@ -6723,7 +7305,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "-ary"
     ]
   },
@@ -6771,8 +7352,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
-      "arch"
+      "arch",
+      "ec"
     ]
   },
   {
@@ -6836,8 +7417,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ize",
-      "rid"
+      "rid",
+      "-ize"
     ]
   },
   {
@@ -6913,8 +7494,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "rog",
       "ar-",
+      "rog",
       "-ant"
     ]
   },
@@ -6931,9 +7512,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "fer"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -7013,8 +7594,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "scrib",
-      "a-"
+      "a-",
+      "scrib"
     ]
   },
   {
@@ -7027,8 +7608,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "horr",
-      "a-"
+      "a-",
+      "horr"
     ]
   },
   {
@@ -7045,9 +7626,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
       "a-",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -7062,9 +7643,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "spir",
       "-ion",
-      "-ation",
-      "spir"
+      "-ation"
     ]
   },
   {
@@ -7088,8 +7669,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -7185,6 +7766,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sed",
+      "ment",
       "-ment",
       "-ant"
     ]
@@ -7232,9 +7814,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -7252,7 +7834,8 @@ export const cet6Words = [
     "rootIds": [
       "sim",
       "-ate",
-      "lat"
+      "lat",
+      "fer"
     ]
   },
   {
@@ -7264,8 +7847,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "sim",
+      "lat",
+      "fer",
+      "-ion",
       "-ation"
     ]
   },
@@ -7283,8 +7868,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "as-",
-      "-ist",
-      "sist"
+      "sist",
+      "-ist"
     ]
   },
   {
@@ -7301,9 +7886,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
       "sist",
-      "sta"
+      "sta",
+      "-ant"
     ]
   },
   {
@@ -7376,9 +7961,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "as-",
-      "sum"
+      "sum",
+      "-ion"
     ]
   },
   {
@@ -7421,9 +8006,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -7438,9 +8023,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "aut",
       "astr",
-      "naut"
+      "naut",
+      "aut"
     ]
   },
   {
@@ -7456,7 +8041,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "nom",
       "nom",
       "astr"
     ]
@@ -7500,9 +8084,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "spher",
       "her",
-      "phor",
-      "spher"
+      "phor"
     ]
   },
   {
@@ -7534,8 +8118,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "tom",
-      "a-"
+      "a-",
+      "tom"
     ]
   },
   {
@@ -7566,9 +8150,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -7600,8 +8184,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
-      "at-"
+      "at-",
+      "ten"
     ]
   },
   {
@@ -7633,9 +8217,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "at-",
       "tend",
-      "ten",
-      "at-"
+      "-ance",
+      "ten"
     ]
   },
   {
@@ -7750,9 +8335,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -7798,8 +8383,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "horr",
-      "aut"
+      "aut",
+      "horr"
     ]
   },
   {
@@ -7816,9 +8401,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
+      "aut",
       "horr",
-      "aut"
+      "-ty"
     ]
   },
   {
@@ -7830,9 +8415,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "aut",
       "tom",
-      "-ate",
-      "aut"
+      "-ate"
     ]
   },
   {
@@ -7849,8 +8434,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "tom",
-      "aut"
+      "aut",
+      "tom"
     ]
   },
   {
@@ -7866,6 +8451,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "aut",
       "tom",
       "-ion",
       "-ation"
@@ -7882,9 +8468,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "tom",
+      "aut",
       "mob",
-      "aut"
+      "tom",
+      "-ile"
     ]
   },
   {
@@ -7901,7 +8488,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "-ary"
     ]
   },
@@ -7926,9 +8512,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "labor",
+      "lit",
       "-ty",
-      "-ability",
-      "labor"
+      "-ability"
     ]
   },
   {
@@ -7947,8 +8534,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
-      "labor"
+      "labor",
+      "-able"
     ]
   },
   {
@@ -7964,8 +8551,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -7981,9 +8568,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "au",
+      "via",
       "-ion",
-      "-ation",
-      "via"
+      "-ation"
     ]
   },
   {
@@ -8027,7 +8615,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -8607,9 +9194,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -8899,8 +9486,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ben",
-      "fac",
-      "-ary"
+      "-ary",
+      "fac"
     ]
   },
   {
@@ -9049,9 +9636,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "bi-",
-      "mill"
+      "mill",
+      "-ion"
     ]
   },
   {
@@ -9631,7 +10218,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
       "-ary"
     ]
   },
@@ -9835,8 +10421,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "reg",
       "-ness",
+      "reg",
       "rig"
     ]
   },
@@ -10065,7 +10651,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ism",
       "-ism"
     ]
   },
@@ -10559,9 +11144,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "libra",
+      "libr",
+      "ali",
       "-ion",
-      "-ation",
-      "libra"
+      "-ation"
     ]
   },
   {
@@ -10715,8 +11302,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "don"
+      "don",
+      "-ate"
     ]
   },
   {
@@ -10820,7 +11407,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "cap",
       "cap"
     ]
   },
@@ -10834,9 +11420,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
       "cap",
-      "-ability"
+      "-ability",
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -10851,9 +11438,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
       "cap",
-      "cap"
+      "-able"
     ]
   },
   {
@@ -10867,7 +11453,7 @@ export const cet6Words = [
     "rootIds": [
       "cap",
       "pac",
-      "cap"
+      "-ance"
     ]
   },
   {
@@ -10880,8 +11466,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cap",
-      "pac",
-      "cap"
+      "pac"
     ]
   },
   {
@@ -10897,9 +11482,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "cap",
-      "pac"
+      "pac",
+      "-ty"
     ]
   },
   {
@@ -10914,7 +11499,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cap",
       "cap"
     ]
   },
@@ -10933,7 +11517,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cap",
-      "cap",
       "-al"
     ]
   },
@@ -10951,7 +11534,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ule",
-      "cap",
       "cap"
     ]
   },
@@ -10968,9 +11550,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "cap",
       "apt",
-      "ten",
-      "cap"
+      "ten"
     ]
   },
   {
@@ -10985,9 +11567,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "apt",
       "cap",
-      "-ive"
+      "-ive",
+      "apt"
     ]
   },
   {
@@ -11004,9 +11586,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "apt",
+      "cap",
       "-ure",
-      "cap"
+      "apt"
     ]
   },
   {
@@ -11280,8 +11862,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "log",
-      "cata-"
+      "cata-",
+      "log"
     ]
   },
   {
@@ -11295,8 +11877,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "log",
-      "cata-"
+      "cata-",
+      "log"
     ]
   },
   {
@@ -11311,8 +11893,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lys",
-      "cata-"
+      "cata-",
+      "lys"
     ]
   },
   {
@@ -11331,7 +11913,8 @@ export const cet6Words = [
     "rootIds": [
       "cata-",
       "troph",
-      "trop"
+      "trop",
+      "astr"
     ]
   },
   {
@@ -11458,9 +12041,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "aut",
       "caust",
-      "aut"
+      "-ion"
     ]
   },
   {
@@ -11477,8 +12060,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "caust",
       "aut",
+      "caust",
       "-ous"
     ]
   },
@@ -11508,9 +12091,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
       "viv",
-      "au"
+      "au",
+      "-ty"
     ]
   },
   {
@@ -11602,9 +12185,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -11635,8 +12218,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ant",
-      "cent"
+      "cent",
+      "-ant"
     ]
   },
   {
@@ -11653,9 +12236,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
       "cent",
-      "grad"
+      "grad",
+      "ras",
+      "tact",
+      "-ad"
     ]
   },
   {
@@ -11688,8 +12273,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "centr",
-      "cent",
-      "-al"
+      "-al",
+      "cent"
     ]
   },
   {
@@ -11703,7 +12288,8 @@ export const cet6Words = [
     "rootIds": [
       "centr",
       "-ize",
-      "cent"
+      "cent",
+      "ali"
     ]
   },
   {
@@ -11783,7 +12369,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -11816,8 +12401,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "fac"
+      "fac",
+      "-ate"
     ]
   },
   {
@@ -12014,8 +12599,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
-      "act"
+      "act",
+      "-ize"
     ]
   },
   {
@@ -12212,7 +12797,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -12245,9 +12829,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mis",
       "-ist",
-      "mit"
+      "mis",
+      "mit",
+      "hem"
     ]
   },
   {
@@ -12296,9 +12881,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ish",
       "rid",
-      "her"
+      "her",
+      "-ish"
     ]
   },
   {
@@ -12521,8 +13106,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ist",
-      "rid"
+      "rid",
+      "-ist"
     ]
   },
   {
@@ -12539,8 +13124,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-an",
-      "rid"
+      "rid",
+      "-an"
     ]
   },
   {
@@ -12661,9 +13246,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "circu-",
       "-ate",
       "lat",
-      "circu-"
+      "fer"
     ]
   },
   {
@@ -12677,9 +13263,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "circu-",
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -12714,8 +13302,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sta",
       "circu-",
+      "sta",
       "-ance"
     ]
   },
@@ -12747,8 +13335,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -12798,8 +13384,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-an",
-      "civ"
+      "civ",
+      "-an"
     ]
   },
   {
@@ -12815,9 +13401,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "civ",
+      "-ization",
       "-ion",
-      "-ation",
-      "-ization"
+      "-ation"
     ]
   },
   {
@@ -12969,9 +13556,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "-faction",
+      "fac",
       "-ion",
-      "-ation",
-      "fac"
+      "-ation"
     ]
   },
   {
@@ -13334,9 +13922,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "co-",
-      "ali"
+      "ali",
+      "lit",
+      "-ion"
     ]
   },
   {
@@ -13378,8 +13967,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sta",
-      "-al"
+      "-al",
+      "sta"
     ]
   },
   {
@@ -13449,9 +14038,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "co-",
-      "her"
+      "her",
+      "-ant"
     ]
   },
   {
@@ -13497,9 +14086,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cis",
+      "co-",
       "cad",
-      "co-"
+      "cis"
     ]
   },
   {
@@ -13515,8 +14104,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cis",
       "cad",
+      "cis",
       "-ance"
     ]
   },
@@ -13533,9 +14122,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "col-",
       "labor",
-      "col-"
+      "-ate"
     ]
   },
   {
@@ -13549,9 +14138,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "labor"
+      "col-",
+      "labor",
+      "-ion"
     ]
   },
   {
@@ -13568,8 +14158,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "laps",
-      "col-"
+      "col-",
+      "laps"
     ]
   },
   {
@@ -13617,8 +14207,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ec",
+      "col-",
       "leg",
+      "ec",
       "lex"
     ]
   },
@@ -13636,9 +14227,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "col-",
       "ec",
-      "leg"
+      "leg",
+      "lex",
+      "-ion"
     ]
   },
   {
@@ -13653,9 +14246,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "col-",
       "ec",
       "leg",
-      "lex"
+      "lex",
+      "-ive"
     ]
   },
   {
@@ -13688,8 +14283,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "col-"
+      "col-",
+      "-ion"
     ]
   },
   {
@@ -13732,8 +14327,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ist",
-      "col-"
+      "col-",
+      "-ist"
     ]
   },
   {
@@ -13812,9 +14407,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "com-"
+      "com-",
+      "nat",
+      "-ion"
     ]
   },
   {
@@ -13844,8 +14440,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "com-"
+      "com-",
+      "-ion"
     ]
   },
   {
@@ -13877,7 +14473,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "fort",
       "com-",
       "fort"
     ]
@@ -13896,8 +14491,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fort",
       "com-",
+      "fort",
       "-able"
     ]
   },
@@ -13913,9 +14508,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "man",
       "com-",
-      "mand"
+      "mand",
+      "man"
     ]
   },
   {
@@ -13929,8 +14524,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "man",
       "com-",
+      "man",
       "mand"
     ]
   },
@@ -13980,8 +14575,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ment",
       "com-",
+      "ment",
+      "-ment",
       "-ant"
     ]
   },
@@ -13997,8 +14593,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "com-",
+      "ment",
       "-ary"
     ]
   },
@@ -14032,8 +14628,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "com-",
-      "mer",
-      "-al"
+      "-al",
+      "mer"
     ]
   },
   {
@@ -14050,9 +14646,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "com-",
+      "mit",
       "-ion",
-      "mis",
-      "com-"
+      "mis"
     ]
   },
   {
@@ -14087,8 +14684,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mit",
       "-ment",
       "com-",
+      "ment",
       "-ant"
     ]
   },
@@ -14106,9 +14705,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "com-",
       "mit",
-      "-ee"
+      "-ee",
+      "com-"
     ]
   },
   {
@@ -14124,8 +14723,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
-      "com-"
+      "com-",
+      "-ty"
     ]
   },
   {
@@ -14142,9 +14741,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mon",
-      "mon",
-      "com-"
+      "com-",
+      "mon"
     ]
   },
   {
@@ -14157,9 +14755,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "mon",
-      "mon",
-      "com-"
+      "com-",
+      "mon"
     ]
   },
   {
@@ -14175,9 +14772,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "com-",
       "mon",
-      "mon",
-      "com-"
+      "plac"
     ]
   },
   {
@@ -14191,9 +14788,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "com-",
       "mon",
-      "mon",
-      "com-"
+      "sens",
+      "sen"
     ]
   },
   {
@@ -14208,9 +14806,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "com-",
       "mon",
-      "mon",
-      "com-"
+      "alt"
     ]
   },
   {
@@ -14228,9 +14826,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "com-",
-      "uni"
+      "uni",
+      "-ate"
     ]
   },
   {
@@ -14248,9 +14846,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "com-"
+      "com-",
+      "uni",
+      "-ion"
     ]
   },
   {
@@ -14265,9 +14864,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "-ism",
       "com-",
-      "uni",
-      "-ism"
+      "uni"
     ]
   },
   {
@@ -14299,9 +14898,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "com-",
-      "uni"
+      "uni",
+      "-ty"
     ]
   },
   {
@@ -14354,9 +14953,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "com-",
-      "pan"
+      "pan",
+      "-ion"
     ]
   },
   {
@@ -14372,9 +14971,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "com-",
+      "par",
       "-able",
-      "par"
+      "com-",
+      "para"
     ]
   },
   {
@@ -14389,9 +14989,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "par",
       "com-",
-      "-ive",
-      "par"
+      "para",
+      "-ive"
     ]
   },
   {
@@ -14410,7 +15011,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "com-",
-      "par",
       "par"
     ]
   },
@@ -14441,8 +15041,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
       "com-",
+      "lit",
+      "-ty",
       "-ability"
     ]
   },
@@ -14459,8 +15060,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "com-",
-      "-able"
+      "-able",
+      "com-"
     ]
   },
   {
@@ -14492,8 +15093,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pel",
-      "com-"
+      "com-",
+      "pel"
     ]
   },
   {
@@ -14510,9 +15111,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "com-",
-      "pend"
+      "pend",
+      "-ate"
     ]
   },
   {
@@ -14527,9 +15128,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "com-",
+      "pend",
       "-ion",
-      "-ation",
-      "com-"
+      "-ation"
     ]
   },
   {
@@ -14562,8 +15164,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
       "com-",
+      "ten",
       "-ance"
     ]
   },
@@ -14579,9 +15181,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "com-",
       "tend",
       "ten",
-      "com-"
+      "-ant"
     ]
   },
   {
@@ -14599,8 +15202,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "com-"
+      "com-",
+      "-ion"
     ]
   },
   {
@@ -14693,8 +15296,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ment",
       "com-",
+      "-ment",
+      "ment",
       "-ant"
     ]
   },
@@ -14739,8 +15343,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
-      "com-"
+      "com-",
+      "-ion"
     ]
   },
   {
@@ -14757,9 +15361,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "lex",
       "com-",
-      "plic"
+      "plic",
+      "lex"
     ]
   },
   {
@@ -14772,9 +15376,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
+      "com-",
       "lex",
-      "com-"
+      "plic",
+      "-ty"
     ]
   },
   {
@@ -14790,9 +15395,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "com-",
-      "plic"
+      "plic",
+      "-ate"
     ]
   },
   {
@@ -14824,9 +15429,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "com-",
+      "plic",
       "-ion",
-      "-ation",
-      "com-"
+      "-ation"
     ]
   },
   {
@@ -14842,8 +15448,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ment",
       "com-",
+      "-ment",
+      "ment",
       "-ant"
     ]
   },
@@ -14880,8 +15487,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "com-",
-      "-ant",
-      "pos"
+      "pos",
+      "-ant"
     ]
   },
   {
@@ -14899,8 +15506,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "com-",
-      "-ose",
-      "pos"
+      "pos",
+      "-ose"
     ]
   },
   {
@@ -14928,9 +15535,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "pos",
       "-ite",
-      "com-",
-      "pos"
+      "com-"
     ]
   },
   {
@@ -14948,9 +15555,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "com-",
-      "pos"
+      "pos",
+      "-ion"
     ]
   },
   {
@@ -15000,9 +15607,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "com-",
-      "pris"
+      "pris",
+      "-ion"
     ]
   },
   {
@@ -15018,8 +15625,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "com-",
       "pris",
+      "com-",
       "-ive"
     ]
   },
@@ -15050,8 +15657,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "com-"
+      "com-",
+      "-ion"
     ]
   },
   {
@@ -15067,9 +15674,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ize",
+      "pris",
       "com-",
-      "pris"
+      "rid",
+      "-ize"
     ]
   },
   {
@@ -15087,9 +15695,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
+      "mit",
+      "com-",
       "mis",
-      "com-"
+      "-ize"
     ]
   },
   {
@@ -15106,8 +15715,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pel",
       "com-",
+      "pel",
       "-ory"
     ]
   },
@@ -15140,8 +15749,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ras",
       "com-",
+      "ras",
       "-ad"
     ]
   },
@@ -15208,8 +15817,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "-ive",
-      "cap"
+      "cap",
+      "-ive"
     ]
   },
   {
@@ -15226,9 +15835,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "con-",
       "centr",
       "-ate",
-      "con-"
+      "cent"
     ]
   },
   {
@@ -15240,8 +15850,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "centr",
       "con-",
+      "centr",
       "cent"
     ]
   },
@@ -15256,8 +15866,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
+      "con-",
       "centr",
+      "cent",
+      "-ion",
       "-ation"
     ]
   },
@@ -15274,9 +15886,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "apt",
+      "cap",
       "con-",
-      "cap"
+      "apt"
     ]
   },
   {
@@ -15291,9 +15903,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "con-",
       "apt",
-      "con-"
+      "cap",
+      "-ion"
     ]
   },
   {
@@ -15358,9 +15971,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "con-",
       "ced",
-      "-ion",
-      "con-"
+      "-ion"
     ]
   },
   {
@@ -15376,9 +15989,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
+      "cis",
       "con-",
-      "cis"
+      "-ize"
     ]
   },
   {
@@ -15395,8 +16008,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "lud",
-      "claus"
+      "claus",
+      "lud"
     ]
   },
   {
@@ -15412,8 +16025,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "con-",
+      "claus",
+      "-ion",
       "lud"
     ]
   },
@@ -15594,8 +16208,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fid",
       "con-",
+      "fid",
       "-ance"
     ]
   },
@@ -15613,9 +16227,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "dent",
+      "con-",
       "fid",
-      "con-"
+      "-ant",
+      "dent"
     ]
   },
   {
@@ -15632,9 +16247,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-al",
+      "con-",
       "dent",
-      "fid",
-      "con-"
+      "fid"
     ]
   },
   {
@@ -15649,9 +16265,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "fig",
+      "con-",
       "-ion",
-      "-ation",
-      "con-"
+      "-ation"
     ]
   },
   {
@@ -15702,9 +16319,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "firm",
+      "con-",
       "-ion",
-      "-ation",
-      "con-"
+      "-ation"
     ]
   },
   {
@@ -15739,8 +16357,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "form",
-      "con-"
+      "con-",
+      "form"
     ]
   },
   {
@@ -15757,6 +16375,7 @@ export const cet6Words = [
     "rootIds": [
       "form",
       "con-",
+      "mit",
       "-ty"
     ]
   },
@@ -15786,9 +16405,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "con-",
+      "ont",
       "-ion",
-      "-ation",
-      "con-"
+      "-ation"
     ]
   },
   {
@@ -15822,9 +16442,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "con-",
-      "fus"
+      "fus",
+      "-ion"
     ]
   },
   {
@@ -15852,9 +16472,11 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ate",
       "con-",
-      "lat"
+      "grat",
+      "lat",
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -15870,9 +16492,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "-ation",
-      "con-"
+      "con-",
+      "lat",
+      "grat",
+      "fer",
+      "-ion"
     ]
   },
   {
@@ -15888,8 +16512,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "gress",
-      "con-"
+      "con-",
+      "gress"
     ]
   },
   {
@@ -15906,9 +16530,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "con-",
-      "junct"
+      "junct",
+      "-ion"
     ]
   },
   {
@@ -15925,8 +16549,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
-      "con-"
+      "con-",
+      "ec"
     ]
   },
   {
@@ -15942,9 +16566,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "con-",
       "ec",
-      "con-"
+      "-ion"
     ]
   },
   {
@@ -16029,8 +16653,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "con-",
       "sci",
+      "con-",
       "-ous"
     ]
   },
@@ -16045,9 +16669,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "-ness",
       "con-",
-      "sci",
-      "-ness"
+      "sci"
     ]
   },
   {
@@ -16062,9 +16686,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "sequi",
       "con-",
-      "-ive",
-      "sequi"
+      "-ive"
     ]
   },
   {
@@ -16099,9 +16723,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sens",
       "con-",
-      "-ant",
-      "sens"
+      "sen",
+      "-ant"
     ]
   },
   {
@@ -16120,8 +16745,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "equ",
-      "sequi"
+      "sequi",
+      "-ance",
+      "equ"
     ]
   },
   {
@@ -16136,6 +16762,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
+      "sequi",
       "-ant",
       "equ"
     ]
@@ -16171,9 +16798,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "con-",
+      "serv",
       "-ion",
-      "-ation",
-      "serv"
+      "-ation"
     ]
   },
   {
@@ -16191,9 +16819,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "serv",
       "con-",
-      "serv"
+      "serv",
+      "-ive"
     ]
   },
   {
@@ -16211,8 +16839,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "serv",
-      "con-",
-      "serv"
+      "con-"
     ]
   },
   {
@@ -16229,8 +16856,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "sed",
-      "con-"
+      "con-",
+      "sed"
     ]
   },
   {
@@ -16247,8 +16874,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sed",
       "con-",
+      "sed",
       "-able"
     ]
   },
@@ -16266,9 +16893,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
+      "con-",
       "sed",
-      "con-"
+      "-ate"
     ]
   },
   {
@@ -16284,8 +16911,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "con-",
       "sed",
+      "-ion",
       "-ation"
     ]
   },
@@ -16303,9 +16931,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ist",
+      "sist",
       "con-",
-      "sist"
+      "-ist"
     ]
   },
   {
@@ -16322,9 +16950,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "con-",
       "tend",
       "ten",
-      "con-"
+      "sist",
+      "-ant"
     ]
   },
   {
@@ -16337,9 +16967,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "con-",
       "tend",
       "ten",
-      "con-"
+      "sist"
     ]
   },
   {
@@ -16356,7 +16987,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "sol",
       "sol"
     ]
   },
@@ -16373,9 +17003,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "con-",
       "don",
-      "con-"
+      "sol",
+      "-ate"
     ]
   },
   {
@@ -16391,8 +17022,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "con-",
       "spect",
+      "con-",
       "-ous"
     ]
   },
@@ -16412,8 +17043,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "-ant",
-      "sta"
+      "sta",
+      "-ant"
     ]
   },
   {
@@ -16464,8 +17095,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "con-"
+      "con-",
+      "-ion"
     ]
   },
   {
@@ -16481,8 +17112,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "strict",
-      "con-"
+      "con-",
+      "strict"
     ]
   },
   {
@@ -16496,8 +17127,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "strict",
-      "con-"
+      "con-",
+      "strict"
     ]
   },
   {
@@ -16532,9 +17163,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "con-",
-      "struct"
+      "struct",
+      "-ion"
     ]
   },
   {
@@ -16593,8 +17224,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "con-",
-      "-ant"
+      "-ant",
+      "con-"
     ]
   },
   {
@@ -16626,6 +17257,7 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-er",
       "con-",
       "sum",
       "mer"
@@ -16644,9 +17276,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "con-",
-      "sum"
+      "sum",
+      "-ion"
     ]
   },
   {
@@ -16664,6 +17296,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
+      "tact",
       "ont",
       "act"
     ]
@@ -16682,8 +17315,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
       "con-",
+      "ten",
       "ont"
     ]
   },
@@ -16701,8 +17334,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ten",
       "con-",
+      "ten",
+      "-er",
       "ont"
     ]
   },
@@ -16719,9 +17353,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "con-",
-      "nat"
+      "nat",
+      "min",
+      "ont",
+      "-ate"
     ]
   },
   {
@@ -16734,9 +17370,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "-ation",
-      "con-"
+      "con-",
+      "nat",
+      "min",
+      "ont",
+      "-ion"
     ]
   },
   {
@@ -16752,9 +17390,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "con-",
-      "lat"
+      "lat",
+      "temp",
+      "ont",
+      "fer"
     ]
   },
   {
@@ -16771,9 +17411,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "con-",
+      "temp",
       "-ary",
-      "temp"
+      "con-",
+      "ont"
     ]
   },
   {
@@ -16808,7 +17449,8 @@ export const cet6Words = [
     "rootIds": [
       "con-",
       "temp",
-      "ont"
+      "ont",
+      "-ous"
     ]
   },
   {
@@ -16825,8 +17467,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "tend",
+      "con-",
       "ten",
-      "con-"
+      "ont"
     ]
   },
   {
@@ -16844,9 +17487,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "tend",
       "ten",
-      "con-"
+      "con-",
+      "tend",
+      "ont",
+      "-ant"
     ]
   },
   {
@@ -16880,8 +17525,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "ont",
-      "text"
+      "text",
+      "ont"
     ]
   },
   {
@@ -16899,8 +17544,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ten",
+      "-ant",
       "con-",
-      "-ant"
+      "ont"
     ]
   },
   {
@@ -16913,8 +17559,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ten",
+      "-al",
       "con-",
+      "ten",
       "ont"
     ]
   },
@@ -16931,6 +17578,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ten",
+      "-al",
       "con-",
       "ont"
     ]
@@ -16948,8 +17596,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ten",
       "con-",
+      "ten",
       "ont"
     ]
   },
@@ -16967,7 +17615,8 @@ export const cet6Words = [
     "rootIds": [
       "ten",
       "con-",
-      "ont"
+      "ont",
+      "-ous"
     ]
   },
   {
@@ -16986,7 +17635,9 @@ export const cet6Words = [
     "rootIds": [
       "tract",
       "con-",
-      "ont"
+      "counter-",
+      "ont",
+      "act"
     ]
   },
   {
@@ -17003,8 +17654,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
+      "counter-",
+      "dic",
       "con-",
+      "ras",
       "radic"
     ]
   },
@@ -17020,9 +17673,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "counter-",
+      "dic",
+      "con-",
       "ras",
-      "con-"
+      "radic"
     ]
   },
   {
@@ -17037,8 +17692,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
+      "dic",
       "con-",
+      "counter-",
+      "ras",
       "radic"
     ]
   },
@@ -17055,9 +17712,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "counter-",
       "con-",
-      "-ary",
-      "ont"
+      "ont",
+      "-ary"
     ]
   },
   {
@@ -17074,8 +17732,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
       "con-",
+      "counter-",
+      "ras",
       "ont"
     ]
   },
@@ -17093,9 +17752,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "con-",
       "trib",
-      "ont"
+      "con-",
+      "ont",
+      "tri"
     ]
   },
   {
@@ -17112,8 +17772,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "con-",
-      "-ive",
-      "ont"
+      "ont",
+      "tri",
+      "-ive"
     ]
   },
   {
@@ -17145,9 +17806,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "vers",
+      "-al",
       "con-",
       "ver",
-      "vers"
+      "ont"
     ]
   },
   {
@@ -17162,9 +17825,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "vers",
       "con-",
       "ver",
-      "vers"
+      "ont"
     ]
   },
   {
@@ -17179,8 +17843,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "con-",
-      "veni"
+      "veni",
+      "con-"
     ]
   },
   {
@@ -17235,9 +17899,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "veni",
       "con-",
-      "veni"
+      "-ion"
     ]
   },
   {
@@ -17254,9 +17918,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "con-",
       "veni",
-      "-al"
+      "-al",
+      "con-"
     ]
   },
   {
@@ -17287,9 +17951,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "vers",
       "con-",
-      "ver",
-      "vers"
+      "ver"
     ]
   },
   {
@@ -17322,9 +17986,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "con-",
-      "ver"
+      "ver",
+      "vers",
+      "-ion"
     ]
   },
   {
@@ -17341,9 +18006,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "vers",
       "con-",
-      "ver",
-      "vers"
+      "ver"
     ]
   },
   {
@@ -17377,8 +18042,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "vinc",
       "con-",
+      "vinc",
       "vic"
     ]
   },
@@ -17395,9 +18060,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "con-",
       "vinc",
-      "con-"
+      "vic",
+      "-ion"
     ]
   },
   {
@@ -17415,8 +18081,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "vinc",
       "con-",
+      "vinc",
       "vin"
     ]
   },
@@ -17430,8 +18096,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "vinc",
       "con-",
+      "vinc",
       "vin"
     ]
   },
@@ -17449,8 +18115,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "co-"
+      "co-",
+      "-ate"
     ]
   },
   {
@@ -17482,9 +18148,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ord",
       "-ate",
-      "nat",
-      "ord"
+      "nat"
     ]
   },
   {
@@ -17526,9 +18192,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "cor-",
       "cor",
       "cur",
-      "cor-"
+      "ord"
     ]
   },
   {
@@ -17546,8 +18213,10 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cor",
+      "cor-",
       "cur",
-      "cor-"
+      "ord",
+      "-al"
     ]
   },
   {
@@ -17563,9 +18232,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "cor-",
       "cor",
-      "cur",
-      "cor-"
+      "cur"
     ]
   },
   {
@@ -17581,9 +18250,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "cor-",
       "cor",
-      "cur",
-      "cor-"
+      "cur"
     ]
   },
   {
@@ -17597,9 +18266,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "corp",
+      "cor-",
       "cor",
-      "cur"
+      "cur",
+      "-ate"
     ]
   },
   {
@@ -17615,9 +18286,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "-ation",
-      "cor"
+      "corp",
+      "cor-",
+      "cor",
+      "cur",
+      "-ion"
     ]
   },
   {
@@ -17631,9 +18304,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "corp",
+      "cor-",
       "cor",
-      "cur",
-      "cor-"
+      "cur"
     ]
   },
   {
@@ -17647,9 +18321,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
+      "cor-",
       "ec",
-      "cor"
+      "cor",
+      "cur",
+      "reg"
     ]
   },
   {
@@ -17661,9 +18337,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "cor-",
       "ec",
       "cor",
-      "cur"
+      "cur",
+      "reg"
     ]
   },
   {
@@ -17678,9 +18356,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
+      "cor-",
+      "fer",
       "cor",
-      "lat"
+      "lat",
+      "cur"
     ]
   },
   {
@@ -17692,9 +18372,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
-      "-ation",
-      "cor"
+      "cor-",
+      "cor",
+      "lat",
+      "cur",
+      "fer"
     ]
   },
   {
@@ -17711,6 +18393,7 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "cor-",
       "cor",
       "cur",
       "pos"
@@ -17728,9 +18411,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "cor-",
       "cor",
       "cur",
-      "pos"
+      "pos",
+      "-ance"
     ]
   },
   {
@@ -17746,9 +18431,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "cor-",
       "dent",
       "cor",
-      "cur"
+      "cur",
+      "pos"
     ]
   },
   {
@@ -17764,6 +18451,7 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "cor-",
       "cor",
       "cur",
       "pos"
@@ -17781,8 +18469,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "cor",
       "cur",
+      "cor-",
+      "cor",
       "rid"
     ]
   },
@@ -17799,9 +18488,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "cor-",
       "cor",
-      "cur",
-      "cor-"
+      "cur"
     ]
   },
   {
@@ -17814,9 +18503,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "cor-",
       "cor",
-      "cur"
+      "cur",
+      "-ion"
     ]
   },
   {
@@ -17832,9 +18522,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "cor-",
+      "rupt",
       "cor",
-      "cur",
-      "rupt"
+      "cur"
     ]
   },
   {
@@ -17999,8 +18690,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "act",
-      "counter-"
+      "counter-",
+      "act"
     ]
   },
   {
@@ -18016,9 +18707,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "par",
-      "par",
-      "counter-"
+      "counter-",
+      "par"
     ]
   },
   {
@@ -18047,8 +18737,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cor",
-      "cur",
-      "-age"
+      "-age",
+      "cur"
     ]
   },
   {
@@ -18062,7 +18752,8 @@ export const cet6Words = [
     "rootIds": [
       "cor",
       "cur",
-      "geo"
+      "geo",
+      "-ous"
     ]
   },
   {
@@ -18079,8 +18770,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cor",
-      "cur"
+      "cur",
+      "cor"
     ]
   },
   {
@@ -18457,8 +19148,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "min",
-      "-al"
+      "-al",
+      "min"
     ]
   },
   {
@@ -18588,9 +19279,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "cis",
       "-ism",
-      "-ism"
+      "cis"
     ]
   },
   {
@@ -18882,9 +19572,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
       "nat",
-      "min"
+      "min",
+      "-ate"
     ]
   },
   {
@@ -18932,9 +19622,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "cumul",
       "lat",
-      "-ive",
-      "cumul"
+      "fer",
+      "-ive"
     ]
   },
   {
@@ -18977,7 +19668,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "cur",
       "-ive"
     ]
   },
@@ -18995,8 +19685,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "urb",
-      "cur"
+      "urb"
     ]
   },
   {
@@ -19014,8 +19703,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "-ure",
-      "cur"
+      "-ure"
     ]
   },
   {
@@ -19031,8 +19719,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "-ty",
-      "cur"
+      "-osity",
+      "-ty"
     ]
   },
   {
@@ -19049,7 +19737,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "cur",
       "-ous"
     ]
   },
@@ -19065,7 +19752,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -19080,7 +19766,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-y",
-      "cur",
       "cur"
     ]
   },
@@ -19097,7 +19782,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cur",
       "cur",
       "-ance"
     ]
@@ -19116,7 +19800,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "cur",
       "-ant"
     ]
   },
@@ -19130,7 +19813,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -19149,7 +19831,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "cur",
       "luc"
     ]
   },
@@ -19165,7 +19846,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -19180,7 +19860,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -19198,7 +19877,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ten",
-      "cur",
       "cur"
     ]
   },
@@ -19215,7 +19893,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -19563,8 +20240,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "deb",
       "de-",
+      "deb",
+      "bat",
       "-ate"
     ]
   },
@@ -19598,9 +20276,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cad",
       "deca",
-      "-ad"
+      "-ad",
+      "cad"
     ]
   },
   {
@@ -19651,8 +20329,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "de-",
-      "-ive",
-      "cap"
+      "cap",
+      "deca",
+      "-ive"
     ]
   },
   {
@@ -19669,9 +20348,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "cent",
-      "deca"
+      "deca",
+      "-ant"
     ]
   },
   {
@@ -19684,9 +20363,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "cap",
       "apt",
-      "-ive",
-      "cap"
+      "deca",
+      "-ive"
     ]
   },
   {
@@ -19715,8 +20395,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mal",
-      "deca"
+      "deca",
+      "mal"
     ]
   },
   {
@@ -19733,9 +20413,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "de-",
-      "cis"
+      "cis",
+      "deca",
+      "-ion"
     ]
   },
   {
@@ -19749,8 +20430,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cis",
-      "-ive",
-      "deca"
+      "deca",
+      "-ive"
     ]
   },
   {
@@ -19781,9 +20462,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "deca",
       "-ion",
-      "-ation",
-      "deca"
+      "-ation"
     ]
   },
   {
@@ -19819,8 +20500,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "de-",
-      "deca",
-      "clin"
+      "clin",
+      "deca"
     ]
   },
   {
@@ -19836,9 +20517,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ose",
       "pos",
-      "deca"
+      "deca",
+      "eco",
+      "-ose"
     ]
   },
   {
@@ -19856,9 +20538,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "cor",
-      "cur"
+      "cur",
+      "deca",
+      "eco",
+      "-ate"
     ]
   },
   {
@@ -19873,6 +20557,8 @@ export const cet6Words = [
     "rootIds": [
       "cor",
       "cur",
+      "deca",
+      "eco",
       "-ive"
     ]
   },
@@ -19920,8 +20606,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "dic"
+      "dic",
+      "-ate"
     ]
   },
   {
@@ -20112,8 +20798,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-al",
-      "fer"
+      "fer",
+      "-al"
     ]
   },
   {
@@ -20129,8 +20815,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fac",
-      "-ance"
+      "-ance",
+      "fac"
     ]
   },
   {
@@ -20191,9 +20877,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "fin",
       "-ite",
-      "init",
-      "fin"
+      "init"
     ]
   },
   {
@@ -20225,9 +20911,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "init",
-      "fin"
+      "fin",
+      "-ion"
     ]
   },
   {
@@ -20242,6 +20928,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "flect",
       "ec",
       "leg",
       "lex"
@@ -20256,9 +20943,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "ec",
-      "leg"
+      "leg",
+      "lex",
+      "flect",
+      "-ion"
     ]
   },
   {
@@ -20272,8 +20961,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "form",
-      "de-"
+      "de-",
+      "form"
     ]
   },
   {
@@ -20286,8 +20975,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "form",
+      "-ion",
       "-ation"
     ]
   },
@@ -20320,8 +21009,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "gen"
+      "gen",
+      "-ate"
     ]
   },
   {
@@ -20335,8 +21024,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "ras",
+      "don",
+      "grad",
+      "-ion",
       "-ation"
     ]
   },
@@ -20352,8 +21043,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "de-",
+      "grad",
       "ras",
-      "grad"
+      "-ad"
     ]
   },
   {
@@ -20400,9 +21092,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "leg",
-      "leg"
+      "-ate"
     ]
   },
   {
@@ -20415,9 +21106,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "leg",
       "-ion",
-      "-ation",
-      "leg"
+      "-ation"
     ]
   },
   {
@@ -20434,9 +21125,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "libra",
       "-ate",
-      "liber",
-      "libra"
+      "liber"
     ]
   },
   {
@@ -20525,8 +21216,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "lud"
+      "lud",
+      "-ion"
     ]
   },
   {
@@ -20542,9 +21233,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "mand",
       "man",
-      "dem",
-      "mand"
+      "dem"
     ]
   },
   {
@@ -20576,8 +21267,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "crat",
-      "dem",
-      "-ic"
+      "-ic",
+      "dem"
     ]
   },
   {
@@ -20609,9 +21300,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "mon",
-      "mon"
+      "dem",
+      "-ate"
     ]
   },
   {
@@ -20625,7 +21316,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-al",
       "-al"
     ]
   },
@@ -20735,7 +21425,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -20754,6 +21443,7 @@ export const cet6Words = [
     "rootIds": [
       "-ment",
       "par",
+      "ment",
       "-ant"
     ]
   },
@@ -20770,9 +21460,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ure",
       "par",
-      "par"
+      "-ure"
     ]
   },
   {
@@ -20801,8 +21490,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ant",
-      "pend"
+      "pend",
+      "-ant"
     ]
   },
   {
@@ -20818,9 +21507,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "dent",
+      "pend",
       "-ant",
-      "pend"
+      "dent"
     ]
   },
   {
@@ -20857,9 +21546,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "port",
       "-ion",
-      "-ation",
-      "port"
+      "-ation"
     ]
   },
   {
@@ -20891,8 +21580,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "pos"
+      "pos",
+      "-ion"
     ]
   },
   {
@@ -21035,8 +21724,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "scen"
+      "scen",
+      "-ant"
     ]
   },
   {
@@ -21052,8 +21741,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
+      "scen",
       "cent",
+      "-ant",
       "-escent"
     ]
   },
@@ -21087,9 +21777,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "de-",
-      "scrib"
+      "scrib",
+      "-ion"
     ]
   },
   {
@@ -21122,7 +21812,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "serv",
       "serv"
     ]
   },
@@ -21157,8 +21846,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "de-",
-      "-ate",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -21206,9 +21895,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "sol",
       "lat",
-      "sol"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -21283,8 +21973,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "de-",
-      "-ize",
-      "spect"
+      "spect",
+      "-ize"
     ]
   },
   {
@@ -21298,8 +21988,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -21330,9 +22018,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ten",
+      "nat",
       "-ion",
-      "-ation",
-      "ten"
+      "-ation"
     ]
   },
   {
@@ -21391,8 +22080,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "struct"
+      "struct",
+      "-ion"
     ]
   },
   {
@@ -21470,8 +22159,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
-      "de-"
+      "de-",
+      "ec"
     ]
   },
   {
@@ -21485,8 +22174,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "ec"
+      "ec",
+      "-ion"
     ]
   },
   {
@@ -21549,9 +22238,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "term",
+      "nat",
+      "min",
       "-ion",
-      "-ation",
-      "term"
+      "-ation"
     ]
   },
   {
@@ -21584,8 +22275,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "via"
+      "via",
+      "-ate"
     ]
   },
   {
@@ -21598,9 +22289,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "via",
       "-ion",
-      "-ation",
-      "via"
+      "-ation"
     ]
   },
   {
@@ -21715,9 +22406,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "dia-",
       "gnos",
-      "-ose",
-      "dia-"
+      "-ose"
     ]
   },
   {
@@ -21729,8 +22420,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "gnos",
-      "dia-"
+      "dia-",
+      "gnos"
     ]
   },
   {
@@ -21748,9 +22439,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "gram",
       "dia-",
-      "ram"
+      "gram",
+      "ram",
+      "agr"
     ]
   },
   {
@@ -21766,8 +22458,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-al",
-      "dia-"
+      "dia-",
+      "-al"
     ]
   },
   {
@@ -21784,9 +22476,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "dia-",
+      "lex",
       "ec",
-      "leg",
-      "lex"
+      "leg"
     ]
   },
   {
@@ -21800,8 +22493,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "log",
-      "dia-"
+      "dia-",
+      "log"
     ]
   },
   {
@@ -21834,9 +22527,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "mon",
-      "mon",
-      "dia-"
+      "dia-",
+      "mon"
     ]
   },
   {
@@ -21853,9 +22545,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "di"
+      "di",
+      "dia-",
+      "-ary"
     ]
   },
   {
@@ -21872,8 +22564,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "dic"
+      "dic",
+      "-ate"
     ]
   },
   {
@@ -21889,9 +22581,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "dic",
       "-ion",
-      "-ation",
-      "dic"
+      "-ation"
     ]
   },
   {
@@ -22059,8 +22751,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "-ant",
-      "gen"
+      "gen",
+      "-ant"
     ]
   },
   {
@@ -22214,9 +22906,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
+      "di-",
       "reg",
-      "di-"
+      "ec"
     ]
   },
   {
@@ -22232,9 +22924,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "di-",
+      "reg",
       "-ion",
-      "ec",
-      "reg"
+      "ec"
     ]
   },
   {
@@ -22266,9 +22959,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
+      "di-",
       "reg",
-      "di-"
+      "-er",
+      "ec"
     ]
   },
   {
@@ -22300,8 +22994,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
-      "dis-"
+      "dis-",
+      "-able"
     ]
   },
   {
@@ -22346,9 +23040,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "dis-",
+      "ment",
+      "agr",
       "-ment",
-      "-ant",
-      "dis-"
+      "-ant"
     ]
   },
   {
@@ -22404,9 +23100,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-al",
+      "dis-",
       "prob",
-      "dis-"
+      "-al",
+      "val"
     ]
   },
   {
@@ -22424,8 +23121,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dis-",
-      "astr"
+      "astr",
+      "dis-"
     ]
   },
   {
@@ -22508,8 +23205,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cap",
       "dis-",
+      "cap",
       "sci"
     ]
   },
@@ -22526,9 +23223,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ose",
       "claus",
-      "dis-"
+      "dis-",
+      "-ose"
     ]
   },
   {
@@ -22541,6 +23238,7 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "dis-",
       "tend",
       "ten",
       "ont"
@@ -22578,8 +23276,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cor",
+      "dis-",
       "cur",
-      "dis-"
+      "-age"
     ]
   },
   {
@@ -22594,9 +23293,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cor",
       "cur",
-      "dis-"
+      "dis-",
+      "cor"
     ]
   },
   {
@@ -22612,8 +23311,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ver",
-      "dis-"
+      "dis-",
+      "ver"
     ]
   },
   {
@@ -22630,8 +23329,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ver",
-      "dis-"
+      "dis-",
+      "ver"
     ]
   },
   {
@@ -22646,8 +23345,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dis-",
       "-ance",
+      "dis-",
       "pan"
     ]
   },
@@ -22679,9 +23378,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "nat"
+      "dis-",
+      "nat",
+      "min",
+      "-ion"
     ]
   },
   {
@@ -22697,8 +23398,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "dis-"
+      "dis-",
+      "-ion"
     ]
   },
   {
@@ -22745,8 +23446,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
-      "dis-"
+      "dis-",
+      "-ize"
     ]
   },
   {
@@ -22790,9 +23491,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "lud",
-      "dis-"
+      "dis-",
+      "-ion"
     ]
   },
   {
@@ -22804,8 +23505,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "lud",
-      "dis-"
+      "dis-",
+      "lud"
     ]
   },
   {
@@ -22833,8 +23534,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-like",
-      "dis-"
+      "dis-",
+      "-like"
     ]
   },
   {
@@ -22868,9 +23569,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mis",
       "mit",
-      "dis-"
+      "dis-",
+      "mis"
     ]
   },
   {
@@ -22911,8 +23612,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ant",
-      "dis-"
+      "dis-",
+      "-ant"
     ]
   },
   {
@@ -22988,9 +23689,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "dis-",
+      "plac",
+      "ment",
       "-ment",
-      "-ant",
-      "dis-"
+      "-ant"
     ]
   },
   {
@@ -23006,8 +23709,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "plic",
-      "dis-"
+      "dis-",
+      "plic"
     ]
   },
   {
@@ -23037,9 +23740,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-al",
+      "dis-",
       "pos",
-      "dis-"
+      "-al"
     ]
   },
   {
@@ -23056,9 +23759,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ose",
+      "dis-",
       "pos",
-      "dis-"
+      "-ose"
     ]
   },
   {
@@ -23074,9 +23777,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "dis-",
       "pos",
-      "dis-"
+      "-ion"
     ]
   },
   {
@@ -23089,9 +23792,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
+      "dis-",
       "port",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -23125,8 +23829,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "reg",
-      "dis-"
+      "dis-",
+      "reg"
     ]
   },
   {
@@ -23156,9 +23860,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
       "dis-",
-      "rupt"
+      "rupt",
+      "-ive"
     ]
   },
   {
@@ -23170,9 +23874,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
+      "dis-",
       "fac",
-      "act"
+      "act",
+      "-ion",
+      "-faction"
     ]
   },
   {
@@ -23197,7 +23903,7 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "serv",
+      "dis-",
       "serv",
       "vic"
     ]
@@ -23215,8 +23921,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "dis-"
+      "dis-",
+      "-ate"
     ]
   },
   {
@@ -23233,8 +23939,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "solv",
       "dis-",
+      "solv",
       "sol"
     ]
   },
@@ -23272,9 +23978,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "dis-",
-      "sta"
+      "sta",
+      "-ant"
     ]
   },
   {
@@ -23304,8 +24010,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
-      "dis-"
+      "dis-",
+      "ten"
     ]
   },
   {
@@ -23323,9 +24029,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "dis-",
       "ten",
-      "dis-"
+      "-ion"
     ]
   },
   {
@@ -23339,9 +24045,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "dis-",
       "ten",
-      "-ive",
-      "dis-"
+      "-ive"
     ]
   },
   {
@@ -23354,8 +24060,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ten",
-      "dis-"
+      "dis-",
+      "ten"
     ]
   },
   {
@@ -23372,8 +24078,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ten",
       "dis-",
+      "ten",
+      "tact",
       "-ish"
     ]
   },
@@ -23390,8 +24097,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "tort",
-      "dis-"
+      "dis-",
+      "tort"
     ]
   },
   {
@@ -23404,9 +24111,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "dis-",
       "tort",
-      "dis-"
+      "-ion"
     ]
   },
   {
@@ -23423,8 +24130,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "tract",
-      "act",
-      "dis-"
+      "dis-",
+      "act"
     ]
   },
   {
@@ -23459,8 +24166,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "trib",
       "dis-",
+      "trib",
       "tri"
     ]
   },
@@ -23476,9 +24183,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "dis-",
       "trib",
-      "dis-"
+      "tri",
+      "-ion"
     ]
   },
   {
@@ -23495,8 +24203,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "strict",
       "dis-",
+      "strict",
       "tri"
     ]
   },
@@ -23515,9 +24223,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "dis-",
       "turb",
-      "urb",
-      "dis-"
+      "urb"
     ]
   },
   {
@@ -23533,8 +24241,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "turb",
-      "urb",
-      "dis-"
+      "-ance",
+      "dis-",
+      "urb"
     ]
   },
   {
@@ -23598,8 +24307,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -23612,9 +24321,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ver",
       "vers",
-      "-fy"
+      "-fy",
+      "ver"
     ]
   },
   {
@@ -23629,9 +24338,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "vers",
       "ver",
-      "vers"
+      "-ion"
     ]
   },
   {
@@ -23647,9 +24356,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
+      "di-",
       "vers",
-      "di-"
+      "ver"
     ]
   },
   {
@@ -23680,9 +24389,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "divid",
       "vid",
-      "divid"
+      "-ion"
     ]
   },
   {
@@ -23699,8 +24408,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "vor",
-      "vers"
+      "vers",
+      "vor"
     ]
   },
   {
@@ -23766,6 +24475,7 @@ export const cet6Words = [
     "rootIds": [
       "doc",
       "-ment",
+      "ment",
       "-ant"
     ]
   },
@@ -23781,7 +24491,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "doc",
-      "-ary",
+      "ment",
       "-ary"
     ]
   },
@@ -23799,8 +24509,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "dom",
-      "man",
-      "dom"
+      "man"
     ]
   },
   {
@@ -23815,7 +24524,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dom",
       "dom"
     ]
   },
@@ -23833,8 +24541,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "dom",
-      "-ic",
-      "dom"
+      "-ic"
     ]
   },
   {
@@ -23871,7 +24578,8 @@ export const cet6Words = [
     "rootIds": [
       "dom",
       "-ate",
-      "nat"
+      "nat",
+      "min"
     ]
   },
   {
@@ -23887,8 +24595,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "don",
+      "-ate",
       "nat"
     ]
   },
@@ -23963,7 +24671,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ose",
       "-ose"
     ]
   },
@@ -23994,7 +24701,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -24150,8 +24856,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "am",
       "-ic",
+      "am",
       "ram"
     ]
   },
@@ -24240,7 +24946,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -24511,8 +25216,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "du",
-      "-ate",
-      "plic"
+      "plic",
+      "-ate"
     ]
   },
   {
@@ -24817,7 +25522,9 @@ export const cet6Words = [
     "rootIds": [
       "centr",
       "ec",
-      "cent"
+      "-ic",
+      "cent",
+      "tri"
     ]
   },
   {
@@ -24862,9 +25569,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "log",
+      "eco",
       "-logy",
-      "eco"
+      "log"
     ]
   },
   {
@@ -24880,9 +25587,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "nom",
-      "nom",
-      "-ic"
+      "eco",
+      "-ic",
+      "nom"
     ]
   },
   {
@@ -24899,9 +25606,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "nom",
       "-al",
-      "nom"
+      "nom",
+      "eco"
     ]
   },
   {
@@ -24915,7 +25622,7 @@ export const cet6Words = [
     "rootIds": [
       "nom",
       "allo",
-      "nom"
+      "eco"
     ]
   },
   {
@@ -24931,9 +25638,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ics",
       "nom",
-      "nom"
+      "eco",
+      "-ics"
     ]
   },
   {
@@ -24948,7 +25655,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "nom",
       "nom",
       "eco"
     ]
@@ -25068,9 +25774,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "ef-",
-      "fac"
+      "fac",
+      "ec"
     ]
   },
   {
@@ -25103,8 +25809,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "fac",
-      "-ance"
+      "-ance",
+      "fac"
     ]
   },
   {
@@ -25138,7 +25844,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "fort",
       "ef-",
       "fort"
     ]
@@ -25183,9 +25888,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "e-",
-      "ject"
+      "ject",
+      "ec"
     ]
   },
   {
@@ -25202,9 +25907,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "e-",
-      "labor"
+      "labor",
+      "-ate"
     ]
   },
   {
@@ -25261,9 +25966,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "leg",
       "ec",
-      "leg"
+      "lex",
+      "-ion"
     ]
   },
   {
@@ -25281,7 +25987,9 @@ export const cet6Words = [
     "rootIds": [
       "electr",
       "ec",
-      "leg"
+      "leg",
+      "lex",
+      "tri"
     ]
   },
   {
@@ -25297,9 +26005,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-al",
       "electr",
       "ec",
-      "leg"
+      "leg",
+      "lex"
     ]
   },
   {
@@ -25313,9 +26023,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ician",
       "electr",
-      "ec"
+      "ec",
+      "leg",
+      "lex",
+      "tri"
     ]
   },
   {
@@ -25333,7 +26045,9 @@ export const cet6Words = [
     "rootIds": [
       "electr",
       "ec",
-      "leg"
+      "leg",
+      "lex",
+      "tri"
     ]
   },
   {
@@ -25347,7 +26061,8 @@ export const cet6Words = [
     "rootIds": [
       "electr",
       "ec",
-      "leg"
+      "leg",
+      "lex"
     ]
   },
   {
@@ -25364,7 +26079,8 @@ export const cet6Words = [
     "rootIds": [
       "electr",
       "ec",
-      "leg"
+      "leg",
+      "lex"
     ]
   },
   {
@@ -25382,7 +26098,8 @@ export const cet6Words = [
     "rootIds": [
       "electr",
       "ec",
-      "leg"
+      "leg",
+      "lex"
     ]
   },
   {
@@ -25396,9 +26113,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-ics",
       "electr",
       "ec",
-      "-ics"
+      "leg",
+      "lex"
     ]
   },
   {
@@ -25415,7 +26134,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "leg",
       "-ant"
     ]
   },
@@ -25431,9 +26149,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -25462,7 +26180,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "-ary",
       "ment"
     ]
@@ -25509,8 +26226,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "-ation"
+      "-ation",
+      "-ion"
     ]
   },
   {
@@ -25557,8 +26274,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "leg",
       "e-",
+      "leg",
       "-able"
     ]
   },
@@ -25576,9 +26293,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "nat",
-      "min"
+      "min",
+      "-ate"
     ]
   },
   {
@@ -25592,9 +26309,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "nat",
+      "min",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -25610,9 +26328,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
       "e-",
-      "lith"
+      "-ite",
+      "lith",
+      "lit"
     ]
   },
   {
@@ -25658,8 +26377,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "e-",
-      "-ant",
-      "loqu"
+      "loqu",
+      "-ant"
     ]
   },
   {
@@ -25688,8 +26407,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "bar",
-      "en-"
+      "en-",
+      "bar"
     ]
   },
   {
@@ -25707,9 +26426,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "en-",
       "ras",
-      "bar",
-      "en-"
+      "bar"
     ]
   },
   {
@@ -25784,7 +26503,8 @@ export const cet6Words = [
     "rootIds": [
       "e-",
       "merge",
-      "mer"
+      "mer",
+      "erg"
     ]
   },
   {
@@ -25803,7 +26523,9 @@ export const cet6Words = [
     "rootIds": [
       "e-",
       "merge",
-      "gen"
+      "-ance",
+      "gen",
+      "mer"
     ]
   },
   {
@@ -25819,8 +26541,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "e-",
+      "-ate",
       "grat"
     ]
   },
@@ -25834,9 +26556,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "mit",
       "mis",
-      "mit"
+      "-ion"
     ]
   },
   {
@@ -25870,8 +26592,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "mob"
+      "mob",
+      "-ion"
     ]
   },
   {
@@ -25885,8 +26607,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "mob",
-      "-al"
+      "-al",
+      "mob"
     ]
   },
   {
@@ -26019,8 +26741,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ment",
-      "-ant",
-      "ment"
+      "ment",
+      "-ant"
     ]
   },
   {
@@ -26035,8 +26757,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
-      "en-"
+      "en-",
+      "-able"
     ]
   },
   {
@@ -26050,8 +26772,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "en-"
+      "en-",
+      "-ant"
     ]
   },
   {
@@ -26067,9 +26789,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ose",
+      "en-",
       "claus",
-      "en-"
+      "-ose"
     ]
   },
   {
@@ -26085,8 +26807,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "claus"
+      "claus",
+      "-ure"
     ]
   },
   {
@@ -26235,8 +26957,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "en-"
+      "en-",
+      "-ure"
     ]
   },
   {
@@ -26265,8 +26987,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ize",
-      "erg"
+      "erg",
+      "-ize"
     ]
   },
   {
@@ -26283,8 +27005,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "en-",
-      "-y",
-      "erg"
+      "erg",
+      "-y"
     ]
   },
   {
@@ -26315,8 +27037,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-age",
-      "en-"
+      "en-",
+      "-age"
     ]
   },
   {
@@ -26330,9 +27052,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -26424,9 +27146,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "en-",
+      "-en",
       "ten",
-      "leg",
-      "en-"
+      "leg"
     ]
   },
   {
@@ -26502,8 +27225,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "en-"
+      "en-",
+      "-ure"
     ]
   },
   {
@@ -26534,9 +27257,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
       "pris",
-      "rid"
+      "rid",
+      "-ize"
     ]
   },
   {
@@ -26568,8 +27291,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ten",
       "-ment",
+      "ten",
+      "ment",
       "-ant"
     ]
   },
@@ -26748,9 +27472,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
+      "vir",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -26862,8 +27587,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-al",
-      "equ"
+      "equ",
+      "-al"
     ]
   },
   {
@@ -26879,9 +27604,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
       "equ",
-      "ali"
+      "ali",
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -26895,8 +27621,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "equ"
+      "equ",
+      "-ate"
     ]
   },
   {
@@ -26913,9 +27639,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "equ",
       "-ation",
-      "equ"
+      "-ion"
     ]
   },
   {
@@ -26931,8 +27657,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ator",
-      "equ"
+      "equ",
+      "-ator"
     ]
   },
   {
@@ -26948,8 +27674,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "libra",
-      "libr",
-      "equ"
+      "equ",
+      "libr"
     ]
   },
   {
@@ -26994,9 +27720,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "equ",
+      "ment",
       "-ment",
-      "-ant",
-      "equ"
+      "-ant"
     ]
   },
   {
@@ -27013,9 +27740,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "equ",
-      "val"
+      "val",
+      "-ant"
     ]
   },
   {
@@ -27043,9 +27770,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
+      "e-",
+      "radic",
       "-ate",
-      "e-"
+      "ras",
+      "dic"
     ]
   },
   {
@@ -27062,8 +27791,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
-      "reg"
+      "reg",
+      "ec"
     ]
   },
   {
@@ -27107,8 +27836,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "neo",
       "err",
+      "neo",
       "-ous"
     ]
   },
@@ -27156,8 +27885,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "rupt"
+      "rupt",
+      "-ion"
     ]
   },
   {
@@ -27174,7 +27903,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "es-",
-      "cap",
       "cap"
     ]
   },
@@ -27239,8 +27967,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ance",
-      "sen"
+      "sen",
+      "-ance"
     ]
   },
   {
@@ -27257,8 +27985,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sens",
       "-al",
+      "sens",
       "sen"
     ]
   },
@@ -27274,8 +28002,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ish",
-      "sta"
+      "sta",
+      "-ish"
     ]
   },
   {
@@ -27289,9 +28017,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "sta",
+      "ment",
       "-ment",
-      "-ant",
-      "sta"
+      "-ant"
     ]
   },
   {
@@ -27307,8 +28036,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "sta"
+      "sta",
+      "-ate"
     ]
   },
   {
@@ -27406,9 +28135,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "e-",
       "vac",
-      "e-"
+      "-ate"
     ]
   },
   {
@@ -27425,9 +28154,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
       "e-",
-      "val"
+      "val",
+      "-ate"
     ]
   },
   {
@@ -27440,9 +28169,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "val",
       "-ion",
-      "-ation",
-      "val"
+      "-ation"
     ]
   },
   {
@@ -27472,8 +28201,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "-ation"
+      "-ation",
+      "-ion"
     ]
   },
   {
@@ -27555,9 +28284,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "dent",
+      "e-",
       "vid",
-      "e-"
+      "dent",
+      "-ant"
     ]
   },
   {
@@ -27603,9 +28333,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "e-",
-      "vol"
+      "volv",
+      "vol",
+      "-ion"
     ]
   },
   {
@@ -27619,8 +28350,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ary",
-      "-ary",
-      "vol"
+      "vol",
+      "volv"
     ]
   },
   {
@@ -27637,8 +28368,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "e-",
-      "vol",
-      "volv"
+      "volv",
+      "vol"
     ]
   },
   {
@@ -27670,9 +28401,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "nat",
+      "min",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -27705,8 +28437,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ced",
-      "ex-"
+      "ex-",
+      "ced"
     ]
   },
   {
@@ -27752,8 +28484,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ant",
-      "ex-"
+      "ex-",
+      "-ant"
     ]
   },
   {
@@ -27769,9 +28501,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "cap",
       "apt",
-      "cap"
+      "-ion"
     ]
   },
   {
@@ -27787,9 +28519,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-al",
       "apt",
-      "cap",
-      "-al"
+      "cap"
     ]
   },
   {
@@ -27866,8 +28598,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -27915,9 +28645,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "clam",
+      "am",
       "-ion",
-      "-ation",
-      "am"
+      "-ation"
     ]
   },
   {
@@ -27934,9 +28665,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lud",
+      "ex-",
       "claus",
-      "ex-"
+      "lud"
     ]
   },
   {
@@ -27953,9 +28684,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lud",
+      "claus",
       "-ive",
-      "claus"
+      "lud"
     ]
   },
   {
@@ -27999,9 +28730,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "cur",
-      "cur"
+      "-ion"
     ]
   },
   {
@@ -28142,8 +28872,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "hab"
+      "hab",
+      "-ion"
     ]
   },
   {
@@ -28174,8 +28904,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ist",
-      "sist"
+      "sist",
+      "-ist"
     ]
   },
   {
@@ -28208,8 +28938,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "it",
-      "ex-"
+      "ex-",
+      "it"
     ]
   },
   {
@@ -28260,8 +28990,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "pan"
+      "pan",
+      "-ion"
     ]
   },
   {
@@ -28276,8 +29006,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
+      "spect",
       "ec",
+      "-ion",
       "-ation"
     ]
   },
@@ -28293,9 +29024,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "ex-",
       "ped",
-      "ex-"
+      "-ion"
     ]
   },
   {
@@ -28312,8 +29043,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pel",
-      "ex-"
+      "ex-",
+      "pel"
     ]
   },
   {
@@ -28330,8 +29061,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "pend"
+      "pend",
+      "-ure"
     ]
   },
   {
@@ -28366,9 +29097,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "peri",
+      "ment",
       "-ment",
-      "-ant",
-      "peri"
+      "-ant"
     ]
   },
   {
@@ -28411,9 +29143,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "peri",
+      "ment",
       "-ion",
-      "-ation",
-      "peri"
+      "-ation"
     ]
   },
   {
@@ -28474,9 +29207,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "nat",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -28617,7 +29350,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ose",
       "pos",
       "-ose"
     ]
@@ -28634,8 +29366,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "pos"
+      "pos",
+      "-ion"
     ]
   },
   {
@@ -28652,8 +29384,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "pos"
+      "pos",
+      "-ure"
     ]
   },
   {
@@ -28699,8 +29431,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ite",
-      "quer",
-      "-ite"
+      "quer"
     ]
   },
   {
@@ -28735,9 +29466,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "tend",
-      "ten"
+      "ten",
+      "-ion"
     ]
   },
   {
@@ -28836,8 +29567,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "ten"
+      "ten",
+      "-ion"
     ]
   },
   {
@@ -28854,8 +29585,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ten",
-      "-ish",
-      "tact"
+      "tact",
+      "-ish"
     ]
   },
   {
@@ -28887,9 +29618,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ex-",
       "tract",
-      "act",
-      "extr-"
+      "extr-",
+      "act"
     ]
   },
   {
@@ -28901,9 +29633,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
+      "extr-",
       "tract",
-      "act"
+      "act",
+      "-ion"
     ]
   },
   {
@@ -28915,9 +29648,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "cur",
-      "cur",
-      "extr-"
+      "extr-",
+      "cur"
     ]
   },
   {
@@ -28946,9 +29678,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "extr-"
+      "extr-",
+      "ord",
+      "-ary"
     ]
   },
   {
@@ -28963,9 +29695,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "extr-",
       "vag",
-      "-ant",
-      "extr-"
+      "-ant"
     ]
   },
   {
@@ -29098,9 +29830,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "fac",
-      "lit"
+      "lit",
+      "-ate"
     ]
   },
   {
@@ -29117,8 +29849,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fac",
-      "-ty",
-      "lit"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -29132,9 +29864,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "fac",
-      "act"
+      "act",
+      "-ion",
+      "-faction"
     ]
   },
   {
@@ -29255,7 +29988,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -29422,9 +30154,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "-er",
       "arm",
-      "mer",
-      "-er"
+      "mer"
     ]
   },
   {
@@ -29455,9 +30187,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "nat",
-      "sci"
+      "sci",
+      "-ate"
     ]
   },
   {
@@ -29473,7 +30205,8 @@ export const cet6Words = [
     "rootIds": [
       "ten",
       "nat",
-      "sci"
+      "sci",
+      "tact"
     ]
   },
   {
@@ -29671,7 +30404,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -29906,8 +30638,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "err",
-      "-ous",
-      "fer"
+      "fer",
+      "-ous"
     ]
   },
   {
@@ -29924,8 +30656,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "err",
-      "fer"
+      "fer",
+      "err"
     ]
   },
   {
@@ -29942,8 +30674,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ile",
-      "fer"
+      "fer",
+      "-ile"
     ]
   },
   {
@@ -30051,8 +30783,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "fac"
+      "fac",
+      "-ion"
     ]
   },
   {
@@ -30113,8 +30845,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ure",
-      "fig"
+      "fig",
+      "-ure"
     ]
   },
   {
@@ -30128,6 +30860,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fil",
+      "ment",
       "-ment",
       "-ant"
     ]
@@ -30146,7 +30879,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fil",
       "fil"
     ]
   },
@@ -30161,7 +30893,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fil",
       "fil"
     ]
   },
@@ -30255,9 +30986,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "fin",
       "-ite",
-      "init",
-      "fin"
+      "init"
     ]
   },
   {
@@ -30326,8 +31057,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mne",
-      "-ness",
-      "firm"
+      "firm",
+      "-ness"
     ]
   },
   {
@@ -30603,9 +31334,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-en",
       "ten",
       "lat",
-      "flat"
+      "flat",
+      "fer"
     ]
   },
   {
@@ -30697,9 +31430,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lex",
+      "flect",
       "-able",
-      "flect"
+      "lex"
     ]
   },
   {
@@ -30789,8 +31522,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ish",
-      "rid"
+      "rid",
+      "-ish"
     ]
   },
   {
@@ -30836,9 +31569,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "luct",
+      "luc",
       "-ion",
-      "-ation",
-      "luct"
+      "-ation"
     ]
   },
   {
@@ -30883,8 +31617,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "cent",
+      "scen",
+      "-ant",
       "-escent"
     ]
   },
@@ -31150,8 +31885,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cad",
-      "fore-"
+      "fore-",
+      "cad"
     ]
   },
   {
@@ -31246,8 +31981,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ver",
-      "fore-"
+      "fore-",
+      "ver"
     ]
   },
   {
@@ -31308,8 +32043,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "form",
-      "mal",
-      "-al"
+      "-al",
+      "mal"
     ]
   },
   {
@@ -31325,8 +32060,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "form",
+      "-ion",
       "-ation"
     ]
   },
@@ -31392,7 +32127,8 @@ export const cet6Words = [
     "rootIds": [
       "form",
       "-ate",
-      "lat"
+      "lat",
+      "fer"
     ]
   },
   {
@@ -31405,8 +32141,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
       "form",
+      "lat",
+      "fer",
+      "-ion",
       "-ation"
     ]
   },
@@ -31434,7 +32172,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fort",
       "fort"
     ]
   },
@@ -31450,7 +32187,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "fort",
       "fort"
     ]
   },
@@ -31465,7 +32201,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fort",
       "fort",
       "min"
     ]
@@ -31483,7 +32218,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fort",
       "fort"
     ]
   },
@@ -31497,7 +32231,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "fort",
       "fort"
     ]
   },
@@ -31515,8 +32248,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fort",
-      "-ate",
-      "fort"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -31530,8 +32263,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fort",
-      "fort",
-      "nat"
+      "nat",
+      "tele"
     ]
   },
   {
@@ -31547,7 +32280,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "fort",
       "fort"
     ]
   },
@@ -31633,9 +32365,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "don",
+      "fus",
       "-ion",
-      "-ation",
-      "don"
+      "-ation"
     ]
   },
   {
@@ -31694,9 +32427,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "fract",
-      "act"
+      "act",
+      "-ion"
     ]
   },
   {
@@ -31751,6 +32484,7 @@ export const cet6Words = [
     "rootIds": [
       "fract",
       "-ment",
+      "ment",
       "-ant"
     ]
   },
@@ -31768,8 +32502,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fract",
-      "-ant",
-      "agr"
+      "agr",
+      "-ant"
     ]
   },
   {
@@ -31873,7 +32607,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "dom",
       "-dom",
       "dom"
     ]
@@ -31931,8 +32664,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "equ",
-      "-ance"
+      "-ance",
+      "equ"
     ]
   },
   {
@@ -31950,8 +32683,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "equ"
+      "equ",
+      "-ant"
     ]
   },
   {
@@ -32021,8 +32754,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "fric"
+      "fric",
+      "-ion"
     ]
   },
   {
@@ -32069,6 +32802,7 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "-en",
       "ten",
       "reg",
       "rig"
@@ -32083,8 +32817,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "reg",
+      "rig",
       "-ful"
     ]
   },
@@ -32196,7 +32930,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -32243,7 +32976,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fil",
       "fil"
     ]
   },
@@ -32257,7 +32989,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "fil",
       "fil"
     ]
   },
@@ -32274,8 +33005,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "funct"
+      "funct",
+      "-ion"
     ]
   },
   {
@@ -32567,9 +33298,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
       "amb",
-      "gam"
+      "gam",
+      "-able"
     ]
   },
   {
@@ -32692,9 +33423,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "arm",
+      "ment",
       "-ment",
-      "-ant",
-      "arm"
+      "-ant"
     ]
   },
   {
@@ -32724,7 +33456,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "sol",
       "sol"
     ]
   },
@@ -32857,9 +33588,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "gen",
+      "-ization",
+      "ali",
       "-ion",
-      "-ation",
-      "gen"
+      "-ation"
     ]
   },
   {
@@ -32909,8 +33642,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "gen"
+      "gen",
+      "-ate"
     ]
   },
   {
@@ -32926,9 +33659,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "gen",
       "-ion",
-      "-ation",
-      "gen"
+      "-ation"
     ]
   },
   {
@@ -32957,9 +33690,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
+      "-osity",
       "gen",
-      "-osity"
+      "-ty"
     ]
   },
   {
@@ -33042,8 +33775,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "man",
-      "gen"
+      "gen",
+      "man"
     ]
   },
   {
@@ -33122,9 +33855,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "log",
       "geo",
-      "-logy"
+      "-logy",
+      "log"
     ]
   },
   {
@@ -33479,7 +34212,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "-ary"
     ]
   },
@@ -33649,7 +34381,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ose",
       "-ose"
     ]
   },
@@ -33725,8 +34456,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ver",
       "-ment",
+      "ver",
+      "ment",
       "-ant"
     ]
   },
@@ -33799,7 +34531,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -33817,8 +34548,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-acious",
-      "-ous"
+      "-ous",
+      "-acious"
     ]
   },
   {
@@ -33831,9 +34562,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "grad",
       "ras",
-      "-ant",
-      "grad"
+      "radi",
+      "-ant"
     ]
   },
   {
@@ -33848,8 +34580,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ras",
       "grad",
+      "ras",
       "-al"
     ]
   },
@@ -33882,9 +34614,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ras",
+      "grad",
       "-ate",
-      "grad"
+      "ras"
     ]
   },
   {
@@ -33932,8 +34664,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "gram",
       "-al",
+      "gram",
       "ram"
     ]
   },
@@ -34052,8 +34784,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -34189,9 +34919,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ful",
-      "-ful",
-      "grat"
+      "grat",
+      "-ful"
     ]
   },
   {
@@ -34208,8 +34937,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-tude",
-      "grat"
+      "grat",
+      "-tude"
     ]
   },
   {
@@ -34258,8 +34987,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "grav",
-      "-ty",
-      "viv"
+      "viv",
+      "au",
+      "-ty"
     ]
   },
   {
@@ -35011,7 +35741,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -35027,7 +35756,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cap",
       "cap",
       "dic"
     ]
@@ -35276,7 +36004,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ful",
-      "-ful",
       "arm"
     ]
   },
@@ -35291,8 +36018,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mon",
-      "mon",
-      "arm"
+      "arm",
+      "-ous"
     ]
   },
   {
@@ -35310,7 +36037,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "mon",
       "arm"
     ]
@@ -35411,8 +36137,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
-      "-en"
+      "-en",
+      "ten"
     ]
   },
   {
@@ -35472,7 +36198,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -35891,7 +36616,9 @@ export const cet6Words = [
     "rootIds": [
       "pter",
       "helic",
-      "opt"
+      "opt",
+      "op",
+      "heli"
     ]
   },
   {
@@ -35936,7 +36663,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -35967,9 +36693,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mis",
       "hemi-",
-      "mit"
+      "spher",
+      "mis",
+      "mit",
+      "hem"
     ]
   },
   {
@@ -35999,7 +36727,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fort",
       "fort"
     ]
   },
@@ -36062,8 +36789,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-age",
-      "her"
+      "her",
+      "-age"
     ]
   },
   {
@@ -36125,8 +36852,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
-      "her"
+      "her",
+      "-ate"
     ]
   },
   {
@@ -36514,9 +37241,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "homo",
+      "-ous",
       "hom",
       "neo",
-      "homo"
+      "gen"
     ]
   },
   {
@@ -36605,7 +37334,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -36686,8 +37414,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
-      "horr"
+      "horr",
+      "-able"
     ]
   },
   {
@@ -36731,7 +37459,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ose",
       "-ose"
     ]
   },
@@ -36746,9 +37473,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
+      "hosp",
       "ali",
-      "hosp"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -36764,8 +37492,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "host",
-      "hosp"
+      "hosp",
+      "host"
     ]
   },
   {
@@ -36781,7 +37509,8 @@ export const cet6Words = [
     "rootIds": [
       "host",
       "-age",
-      "sta"
+      "sta",
+      "hosp"
     ]
   },
   {
@@ -36796,9 +37525,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "hosp",
       "oste",
-      "host",
-      "hosp"
+      "host"
     ]
   },
   {
@@ -36816,8 +37545,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "host",
-      "-ile",
-      "hosp"
+      "hosp",
+      "-ile"
     ]
   },
   {
@@ -37184,8 +37913,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ben",
-      "hydr"
+      "hydr",
+      "ben"
     ]
   },
   {
@@ -37202,9 +37931,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "rog",
       "hydr",
-      "gen"
+      "gen",
+      "rog"
     ]
   },
   {
@@ -37229,7 +37958,8 @@ export const cet6Words = [
     "rootIds": [
       "hyp-",
       "poss",
-      "her"
+      "her",
+      "the"
     ]
   },
   {
@@ -37247,7 +37977,8 @@ export const cet6Words = [
     "rootIds": [
       "hyp-",
       "poss",
-      "her"
+      "her",
+      "the"
     ]
   },
   {
@@ -37308,7 +38039,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ism",
       "ali",
       "-ism"
     ]
@@ -37355,8 +38085,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "-faction",
       "dent",
+      "fac",
+      "-ion",
       "-ation"
     ]
   },
@@ -37390,8 +38122,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "log",
-      "-logy"
+      "-logy",
+      "log"
     ]
   },
   {
@@ -37477,8 +38209,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -37511,9 +38241,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cogn",
+      "i-",
       "-ant",
-      "i-"
+      "cogn"
     ]
   },
   {
@@ -37529,8 +38259,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "cogn",
-      "i-"
+      "i-",
+      "cogn"
     ]
   },
   {
@@ -37548,7 +38278,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "il-",
-      "leg",
       "leg"
     ]
   },
@@ -37565,9 +38294,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "il-",
-      "lit"
+      "lit",
+      "-ate"
     ]
   },
   {
@@ -37583,9 +38312,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "il-",
-      "nat"
+      "luc",
+      "-ate",
+      "nat",
+      "min"
     ]
   },
   {
@@ -37602,9 +38333,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "il-",
-      "lud"
+      "lud",
+      "-ion"
     ]
   },
   {
@@ -37621,9 +38352,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "il-",
       "lustr",
-      "il-"
+      "-ate",
+      "lud"
     ]
   },
   {
@@ -37638,8 +38370,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "lustr",
+      "lud",
+      "-ion",
       "-ation"
     ]
   },
@@ -37672,7 +38405,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ary",
       "imag",
       "-ary"
     ]
@@ -37688,9 +38420,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "imag",
+      "nat",
       "-ion",
-      "-ation",
-      "imag"
+      "-ation"
     ]
   },
   {
@@ -37706,8 +38439,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "imag",
-      "-ive",
-      "nat"
+      "nat",
+      "-ive"
     ]
   },
   {
@@ -37740,8 +38473,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "mit"
+      "mit",
+      "-ate"
     ]
   },
   {
@@ -37757,9 +38490,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "mit"
+      "mit",
+      "-ion"
     ]
   },
   {
@@ -37775,9 +38508,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
       "im-",
-      "medi"
+      "medi",
+      "-ate"
     ]
   },
   {
@@ -37825,8 +38558,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "merge",
       "im-",
+      "merge",
       "mer"
     ]
   },
@@ -37857,9 +38590,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
       "im-",
-      "grat"
+      "grat",
+      "-ate"
     ]
   },
   {
@@ -37873,9 +38606,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "grat"
+      "grat",
+      "-ion"
     ]
   },
   {
@@ -37920,8 +38653,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
-      "uni"
+      "uni",
+      "-ty"
     ]
   },
   {
@@ -37969,7 +38702,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -38034,8 +38766,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-al",
-      "peri"
+      "peri",
+      "-al"
     ]
   },
   {
@@ -38066,9 +38798,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -38084,9 +38816,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "plic",
       "-ion",
-      "-ation",
-      "plic"
+      "-ation"
     ]
   },
   {
@@ -38128,8 +38860,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "plic",
-      "im-"
+      "im-",
+      "plic"
     ]
   },
   {
@@ -38146,8 +38878,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "port",
-      "im-"
+      "im-",
+      "port"
     ]
   },
   {
@@ -38162,8 +38894,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "port",
-      "-ance"
+      "-ance",
+      "port"
     ]
   },
   {
@@ -38180,9 +38912,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ose",
       "im-",
-      "pos"
+      "pos",
+      "-ose"
     ]
   },
   {
@@ -38200,8 +38932,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "im-",
+      "poss",
       "-able",
-      "poss"
+      "pos"
     ]
   },
   {
@@ -38215,8 +38948,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ver",
-      "-ish",
-      "rid"
+      "rid",
+      "-ish"
     ]
   },
   {
@@ -38319,8 +39052,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "prob",
       "-ment",
+      "prob",
+      "ment",
       "-ant"
     ]
   },
@@ -38378,9 +39112,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
+      "in-",
       "cur",
-      "cur"
+      "-ate"
     ]
   },
   {
@@ -38394,8 +39128,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "equ"
+      "equ",
+      "-ate"
     ]
   },
   {
@@ -38435,8 +39169,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ant",
       "cent",
+      "scen",
+      "-ant",
       "-escent"
     ]
   },
@@ -38449,9 +39184,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-able",
+      "in-",
       "cap",
-      "cap"
+      "-able"
     ]
   },
   {
@@ -38479,8 +39214,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
-      "cent"
+      "cent",
+      "-ive"
     ]
   },
   {
@@ -38511,8 +39246,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cis",
       "cad",
+      "cis",
       "-ance"
     ]
   },
@@ -38529,6 +39264,7 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "cad",
       "dent",
       "cis",
       "-ant"
@@ -38548,7 +39284,8 @@ export const cet6Words = [
     "rootIds": [
       "dent",
       "cis",
-      "cad"
+      "cad",
+      "allo"
     ]
   },
   {
@@ -38562,9 +39299,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "nat",
+      "clin",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -38596,8 +39334,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "in-",
-      "lud",
-      "claus"
+      "claus",
+      "lud"
     ]
   },
   {
@@ -38613,9 +39351,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lud",
+      "claus",
       "-ive",
-      "claus"
+      "lud"
     ]
   },
   {
@@ -38670,6 +39408,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "corp",
       "-ate",
       "cor",
       "cur"
@@ -38686,9 +39425,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "in-",
       "ec",
       "cor",
-      "cur"
+      "cur",
+      "reg"
     ]
   },
   {
@@ -38729,9 +39470,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
+      "in-",
       "cred",
-      "in-"
+      "-able"
     ]
   },
   {
@@ -38747,7 +39488,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -38776,9 +39516,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "in-",
+      "fin",
       "-ite",
-      "init",
-      "in-"
+      "init"
     ]
   },
   {
@@ -38811,7 +39552,8 @@ export const cet6Words = [
     "rootIds": [
       "de-",
       "in-",
-      "pend"
+      "pend",
+      "-ance"
     ]
   },
   {
@@ -38827,9 +39569,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "in-",
+      "pend",
       "dent",
-      "-ant",
-      "in-"
+      "-ant"
     ]
   },
   {
@@ -38888,8 +39631,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "dic"
+      "dic",
+      "-ate"
     ]
   },
   {
@@ -38903,9 +39646,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "dic",
       "-ion",
-      "-ation",
-      "dic"
+      "-ation"
     ]
   },
   {
@@ -38921,8 +39664,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
-      "dic"
+      "dic",
+      "-ive"
     ]
   },
   {
@@ -38939,8 +39682,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "fer"
+      "fer",
+      "-ant"
     ]
   },
   {
@@ -38957,8 +39700,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "in-"
+      "in-",
+      "-ant"
     ]
   },
   {
@@ -38972,9 +39715,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "nat",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -38987,9 +39730,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "in-",
       "ec",
-      "reg",
-      "in-"
+      "reg"
     ]
   },
   {
@@ -39020,8 +39763,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
-      "pend"
+      "pend",
+      "-able"
     ]
   },
   {
@@ -39037,9 +39780,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "vid",
+      "in-",
+      "divid",
       "-al",
-      "in-"
+      "vid"
     ]
   },
   {
@@ -39091,8 +39835,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "duc"
+      "duc",
+      "-ion"
     ]
   },
   {
@@ -39136,9 +39880,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ize",
       "ali",
-      "tri"
+      "tri",
+      "-ize"
     ]
   },
   {
@@ -39152,8 +39896,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ous",
-      "tri"
+      "tri",
+      "-ous"
     ]
   },
   {
@@ -39181,9 +39925,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "in-",
       "fac",
-      "-ant",
-      "in-"
+      "-ant"
     ]
   },
   {
@@ -39212,9 +39956,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "viv",
+      "in-",
       "-able",
-      "in-"
+      "viv"
     ]
   },
   {
@@ -39241,9 +39985,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ive",
       "in-",
-      "pend"
+      "pend",
+      "-ive"
     ]
   },
   {
@@ -39290,9 +40034,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
+      "in-",
       "fac",
-      "in-"
+      "ec"
     ]
   },
   {
@@ -39370,8 +40114,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
-      "fer"
+      "fer",
+      "-ty"
     ]
   },
   {
@@ -39386,9 +40130,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "in-",
+      "fin",
       "-ite",
-      "init",
-      "in-"
+      "init"
     ]
   },
   {
@@ -39415,9 +40160,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
+      "fin",
       "init",
-      "fin"
+      "-ty"
     ]
   },
   {
@@ -39431,9 +40176,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "flat",
       "lat",
-      "flat"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -39448,9 +40194,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "flat",
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -39513,8 +40261,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "form",
-      "in-"
+      "in-",
+      "form"
     ]
   },
   {
@@ -39527,8 +40275,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "infra-",
       "ras",
       "struct",
+      "astr",
       "-ure"
     ]
   },
@@ -39542,8 +40292,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "fus"
+      "fus",
+      "-ion"
     ]
   },
   {
@@ -39591,8 +40341,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "grad"
+      "grad",
+      "-ant"
     ]
   },
   {
@@ -39626,8 +40376,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "hab"
+      "hab",
+      "-ant"
     ]
   },
   {
@@ -39643,8 +40393,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "in-",
-      "-ant",
-      "her"
+      "her",
+      "-ant"
     ]
   },
   {
@@ -39727,8 +40477,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "init"
+      "init",
+      "-ate"
     ]
   },
   {
@@ -39744,8 +40494,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
-      "init"
+      "init",
+      "-ive"
     ]
   },
   {
@@ -39760,8 +40510,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
-      "ject"
+      "ject",
+      "ec"
     ]
   },
   {
@@ -39776,9 +40526,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "ject",
       "ec",
-      "ject"
+      "-ion"
     ]
   },
   {
@@ -39794,9 +40544,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ure",
       "in-",
-      "jud"
+      "jud",
+      "-ure"
     ]
   },
   {
@@ -39814,8 +40564,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "in-",
-      "-y",
-      "jud"
+      "jud",
+      "-y"
     ]
   },
   {
@@ -39881,9 +40631,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "in-",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -39913,8 +40663,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
-      "cent"
+      "cent",
+      "-ant"
     ]
   },
   {
@@ -39930,9 +40680,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "nov",
       "-ion",
-      "-ation",
-      "nov"
+      "-ation"
     ]
   },
   {
@@ -39947,9 +40697,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
       "mer",
-      "numer"
+      "numer",
+      "-able"
     ]
   },
   {
@@ -40034,8 +40784,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
-      "san"
+      "san",
+      "-ty"
     ]
   },
   {
@@ -40146,8 +40896,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ist",
-      "sist"
+      "sist",
+      "-ist"
     ]
   },
   {
@@ -40161,6 +40911,7 @@ export const cet6Words = [
     "rootIds": [
       "tend",
       "ten",
+      "sist",
       "-ant"
     ]
   },
@@ -40177,9 +40928,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
       "in-",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -40195,9 +40946,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "ec",
-      "spect"
+      "spect",
+      "-ion"
     ]
   },
   {
@@ -40210,9 +40961,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
       "in-",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -40228,9 +40979,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "spir",
       "-ion",
-      "-ation",
-      "spir"
+      "-ation"
     ]
   },
   {
@@ -40259,9 +41010,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
+      "sta",
       "-ability",
-      "sta"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -40293,9 +41045,11 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
-      "-ation",
-      "lat"
+      "lat",
+      "sta",
+      "allo",
+      "fer",
+      "-ion"
     ]
   },
   {
@@ -40310,9 +41064,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sta",
+      "allo",
+      "ment",
       "-ment",
-      "-ant",
-      "sta"
+      "-ant"
     ]
   },
   {
@@ -40343,8 +41099,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ant",
-      "sta"
+      "sta",
+      "-ant"
     ]
   },
   {
@@ -40472,8 +41228,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "struct"
+      "struct",
+      "-ion"
     ]
   },
   {
@@ -40502,9 +41258,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -40552,9 +41308,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "fer"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -40567,8 +41323,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "lat",
-      "-ator",
-      "fer"
+      "fer",
+      "-ator"
     ]
   },
   {
@@ -40630,8 +41386,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "act",
-      "tact"
+      "tact",
+      "act"
     ]
   },
   {
@@ -40674,9 +41430,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "integ",
       "grat",
-      "integ"
+      "-ate"
     ]
   },
   {
@@ -40692,8 +41448,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
-      "integ"
+      "integ",
+      "-ty"
     ]
   },
   {
@@ -40710,7 +41466,8 @@ export const cet6Words = [
     "rootIds": [
       "ec",
       "leg",
-      "lex"
+      "lex",
+      "tele"
     ]
   },
   {
@@ -40727,9 +41484,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-al",
       "ec",
       "leg",
-      "lex"
+      "lex",
+      "tele"
     ]
   },
   {
@@ -40743,7 +41502,9 @@ export const cet6Words = [
     "rootIds": [
       "ec",
       "leg",
-      "lex"
+      "lex",
+      "tele",
+      "allo"
     ]
   },
   {
@@ -40762,7 +41523,8 @@ export const cet6Words = [
     "rootIds": [
       "leg",
       "gen",
-      "tele"
+      "tele",
+      "-ance"
     ]
   },
   {
@@ -40779,8 +41541,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "-ant",
-      "gen"
+      "gen",
+      "tele",
+      "-ant"
     ]
   },
   {
@@ -40797,8 +41560,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "-able",
-      "tele"
+      "tele",
+      "-able"
     ]
   },
   {
@@ -40916,9 +41679,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "tend",
-      "ten"
+      "ten",
+      "-ion"
     ]
   },
   {
@@ -40948,8 +41711,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "act",
-      "inter-"
+      "inter-",
+      "act"
     ]
   },
   {
@@ -40964,8 +41727,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "act",
+      "-ion",
       "inter-"
     ]
   },
@@ -40978,8 +41741,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ec",
-      "inter-"
+      "inter-",
+      "ec"
     ]
   },
   {
@@ -40992,9 +41755,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "cor",
       "cur",
-      "inter-"
+      "inter-",
+      "cor"
     ]
   },
   {
@@ -41025,8 +41788,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "fac",
-      "inter-"
+      "inter-",
+      "fac"
     ]
   },
   {
@@ -41107,9 +41870,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
+      "inter-",
+      "medi",
       "term",
-      "inter-"
+      "-ate"
     ]
   },
   {
@@ -41125,9 +41889,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "inter-",
       "tend",
       "ten",
-      "term"
+      "term",
+      "mit"
     ]
   },
   {
@@ -41143,8 +41909,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "inter-",
-      "-al"
+      "-al",
+      "inter-"
     ]
   },
   {
@@ -41161,8 +41927,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "nat",
-      "inter-"
+      "inter-",
+      "nat"
     ]
   },
   {
@@ -41192,9 +41958,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "inter-",
       "-ion",
-      "-ation",
-      "inter-"
+      "-ation"
     ]
   },
   {
@@ -41225,9 +41991,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "err",
+      "inter-",
       "rupt",
-      "inter-"
+      "err",
+      "terr"
     ]
   },
   {
@@ -41240,9 +42007,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
+      "inter-",
       "err",
-      "rupt"
+      "rupt",
+      "terr",
+      "-ion"
     ]
   },
   {
@@ -41257,9 +42026,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "inter-",
       "ec",
-      "sect"
+      "sect",
+      "-ion"
     ]
   },
   {
@@ -41293,8 +42063,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "veni",
-      "inter-"
+      "inter-",
+      "veni"
     ]
   },
   {
@@ -41308,9 +42078,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "veni",
-      "inter-"
+      "inter-",
+      "-ion"
     ]
   },
   {
@@ -41361,8 +42131,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "don"
+      "don",
+      "-ate"
     ]
   },
   {
@@ -41374,9 +42144,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "nat",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -41405,8 +42175,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "tri"
+      "tri",
+      "-ate"
     ]
   },
   {
@@ -41489,9 +42259,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "intro-",
-      "duc"
+      "duc",
+      "-ion"
     ]
   },
   {
@@ -41556,9 +42326,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
       "in-",
-      "val"
+      "val",
+      "-able"
     ]
   },
   {
@@ -41589,8 +42359,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "vad"
+      "vad",
+      "-ion"
     ]
   },
   {
@@ -41623,8 +42393,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
-      "veni"
+      "veni",
+      "-ion"
     ]
   },
   {
@@ -41684,8 +42454,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -41717,9 +42487,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "vest",
-      "tact"
+      "tact",
+      "-ate"
     ]
   },
   {
@@ -41734,9 +42504,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "vest",
+      "tact",
       "-ion",
-      "-ation",
-      "vest"
+      "-ation"
     ]
   },
   {
@@ -41751,9 +42522,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "vest",
       "-ment",
-      "-ant",
-      "vest"
+      "ment",
+      "-ant"
     ]
   },
   {
@@ -41768,9 +42540,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "in-",
       "vid",
-      "-able",
-      "in-"
+      "-able"
     ]
   },
   {
@@ -41785,9 +42557,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "viv",
       "-ion",
-      "-ation",
-      "viv"
+      "-ation"
     ]
   },
   {
@@ -41803,7 +42575,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ite",
       "viv",
       "-ite"
     ]
@@ -41833,8 +42604,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "vol",
-      "volv"
+      "volv",
+      "vol"
     ]
   },
   {
@@ -41915,8 +42686,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ir-",
-      "reg",
-      "in-"
+      "in-",
+      "reg"
     ]
   },
   {
@@ -41928,8 +42699,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
-      "reg"
+      "reg",
+      "-ty"
     ]
   },
   {
@@ -41943,9 +42714,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "ir-",
-      "spect"
+      "spect",
+      "ec",
+      "-ive"
     ]
   },
   {
@@ -41960,9 +42732,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "reg"
+      "reg",
+      "rig",
+      "-ion"
     ]
   },
   {
@@ -42020,9 +42793,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "iso-",
-      "lat"
+      "lat",
+      "sol",
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -42051,8 +42826,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-an",
-      "ali"
+      "ali",
+      "-an"
     ]
   },
   {
@@ -42215,9 +42990,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
       "par",
-      "par"
+      "-ize"
     ]
   },
   {
@@ -42375,8 +43149,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ist",
       "di",
+      "-ist",
       "ali"
     ]
   },
@@ -42405,7 +43179,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -42437,9 +43210,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "jud",
+      "ment",
       "-ment",
-      "-ant",
-      "jud"
+      "-ant"
     ]
   },
   {
@@ -42467,8 +43241,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "junct"
+      "junct",
+      "-ion"
     ]
   },
   {
@@ -42569,9 +43343,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "fac",
+      "jud",
       "-ion",
       "-ation",
-      "fac"
+      "-faction"
     ]
   },
   {
@@ -42588,8 +43364,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-fy",
-      "jud"
+      "jud",
+      "-fy"
     ]
   },
   {
@@ -42781,7 +43557,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "dom",
       "-dom",
       "dom"
     ]
@@ -42811,8 +43586,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -43057,9 +43830,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "ment",
       "-ion",
-      "-ation",
-      "ment"
+      "-ation"
     ]
   },
   {
@@ -43128,7 +43901,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cap",
       "cap"
     ]
   },
@@ -43234,7 +44006,9 @@ export const cet6Words = [
     "rootIds": [
       "tend",
       "ten",
-      "lat"
+      "lat",
+      "fer",
+      "-ant"
     ]
   },
   {
@@ -43298,8 +44072,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lat",
       "-tude",
+      "lat",
       "fer"
     ]
   },
@@ -43727,8 +44501,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "leg",
+      "-ure",
+      "ec",
       "lex"
     ]
   },
@@ -43744,7 +44519,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "leg",
       "leg"
     ]
   },
@@ -43762,7 +44536,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "leg",
       "leg",
       "-al"
     ]
@@ -43782,7 +44555,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "leg",
       "gen"
     ]
   },
@@ -43800,9 +44572,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "leg",
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "leg"
+      "-ation"
     ]
   },
   {
@@ -43817,9 +44591,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "leg",
-      "leg"
+      "-ate"
     ]
   },
   {
@@ -43862,8 +44635,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "the",
-      "-en"
+      "-en",
+      "the"
     ]
   },
   {
@@ -43890,7 +44663,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -43963,9 +44735,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "lit",
       "-ty",
-      "-ability",
-      "lit"
+      "-ability"
     ]
   },
   {
@@ -44027,8 +44799,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "liber",
+      "-ate",
       "libra"
     ]
   },
@@ -44043,8 +44815,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "liber",
+      "libra",
+      "-ion",
       "-ation"
     ]
   },
@@ -44063,8 +44836,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "liber",
-      "libra",
-      "-ty"
+      "-ty",
+      "libra"
     ]
   },
   {
@@ -44080,9 +44853,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "libra",
+      "libr",
       "-arian",
-      "libr"
+      "libra",
+      "-an"
     ]
   },
   {
@@ -44163,9 +44937,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "-en",
       "ten",
-      "leg",
-      "-en"
+      "leg"
     ]
   },
   {
@@ -44339,9 +45113,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "mit",
       "-ion",
-      "-ation",
-      "mit"
+      "-ation"
     ]
   },
   {
@@ -44645,9 +45419,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "lit"
+      "lit",
+      "-ary"
     ]
   },
   {
@@ -44663,8 +45436,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ure",
-      "lit"
+      "lit",
+      "-ure"
     ]
   },
   {
@@ -44819,8 +45592,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "loc",
-      "-ty",
-      "ali"
+      "ali",
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -44835,8 +45609,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
-      "loc"
+      "loc",
+      "-ate"
     ]
   },
   {
@@ -44852,9 +45626,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "loc",
-      "-ation"
+      "-ation",
+      "-ion"
     ]
   },
   {
@@ -45021,8 +45795,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
-      "viv"
+      "viv",
+      "-ty"
     ]
   },
   {
@@ -45080,7 +45854,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ose",
       "-ose"
     ]
   },
@@ -45152,7 +45925,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ose",
       "-ose"
     ]
   },
@@ -45285,9 +46057,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "luc",
       "min",
-      "-ous",
-      "luc"
+      "-ous"
     ]
   },
   {
@@ -45498,8 +46270,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ism",
-      "magn",
-      "-ism"
+      "magn"
     ]
   },
   {
@@ -45516,9 +46287,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "magn",
       "fac",
-      "-ant",
-      "cent"
+      "cent",
+      "-ant"
     ]
   },
   {
@@ -45534,8 +46306,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-fy",
-      "magn"
+      "magn",
+      "-fy"
     ]
   },
   {
@@ -45551,8 +46323,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-tude",
-      "magn"
+      "magn",
+      "-tude"
     ]
   },
   {
@@ -45707,8 +46479,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
-      "magn"
+      "magn",
+      "-ty"
     ]
   },
   {
@@ -45750,8 +46522,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mal",
-      "ali",
-      "-ous"
+      "-ous",
+      "ali"
     ]
   },
   {
@@ -45829,6 +46601,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "man",
+      "ment",
       "-ment",
       "-ant"
     ]
@@ -45874,9 +46647,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "man",
-      "lat"
+      "lat",
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -45949,8 +46723,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "man"
+      "man",
+      "-ion"
     ]
   },
   {
@@ -45985,7 +46759,8 @@ export const cet6Words = [
     "rootIds": [
       "man",
       "fac",
-      "-ure"
+      "-ure",
+      "act"
     ]
   },
   {
@@ -46140,8 +46915,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "mar",
-      "-age"
+      "-age",
+      "mar"
     ]
   },
   {
@@ -46251,7 +47026,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mar",
-      "-ism",
       "-ism"
     ]
   },
@@ -46291,8 +47065,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
-      "init"
+      "init",
+      "-ty"
     ]
   },
   {
@@ -46471,8 +47245,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "matr",
       "-ism",
+      "matr",
       "ali"
     ]
   },
@@ -46485,8 +47259,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
-      "matr"
+      "matr",
+      "-ty"
     ]
   },
   {
@@ -46631,7 +47405,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -46718,8 +47491,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ment",
-      "-ant",
-      "ment"
+      "ment",
+      "-ant"
     ]
   },
   {
@@ -46778,8 +47551,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ics",
-      "mechan"
+      "mechan",
+      "-ics"
     ]
   },
   {
@@ -46796,7 +47569,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mechan",
-      "-ism",
       "-ism"
     ]
   },
@@ -46843,8 +47615,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "medi"
+      "medi",
+      "-ate"
     ]
   },
   {
@@ -46879,8 +47651,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ev (aev)",
-      "val",
-      "medi"
+      "medi",
+      "val"
     ]
   },
   {
@@ -46896,8 +47668,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "medi"
+      "medi",
+      "-ate"
     ]
   },
   {
@@ -46910,8 +47682,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "err",
+      "medi",
       "-an",
+      "err",
       "terr"
     ]
   },
@@ -47066,8 +47839,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-al",
-      "ment"
+      "ment",
+      "-al"
     ]
   },
   {
@@ -47081,8 +47854,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ize",
-      "mer"
+      "mer",
+      "-ize"
     ]
   },
   {
@@ -47098,8 +47871,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ant",
-      "mer"
+      "mer",
+      "-ant"
     ]
   },
   {
@@ -47113,7 +47886,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful",
       "mer"
     ]
@@ -47130,7 +47902,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "cur",
       "cur",
       "mer"
     ]
@@ -47341,9 +48112,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "erg",
       "meta-",
-      "allo",
-      "erg"
+      "allo"
     ]
   },
   {
@@ -47356,8 +48127,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -47423,7 +48192,8 @@ export const cet6Words = [
     "rootIds": [
       "pol",
       "trop",
-      "metr"
+      "metr",
+      "lit"
     ]
   },
   {
@@ -47437,8 +48207,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "put",
-      "micro-"
+      "micro-",
+      "put"
     ]
   },
   {
@@ -47453,8 +48223,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "phon",
-      "micro-"
+      "micro-",
+      "phon"
     ]
   },
   {
@@ -47466,8 +48236,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ced",
-      "micro-"
+      "micro-",
+      "ced"
     ]
   },
   {
@@ -47484,8 +48254,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "scop",
-      "micro-"
+      "micro-",
+      "scop"
     ]
   },
   {
@@ -47499,8 +48269,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "scop",
       "micro-",
+      "scop",
       "-ic"
     ]
   },
@@ -47593,8 +48363,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "grat"
+      "grat",
+      "-ate"
     ]
   },
   {
@@ -47640,8 +48410,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "lit"
+      "lit",
+      "-ant"
     ]
   },
   {
@@ -47656,9 +48426,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "lit"
+      "lit",
+      "-ary"
     ]
   },
   {
@@ -47757,8 +48526,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "min"
+      "min",
+      "-ure"
     ]
   },
   {
@@ -47772,8 +48541,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mal",
-      "min"
+      "min",
+      "mal"
     ]
   },
   {
@@ -47788,8 +48557,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
-      "min"
+      "min",
+      "-ize"
     ]
   },
   {
@@ -47822,8 +48591,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "min",
-      "minist"
+      "minist",
+      "min"
     ]
   },
   {
@@ -47839,8 +48608,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "min",
-      "minist"
+      "minist",
+      "min"
     ]
   },
   {
@@ -47871,8 +48640,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
-      "min"
+      "min",
+      "-ty"
     ]
   },
   {
@@ -47946,9 +48715,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "mit",
-      "mis-"
+      "mit"
     ]
   },
   {
@@ -47962,9 +48731,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "mit",
-      "mis-"
+      "mit"
     ]
   },
   {
@@ -47980,9 +48749,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "-able",
-      "mit"
+      "mit",
+      "-able"
     ]
   },
   {
@@ -47997,9 +48767,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-y",
+      "mis-",
       "mis",
-      "mit",
-      "-y"
+      "mit"
     ]
   },
   {
@@ -48014,9 +48785,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mis-",
       "fort",
       "mis",
-      "fort"
+      "mit"
     ]
   },
   {
@@ -48031,9 +48803,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "mit",
-      "mis-"
+      "mit"
     ]
   },
   {
@@ -48050,8 +48822,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mis",
       "mit",
+      "mis-",
+      "mis",
       "-ile"
     ]
   },
@@ -48066,9 +48839,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "mit",
-      "mis-"
+      "mit"
     ]
   },
   {
@@ -48084,9 +48857,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mit",
       "-ion",
-      "mis",
-      "mit"
+      "mis-",
+      "mis"
     ]
   },
   {
@@ -48099,9 +48873,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "mit",
+      "mis-",
       "mis",
-      "-ary",
-      "mit"
+      "-ary"
     ]
   },
   {
@@ -48117,9 +48892,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "-ist",
-      "mit"
+      "mit",
+      "-ist"
     ]
   },
   {
@@ -48132,9 +48908,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "mit",
-      "mis-"
+      "mit"
     ]
   },
   {
@@ -48148,9 +48924,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "mis-",
       "mis",
-      "mit",
-      "mis-"
+      "mit"
     ]
   },
   {
@@ -48165,6 +48941,7 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "mis-",
       "mis",
       "mit",
       "sta"
@@ -48269,6 +49046,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mob",
+      "lit",
       "-ty",
       "-ability"
     ]
@@ -48284,8 +49062,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ize",
-      "mob"
+      "mob",
+      "-ize"
     ]
   },
   {
@@ -48382,9 +49160,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "-faction",
+      "fac",
       "-ion",
-      "-ation",
-      "fac"
+      "-ation"
     ]
   },
   {
@@ -48415,9 +49194,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "fer"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -48504,7 +49283,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ary",
-      "-ary",
       "ment"
     ]
   },
@@ -48535,7 +49313,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "arch",
       "mon"
     ]
@@ -48553,9 +49330,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "mon",
-      "mon"
+      "-ary"
     ]
   },
   {
@@ -48573,7 +49349,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -48586,7 +49361,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -48603,8 +49377,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pol",
       "mon",
+      "pol",
       "poly"
     ]
   },
@@ -48620,7 +49394,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -48635,7 +49408,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "mon",
       "-ous"
     ]
@@ -48654,8 +49426,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "mon",
+      "ment",
       "-ment",
-      "mon"
+      "-ant"
     ]
   },
   {
@@ -48721,9 +49494,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "ali",
-      "lit"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -48865,8 +49638,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "mob"
+      "mob",
+      "-ion"
     ]
   },
   {
@@ -48882,8 +49655,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "mob"
+      "mob",
+      "-ate"
     ]
   },
   {
@@ -48914,9 +49687,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "oto",
       "mob",
-      "-er"
+      "-er",
+      "oto"
     ]
   },
   {
@@ -49013,7 +49786,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -49032,6 +49804,7 @@ export const cet6Words = [
     "rootIds": [
       "mob",
       "-ment",
+      "ment",
       "-ant"
     ]
   },
@@ -49099,9 +49872,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "plic",
+      "multi-",
       "-ion",
-      "-ation",
-      "plic"
+      "-ation"
     ]
   },
   {
@@ -49119,8 +49893,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "plic",
-      "multi-"
+      "multi-",
+      "plic"
     ]
   },
   {
@@ -49136,8 +49910,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-tude",
-      "multi-"
+      "multi-",
+      "-tude"
     ]
   },
   {
@@ -49370,8 +50144,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-al",
-      "mut"
+      "mut",
+      "-al"
     ]
   },
   {
@@ -49504,9 +50278,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "narr",
       "-ion",
-      "-ation",
-      "narr"
+      "-ation"
     ]
   },
   {
@@ -49521,8 +50295,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
-      "narr"
+      "narr",
+      "-ive"
     ]
   },
   {
@@ -49568,9 +50342,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "nat",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -49605,9 +50379,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "nat",
-      "ali"
+      "ali",
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -49623,8 +50398,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ive",
-      "nat"
+      "nat",
+      "-ive"
     ]
   },
   {
@@ -49642,8 +50417,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "nat",
-      "-al"
+      "-al",
+      "nat"
     ]
   },
   {
@@ -49674,8 +50449,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ure",
-      "nat"
+      "nat",
+      "-ure"
     ]
   },
   {
@@ -49733,9 +50508,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "nav",
+      "au",
       "-ion",
-      "-ation",
-      "nav"
+      "-ation"
     ]
   },
   {
@@ -49911,9 +50687,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "leg",
-      "lex"
+      "ec",
+      "lex",
+      "neg"
     ]
   },
   {
@@ -49929,8 +50706,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "leg",
-      "-able",
-      "neg"
+      "neg",
+      "-able"
     ]
   },
   {
@@ -49946,9 +50723,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "neg",
-      "ego"
+      "ego",
+      "-ate"
     ]
   },
   {
@@ -49961,9 +50738,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "neg",
+      "ego",
       "-ion",
-      "-ation",
-      "neg"
+      "-ation"
     ]
   },
   {
@@ -50154,9 +50932,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-less",
       "ver",
-      "vers"
+      "vers",
+      "the",
+      "-less"
     ]
   },
   {
@@ -50299,8 +51078,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "nom",
-      "min",
-      "nom"
+      "min"
     ]
   },
   {
@@ -50316,9 +51094,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "nom",
-      "nat"
+      "-ate",
+      "nat",
+      "min"
     ]
   },
   {
@@ -50332,9 +51111,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-less",
+      "non-",
       "non",
-      "non-"
+      "the",
+      "-less"
     ]
   },
   {
@@ -50349,9 +51129,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "non",
       "non-",
-      "sens"
+      "non",
+      "sens",
+      "sen"
     ]
   },
   {
@@ -50383,8 +51164,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mal",
-      "-al"
+      "-al",
+      "mal"
     ]
   },
   {
@@ -50397,9 +51178,11 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "mal",
+      "ali",
       "-ion",
       "-ation",
-      "mal"
+      "-ization"
     ]
   },
   {
@@ -50496,8 +51279,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
-      "not"
+      "not",
+      "-able"
     ]
   },
   {
@@ -50511,9 +51294,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "not",
       "-ion",
-      "-ation",
-      "not"
+      "-ation"
     ]
   },
   {
@@ -50575,8 +51358,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-able",
-      "not"
+      "not",
+      "-able"
     ]
   },
   {
@@ -50588,9 +51371,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "-faction",
+      "fac",
+      "not",
       "-ion",
-      "-ation",
-      "fac"
+      "-ation"
     ]
   },
   {
@@ -50622,8 +51407,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "not"
+      "not",
+      "-ion"
     ]
   },
   {
@@ -50697,8 +51482,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ish",
-      "rid"
+      "rid",
+      "-ish"
     ]
   },
   {
@@ -50712,9 +51497,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "rid",
+      "ment",
       "-ment",
-      "-ant",
-      "rid"
+      "-ant"
     ]
   },
   {
@@ -50821,8 +51607,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ance",
-      "san"
+      "san",
+      "-ance"
     ]
   },
   {
@@ -50855,8 +51641,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mer",
       "numer",
+      "mer",
       "-ous"
     ]
   },
@@ -50924,8 +51710,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "tri"
+      "tri",
+      "-ant"
     ]
   },
   {
@@ -50942,9 +51728,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "trit",
-      "tri"
+      "tri",
+      "-ion"
     ]
   },
   {
@@ -51067,9 +51853,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "ob-",
-      "ject"
+      "ject",
+      "ec"
     ]
   },
   {
@@ -51086,9 +51872,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "ec",
-      "ject"
+      "ject",
+      "-ion"
     ]
   },
   {
@@ -51105,9 +51891,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
+      "ject",
       "-ive",
-      "ject"
+      "ec"
     ]
   },
   {
@@ -51124,9 +51910,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "leg",
       "-ion",
-      "-ation",
-      "leg"
+      "-ation"
     ]
   },
   {
@@ -51175,8 +51961,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "-ure",
-      "cur"
+      "-ure"
     ]
   },
   {
@@ -51192,9 +51977,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "serv",
       "-ion",
-      "-ation",
-      "serv"
+      "-ation"
     ]
   },
   {
@@ -51211,7 +51996,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "serv",
       "serv"
     ]
   },
@@ -51226,8 +52010,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "serv",
-      "ver",
-      "serv"
+      "ver"
     ]
   },
   {
@@ -51243,8 +52026,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "sed"
+      "sed",
+      "-ion"
     ]
   },
   {
@@ -51277,9 +52060,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "ten",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -51340,9 +52123,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "oc-",
       "cad",
-      "oc-"
+      "-ion"
     ]
   },
   {
@@ -51422,9 +52205,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "cur",
-      "cur",
-      "oc-"
+      "oc-",
+      "cur"
     ]
   },
   {
@@ -51441,7 +52223,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cur",
       "cur",
       "-ance"
     ]
@@ -51590,9 +52371,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "fac",
       "of-",
-      "-al"
+      "-al",
+      "fac"
     ]
   },
   {
@@ -51844,8 +52625,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "op-",
-      "-ant",
-      "pos"
+      "pos",
+      "-ant"
     ]
   },
   {
@@ -51862,8 +52643,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "port",
-      "-ty",
-      "uni"
+      "uni",
+      "-ty"
     ]
   },
   {
@@ -51882,8 +52663,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "op-",
-      "-ose",
-      "pos"
+      "pos",
+      "-ose"
     ]
   },
   {
@@ -51900,9 +52681,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ite",
       "op-",
-      "pos"
+      "pos",
+      "-ite"
     ]
   },
   {
@@ -51934,7 +52715,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "opt",
       "op",
       "opt"
     ]
@@ -51967,7 +52747,9 @@ export const cet6Words = [
     "rootIds": [
       "opt",
       "op",
-      "mis"
+      "mis",
+      "mit",
+      "-ism"
     ]
   },
   {
@@ -51985,7 +52767,8 @@ export const cet6Words = [
     "rootIds": [
       "opt",
       "op",
-      "mis"
+      "mis",
+      "mit"
     ]
   },
   {
@@ -52002,8 +52785,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "opt",
-      "op",
-      "opt"
+      "op"
     ]
   },
   {
@@ -52019,9 +52801,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "opt",
-      "op"
+      "op",
+      "-ion"
     ]
   },
   {
@@ -52040,8 +52822,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "opt",
-      "op",
-      "opt"
+      "op"
     ]
   },
   {
@@ -52149,9 +52930,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "ord"
+      "ord",
+      "-ary"
     ]
   },
   {
@@ -52211,7 +52991,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ism",
       "-ism"
     ]
   },
@@ -52344,7 +53123,8 @@ export const cet6Words = [
     "rootIds": [
       "-ate",
       "reg",
-      "nat"
+      "nat",
+      "rig"
     ]
   },
   {
@@ -52360,9 +53140,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -52419,9 +53199,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ize",
       "her",
-      "the"
+      "the",
+      "-ize"
     ]
   },
   {
@@ -52550,8 +53330,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "term",
-      "out-"
+      "out-",
+      "term"
     ]
   },
   {
@@ -52631,8 +53411,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "put",
-      "out-"
+      "out-",
+      "put"
     ]
   },
   {
@@ -52647,8 +53427,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-age",
-      "out-"
+      "out-",
+      "-age"
     ]
   },
   {
@@ -52824,8 +53604,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "over-",
-      "-ate",
-      "ver"
+      "ver",
+      "-ate"
     ]
   },
   {
@@ -53206,9 +53986,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-fic",
       "fac",
-      "pac",
-      "-fic"
+      "pac"
     ]
   },
   {
@@ -53226,8 +54006,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pac",
-      "-age"
+      "-age",
+      "pac"
     ]
   },
   {
@@ -53295,7 +54075,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -53449,8 +54228,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
-      "pan"
+      "pan",
+      "-ant"
     ]
   },
   {
@@ -53465,7 +54244,8 @@ export const cet6Words = [
     "rootIds": [
       "anth",
       "her",
-      "the"
+      "the",
+      "pan"
     ]
   },
   {
@@ -53509,8 +54289,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "para",
       "para-",
-      "par",
       "par"
     ]
   },
@@ -53529,7 +54309,9 @@ export const cet6Words = [
     "rootIds": [
       "para-",
       "ras",
-      "par"
+      "par",
+      "para",
+      "-ad"
     ]
   },
   {
@@ -53545,7 +54327,9 @@ export const cet6Words = [
     "rootIds": [
       "para-",
       "ras",
-      "-ize"
+      "par",
+      "radi",
+      "para"
     ]
   },
   {
@@ -53563,7 +54347,9 @@ export const cet6Words = [
     "rootIds": [
       "para-",
       "dox",
-      "ras"
+      "ras",
+      "par",
+      "para"
     ]
   },
   {
@@ -53577,7 +54363,9 @@ export const cet6Words = [
     "rootIds": [
       "para-",
       "dox",
-      "ras"
+      "ras",
+      "par",
+      "allo"
     ]
   },
   {
@@ -53592,9 +54380,11 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "graph",
       "para-",
-      "par"
+      "graph",
+      "par",
+      "rap",
+      "para"
     ]
   },
   {
@@ -53614,7 +54404,8 @@ export const cet6Words = [
     "rootIds": [
       "para-",
       "par",
-      "allo"
+      "allo",
+      "para"
     ]
   },
   {
@@ -53627,9 +54418,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "lys",
       "para-",
-      "par"
+      "lys",
+      "par",
+      "para"
     ]
   },
   {
@@ -53643,9 +54435,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "lys",
       "para-",
-      "par"
+      "lys",
+      "par",
+      "para"
     ]
   },
   {
@@ -53662,7 +54455,8 @@ export const cet6Words = [
     "rootIds": [
       "lys",
       "para-",
-      "par"
+      "par",
+      "para"
     ]
   },
   {
@@ -53678,8 +54472,10 @@ export const cet6Words = [
     ],
     "rootIds": [
       "para-",
+      "metr",
       "par",
-      "par"
+      "ram",
+      "para"
     ]
   },
   {
@@ -53695,7 +54491,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -53711,8 +54506,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ment",
       "par",
+      "ment",
+      "-ment",
       "-ant"
     ]
   },
@@ -53731,8 +54527,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "par",
-      "-al",
-      "par"
+      "-al"
     ]
   },
   {
@@ -53747,8 +54542,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "par",
-      "allo",
-      "par"
+      "allo"
     ]
   },
   {
@@ -53762,9 +54556,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "par",
+      "cap",
       "-ant",
-      "cap"
+      "par",
+      "pan"
     ]
   },
   {
@@ -53781,9 +54576,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "cap",
       "-ate",
-      "par",
-      "cap"
+      "par"
     ]
   },
   {
@@ -53799,7 +54594,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -53816,9 +54610,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "par",
-      "par",
-      "-ar"
+      "-ar",
+      "par"
     ]
   },
   {
@@ -53831,7 +54624,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -53846,9 +54638,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "par",
-      "par"
+      "-ion"
     ]
   },
   {
@@ -53863,7 +54654,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -53879,7 +54669,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -54048,8 +54837,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "path",
       "-ic",
+      "path",
       "the"
     ]
   },
@@ -54112,8 +54901,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "patr",
-      "-otic",
-      "tri"
+      "tri",
+      "-otic"
     ]
   },
   {
@@ -54201,9 +54990,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -54231,9 +55020,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -54271,7 +55060,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -54351,8 +55139,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ant",
-      "san"
+      "san",
+      "-ant"
     ]
   },
   {
@@ -54421,7 +55209,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ped",
       "ped"
     ]
   },
@@ -54439,8 +55226,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ped",
-      "-an",
-      "ped"
+      "tri",
+      "-an"
     ]
   },
   {
@@ -54452,7 +55239,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ped",
       "ped"
     ]
   },
@@ -54608,8 +55394,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "pend"
+      "pend",
+      "-ion"
     ]
   },
   {
@@ -54638,9 +55424,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ive",
+      "per-",
       "cap",
-      "per-"
+      "-ive"
     ]
   },
   {
@@ -54657,9 +55443,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
+      "cent",
       "per-",
-      "cent"
+      "-ant"
     ]
   },
   {
@@ -54676,8 +55462,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "per-",
       "cent",
+      "per-",
       "-age"
     ]
   },
@@ -54694,9 +55480,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "per-",
       "apt",
-      "cap"
+      "cap",
+      "-ion"
     ]
   },
   {
@@ -54724,9 +55511,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "per-",
       "ec",
-      "fac"
+      "fac",
+      "-ion"
     ]
   },
   {
@@ -54739,9 +55527,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "per-",
       "ec",
-      "fac",
-      "per-"
+      "fac"
     ]
   },
   {
@@ -54757,8 +55545,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "form",
-      "per-"
+      "per-",
+      "form"
     ]
   },
   {
@@ -54775,9 +55563,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "per-",
       "form",
       "man",
-      "per-"
+      "-ance"
     ]
   },
   {
@@ -54841,9 +55630,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "per-",
       "peri",
-      "metr"
+      "metr",
+      "per-"
     ]
   },
   {
@@ -54861,8 +55650,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "per-",
-      "peri"
+      "peri",
+      "per-"
     ]
   },
   {
@@ -54875,9 +55664,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "peri",
+      "-ic",
       "per-",
-      "dic",
-      "peri"
+      "dic"
     ]
   },
   {
@@ -54909,9 +55699,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "peri",
       "per-",
       "her",
-      "peri"
+      "phor"
     ]
   },
   {
@@ -54927,8 +55718,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "per-",
-      "-ish",
-      "rid"
+      "rid",
+      "peri",
+      "-ish"
     ]
   },
   {
@@ -54946,9 +55738,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "per-",
       "man",
-      "-ant",
-      "per-"
+      "-ant"
     ]
   },
   {
@@ -54961,8 +55753,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "man",
-      "per-"
+      "per-",
+      "man"
     ]
   },
   {
@@ -54978,8 +55770,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "per-"
+      "per-",
+      "-ate"
     ]
   },
   {
@@ -54993,9 +55785,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mis",
+      "per-",
+      "mit",
       "-able",
-      "mit"
+      "mis"
     ]
   },
   {
@@ -55011,9 +55804,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "per-",
+      "mit",
       "-ion",
-      "mis",
-      "mit"
+      "mis"
     ]
   },
   {
@@ -55030,8 +55824,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mit",
-      "per-"
+      "per-",
+      "mit"
     ]
   },
   {
@@ -55046,6 +55840,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-ar",
       "per-",
       "dic",
       "pend"
@@ -55079,9 +55874,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "lex",
+      "per-",
       "plic",
-      "per-"
+      "lex"
     ]
   },
   {
@@ -55112,8 +55907,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ver",
-      "per-"
+      "per-",
+      "ver"
     ]
   },
   {
@@ -55129,9 +55924,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ist",
       "per-",
-      "sist"
+      "sist",
+      "-ist"
     ]
   },
   {
@@ -55145,9 +55940,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
       "per-",
-      "sist"
+      "ten",
+      "sist",
+      "-ance"
     ]
   },
   {
@@ -55160,8 +55956,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "per-",
       "tend",
       "ten",
+      "sist",
       "-ant"
     ]
   },
@@ -55179,9 +55977,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "son",
+      "-al",
       "per-",
-      "-al"
+      "son"
     ]
   },
   {
@@ -55197,9 +55995,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "per-",
       "son",
-      "-ty",
-      "per-"
+      "ali",
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -55217,8 +56017,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "son",
-      "per-"
+      "per-",
+      "son"
     ]
   },
   {
@@ -55235,8 +56035,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
+      "per-",
       "spect",
+      "ec",
       "-ive"
     ]
   },
@@ -55250,9 +56051,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "spir",
+      "per-",
       "-ion",
-      "-ation",
-      "per-"
+      "-ation"
     ]
   },
   {
@@ -55282,8 +56084,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
-      "per-"
+      "per-",
+      "-ion"
     ]
   },
   {
@@ -55299,8 +56101,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ten",
-      "-ant",
-      "per-"
+      "per-",
+      "-ant"
     ]
   },
   {
@@ -55436,7 +56238,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "non",
-      "nom",
       "nom"
     ]
   },
@@ -55465,8 +56266,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "phil",
-      "anth",
-      "anthr"
+      "anthr",
+      "anth"
     ]
   },
   {
@@ -55483,7 +56284,8 @@ export const cet6Words = [
     "rootIds": [
       "soph",
       "phil",
-      "her"
+      "her",
+      "phor"
     ]
   },
   {
@@ -55511,9 +56313,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "phot",
       "electr",
       "ec",
-      "oto"
+      "oto",
+      "leg"
     ]
   },
   {
@@ -55531,8 +56335,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "graph",
+      "phot",
       "oto",
-      "phot"
+      "rap"
     ]
   },
   {
@@ -55547,7 +56352,8 @@ export const cet6Words = [
     "rootIds": [
       "graph",
       "oto",
-      "phot"
+      "phot",
+      "rap"
     ]
   },
   {
@@ -55560,8 +56366,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "graph",
+      "phot",
       "oto",
-      "phot"
+      "rap"
     ]
   },
   {
@@ -55625,9 +56432,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "phys",
       "-ician",
-      "-an",
-      "phys"
+      "-an"
     ]
   },
   {
@@ -55643,9 +56450,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "phys",
       "-ist",
-      "cis",
-      "phys"
+      "cis"
     ]
   },
   {
@@ -55661,8 +56468,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ics",
       "phys",
+      "-ics",
       "-ic"
     ]
   },
@@ -55679,8 +56486,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "log",
-      "phys"
+      "phys",
+      "log"
     ]
   },
   {
@@ -56239,8 +57046,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
-      "san"
+      "san",
+      "-ant"
     ]
   },
   {
@@ -56269,7 +57076,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -56411,8 +57217,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-al",
-      "plu"
+      "plu",
+      "-al"
     ]
   },
   {
@@ -56539,8 +57345,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "son",
-      "-ous"
+      "-ous",
+      "son"
     ]
   },
   {
@@ -56670,9 +57476,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ician",
       "pol",
-      "-an"
+      "-ician",
+      "-an",
+      "lit"
     ]
   },
   {
@@ -56688,8 +57495,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ics",
       "pol",
+      "-ics",
       "lit"
     ]
   },
@@ -56739,8 +57546,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "pol"
+      "pol",
+      "-ion"
     ]
   },
   {
@@ -56752,9 +57559,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "pol",
       "poly",
-      "mer"
+      "mer",
+      "pol"
     ]
   },
   {
@@ -56857,8 +57664,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
-      "popul"
+      "popul",
+      "-ty"
     ]
   },
   {
@@ -56875,9 +57682,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "popul",
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -56998,8 +57807,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "port"
+      "port",
+      "-ion"
     ]
   },
   {
@@ -57060,7 +57869,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ose",
       "pos",
       "-ose"
     ]
@@ -57079,8 +57887,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "pos"
+      "pos",
+      "-ion"
     ]
   },
   {
@@ -57096,8 +57904,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ive",
-      "pos"
+      "pos",
+      "-ive"
     ]
   },
   {
@@ -57144,9 +57952,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "sed",
-      "poss"
+      "poss",
+      "pos",
+      "-ion"
     ]
   },
   {
@@ -57161,9 +57970,11 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "poss",
+      "pos",
+      "lit",
       "-ty",
-      "-ability",
-      "poss"
+      "-ability"
     ]
   },
   {
@@ -57196,8 +58007,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pos",
       "-age",
+      "post-",
+      "pos",
       "sta"
     ]
   },
@@ -57211,9 +58023,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "post-",
       "pos",
-      "sta",
-      "post-"
+      "sta"
     ]
   },
   {
@@ -57230,9 +58042,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "post-",
       "oste",
-      "pos",
-      "post-"
+      "pos"
     ]
   },
   {
@@ -57248,9 +58060,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "post-",
       "man",
-      "pos",
-      "post-"
+      "pos"
     ]
   },
   {
@@ -57268,8 +58080,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pos",
-      "post-"
+      "post-",
+      "pos"
     ]
   },
   {
@@ -57283,9 +58095,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "post-",
       "lat",
-      "pos"
+      "pos",
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -57319,9 +58133,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "poss",
+      "-al",
       "tend",
-      "ten",
-      "poss"
+      "ten"
     ]
   },
   {
@@ -57411,7 +58226,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -57427,8 +58241,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-able",
-      "act"
+      "act",
+      "-able"
     ]
   },
   {
@@ -57477,8 +58291,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ize",
-      "act"
+      "act",
+      "-ize"
     ]
   },
   {
@@ -57565,9 +58379,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "pre-",
+      "aut",
       "caust",
-      "pre-"
+      "-ion"
     ]
   },
   {
@@ -57582,8 +58397,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ced",
-      "pre-"
+      "pre-",
+      "ced"
     ]
   },
   {
@@ -57599,8 +58414,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ced",
-      "dent",
-      "-ant"
+      "-ant",
+      "pre-",
+      "dent"
     ]
   },
   {
@@ -57616,8 +58432,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ced",
-      "pre-"
+      "pre-",
+      "ced"
     ]
   },
   {
@@ -57634,8 +58450,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pre-",
-      "-ous"
+      "-ous",
+      "pre-"
     ]
   },
   {
@@ -57650,9 +58466,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "cap",
-      "cap"
+      "pre-",
+      "-ate"
     ]
   },
   {
@@ -57670,9 +58486,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
       "cis",
-      "pre-"
+      "pre-",
+      "-ize"
     ]
   },
   {
@@ -57688,9 +58504,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "cis",
-      "pre-"
+      "pre-",
+      "-ion"
     ]
   },
   {
@@ -57705,9 +58521,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "lud",
+      "pre-",
       "claus",
-      "pre-"
+      "lud"
     ]
   },
   {
@@ -57723,8 +58539,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ced",
       "pre-",
+      "ced",
       "deca"
     ]
   },
@@ -57738,8 +58554,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ten",
-      "pre-"
+      "pre-",
+      "ten"
     ]
   },
   {
@@ -57755,8 +58571,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "dic",
-      "pre-"
+      "pre-",
+      "dic"
     ]
   },
   {
@@ -57769,9 +58585,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "pre-",
       "dic",
-      "pre-"
+      "-ion"
     ]
   },
   {
@@ -57789,6 +58605,7 @@ export const cet6Words = [
     "rootIds": [
       "dom",
       "-ant",
+      "pre-",
       "min"
     ]
   },
@@ -57802,9 +58619,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "pre-",
       "dom",
-      "min",
-      "pre-"
+      "min"
     ]
   },
   {
@@ -57819,8 +58636,10 @@ export const cet6Words = [
     ],
     "rootIds": [
       "dom",
-      "-ate",
-      "nat"
+      "pre-",
+      "nat",
+      "min",
+      "-ate"
     ]
   },
   {
@@ -57836,8 +58655,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fac",
-      "pre-"
+      "pre-",
+      "fac"
     ]
   },
   {
@@ -57868,9 +58687,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
       "pre-",
-      "fer"
+      "fer",
+      "-able"
     ]
   },
   {
@@ -57901,9 +58720,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "reg",
+      "-ance",
       "pre-",
-      "-ance"
+      "reg"
     ]
   },
   {
@@ -57920,9 +58739,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "pre-",
       "reg",
-      "-ant",
-      "pre-"
+      "-ant"
     ]
   },
   {
@@ -57940,8 +58759,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dic",
       "pre-",
+      "dic",
       "jud"
     ]
   },
@@ -57959,7 +58778,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
+      "pre-",
       "min",
       "-ary"
     ]
@@ -57975,8 +58794,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "pre-"
+      "pre-",
+      "-ure"
     ]
   },
   {
@@ -58007,9 +58826,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
+      "mit",
+      "pre-",
       "mis",
-      "mit"
+      "-ize"
     ]
   },
   {
@@ -58040,9 +58860,11 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "pre-",
+      "par",
+      "para",
       "-ion",
-      "-ation",
-      "par"
+      "-ation"
     ]
   },
   {
@@ -58059,7 +58881,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "par",
       "pre-",
       "par"
     ]
@@ -58077,9 +58898,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "pre-",
       "pos",
-      "pre-"
+      "-ion"
     ]
   },
   {
@@ -58093,9 +58914,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
+      "pre-",
       "quer",
-      "pre-"
+      "equ",
+      "-ite"
     ]
   },
   {
@@ -58130,8 +58952,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "scrib",
+      "-ion",
       "pre-"
     ]
   },
@@ -58149,8 +58971,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pre-",
-      "-ance",
-      "sen"
+      "sen",
+      "-ance"
     ]
   },
   {
@@ -58165,9 +58987,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "pre-",
+      "sens",
+      "sen",
       "-ion",
-      "-ation",
-      "pre-"
+      "-ation"
     ]
   },
   {
@@ -58196,9 +59020,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "pre-",
+      "serv",
       "-ion",
-      "-ation",
-      "serv"
+      "-ation"
     ]
   },
   {
@@ -58215,7 +59040,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "serv",
       "serv",
       "pre-"
     ]
@@ -58257,9 +59081,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "sed",
+      "-ance",
       "pre-",
-      "-ance"
+      "sed"
     ]
   },
   {
@@ -58275,9 +59099,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "dent",
       "sed",
-      "-ant"
+      "-ant",
+      "pre-",
+      "dent"
     ]
   },
   {
@@ -58344,9 +59169,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ably",
+      "pre-",
       "sum",
-      "pre-"
+      "-ably"
     ]
   },
   {
@@ -58361,8 +59186,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sum",
-      "pre-"
+      "pre-",
+      "sum"
     ]
   },
   {
@@ -58379,9 +59204,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "pre-",
       "tend",
-      "ten",
-      "pre-"
+      "ten"
     ]
   },
   {
@@ -58472,9 +59297,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
       "pre-",
-      "val"
+      "val",
+      "-ant"
     ]
   },
   {
@@ -58492,8 +59317,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "veni",
-      "-ant",
-      "pre-"
+      "pre-",
+      "-ant"
     ]
   },
   {
@@ -58506,9 +59331,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "pre-",
       "veni",
-      "pre-"
+      "-ion"
     ]
   },
   {
@@ -58628,9 +59453,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mar",
+      "prim",
       "-ary",
-      "-ary"
+      "mar"
     ]
   },
   {
@@ -58644,8 +59469,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "prim"
+      "prim",
+      "-ate"
     ]
   },
   {
@@ -58679,9 +59504,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ive",
       "mit",
-      "prim"
+      "prim",
+      "-ive"
     ]
   },
   {
@@ -58709,8 +59534,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ced",
-      "prim"
+      "prim",
+      "ced"
     ]
   },
   {
@@ -58727,8 +59552,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cap",
-      "prim"
+      "prim",
+      "cap"
     ]
   },
   {
@@ -58758,8 +59583,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "cap",
-      "prim"
+      "prim",
+      "cap"
     ]
   },
   {
@@ -58902,7 +59727,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "leg",
       "leg"
     ]
   },
@@ -58935,7 +59759,9 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "prob",
-      "-ty"
+      "lit",
+      "-ty",
+      "-ability"
     ]
   },
   {
@@ -58950,8 +59776,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "pro-",
       "prob",
+      "pro-",
       "-able"
     ]
   },
@@ -58967,9 +59793,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "pro-",
       "prob",
-      "-ably"
+      "-ably",
+      "pro-"
     ]
   },
   {
@@ -58986,8 +59812,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "prob",
-      "pro-"
+      "prob"
     ]
   },
   {
@@ -59004,8 +59829,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ced",
       "pro-",
+      "ced",
       "-ure"
     ]
   },
@@ -59022,9 +59847,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ced",
       "pro-",
-      "pro-"
+      "ced"
     ]
   },
   {
@@ -59039,7 +59863,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59058,7 +59881,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ced",
-      "pro-",
       "pro-"
     ]
   },
@@ -59075,8 +59897,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ced",
-      "-ion",
-      "pro-"
+      "pro-",
+      "-ion"
     ]
   },
   {
@@ -59093,7 +59915,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-",
       "clam"
     ]
@@ -59114,8 +59935,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "duc",
-      "pro-"
+      "duc"
     ]
   },
   {
@@ -59128,8 +59948,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "duc",
-      "pro-"
+      "duc"
     ]
   },
   {
@@ -59146,8 +59965,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "duc",
-      "pro-"
+      "duc"
     ]
   },
   {
@@ -59163,9 +59981,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "duc"
+      "duc",
+      "-ion"
     ]
   },
   {
@@ -59181,9 +59999,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-ive",
       "pro-",
-      "duc",
-      "-ive"
+      "duc"
     ]
   },
   {
@@ -59199,8 +60017,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ty",
-      "viv"
+      "viv",
+      "duc",
+      "-ty"
     ]
   },
   {
@@ -59217,9 +60036,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "pro-"
+      "-ion"
     ]
   },
   {
@@ -59235,7 +60053,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59252,7 +60069,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59268,9 +60084,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-ance",
       "pro-",
-      "fac",
-      "pro-"
+      "fac"
     ]
   },
   {
@@ -59302,9 +60118,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "fil",
-      "pro-"
+      "pro-",
+      "-ile"
     ]
   },
   {
@@ -59321,7 +60137,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59337,8 +60152,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-able",
-      "pro-"
+      "-able"
     ]
   },
   {
@@ -59355,7 +60169,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "pro-",
       "fus"
     ]
   },
@@ -59370,9 +60183,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "gram",
       "pro-",
-      "rog"
+      "gram",
+      "rog",
+      "ram"
     ]
   },
   {
@@ -59408,7 +60222,8 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "gress",
-      "rog"
+      "rog",
+      "-ive"
     ]
   },
   {
@@ -59425,7 +60240,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "hab",
       "pro-"
     ]
@@ -59439,9 +60253,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "hab"
+      "hab",
+      "-ion"
     ]
   },
   {
@@ -59459,8 +60273,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "ec",
-      "pro-"
+      "ject",
+      "ec"
     ]
   },
   {
@@ -59475,7 +60289,9 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "ec",
-      "ten"
+      "ten",
+      "tact",
+      "ject"
     ]
   },
   {
@@ -59493,7 +60309,7 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "ec",
-      "pro-"
+      "ject"
     ]
   },
   {
@@ -59509,7 +60325,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59525,7 +60340,7 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "min",
-      "pro-"
+      "-ance"
     ]
   },
   {
@@ -59543,8 +60358,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ant",
-      "min"
+      "min",
+      "-ant"
     ]
   },
   {
@@ -59563,8 +60378,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ize",
-      "mis"
+      "mit",
+      "mis",
+      "-ize"
     ]
   },
   {
@@ -59580,9 +60396,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "mit",
       "pro-",
-      "mis",
-      "mit"
+      "mis"
     ]
   },
   {
@@ -59601,8 +60417,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "mob",
-      "pro-"
+      "mob"
     ]
   },
   {
@@ -59614,9 +60429,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "mob"
+      "mob",
+      "-ion"
     ]
   },
   {
@@ -59633,7 +60448,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59646,7 +60460,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59663,7 +60476,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59678,7 +60490,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "pro-",
       "pro-",
       "noun"
     ]
@@ -59696,9 +60507,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "pro-",
-      "pro-",
-      "noun"
+      "noun",
+      "pro-"
     ]
   },
   {
@@ -59714,9 +60524,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
+      "noun",
+      "-ation",
       "pro-",
-      "-ation"
+      "-ion"
     ]
   },
   {
@@ -59731,7 +60542,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59746,7 +60556,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59763,8 +60572,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ate",
-      "pro-"
+      "-ate"
     ]
   },
   {
@@ -59777,8 +60585,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
+      "-ion",
       "-ation"
     ]
   },
@@ -59796,8 +60604,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "pel",
-      "pro-"
+      "pel"
     ]
   },
   {
@@ -59811,8 +60618,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "pel",
-      "pro-"
+      "pel"
     ]
   },
   {
@@ -59829,7 +60635,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59844,7 +60649,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59861,7 +60665,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59876,7 +60679,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59891,7 +60693,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -59908,9 +60709,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "port"
+      "port",
+      "-ion"
     ]
   },
   {
@@ -59924,8 +60725,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "port",
-      "pro-"
+      "port"
     ]
   },
   {
@@ -59960,8 +60760,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ose",
-      "pos"
+      "pos",
+      "-ose"
     ]
   },
   {
@@ -59977,9 +60777,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "pos"
+      "pos",
+      "-ion"
     ]
   },
   {
@@ -59994,9 +60794,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "pel"
+      "pel",
+      "-ion"
     ]
   },
   {
@@ -60012,8 +60812,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ose",
-      "pro-"
+      "-ose"
     ]
   },
   {
@@ -60031,8 +60830,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "ec",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -60048,8 +60847,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
+      "spect",
       "ec",
-      "spect"
+      "-ive"
     ]
   },
   {
@@ -60065,9 +60865,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "-ty",
-      "pro-"
+      "pro-",
+      "peri"
     ]
   },
   {
@@ -60083,7 +60883,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pro-",
       "pro-",
       "-ous"
     ]
@@ -60103,7 +60902,8 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "ec",
-      "proto"
+      "proto",
+      "rot"
     ]
   },
   {
@@ -60118,9 +60918,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "pro-",
-      "ec"
+      "ec",
+      "proto",
+      "rot",
+      "-ion"
     ]
   },
   {
@@ -60133,9 +60935,11 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "-ive",
       "pro-",
       "ec",
-      "-ive"
+      "proto",
+      "rot"
     ]
   },
   {
@@ -60151,9 +60955,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "pro-",
       "proto",
-      "pro-"
+      "pro-",
+      "rot"
     ]
   },
   {
@@ -60167,7 +60971,9 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "tend",
-      "ten"
+      "ten",
+      "proto",
+      "rot"
     ]
   },
   {
@@ -60186,7 +60992,7 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "proto",
-      "pro-"
+      "rot"
     ]
   },
   {
@@ -60198,9 +61004,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "proto",
       "pro-",
       "oto",
-      "proto"
+      "rot"
     ]
   },
   {
@@ -60216,9 +61023,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "proto",
       "pro-",
       "oto",
-      "proto"
+      "rot"
     ]
   },
   {
@@ -60234,7 +61042,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "pro-",
       "pro-"
     ]
   },
@@ -60252,8 +61059,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "prob",
-      "pro-"
+      "prob"
     ]
   },
   {
@@ -60267,7 +61073,8 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "verb",
-      "prob"
+      "prob",
+      "ver"
     ]
   },
   {
@@ -60286,7 +61093,8 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "vid",
-      "prob"
+      "prob",
+      "ov"
     ]
   },
   {
@@ -60303,7 +61111,8 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "vid",
-      "prob"
+      "prob",
+      "ov"
     ]
   },
   {
@@ -60321,7 +61130,9 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "vinc",
-      "prob"
+      "prob",
+      "ov",
+      "vin"
     ]
   },
   {
@@ -60338,9 +61149,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "vid",
       "pro-",
-      "vid"
+      "prob",
+      "ov",
+      "-ion"
     ]
   },
   {
@@ -60356,6 +61169,7 @@ export const cet6Words = [
     "rootIds": [
       "pro-",
       "prob",
+      "voc",
       "-ive"
     ]
   },
@@ -60372,8 +61186,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "prob",
-      "pro-"
+      "voc",
+      "prob"
     ]
   },
   {
@@ -60386,8 +61200,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "prob",
-      "pro-"
+      "prob"
     ]
   },
   {
@@ -60402,8 +61215,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "pro-",
-      "-ty",
-      "mit"
+      "mit",
+      "-ty"
     ]
   },
   {
@@ -60418,8 +61231,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dent",
-      "-ant"
+      "-ant",
+      "dent"
     ]
   },
   {
@@ -60433,8 +61246,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "log",
-      "psych"
+      "psych",
+      "log"
     ]
   },
   {
@@ -60451,9 +61264,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "log",
       "psych",
-      "-logy"
+      "-logy",
+      "log"
     ]
   },
   {
@@ -60654,9 +61467,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "uni",
+      "ment",
       "-ment",
-      "-ant",
-      "uni"
+      "-ant"
     ]
   },
   {
@@ -60784,7 +61598,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ose",
       "pos",
       "-ose"
     ]
@@ -60872,9 +61685,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-faction",
+      "fac",
+      "ali",
       "-ion",
-      "-ation",
-      "fac"
+      "-ation"
     ]
   },
   {
@@ -60905,9 +61720,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ive",
       "ali",
-      "lit"
+      "lit",
+      "-ive"
     ]
   },
   {
@@ -60924,9 +61739,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "ali",
-      "lit"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -61102,8 +61917,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
-      "quer"
+      "quer",
+      "-able"
     ]
   },
   {
@@ -61329,8 +62144,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ras",
-      "-al",
-      "radi"
+      "radi",
+      "-al"
     ]
   },
   {
@@ -61344,9 +62159,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "radi",
       "ras",
-      "-ant",
-      "radi"
+      "-ant"
     ]
   },
   {
@@ -61362,9 +62177,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ras",
+      "radi",
       "-ate",
-      "radi"
+      "ras"
     ]
   },
   {
@@ -61380,8 +62195,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "ras",
+      "radi",
+      "-ion",
       "-ation"
     ]
   },
@@ -61395,8 +62211,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ras",
-      "-ator",
-      "radi"
+      "radi",
+      "-ator"
     ]
   },
   {
@@ -61412,9 +62228,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ras",
       "radic",
-      "dic"
+      "ras",
+      "dic",
+      "radi"
     ]
   },
   {
@@ -61429,9 +62246,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "act",
+      "radi",
       "ras",
-      "-ive",
-      "act"
+      "-ive"
     ]
   },
   {
@@ -61445,8 +62263,10 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ras",
-      "-ty",
-      "viv"
+      "viv",
+      "act",
+      "radi",
+      "-ty"
     ]
   },
   {
@@ -61459,8 +62279,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ras",
       "radic",
+      "ras",
+      "radi",
       "-ish"
     ]
   },
@@ -61475,8 +62296,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ras",
-      "radi"
+      "radi",
+      "ras"
     ]
   },
   {
@@ -61493,8 +62314,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
-      "radi"
+      "radi",
+      "ras"
     ]
   },
   {
@@ -61660,9 +62481,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
       "amb",
-      "ram"
+      "ram",
+      "-able"
     ]
   },
   {
@@ -61691,8 +62512,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "dom",
-      "-dom",
-      "dom"
+      "-dom"
     ]
   },
   {
@@ -61765,8 +62585,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
-      "rap"
+      "rap",
+      "-ty"
     ]
   },
   {
@@ -61792,9 +62612,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "apt",
+      "rap",
       "-ure",
-      "rap"
+      "apt"
     ]
   },
   {
@@ -62032,8 +62852,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "act",
-      "re-"
+      "re-",
+      "act"
     ]
   },
   {
@@ -62046,8 +62866,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
-      "act"
+      "act",
+      "-ion"
     ]
   },
   {
@@ -62142,9 +62962,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ty",
       "ali",
-      "lit"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -62157,6 +62977,7 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "ali",
       "-ion",
       "-ation",
       "-ization"
@@ -62173,8 +62994,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ize",
-      "ali"
+      "ali",
+      "-ize"
     ]
   },
   {
@@ -62265,8 +63086,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "bell",
-      "re-"
+      "re-",
+      "bell"
     ]
   },
   {
@@ -62281,8 +63102,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "bell"
+      "bell",
+      "-ion"
     ]
   },
   {
@@ -62311,8 +63132,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "allo",
-      "re-"
+      "re-",
+      "allo"
     ]
   },
   {
@@ -62344,8 +63165,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ant",
-      "cent"
+      "cent",
+      "-ant"
     ]
   },
   {
@@ -62376,9 +63197,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "cap",
       "apt",
-      "cap"
+      "-ion"
     ]
   },
   {
@@ -62428,8 +63249,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "cap"
+      "cap",
+      "-ant"
     ]
   },
   {
@@ -62462,8 +63283,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -62524,9 +63343,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "cogn",
-      "eco"
+      "eco",
+      "-ion"
     ]
   },
   {
@@ -62559,7 +63378,8 @@ export const cet6Words = [
     "rootIds": [
       "ec",
       "leg",
-      "lex"
+      "lex",
+      "eco"
     ]
   },
   {
@@ -62590,9 +63410,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "don",
+      "eco",
       "-ion",
-      "-ation",
-      "don"
+      "-ation"
     ]
   },
   {
@@ -62608,8 +63429,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ile",
-      "eco"
+      "eco",
+      "-ile"
     ]
   },
   {
@@ -62626,9 +63447,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "re-",
       "cor",
       "cur",
-      "ord"
+      "ord",
+      "eco"
     ]
   },
   {
@@ -62647,7 +63470,8 @@ export const cet6Words = [
     "rootIds": [
       "cor",
       "cur",
-      "ord"
+      "ord",
+      "eco"
     ]
   },
   {
@@ -62664,8 +63488,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ver",
       "re-",
+      "ver",
       "eco"
     ]
   },
@@ -62726,9 +63550,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -62745,8 +63569,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
       "reg",
+      "ec",
       "tact"
     ]
   },
@@ -62778,8 +63602,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
       "reg",
+      "ec",
       "-fy"
     ]
   },
@@ -62794,7 +63618,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "cur",
       "cur"
     ]
   },
@@ -62808,7 +63631,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "cur",
       "cur",
       "-ance"
     ]
@@ -62857,8 +63679,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "duc"
+      "duc",
+      "-ion"
     ]
   },
   {
@@ -63008,6 +63830,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "re-",
+      "flect",
       "ec",
       "leg",
       "lex"
@@ -63025,6 +63849,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "re-",
+      "flect",
       "-ion",
       "ec",
       "leg"
@@ -63040,9 +63866,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "lex",
-      "flect"
+      "flect",
+      "-ion"
     ]
   },
   {
@@ -63103,9 +63929,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -63120,9 +63946,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "-er",
       "reg",
-      "-ator",
-      "rig"
+      "rig",
+      "-ator"
     ]
   },
   {
@@ -63264,9 +64091,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ate",
       "reg",
-      "gen"
+      "gen",
+      "-ate"
     ]
   },
   {
@@ -63279,8 +64106,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "reg",
-      "-ive",
-      "gen"
+      "gen",
+      "-ive"
     ]
   },
   {
@@ -63309,8 +64136,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ment",
       "reg",
+      "-ment",
+      "ment",
       "-ant"
     ]
   },
@@ -63326,8 +64154,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "reg"
+      "reg",
+      "-ion"
     ]
   },
   {
@@ -63390,8 +64218,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ty",
-      "reg"
+      "reg",
+      "-ty"
     ]
   },
   {
@@ -63422,9 +64250,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "reg",
       "-ate",
       "lat",
-      "reg"
+      "fer"
     ]
   },
   {
@@ -63441,9 +64270,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "reg",
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -63529,8 +64360,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
-      "ject"
+      "ject",
+      "ec"
     ]
   },
   {
@@ -63543,9 +64374,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "ject",
       "ec",
-      "ject"
+      "-ion"
     ]
   },
   {
@@ -63573,9 +64404,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "veni",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -63591,9 +64422,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "fer",
       "lat",
-      "fer"
+      "-ate"
     ]
   },
   {
@@ -63609,9 +64440,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "fer",
+      "lat",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -63643,9 +64475,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "lat",
+      "fer",
       "-ive",
-      "fer"
+      "lat"
     ]
   },
   {
@@ -63673,9 +64505,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ty",
       "viv",
-      "lat"
+      "lat",
+      "fer",
+      "-ty"
     ]
   },
   {
@@ -63732,9 +64565,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "leg",
-      "leg"
+      "-ate"
     ]
   },
   {
@@ -63765,9 +64597,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
       "-ability",
-      "lit"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -63846,8 +64678,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "leg"
+      "leg",
+      "-ion"
     ]
   },
   {
@@ -63976,8 +64808,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mar",
-      "-able"
+      "-able",
+      "mar"
     ]
   },
   {
@@ -64074,8 +64906,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mob",
-      "re-"
+      "re-",
+      "mob"
     ]
   },
   {
@@ -64090,8 +64922,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ance",
-      "san"
+      "san",
+      "-ance"
     ]
   },
   {
@@ -64135,9 +64967,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "nov",
       "-ion",
-      "-ation",
-      "nov"
+      "-ation"
     ]
   },
   {
@@ -64254,8 +65086,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
-      "penta"
+      "penta",
+      "-ant"
     ]
   },
   {
@@ -64315,9 +65147,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "plac",
+      "ment",
       "-ment",
-      "-ant",
-      "plac"
+      "-ant"
     ]
   },
   {
@@ -64348,9 +65181,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "re-",
       "port",
-      "-er",
-      "re-"
+      "-er"
     ]
   },
   {
@@ -64367,9 +65200,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
       "sens",
-      "sen"
+      "sen",
+      "-ant"
     ]
   },
   {
@@ -64382,9 +65215,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "sens",
+      "sen",
       "-ion",
-      "-ation",
-      "sens"
+      "-ation"
     ]
   },
   {
@@ -64401,9 +65235,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ive",
       "sens",
-      "sen"
+      "sen",
+      "-ive"
     ]
   },
   {
@@ -64446,8 +65280,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "duc"
+      "duc",
+      "-ion"
     ]
   },
   {
@@ -64508,9 +65342,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "put",
       "-ion",
-      "-ation",
-      "put"
+      "-ation"
     ]
   },
   {
@@ -64563,8 +65397,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ment",
       "quer",
+      "equ",
+      "ment",
+      "-ment",
       "-ant"
     ]
   },
@@ -64578,8 +65414,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
       "quer",
+      "-ite",
       "equ"
     ]
   },
@@ -64677,9 +65513,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "sens",
-      "sen"
+      "sen",
+      "-ant"
     ]
   },
   {
@@ -64692,9 +65528,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sens",
+      "ment",
+      "sen",
       "-ment",
-      "-ant",
-      "sens"
+      "-ant"
     ]
   },
   {
@@ -64710,9 +65548,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "re-",
+      "serv",
       "-ation",
-      "serv"
+      "-ion"
     ]
   },
   {
@@ -64730,7 +65569,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "serv",
       "serv"
     ]
   },
@@ -64746,7 +65584,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "serv",
       "serv"
     ]
   },
@@ -64777,8 +65614,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sed",
-      "-ance"
+      "-ance",
+      "sed"
     ]
   },
   {
@@ -64794,9 +65631,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-ant",
       "dent",
-      "sed",
-      "-ant"
+      "sed"
     ]
   },
   {
@@ -64857,9 +65694,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "re-",
+      "nat",
       "-ion",
-      "-ation",
-      "nat"
+      "-ation"
     ]
   },
   {
@@ -64875,8 +65713,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ist",
-      "sist"
+      "sist",
+      "-ist"
     ]
   },
   {
@@ -64910,9 +65748,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
       "sist",
-      "sta"
+      "sta",
+      "-ant"
     ]
   },
   {
@@ -64927,7 +65765,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "solv",
-      "sol",
       "sol"
     ]
   },
@@ -64944,9 +65781,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "solv",
-      "sol"
+      "sol",
+      "-ion"
     ]
   },
   {
@@ -64963,7 +65800,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "solv",
-      "sol",
       "sol"
     ]
   },
@@ -65023,9 +65859,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
+      "re-",
       "spect",
-      "re-"
+      "ec"
     ]
   },
   {
@@ -65038,8 +65874,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "ec",
-      "-able",
-      "spect"
+      "spect",
+      "-able"
     ]
   },
   {
@@ -65052,8 +65888,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ec",
       "-ful",
+      "ec",
       "spect"
     ]
   },
@@ -65069,8 +65905,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
       "spect",
+      "ec",
       "-ive"
     ]
   },
@@ -65135,9 +65971,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "pos",
+      "lit",
       "-ty",
-      "-ability",
-      "pos"
+      "-ability"
     ]
   },
   {
@@ -65152,8 +65989,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
-      "pos"
+      "pos",
+      "-able"
     ]
   },
   {
@@ -65250,8 +66087,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "strict",
-      "-ion",
-      "tri"
+      "tri",
+      "-ion"
     ]
   },
   {
@@ -65369,9 +66206,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "tend",
-      "ten"
+      "ten",
+      "-ion"
     ]
   },
   {
@@ -65399,9 +66236,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -65464,9 +66301,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
       "retro-",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -65478,8 +66315,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
-      "uni"
+      "uni",
+      "-ion"
     ]
   },
   {
@@ -65508,9 +66345,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -65560,9 +66398,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
+      "re-",
       "vers",
-      "re-"
+      "ver"
     ]
   },
   {
@@ -65597,9 +66435,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "re-",
       "vid",
-      "-ize",
-      "re-"
+      "-ize"
     ]
   },
   {
@@ -65614,9 +66452,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "re-",
       "vid",
-      "re-"
+      "-ion"
     ]
   },
   {
@@ -65632,9 +66470,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "re-",
       "viv",
-      "-ive",
-      "re-"
+      "-ive"
     ]
   },
   {
@@ -65667,9 +66505,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "re-",
+      "volv",
       "-ion",
-      "vol",
-      "re-"
+      "vol"
     ]
   },
   {
@@ -65685,8 +66524,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ary",
-      "-ary",
-      "vol"
+      "vol",
+      "volv"
     ]
   },
   {
@@ -65700,9 +66539,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "vol",
       "re-",
-      "volv"
+      "volv",
+      "vol"
     ]
   },
   {
@@ -65840,9 +66679,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ule",
+      "rid",
       "dic",
-      "rid"
+      "-ule"
     ]
   },
   {
@@ -65859,9 +66698,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "rid",
       "-ulous",
       "dic",
-      "rid"
+      "-ous"
     ]
   },
   {
@@ -65908,8 +66748,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "reg",
-      "rig"
+      "rig",
+      "reg"
     ]
   },
   {
@@ -66037,8 +66877,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ize",
-      "rid"
+      "rid",
+      "-ize"
     ]
   },
   {
@@ -66404,7 +67244,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ose",
       "-ose"
     ]
   },
@@ -66436,9 +67275,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "rot"
+      "rot",
+      "-ary"
     ]
   },
   {
@@ -66455,8 +67293,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
-      "rot"
+      "rot",
+      "-ate"
     ]
   },
   {
@@ -66470,9 +67308,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "rot",
       "-ion",
-      "-ation",
-      "rot"
+      "-ation"
     ]
   },
   {
@@ -66793,8 +67631,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "rupt"
+      "rupt",
+      "-ure"
     ]
   },
   {
@@ -66898,8 +67736,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ac",
       "sacr",
+      "ac",
       "cred"
     ]
   },
@@ -66918,8 +67756,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fac",
-      "ac",
-      "sacr"
+      "sacr",
+      "ac"
     ]
   },
   {
@@ -67101,7 +67939,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
       "-ary"
     ]
   },
@@ -67146,7 +67983,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -67222,8 +68058,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "san"
+      "san",
+      "-ion"
     ]
   },
   {
@@ -67298,9 +68134,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ite",
       "lith",
-      "tele"
+      "tele",
+      "lit",
+      "-ite"
     ]
   },
   {
@@ -67317,8 +68154,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "fac",
+      "-ion",
+      "-faction",
       "act"
     ]
   },
@@ -67348,8 +68186,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fac",
-      "act",
-      "-ory"
+      "-ory",
+      "act"
     ]
   },
   {
@@ -67717,9 +68555,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ant",
       "cent",
-      "scen"
+      "scen",
+      "-ant"
     ]
   },
   {
@@ -67815,8 +68653,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fac",
       "-fic",
+      "fac",
       "sci"
     ]
   },
@@ -67976,9 +68814,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
       "amb",
-      "ram"
+      "ram",
+      "-able"
     ]
   },
   {
@@ -68264,9 +69102,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "eco"
+      "eco",
+      "-ary"
     ]
   },
   {
@@ -68313,9 +69150,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "sect",
       "-ion",
-      "ec",
-      "sect"
+      "ec"
     ]
   },
   {
@@ -68330,8 +69167,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
-      "sect"
+      "sect",
+      "ec"
     ]
   },
   {
@@ -68349,8 +69186,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "-ure",
-      "cur"
+      "-ure"
     ]
   },
   {
@@ -68367,8 +69203,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "cur",
-      "-ty",
-      "cur"
+      "-ty"
     ]
   },
   {
@@ -68382,9 +69217,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "dent",
       "sed",
-      "-ary"
+      "-ary",
+      "dent"
     ]
   },
   {
@@ -68442,9 +69277,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -68459,9 +69294,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "greg",
       "-ate",
-      "reg",
-      "greg"
+      "reg"
     ]
   },
   {
@@ -68495,8 +69330,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "dom",
-      "-dom",
-      "dom"
+      "-dom"
     ]
   },
   {
@@ -68512,8 +69346,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ec",
+      "se-",
       "leg",
+      "ec",
       "lex"
     ]
   },
@@ -68530,9 +69365,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "ec",
-      "leg"
+      "leg",
+      "lex",
+      "-ion"
     ]
   },
   {
@@ -68632,9 +69468,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ate",
       "semi-",
-      "nat"
+      "nat",
+      "min",
+      "-ate"
     ]
   },
   {
@@ -68648,9 +69485,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ate",
+      "sen",
       "nat",
-      "sen"
+      "-ate"
     ]
   },
   {
@@ -68664,9 +69501,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "sen",
       "nat",
-      "-ator",
-      "sen"
+      "-ator"
     ]
   },
   {
@@ -68697,9 +69534,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sens",
+      "sen",
       "-ion",
-      "-ation",
-      "sens"
+      "-ation"
     ]
   },
   {
@@ -68729,9 +69567,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-less",
       "sens",
-      "sen"
+      "sen",
+      "-less"
     ]
   },
   {
@@ -68748,8 +69586,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-able",
       "sens",
+      "-able",
       "sen"
     ]
   },
@@ -68768,9 +69606,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
       "sens",
-      "sen"
+      "sen",
+      "-ive"
     ]
   },
   {
@@ -68784,9 +69622,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
+      "sens",
       "viv",
-      "sens"
+      "sen",
+      "-ty"
     ]
   },
   {
@@ -68818,6 +69657,7 @@ export const cet6Words = [
     "rootIds": [
       "ten",
       "sens",
+      "sen",
       "-ance"
     ]
   },
@@ -68833,9 +69673,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sens",
       "-ment",
-      "-ant",
-      "sens"
+      "ment",
+      "sen",
+      "-ant"
     ]
   },
   {
@@ -68852,9 +69694,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "se-",
-      "par"
+      "par",
+      "para",
+      "-ate"
     ]
   },
   {
@@ -68871,7 +69714,7 @@ export const cet6Words = [
     "rootIds": [
       "par",
       "tele",
-      "par"
+      "para"
     ]
   },
   {
@@ -68885,9 +69728,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
       "-ation",
-      "par"
+      "par",
+      "para",
+      "-ion"
     ]
   },
   {
@@ -68903,8 +69747,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "equ",
       "sequi",
+      "equ",
       "-ance"
     ]
   },
@@ -68963,7 +69807,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -68976,8 +69819,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ant",
-      "penta"
+      "penta",
+      "-ant"
     ]
   },
   {
@@ -68993,7 +69836,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "serv",
       "serv",
       "-ant"
     ]
@@ -69012,8 +69854,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "sed"
+      "sed",
+      "-ion"
     ]
   },
   {
@@ -69074,9 +69916,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -69344,7 +70186,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -69671,9 +70512,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -69786,8 +70627,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "horr",
-      "-age"
+      "-age",
+      "horr"
     ]
   },
   {
@@ -69828,9 +70669,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "-en",
       "ten",
-      "horr",
-      "-en"
+      "horr"
     ]
   },
   {
@@ -70253,8 +71094,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "nat"
+      "nat",
+      "-ure"
     ]
   },
   {
@@ -70428,8 +71269,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sim",
-      "-ty",
-      "plic"
+      "plic",
+      "-ty"
     ]
   },
   {
@@ -70464,7 +71305,8 @@ export const cet6Words = [
     "rootIds": [
       "sim",
       "-ate",
-      "lat"
+      "lat",
+      "fer"
     ]
   },
   {
@@ -70480,8 +71322,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "neo",
       "sim",
+      "neo",
       "-ous"
     ]
   },
@@ -70605,8 +71447,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -70777,7 +71617,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -71623,8 +72462,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-ism",
-      "ali",
-      "-ism"
+      "ali"
     ]
   },
   {
@@ -71667,8 +72505,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "log",
-      "-logy"
+      "-logy",
+      "log"
     ]
   },
   {
@@ -71744,8 +72582,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ten",
-      "-en"
+      "-en",
+      "ten"
     ]
   },
   {
@@ -71814,7 +72652,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sol",
-      "sol",
       "-ar"
     ]
   },
@@ -71831,7 +72668,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sol",
       "sol"
     ]
   },
@@ -71846,7 +72682,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "sol",
       "sol"
     ]
   },
@@ -71864,7 +72699,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sol",
       "sol"
     ]
   },
@@ -71881,7 +72715,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "sol",
       "sol"
     ]
   },
@@ -71898,9 +72731,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
       "sol",
-      "sol"
+      "-ty"
     ]
   },
   {
@@ -71915,7 +72747,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "-fy",
-      "sol",
       "sol"
     ]
   },
@@ -71932,9 +72763,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sol",
       "-ary",
-      "-ary",
-      "sol"
+      "lit"
     ]
   },
   {
@@ -71950,7 +72781,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sol",
       "sol"
     ]
   },
@@ -71969,8 +72799,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "solv",
-      "-able",
-      "sol"
+      "sol",
+      "-able"
     ]
   },
   {
@@ -71986,8 +72816,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
       "solv",
+      "-ion",
       "sol"
     ]
   },
@@ -72001,8 +72831,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "solv",
-      "-able",
-      "sol"
+      "sol",
+      "-able"
     ]
   },
   {
@@ -72019,7 +72849,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "solv",
-      "sol",
       "sol"
     ]
   },
@@ -72127,7 +72956,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -72393,9 +73221,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-acious",
+      "-ous",
       "pac",
-      "-ous"
+      "-acious"
     ]
   },
   {
@@ -72442,8 +73270,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ish",
-      "pan"
+      "pan",
+      "-ish"
     ]
   },
   {
@@ -72460,7 +73288,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -72476,7 +73303,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -72492,7 +73318,6 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "par",
       "par"
     ]
   },
@@ -72572,9 +73397,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ist",
       "spect",
-      "ali"
+      "ali",
+      "-ist"
     ]
   },
   {
@@ -72589,9 +73414,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "spect",
-      "ali"
+      "ali",
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -72607,9 +73433,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ize",
       "spect",
-      "ali"
+      "ali",
+      "-ize"
     ]
   },
   {
@@ -72656,8 +73482,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fac",
       "spect",
+      "fac",
       "-fic"
     ]
   },
@@ -72687,9 +73513,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "fac",
+      "spect",
       "-ion",
       "-ation",
-      "fac"
+      "-faction"
     ]
   },
   {
@@ -72738,8 +73566,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ec",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -72755,9 +73583,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
       "spect",
-      "-ar"
+      "-ar",
+      "ec"
     ]
   },
   {
@@ -72773,9 +73601,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
       "spect",
-      "-ator"
+      "-ator",
+      "ec"
     ]
   },
   {
@@ -72791,8 +73619,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
-      "spect"
+      "spect",
+      "ec"
     ]
   },
   {
@@ -72808,9 +73636,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
+      "spect",
       "lat",
-      "spect"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -73024,8 +73853,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-al",
-      "spir"
+      "spir",
+      "-al"
     ]
   },
   {
@@ -73054,8 +73883,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ite",
-      "-ite",
       "-ite"
     ]
   },
@@ -73186,7 +74013,8 @@ export const cet6Words = [
     "rootIds": [
       "neo",
       "ont",
-      "pos"
+      "pos",
+      "-ous"
     ]
   },
   {
@@ -73435,9 +74263,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
+      "sta",
       "-ability",
-      "sta"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -73451,8 +74280,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ize",
-      "sta"
+      "sta",
+      "-ize"
     ]
   },
   {
@@ -73468,8 +74297,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
-      "sta"
+      "sta",
+      "-able"
     ]
   },
   {
@@ -73534,8 +74363,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-age",
-      "sta"
+      "sta",
+      "-age"
     ]
   },
   {
@@ -73739,8 +74568,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ize",
-      "sta"
+      "sta",
+      "-ize"
     ]
   },
   {
@@ -73821,8 +74650,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ate",
-      "sta"
+      "sta",
+      "-ate"
     ]
   },
   {
@@ -73838,9 +74667,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "sta",
+      "ment",
       "-ment",
-      "-ant",
-      "sta"
+      "-ant"
     ]
   },
   {
@@ -73889,9 +74719,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "sta"
+      "sta",
+      "-ary"
     ]
   },
   {
@@ -74309,9 +75138,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "fer"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -74578,8 +75407,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ten",
-      "-en"
+      "-en",
+      "ten"
     ]
   },
   {
@@ -74789,8 +75618,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "the",
-      "-en"
+      "-en",
+      "the"
     ]
   },
   {
@@ -74984,8 +75813,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ive",
-      "tri"
+      "tri",
+      "-ive"
     ]
   },
   {
@@ -75207,9 +76036,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "vid",
       "sub-",
-      "divid"
+      "divid",
+      "vid"
     ]
   },
   {
@@ -75240,9 +76069,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
+      "ject",
+      "-ive",
       "sub-",
-      "-ive"
+      "ec"
     ]
   },
   {
@@ -75258,8 +76088,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "mar",
-      "sub-"
+      "sub-",
+      "mar"
     ]
   },
   {
@@ -75277,7 +76107,8 @@ export const cet6Words = [
     "rootIds": [
       "sub-",
       "merge",
-      "mer"
+      "mer",
+      "erg"
     ]
   },
   {
@@ -75295,8 +76126,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sub-",
-      "mit"
+      "mit",
+      "sub-"
     ]
   },
   {
@@ -75311,9 +76142,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
       "sub-",
-      "nat"
+      "ord",
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -75329,8 +76161,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "scrib",
-      "sub-"
+      "sub-",
+      "scrib"
     ]
   },
   {
@@ -75342,8 +76174,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "scrib",
-      "sub-"
+      "sub-",
+      "scrib"
     ]
   },
   {
@@ -75355,9 +76187,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ion",
+      "sub-",
       "scrib",
-      "sub-"
+      "-ion"
     ]
   },
   {
@@ -75375,8 +76207,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sub-",
-      "-ant",
-      "equ"
+      "equ",
+      "sequi",
+      "-ant"
     ]
   },
   {
@@ -75407,9 +76240,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sub-",
       "sed",
-      "-ary",
-      "sub-"
+      "-ary"
     ]
   },
   {
@@ -75426,8 +76259,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sed",
-      "sub-"
+      "sub-",
+      "sed"
     ]
   },
   {
@@ -75442,8 +76275,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sub-",
       "sta",
+      "sub-",
       "-ance"
     ]
   },
@@ -75547,8 +76380,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sub-",
-      "urb"
+      "urb",
+      "sub-"
     ]
   },
   {
@@ -75580,8 +76413,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ced",
-      "suc-"
+      "suc-",
+      "ced"
     ]
   },
   {
@@ -75597,8 +76430,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ced",
-      "suc-"
+      "suc-",
+      "ced"
     ]
   },
   {
@@ -75616,9 +76449,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ced",
       "-ful",
-      "-ful"
+      "suc-",
+      "ced"
     ]
   },
   {
@@ -75631,8 +76464,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ced",
-      "suc-"
+      "suc-",
+      "ced"
     ]
   },
   {
@@ -75647,9 +76480,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "suc-",
       "ced",
-      "-ion",
-      "suc-"
+      "-ion"
     ]
   },
   {
@@ -75664,9 +76497,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "suc-",
       "ced",
-      "-ive",
-      "suc-"
+      "-ive"
     ]
   },
   {
@@ -75679,8 +76512,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "ced",
-      "suc-"
+      "suc-",
+      "ced"
     ]
   },
   {
@@ -75765,8 +76598,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fac",
-      "suf-"
+      "suf-",
+      "fac"
     ]
   },
   {
@@ -75784,8 +76617,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fac",
-      "-ant",
-      "suf-"
+      "suf-",
+      "-ant"
     ]
   },
   {
@@ -75798,8 +76631,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "fac",
-      "suf-"
+      "suf-",
+      "fac"
     ]
   },
   {
@@ -75901,8 +76734,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "sum-",
-      "sum"
+      "sum",
+      "sum-"
     ]
   },
   {
@@ -75916,8 +76749,9 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "mar",
       "sum-",
+      "mar",
+      "sum",
       "-ize"
     ]
   },
@@ -75935,8 +76769,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mar",
+      "sum",
       "sum-",
+      "mar",
       "-ary"
     ]
   },
@@ -75953,8 +76788,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sum-",
       "sum",
+      "sum-",
       "mit"
     ]
   },
@@ -75973,7 +76808,7 @@ export const cet6Words = [
     "rootIds": [
       "sum-",
       "mon",
-      "mon"
+      "sum"
     ]
   },
   {
@@ -76005,8 +76840,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ize",
-      "rid"
+      "rid",
+      "-ize"
     ]
   },
   {
@@ -76085,9 +76920,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "fac",
       "super-",
-      "sup-"
+      "sup-",
+      "fac",
+      "-al"
     ]
   },
   {
@@ -76100,9 +76936,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "fac",
       "super-",
-      "sup-"
+      "sup-",
+      "fac",
+      "allo"
     ]
   },
   {
@@ -76135,9 +76972,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
       "super-",
-      "sup-"
+      "sup-",
+      "peri",
+      "-ty"
     ]
   },
   {
@@ -76151,9 +76989,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "son",
       "super-",
-      "sup-"
+      "sup-",
+      "son"
     ]
   },
   {
@@ -76169,9 +77007,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
       "super-",
-      "sup-"
+      "sup-",
+      "-ion"
     ]
   },
   {
@@ -76187,9 +77025,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "super-",
+      "sup-",
       "vid",
-      "-ize",
-      "super-"
+      "-ize"
     ]
   },
   {
@@ -76202,9 +77041,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "super-",
+      "sup-",
       "vid",
-      "super-"
+      "-ion"
     ]
   },
   {
@@ -76220,9 +77060,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sup-",
+      "ment",
       "-ment",
-      "-ant",
-      "sup-"
+      "-ant"
     ]
   },
   {
@@ -76236,9 +77077,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "sup-"
+      "sup-",
+      "ment",
+      "-ary"
     ]
   },
   {
@@ -76255,8 +77096,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "plic",
-      "sup-"
+      "sup-",
+      "plic"
     ]
   },
   {
@@ -76272,8 +77113,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "port",
-      "sup-"
+      "sup-",
+      "port"
     ]
   },
   {
@@ -76290,9 +77131,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ose",
       "pos",
-      "sup-"
+      "sup-",
+      "-ose"
     ]
   },
   {
@@ -76355,9 +77196,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sur-",
       "surg",
-      "super-"
+      "sur-",
+      "super-",
+      "erg"
     ]
   },
   {
@@ -76376,8 +77218,10 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sur-",
+      "super-",
       "surg",
-      "super-"
+      "geo",
+      "erg"
     ]
   },
   {
@@ -76394,8 +77238,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sur-",
+      "super-",
       "surg",
-      "super-"
+      "erg"
     ]
   },
   {
@@ -76446,9 +77291,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "super-",
+      "plu",
       "sur-",
-      "lud",
-      "super-"
+      "lud"
     ]
   },
   {
@@ -76463,7 +77309,8 @@ export const cet6Words = [
     "rootIds": [
       "sur-",
       "super-",
-      "pris"
+      "pris",
+      "rid"
     ]
   },
   {
@@ -76478,7 +77325,8 @@ export const cet6Words = [
     "rootIds": [
       "sur-",
       "super-",
-      "pris"
+      "pris",
+      "rid"
     ]
   },
   {
@@ -76496,8 +77344,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sur-",
-      "surg",
-      "super-"
+      "super-",
+      "surg"
     ]
   },
   {
@@ -76513,8 +77361,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sur-",
-      "surg",
-      "super-"
+      "super-",
+      "surg"
     ]
   },
   {
@@ -76530,8 +77378,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "sur-",
-      "surg",
-      "super-"
+      "super-",
+      "surg"
     ]
   },
   {
@@ -76547,8 +77395,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "sur-",
-      "super-"
+      "super-",
+      "sur-"
     ]
   },
   {
@@ -76565,9 +77413,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "super-",
+      "viv",
       "-al",
       "sur-",
-      "super-"
+      "val"
     ]
   },
   {
@@ -76584,9 +77434,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "sur-",
       "super-",
-      "viv"
+      "viv",
+      "sur-",
+      "-ive"
     ]
   },
   {
@@ -76602,9 +77453,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "apt",
+      "sus-",
+      "cap",
       "-able",
-      "cap"
+      "apt"
     ]
   },
   {
@@ -76622,9 +77474,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ec",
+      "su-",
       "spect",
-      "su-"
+      "sus-",
+      "ec"
     ]
   },
   {
@@ -76641,8 +77494,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "pend",
-      "sus-"
+      "sus-",
+      "pend"
     ]
   },
   {
@@ -76656,9 +77509,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "sus-",
       "pend",
-      "sus-"
+      "-ion"
     ]
   },
   {
@@ -76674,9 +77527,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
+      "sus-",
       "spect",
-      "sus-"
+      "-ion"
     ]
   },
   {
@@ -76693,8 +77546,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "spect",
       "su-",
+      "spect",
+      "sus-",
       "-ous"
     ]
   },
@@ -76712,9 +77566,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "sus-",
       "ten",
-      "sta",
-      "sus-"
+      "sta"
     ]
   },
   {
@@ -77031,9 +77885,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "path",
+      "-ic",
       "sym-",
-      "-ic"
+      "path",
+      "the"
     ]
   },
   {
@@ -77048,9 +77903,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ize",
+      "sym-",
       "path",
-      "sym-"
+      "-ize"
     ]
   },
   {
@@ -77066,8 +77921,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "path",
-      "sym-"
+      "sym-",
+      "path"
     ]
   },
   {
@@ -77084,8 +77939,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "phon",
-      "sym-"
+      "sym-",
+      "phon"
     ]
   },
   {
@@ -77117,8 +77972,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "tom",
-      "sym-"
+      "sym-",
+      "tom"
     ]
   },
   {
@@ -77150,8 +78005,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "syn-",
-      "-ize",
-      "her"
+      "her",
+      "the",
+      "-ize"
     ]
   },
   {
@@ -77240,9 +78096,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "fer"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -77281,8 +78137,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "act",
-      "tact"
+      "tact",
+      "act"
     ]
   },
   {
@@ -77295,9 +78151,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ics",
       "tax",
-      "act"
+      "-ics",
+      "act",
+      "tact"
     ]
   },
   {
@@ -77692,8 +78549,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "log",
-      "-logy"
+      "-logy",
+      "log"
     ]
   },
   {
@@ -77739,8 +78596,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "gram",
+      "tele",
       "leg",
-      "leg"
+      "ram"
     ]
   },
   {
@@ -77757,8 +78615,9 @@ export const cet6Words = [
     ],
     "rootIds": [
       "graph",
+      "tele",
       "leg",
-      "leg"
+      "rap"
     ]
   },
   {
@@ -77822,8 +78681,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ment",
       "temp",
+      "ram",
+      "ment",
+      "-ment",
       "-ant"
     ]
   },
@@ -77842,8 +78703,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ure",
-      "temp"
+      "temp",
+      "-ure"
     ]
   },
   {
@@ -77892,7 +78753,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
       "temp",
       "-ary"
     ]
@@ -77926,9 +78786,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "temp",
       "-ion",
-      "-ation",
-      "temp"
+      "-ation"
     ]
   },
   {
@@ -77995,8 +78855,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "tend",
-      "ten",
-      "-ance"
+      "-ance",
+      "ten"
     ]
   },
   {
@@ -78137,9 +78997,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "term",
-      "nat"
+      "-ate",
+      "nat",
+      "min"
     ]
   },
   {
@@ -78153,6 +79014,7 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "-logy",
       "log",
       "term",
       "min"
@@ -78170,8 +79032,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "err",
-      "terr"
+      "terr",
+      "err"
     ]
   },
   {
@@ -78186,8 +79048,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "err",
-      "terr"
+      "terr",
+      "err"
     ]
   },
   {
@@ -78204,9 +79066,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-able",
       "err",
-      "terr"
+      "terr",
+      "-able"
     ]
   },
   {
@@ -78222,9 +79084,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-fic",
       "fac",
       "err",
-      "-fic"
+      "terr"
     ]
   },
   {
@@ -78241,8 +79104,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "err",
-      "-fy",
-      "terr"
+      "terr",
+      "-fy"
     ]
   },
   {
@@ -78258,8 +79121,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "err",
       "terr",
+      "err",
       "-ory"
     ]
   },
@@ -78290,9 +79153,10 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ist",
       "err",
-      "rid"
+      "rid",
+      "terr",
+      "-ist"
     ]
   },
   {
@@ -78338,7 +79202,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mon",
       "mon"
     ]
   },
@@ -78388,8 +79251,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "text"
+      "text",
+      "-ure"
     ]
   },
   {
@@ -78498,8 +79361,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ory",
-      "the"
+      "the",
+      "-ory"
     ]
   },
   {
@@ -78607,9 +79470,11 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "mal",
       "therm",
-      "-al"
+      "-al",
+      "mal",
+      "her",
+      "the"
     ]
   },
   {
@@ -78626,6 +79491,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "therm",
+      "metr",
       "her",
       "the"
     ]
@@ -78813,7 +79679,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -79178,8 +80043,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ten",
       "-en",
+      "ten",
       "tact"
     ]
   },
@@ -79656,9 +80521,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -79671,7 +80536,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ped",
       "ped"
     ]
   },
@@ -79715,8 +80579,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ize",
-      "tort"
+      "tort",
+      "-ize"
     ]
   },
   {
@@ -79732,8 +80596,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ure",
-      "tort"
+      "tort",
+      "-ure"
     ]
   },
   {
@@ -79789,8 +80653,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-able",
-      "hab"
+      "hab",
+      "-able"
     ]
   },
   {
@@ -79992,8 +80856,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ras",
       "tra-",
+      "ras",
       "-ad"
     ]
   },
@@ -80007,9 +80871,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "tra-",
       "mar",
       "ras",
-      "tra-"
+      "dem"
     ]
   },
   {
@@ -80021,8 +80886,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ras",
-      "tra-"
+      "tra-",
+      "ras"
     ]
   },
   {
@@ -80034,9 +80899,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
+      "tra-",
       "ras",
-      "man",
-      "tra-"
+      "man"
     ]
   },
   {
@@ -80051,9 +80916,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ion",
+      "tra-",
       "ras",
-      "tra-"
+      "radi",
+      "-ion"
     ]
   },
   {
@@ -80069,9 +80935,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ras",
+      "-al",
       "tra-",
-      "-al"
+      "ras",
+      "radi"
     ]
   },
   {
@@ -80089,8 +80956,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fac",
       "tra-",
+      "fac",
       "-fic"
     ]
   },
@@ -80265,9 +81132,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "act",
       "-ion",
-      "tra-",
-      "act"
+      "tra-"
     ]
   },
   {
@@ -80319,8 +81186,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "form",
-      "tra-"
+      "tra-",
+      "form"
     ]
   },
   {
@@ -80334,9 +81201,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
       "form",
-      "-ation"
+      "-ation",
+      "tra-",
+      "-ion"
     ]
   },
   {
@@ -80413,8 +81281,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ion",
-      "tra-"
+      "tra-",
+      "-ion"
     ]
   },
   {
@@ -80430,9 +81298,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ate",
+      "tra-",
+      "fer",
       "lat",
-      "tra-"
+      "-ate"
     ]
   },
   {
@@ -80448,9 +81317,11 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
+      "fer",
       "-ation",
-      "lat"
+      "tra-",
+      "lat",
+      "-ion"
     ]
   },
   {
@@ -80466,9 +81337,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "mit",
+      "tra-",
       "mis",
-      "tra-"
+      "-ion"
     ]
   },
   {
@@ -80539,8 +81411,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "port",
       "tra-",
+      "port",
       "spor"
     ]
   },
@@ -80555,9 +81427,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "port",
+      "tra-",
+      "spor",
       "-ion",
-      "-ation",
-      "port"
+      "-ation"
     ]
   },
   {
@@ -80569,9 +81443,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ver",
       "tra-",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -80604,9 +81478,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
       "tra-",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -80708,9 +81582,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -80815,8 +81689,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-al",
-      "tri"
+      "tri",
+      "-al"
     ]
   },
   {
@@ -80989,8 +81863,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ant",
-      "tri"
+      "tri",
+      "-ant"
     ]
   },
   {
@@ -81007,8 +81881,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "via",
-      "-al",
-      "tri"
+      "tri",
+      "-al"
     ]
   },
   {
@@ -81376,6 +82250,7 @@ export const cet6Words = [
     ],
     "rootIds": [
       "turb",
+      "-ulent",
       "urb",
       "-ant"
     ]
@@ -81696,9 +82571,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "ultra-",
       "son",
-      "ras",
-      "ultra-"
+      "ras"
     ]
   },
   {
@@ -81758,9 +82633,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-able",
       "void",
-      "nav"
+      "nav",
+      "-able"
     ]
   },
   {
@@ -81805,8 +82680,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "fort",
       "un-",
+      "fort",
       "-able"
     ]
   },
@@ -81869,8 +82744,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "under-"
+      "under-",
+      "-ate"
     ]
   },
   {
@@ -81903,9 +82778,11 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "under-",
       "ras",
-      "-ate",
-      "under-"
+      "grad",
+      "erg",
+      "-ate"
     ]
   },
   {
@@ -81953,8 +82830,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "derm",
       "under-",
+      "derm",
       "min"
     ]
   },
@@ -82105,9 +82982,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "ment",
       "-ment",
-      "-ant",
-      "ment"
+      "-ant"
     ]
   },
   {
@@ -82177,8 +83054,9 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "fort",
       "un-",
+      "fort",
+      "nat",
       "-ate"
     ]
   },
@@ -82196,8 +83074,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "fort",
-      "fort",
-      "nat"
+      "nat",
+      "tele"
     ]
   },
   {
@@ -82277,8 +83155,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
-      "uni"
+      "uni",
+      "-ion"
     ]
   },
   {
@@ -82327,7 +83205,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ite",
       "uni",
       "-ite"
     ]
@@ -82344,8 +83221,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ty",
-      "uni"
+      "uni",
+      "-ty"
     ]
   },
   {
@@ -82362,6 +83239,7 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "-al",
       "ver",
       "vers",
       "uni"
@@ -82378,7 +83256,8 @@ export const cet6Words = [
     "rootIds": [
       "ver",
       "vers",
-      "uni"
+      "uni",
+      "allo"
     ]
   },
   {
@@ -82394,9 +83273,9 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "ver",
       "vers",
-      "uni"
+      "uni",
+      "ver"
     ]
   },
   {
@@ -82412,9 +83291,10 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
+      "vers",
+      "uni",
       "ver",
-      "-ty",
-      "vers"
+      "-ty"
     ]
   },
   {
@@ -82566,8 +83446,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "ced",
       "un-",
+      "ced",
       "-ary"
     ]
   },
@@ -82580,8 +83460,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "dox",
       "un-",
+      "dox",
       "ortho"
     ]
   },
@@ -82607,8 +83487,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "un-",
-      "-ant",
-      "san"
+      "san",
+      "-ant"
     ]
   },
   {
@@ -82635,8 +83515,8 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "son",
       "un-",
+      "son",
       "-able"
     ]
   },
@@ -82667,7 +83547,8 @@ export const cet6Words = [
     "rootIds": [
       "un-",
       "fac",
-      "act"
+      "act",
+      "-ory"
     ]
   },
   {
@@ -82682,8 +83563,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "un-",
-      "-able",
-      "sta"
+      "sta",
+      "-able"
     ]
   },
   {
@@ -82762,8 +83643,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "don"
+      "don",
+      "-ate"
     ]
   },
   {
@@ -82777,8 +83658,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ate",
-      "don"
+      "don",
+      "-ate"
     ]
   },
   {
@@ -82793,8 +83674,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ras",
       "grad",
+      "ras",
       "-ad"
     ]
   },
@@ -82998,9 +83879,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ant",
       "gen",
-      "erg"
+      "erg",
+      "-ant"
     ]
   },
   {
@@ -83047,7 +83928,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -83125,8 +84005,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
-      "lit"
+      "lit",
+      "-ty"
     ]
   },
   {
@@ -83219,9 +84099,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "vac",
       "-ation",
-      "vac"
+      "-ion"
     ]
   },
   {
@@ -83235,9 +84115,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "vac",
-      "nat"
+      "nat",
+      "-ate"
     ]
   },
   {
@@ -83316,9 +84196,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ty",
       "val",
-      "ali"
+      "ali",
+      "-ty"
     ]
   },
   {
@@ -83350,8 +84230,8 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-able",
-      "val"
+      "val",
+      "-able"
     ]
   },
   {
@@ -83474,9 +84354,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "var",
       "-ion",
-      "-ation",
-      "var"
+      "-ation"
     ]
   },
   {
@@ -83528,7 +84408,6 @@ export const cet6Words = [
     ],
     "rootIds": [
       "var",
-      "-ary",
       "-ary"
     ]
   },
@@ -83725,9 +84604,10 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "veni"
+      "veni",
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -83743,8 +84623,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ure",
-      "veni"
+      "veni",
+      "-ure"
     ]
   },
   {
@@ -83788,8 +84668,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "verb",
-      "ver",
-      "-al"
+      "-al",
+      "ver"
     ]
   },
   {
@@ -83805,9 +84685,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "verd",
       "ver",
-      "dic"
+      "dic",
+      "verd"
     ]
   },
   {
@@ -83856,9 +84736,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
       "vers",
-      "-ile"
+      "-ile",
+      "ver"
     ]
   },
   {
@@ -83873,8 +84753,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -83891,9 +84771,9 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ion",
+      "vers",
       "ver",
-      "vers"
+      "-ion"
     ]
   },
   {
@@ -83907,8 +84787,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "ver",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -83926,8 +84806,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "ver",
-      "vers"
+      "vers",
+      "ver"
     ]
   },
   {
@@ -84081,9 +84961,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ty",
       "vic",
-      "init"
+      "init",
+      "-ty"
     ]
   },
   {
@@ -84098,8 +84978,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "vic",
-      "-ous"
+      "-ous",
+      "vic"
     ]
   },
   {
@@ -84290,9 +85170,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ate",
       "lat",
-      "fer"
+      "fer",
+      "-ate"
     ]
   },
   {
@@ -84305,9 +85185,10 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
+      "lat",
+      "fer",
       "-ion",
-      "-ation",
-      "lat"
+      "-ation"
     ]
   },
   {
@@ -84520,8 +85401,8 @@ export const cet6Words = [
       "toefl"
     ],
     "rootIds": [
-      "-ion",
-      "vid"
+      "vid",
+      "-ion"
     ]
   },
   {
@@ -84569,8 +85450,8 @@ export const cet6Words = [
     ],
     "rootIds": [
       "vid",
-      "-ize",
-      "ali"
+      "ali",
+      "-ize"
     ]
   },
   {
@@ -84634,8 +85515,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "vid",
-      "viv"
+      "viv",
+      "vid"
     ]
   },
   {
@@ -84664,9 +85545,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "-ary",
-      "-ary",
-      "voc"
+      "voc",
+      "-ary"
     ]
   },
   {
@@ -84697,9 +85577,9 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
+      "voc",
       "-ion",
-      "-ation",
-      "voc"
+      "-ation"
     ]
   },
   {
@@ -84743,8 +85623,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-oid",
-      "void"
+      "void",
+      "-oid"
     ]
   },
   {
@@ -84826,8 +85706,8 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "vol",
       "volv",
+      "vol",
       "luc"
     ]
   },
@@ -84845,9 +85725,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "vol",
       "-ary",
       "lun",
-      "-ary"
+      "volv"
     ]
   },
   {
@@ -84864,9 +85745,10 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
+      "vol",
       "-eer",
       "lun",
-      "vol"
+      "volv"
     ]
   },
   {
@@ -85276,7 +86158,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -85289,7 +86170,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -85514,7 +86394,6 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ary",
       "-ary"
     ]
   },
@@ -86125,7 +87004,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -86311,7 +87189,6 @@ export const cet6Words = [
       "ielts"
     ],
     "rootIds": [
-      "dom",
       "-dom",
       "dom"
     ]
@@ -86513,7 +87390,6 @@ export const cet6Words = [
       "ky"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },
@@ -86873,8 +87749,8 @@ export const cet6Words = [
       "gre"
     ],
     "rootIds": [
-      "-ist",
-      "rid"
+      "rid",
+      "-ist"
     ]
   },
   {
@@ -87099,7 +87975,6 @@ export const cet6Words = [
       "cet6"
     ],
     "rootIds": [
-      "-ful",
       "-ful"
     ]
   },

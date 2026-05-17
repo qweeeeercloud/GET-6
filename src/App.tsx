@@ -15,10 +15,14 @@ import { loadProgress, saveProgress } from './lib/progressStorage'
 import {
   buildRootDeck,
   getCoverageStats,
+  getRootGroups,
   getStudyQueue,
   getWordBook,
   setWordBook,
+  type MorphemeKind,
+  type MorphemeKindFilter,
   type ProgressState,
+  type RootGroups,
   type WordBook,
   type WordEntry,
 } from './lib/vocab'
@@ -31,14 +35,28 @@ const viewLabels: Record<ViewMode, string> = {
   killed: '斩词本',
 }
 
+const kindLabels: Record<MorphemeKindFilter, string> = {
+  all: '全部',
+  prefix: '前缀',
+  root: '词根',
+  suffix: '后缀',
+}
+
+const groupLabels: Record<MorphemeKind, string> = {
+  prefix: '前缀',
+  root: '词根',
+  suffix: '后缀',
+}
+
 function App() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress())
   const [view, setView] = useState<ViewMode>('study')
   const [query, setQuery] = useState('')
   const [rootIndex, setRootIndex] = useState(0)
+  const [kindFilter, setKindFilter] = useState<MorphemeKindFilter>('all')
 
   const coverage = useMemo(() => getCoverageStats(cet6Words), [])
-  const deck = useMemo(() => buildRootDeck(cet6Words, cet6Roots), [])
+  const deck = useMemo(() => buildRootDeck(cet6Words, cet6Roots, kindFilter), [kindFilter])
   const studyQueue = useMemo(() => getStudyQueue(cet6Words, progress), [progress])
   const normalizedRootIndex = wrapIndex(rootIndex, deck.rootDecks.length)
   const currentRoot = deck.rootDecks[normalizedRootIndex]
@@ -70,6 +88,11 @@ function App() {
     setProgress((current) => setWordBook(current, word, book))
   }
 
+  function changeKindFilter(kind: MorphemeKindFilter) {
+    setKindFilter(kind)
+    setRootIndex(0)
+  }
+
   const activeCount =
     view === 'mistakes' ? mistakeWords.length : view === 'killed' ? killedWords.length : studyQueue.length
 
@@ -86,14 +109,14 @@ function App() {
             aria-label="搜索单词或释义"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="搜索单词 / 释义"
+            placeholder="搜索单词 / 释义 / pre-"
           />
         </div>
       </header>
 
       <section className="stats-grid" aria-label="六级覆盖统计">
         <StatCard icon={<BookOpen />} label="六级词汇" value={cet6Metadata.total} />
-        <StatCard icon={<CheckCircle2 />} label="词根覆盖" value={coverage.rooted} />
+        <StatCard icon={<CheckCircle2 />} label="构词覆盖" value={coverage.rooted} />
         <StatCard icon={<AlertCircle />} label="错题本" value={mistakeWords.length} />
         <StatCard icon={<Trophy />} label="斩词本" value={killedWords.length} />
       </section>
@@ -123,6 +146,8 @@ function App() {
           <RootPanel
             currentRoot={currentRoot}
             index={normalizedRootIndex}
+            kindFilter={kindFilter}
+            onFilterChange={changeKindFilter}
             total={deck.rootDecks.length}
             onPrevious={() => setRootIndex((current) => current - 1)}
             onNext={() => setRootIndex((current) => current + 1)}
@@ -137,6 +162,7 @@ function App() {
               <WordCard
                 key={word.word}
                 progress={progress}
+                roots={getRootGroups(word, cet6Roots)}
                 word={word}
                 onMove={moveWord}
               />
@@ -171,12 +197,22 @@ function StatCard({ icon, label, value }: StatCardProps) {
 type RootPanelProps = {
   currentRoot: ReturnType<typeof buildRootDeck>['rootDecks'][number]
   index: number
+  kindFilter: MorphemeKindFilter
+  onFilterChange: (kind: MorphemeKindFilter) => void
   total: number
   onPrevious: () => void
   onNext: () => void
 }
 
-function RootPanel({ currentRoot, index, onNext, onPrevious, total }: RootPanelProps) {
+function RootPanel({
+  currentRoot,
+  index,
+  kindFilter,
+  onFilterChange,
+  onNext,
+  onPrevious,
+  total,
+}: RootPanelProps) {
   return (
     <aside className="root-panel">
       <div className="root-meta">
@@ -184,18 +220,35 @@ function RootPanel({ currentRoot, index, onNext, onPrevious, total }: RootPanelP
           {index + 1} / {total}
         </span>
         <div className="root-nav">
-          <button aria-label="上一个词根" onClick={onPrevious} type="button">
+          <button aria-label="上一个构词卡片" onClick={onPrevious} type="button">
             <ChevronLeft aria-hidden="true" size={18} />
           </button>
-          <button aria-label="下一个词根" onClick={onNext} type="button">
+          <button aria-label="下一个构词卡片" onClick={onNext} type="button">
             <ChevronRight aria-hidden="true" size={18} />
           </button>
         </div>
       </div>
+
+      <p className="eyebrow">构词卡片</p>
+      <div className="morpheme-tabs" aria-label="构词类型">
+        {(['all', 'prefix', 'root', 'suffix'] as const).map((kind) => (
+          <button
+            className={kindFilter === kind ? 'active' : ''}
+            key={kind}
+            onClick={() => onFilterChange(kind)}
+            type="button"
+          >
+            {kindLabels[kind]}
+          </button>
+        ))}
+      </div>
+
       <h2>{currentRoot.title}</h2>
       <p className="root-meaning">{currentRoot.meaning}</p>
       <p>{currentRoot.note}</p>
-      <div className="root-count">{currentRoot.words.length} 个六级词</div>
+      <div className="root-count">
+        {groupLabels[currentRoot.kind]} · {currentRoot.words.length} 个六级词
+      </div>
     </aside>
   )
 }
@@ -213,10 +266,11 @@ function BookPanel({ count, mode }: { count: number; mode: ViewMode }) {
 type WordCardProps = {
   word: WordEntry
   progress: ProgressState
+  roots: RootGroups
   onMove: (word: string, book: WordBook) => void
 }
 
-function WordCard({ onMove, progress, word }: WordCardProps) {
+function WordCard({ onMove, progress, roots, word }: WordCardProps) {
   const book = getWordBook(progress, word.word)
 
   return (
@@ -229,9 +283,7 @@ function WordCard({ onMove, progress, word }: WordCardProps) {
         <span className="status-pill">{bookLabel(book)}</span>
       </div>
       <p>{word.translation}</p>
-      <div className="root-tags">
-        {word.rootIds.length > 0 ? word.rootIds.map((root, index) => <span key={`${root}-${index}`}>{root}</span>) : <span>补充词汇</span>}
-      </div>
+      <MorphemeTags groups={roots} />
       <div className="word-actions">
         <button onClick={() => onMove(word.word, 'mistake')} type="button">
           <AlertCircle aria-hidden="true" size={16} />
@@ -249,6 +301,36 @@ function WordCard({ onMove, progress, word }: WordCardProps) {
         ) : null}
       </div>
     </article>
+  )
+}
+
+function MorphemeTags({ groups }: { groups: RootGroups }) {
+  const kinds: MorphemeKind[] = ['prefix', 'root', 'suffix']
+  const hasAny = kinds.some((kind) => groups[kind].length > 0)
+
+  if (!hasAny) {
+    return (
+      <div className="root-tags">
+        <span>补充词汇</span>
+      </div>
+    )
+  }
+
+  return (
+    <div className="root-tags grouped">
+      {kinds.map((kind) =>
+        groups[kind].length > 0 ? (
+          <div className="tag-group" key={kind}>
+            <span className="tag-label">{groupLabels[kind]}:</span>
+            {groups[kind].map((root) => (
+              <span key={root.id} title={root.meaning}>
+                {root.title}
+              </span>
+            ))}
+          </div>
+        ) : null,
+      )}
+    </div>
   )
 }
 

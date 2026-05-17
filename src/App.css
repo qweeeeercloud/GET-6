@@ -183,6 +183,30 @@
   width: 36px;
 }
 
+.morpheme-tabs {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-bottom: 18px;
+}
+
+.morpheme-tabs button {
+  background: #ffffff;
+  border: 1px solid #c8d0d9;
+  border-radius: 8px;
+  color: #344054;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  min-height: 34px;
+}
+
+.morpheme-tabs button.active {
+  background: #12343b;
+  border-color: #12343b;
+  color: #ffffff;
+}
+
 .root-panel h2 {
   color: #101828;
   font-size: 34px;
@@ -287,12 +311,31 @@
   gap: 6px;
 }
 
+.root-tags.grouped {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.tag-group {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
 .root-tags span {
   background: #eef4ff;
   border-radius: 999px;
   color: #3538cd;
   font-size: 12px;
   padding: 5px 8px;
+}
+
+.root-tags .tag-label {
+  background: transparent;
+  color: #667085;
+  font-weight: 700;
+  padding-left: 0;
 }
 
 .word-actions {

@@ -2,12 +2,38 @@ import { describe, expect, it } from 'vitest'
 import {
   buildRootDeck,
   getCoverageStats,
+  getRootGroups,
   getStudyQueue,
   normalizeProgress,
   setWordBook,
   type ProgressState,
+  type RootEntry,
   type WordEntry,
 } from './vocab'
+
+const roots: RootEntry[] = [
+  {
+    id: 'trans-',
+    title: 'trans-',
+    meaning: '穿过，越过',
+    note: 'trans- 表示穿过、越过。',
+    kind: 'prefix',
+  },
+  {
+    id: 'port',
+    title: 'port',
+    meaning: '携带，运送',
+    note: 'port 表示携带、运送。',
+    kind: 'root',
+  },
+  {
+    id: '-able',
+    title: '-able',
+    meaning: '能够，可以被',
+    note: '-able 表示能够或可以被。',
+    kind: 'suffix',
+  },
+]
 
 const words: WordEntry[] = [
   {
@@ -16,7 +42,7 @@ const words: WordEntry[] = [
     translation: 'vt. 运输; 传送',
     pos: 'v',
     tags: ['cet6'],
-    rootIds: ['port'],
+    rootIds: ['trans-', 'port'],
   },
   {
     word: 'portable',
@@ -24,7 +50,7 @@ const words: WordEntry[] = [
     translation: 'a. 可携带的',
     pos: 'a',
     tags: ['cet6'],
-    rootIds: ['port'],
+    rootIds: ['port', '-able'],
   },
   {
     word: 'random',
@@ -76,14 +102,29 @@ describe('vocab data helpers', () => {
   })
 
   it('builds root decks and leaves unrooted words for supplemental learning', () => {
-    const deck = buildRootDeck(words)
+    const deck = buildRootDeck(words, roots)
 
-    expect(deck.rootDecks).toHaveLength(1)
-    expect(deck.rootDecks[0]).toMatchObject({
+    expect(deck.rootDecks).toHaveLength(3)
+    expect(deck.rootDecks.find((entry) => entry.id === 'port')).toMatchObject({
       id: 'port',
       title: 'port',
+      kind: 'root',
       words: [words[0], words[1]],
     })
     expect(deck.supplementalWords).toEqual([words[2]])
+  })
+
+  it('filters decks by prefix/root/suffix kind and groups a word by kind', () => {
+    const prefixDeck = buildRootDeck(words, roots, 'prefix')
+    const groups = getRootGroups(words[1], roots)
+
+    expect(prefixDeck.rootDecks).toEqual([
+      expect.objectContaining({ id: 'trans-', kind: 'prefix', words: [words[0]] }),
+    ])
+    expect(groups).toEqual({
+      prefix: [],
+      root: [roots[1]],
+      suffix: [roots[2]],
+    })
   })
 })

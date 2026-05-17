@@ -20,4 +20,18 @@ describe('CET-6 dataset', () => {
     expect(rooted.length).toBeGreaterThan(1000)
     expect(supplemental.length).toBeGreaterThan(0)
   })
+
+  it('preserves prefix/root/suffix categories from the word-root source', () => {
+    const rootsById = new Map(cet6Roots.map((entry) => [entry.id, entry]))
+    const prefixCount = cet6Roots.filter((entry) => entry.kind === 'prefix').length
+    const wordWithMixedParts = cet6Words.find((word) => {
+      const kinds = new Set(word.rootIds.map((id) => rootsById.get(id)?.kind))
+      return kinds.has('prefix') && kinds.has('root') && kinds.has('suffix')
+    })
+
+    expect(prefixCount).toBeGreaterThan(50)
+    expect(cet6Roots.some((entry) => entry.kind === 'suffix')).toBe(true)
+    expect(cet6Roots.some((entry) => entry.kind === 'root')).toBe(true)
+    expect(wordWithMixedParts).toBeDefined()
+  })
 })

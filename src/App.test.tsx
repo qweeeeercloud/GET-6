@@ -36,10 +36,21 @@ describe('App', () => {
 
     expect(screen.getByText(/1 \/ \d+/)).toBeInTheDocument()
 
-    await user.click(screen.getByRole('button', { name: '下一个词根' }))
+    await user.click(screen.getByRole('button', { name: '下一个构词卡片' }))
     expect(screen.getByText(/2 \/ \d+/)).toBeInTheDocument()
 
-    await user.click(screen.getByRole('button', { name: '上一个词根' }))
+    await user.click(screen.getByRole('button', { name: '上一个构词卡片' }))
     expect(screen.getByText(/1 \/ \d+/)).toBeInTheDocument()
+  })
+
+  it('shows morphology filters and grouped prefix labels', async () => {
+    const user = userEvent.setup()
+
+    render(<App />)
+
+    await user.click(screen.getByRole('button', { name: '前缀' }))
+
+    expect(screen.getByText(/构词卡片/)).toBeInTheDocument()
+    expect(screen.getAllByText(/^前缀:/).length).toBeGreaterThan(0)
   })
 })

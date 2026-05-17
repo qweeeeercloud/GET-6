@@ -11,6 +11,51 @@ const dict = JSON.parse(readFileSync(dictPath, 'utf8'))
 const rootSource = JSON.parse(readFileSync(rootsPath, 'utf8'))
 
 const rootMeaningZh = {
+  'a-': '不，无；向，处于',
+  'ab-': '离开，偏离',
+  'ad-': '向，靠近，加强',
+  'ante-': '在前，先于',
+  'anti-': '反对，抗',
+  'auto-': '自己，自动',
+  'bi-': '二，双',
+  'co-': '共同，一起',
+  'com-': '共同，一起',
+  'con-': '共同，一起',
+  'contra-': '反对，相反',
+  'de-': '向下，离开，否定',
+  'di-': '二，双',
+  'dis-': '不，分开，反向',
+  'en-': '使成为，进入',
+  'ex-': '向外，前任',
+  'extra-': '在外，额外',
+  'fore-': '在前，预先',
+  'hyper-': '过度，超过',
+  'il-': '不，无',
+  'im-': '不，无；进入',
+  'in-': '不，无；进入',
+  'inter-': '在……之间，相互',
+  'intro-': '向内，内部',
+  'ir-': '不，无',
+  'macro-': '大，长',
+  'micro-': '微，小',
+  'mis-': '错误，坏',
+  'mono-': '单一',
+  'non-': '不，非',
+  'over-': '过度，在上方',
+  'para-': '在旁，类似',
+  'post-': '在后，之后',
+  'pre-': '在前，预先',
+  'pro-': '向前，支持，代替',
+  're-': '再次，回',
+  'retro-': '向后，回顾',
+  'sub-': '在下，次级',
+  'super-': '在上，超过',
+  'syn-': '共同，一起',
+  'trans-': '穿过，转变',
+  'tri-': '三',
+  'un-': '不，反向',
+  'under-': '在下，不足',
+  'up-': '向上，提高',
   '-able': '能够，可以被',
   '-al': '行为、结果；与……有关',
   '-ance': '状态、性质或行为',
@@ -30,11 +75,8 @@ const rootMeaningZh = {
   act: '做，驱动',
   allo: '其他，不同',
   cap: '头，抓住，取得',
-  'com-': '共同，一起',
-  'con-': '共同，一起',
   cor: '心',
   cur: '关心，照料；跑动',
-  'dis-': '不，分开，反向',
   ec: '向外，在外',
   fac: '做，制造',
   fer: '携带，带来',
@@ -49,15 +91,11 @@ const rootMeaningZh = {
   nat: '出生，天生',
   par: '相等，准备',
   pos: '放置，位置',
-  'pre-': '在前，预先',
-  'pro-': '向前，在前',
   ras: '刮，擦',
   reg: '统治，规则，引导',
   sta: '站立，稳定',
   ten: '握住，保持',
   the: '神',
-  'tra-': '穿过，越过',
-  tri: '三',
   ver: '真实',
 }
 
@@ -70,6 +108,7 @@ const rootEntries = rootSource
       return null
     }
 
+    const kind = getMorphemeKind(root.class, rootTokens[0])
     const meaning = chineseMeaning(rootTokens[0], root.meaning)
 
     return {
@@ -77,7 +116,8 @@ const rootEntries = rootSource
       title: rootTokens.join('/'),
       meaning,
       origin: root.origin ? String(root.origin) : undefined,
-      note: buildRootNote(rootTokens, meaning, root.origin),
+      note: buildRootNote(rootTokens, meaning, root.origin, kind),
+      kind,
       tokens: rootTokens,
       examples,
     }
@@ -111,12 +151,13 @@ const cet6Words = Object.values(dict)
 const usedRootIds = new Set(cet6Words.flatMap((word) => word.rootIds))
 const cet6Roots = rootEntries
   .filter((root) => usedRootIds.has(root.id))
-  .map(({ id, title, meaning, origin, note }) => ({
+  .map(({ id, title, meaning, origin, note, kind }) => ({
     id,
     title,
     meaning,
     origin,
     note,
+    kind,
   }))
   .sort((left, right) => left.title.localeCompare(right.title))
 
@@ -128,6 +169,9 @@ export const cet6Metadata = {
   total: ${cet6Words.length},
   rooted: ${cet6Words.filter((word) => word.rootIds.length > 0).length},
   supplemental: ${cet6Words.filter((word) => word.rootIds.length === 0).length},
+  prefixes: ${cet6Roots.filter((root) => root.kind === 'prefix').length},
+  roots: ${cet6Roots.filter((root) => root.kind === 'root').length},
+  suffixes: ${cet6Roots.filter((root) => root.kind === 'suffix').length},
 } as const
 
 export const cet6Roots = ${JSON.stringify(cet6Roots, null, 2)} satisfies RootEntry[]
@@ -139,8 +183,8 @@ mkdirSync(dirname(outPath), { recursive: true })
 writeFileSync(outPath, generated, 'utf8')
 
 console.log(
-  `Generated ${cet6Words.length} CET-6 words, ${cet6Roots.length} roots, ` +
-    `${cet6Words.filter((word) => word.rootIds.length > 0).length} rooted words.`,
+  `Generated ${cet6Words.length} CET-6 words, ${cet6Roots.length} morphemes, ` +
+    `${cet6Roots.filter((root) => root.kind === 'prefix').length} prefixes.`,
 )
 
 function findRootIds(word, roots) {
@@ -151,15 +195,15 @@ function findRootIds(word, roots) {
     const tokenMatch = root.tokens.some((token) => rootTokenMatchesWord(token, word))
 
     if (exampleMatch || tokenMatch) {
-      matches.push(root.id)
-    }
-
-    if (matches.length === 3) {
-      break
+      matches.push({ id: root.id, kind: root.kind, score: exampleMatch ? 2 : 1 })
     }
   }
 
-  return matches
+  return [...new Map(
+    matches
+      .sort((left, right) => right.score - left.score || kindRank(left.kind) - kindRank(right.kind))
+      .map((match) => [match.id, match.id]),
+  ).values()].slice(0, 5)
 }
 
 function rootTokenMatchesWord(token, word) {
@@ -178,6 +222,24 @@ function rootTokenMatchesWord(token, word) {
   }
 
   return word.includes(clean)
+}
+
+function getMorphemeKind(className, token) {
+  const normalizedClass = String(className || '').toLowerCase()
+
+  if (normalizedClass.includes('prefix') || token.endsWith('-')) {
+    return 'prefix'
+  }
+
+  if (normalizedClass.includes('suffix') || token.startsWith('-')) {
+    return 'suffix'
+  }
+
+  return 'root'
+}
+
+function kindRank(kind) {
+  return { prefix: 0, root: 1, suffix: 2 }[kind] ?? 3
 }
 
 function normalizeRootTokens(tokens) {
@@ -216,10 +278,11 @@ function guessPos(translation) {
   return match?.[1] || ''
 }
 
-function buildRootNote(tokens, meaning, origin) {
+function buildRootNote(tokens, meaning, origin, kind) {
   const rootText = tokens.join('/')
   const originText = origin ? `，来源 ${origin}` : ''
-  return `${rootText} 表示“${meaning || '相关含义'}”${originText}，优先用它寻找同族词。`
+  const kindText = { prefix: '前缀', root: '词根', suffix: '后缀' }[kind]
+  return `${rootText} 是${kindText}，表示“${meaning || '相关含义'}”${originText}，优先用它寻找同族词。`
 }
 
 function chineseMeaning(rootId, meaning) {
@@ -229,5 +292,5 @@ function chineseMeaning(rootId, meaning) {
     return mapped
   }
 
-  return String(meaning || '词根/词缀线索')
+  return String(meaning || '构词线索')
 }
