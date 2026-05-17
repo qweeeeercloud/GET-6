@@ -323,17 +323,32 @@
   gap: 6px;
 }
 
-.root-tags span {
+.root-tags span,
+.root-tags button {
   background: #eef4ff;
+  border: 0;
   border-radius: 999px;
   color: #3538cd;
   font-size: 12px;
+  font: inherit;
   padding: 5px 8px;
+}
+
+.root-tags button {
+  cursor: pointer;
+}
+
+.root-tags button:hover,
+.root-tags button:focus-visible {
+  background: #dbe7ff;
+  outline: 2px solid #9fb7ff;
+  outline-offset: 1px;
 }
 
 .root-tags .tag-label {
   background: transparent;
   color: #667085;
+  cursor: default;
   font-weight: 700;
   padding-left: 0;
 }

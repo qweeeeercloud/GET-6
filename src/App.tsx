@@ -23,6 +23,7 @@ import {
   type MorphemeKindFilter,
   type ProgressState,
   type RootGroups,
+  type RootEntry,
   type WordBook,
   type WordEntry,
 } from './lib/vocab'
@@ -91,6 +92,19 @@ function App() {
   function changeKindFilter(kind: MorphemeKindFilter) {
     setKindFilter(kind)
     setRootIndex(0)
+  }
+
+  function openMorpheme(root: RootEntry) {
+    const nextDeck = buildRootDeck(cet6Words, cet6Roots, root.kind)
+    const nextIndex = nextDeck.rootDecks.findIndex((entry) => entry.id === root.id)
+
+    if (nextIndex === -1) {
+      return
+    }
+
+    setView('study')
+    setKindFilter(root.kind)
+    setRootIndex(nextIndex)
   }
 
   const activeCount =
@@ -164,6 +178,7 @@ function App() {
                 progress={progress}
                 roots={getRootGroups(word, cet6Roots)}
                 word={word}
+                onMorphemeSelect={openMorpheme}
                 onMove={moveWord}
               />
             ))
@@ -267,10 +282,11 @@ type WordCardProps = {
   word: WordEntry
   progress: ProgressState
   roots: RootGroups
+  onMorphemeSelect: (root: RootEntry) => void
   onMove: (word: string, book: WordBook) => void
 }
 
-function WordCard({ onMove, progress, roots, word }: WordCardProps) {
+function WordCard({ onMorphemeSelect, onMove, progress, roots, word }: WordCardProps) {
   const book = getWordBook(progress, word.word)
 
   return (
@@ -283,7 +299,7 @@ function WordCard({ onMove, progress, roots, word }: WordCardProps) {
         <span className="status-pill">{bookLabel(book)}</span>
       </div>
       <p>{word.translation}</p>
-      <MorphemeTags groups={roots} />
+      <MorphemeTags groups={roots} onMorphemeSelect={onMorphemeSelect} />
       <div className="word-actions">
         <button onClick={() => onMove(word.word, 'mistake')} type="button">
           <AlertCircle aria-hidden="true" size={16} />
@@ -304,7 +320,13 @@ function WordCard({ onMove, progress, roots, word }: WordCardProps) {
   )
 }
 
-function MorphemeTags({ groups }: { groups: RootGroups }) {
+function MorphemeTags({
+  groups,
+  onMorphemeSelect,
+}: {
+  groups: RootGroups
+  onMorphemeSelect: (root: RootEntry) => void
+}) {
   const kinds: MorphemeKind[] = ['prefix', 'root', 'suffix']
   const hasAny = kinds.some((kind) => groups[kind].length > 0)
 
@@ -323,9 +345,15 @@ function MorphemeTags({ groups }: { groups: RootGroups }) {
           <div className="tag-group" key={kind}>
             <span className="tag-label">{groupLabels[kind]}:</span>
             {groups[kind].map((root) => (
-              <span key={root.id} title={root.meaning}>
+              <button
+                aria-label={`查看构词 ${root.title}`}
+                key={root.id}
+                onClick={() => onMorphemeSelect(root)}
+                title={root.meaning}
+                type="button"
+              >
                 {root.title}
-              </span>
+              </button>
             ))}
           </div>
         ) : null,
