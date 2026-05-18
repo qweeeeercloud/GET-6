@@ -100,7 +100,8 @@
 
 .mode-tabs button,
 .word-actions button,
-.root-meta button {
+.root-meta button,
+.learned-toggle {
   align-items: center;
   border: 1px solid #c8d0d9;
   border-radius: 8px;
@@ -186,7 +187,7 @@
 .morpheme-tabs {
   display: grid;
   gap: 6px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-bottom: 18px;
 }
 
@@ -229,6 +230,86 @@
   background: #fff1e7;
   color: #9a3412;
   margin-top: 8px;
+}
+
+.learned-toggle {
+  background: #ffffff;
+  color: #235447;
+  margin-top: 14px;
+  min-height: 38px;
+  padding: 0 12px;
+  width: 100%;
+}
+
+.daily-plan {
+  align-items: stretch;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+  margin: 0 auto 18px;
+  max-width: 1180px;
+}
+
+.daily-plan h2,
+.plan-group h3 {
+  margin: 0;
+}
+
+.daily-plan h2 {
+  color: #101828;
+  font-size: 22px;
+}
+
+.plan-group {
+  background: #ffffff;
+  border: 1px solid #d7dde3;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.plan-group h3 {
+  color: #101828;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.plan-group p {
+  color: #667085;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.plan-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.plan-items button {
+  background: #f8fafc;
+  border: 1px solid #c8d0d9;
+  border-radius: 8px;
+  color: #344054;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font: inherit;
+  gap: 3px;
+  max-width: 100%;
+  min-height: 42px;
+  padding: 7px 9px;
+  text-align: left;
+}
+
+.plan-items span {
+  color: #101828;
+  font-weight: 700;
+}
+
+.plan-items small {
+  color: #667085;
+  font-size: 12px;
+  overflow-wrap: anywhere;
 }
 
 .book-panel h2 {
@@ -335,7 +416,12 @@
 }
 
 .root-tags button {
+  align-items: flex-start;
   cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
 }
 
 .root-tags button:hover,
@@ -351,6 +437,16 @@
   cursor: default;
   font-weight: 700;
   padding-left: 0;
+}
+
+.root-tags button span {
+  font-weight: 700;
+}
+
+.root-tags button small {
+  color: #4b5563;
+  font-size: 12px;
+  overflow-wrap: anywhere;
 }
 
 .word-actions {
@@ -391,6 +487,7 @@
   }
 
   .topbar,
+  .daily-plan,
   .workspace {
     display: flex;
     flex-direction: column;

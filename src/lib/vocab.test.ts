@@ -1,10 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import {
   buildRootDeck,
+  getDailyPlan,
   getCoverageStats,
   getRootGroups,
   getStudyQueue,
+  isMorphemeLearned,
   normalizeProgress,
+  setMorphemeLearned,
   setWordBook,
   type ProgressState,
   type RootEntry,
@@ -77,6 +80,25 @@ describe('vocab progress', () => {
     progress = setWordBook(progress, 'transport', 'study')
     expect(progress.mistakeWords).toEqual([])
     expect(progress.killedWords).toEqual([])
+    expect(progress.learnedMorphemeIds).toEqual([])
+  })
+
+  it('tracks learned morphemes without affecting word books', () => {
+    let progress: ProgressState = normalizeProgress({
+      mistakeWords: ['random'],
+    })
+
+    progress = setMorphemeLearned(progress, 'port', true)
+    progress = setMorphemeLearned(progress, 'port', true)
+
+    expect(isMorphemeLearned(progress, 'port')).toBe(true)
+    expect(progress.learnedMorphemeIds).toEqual(['port'])
+    expect(progress.mistakeWords).toEqual(['random'])
+
+    progress = setMorphemeLearned(progress, 'port', false)
+
+    expect(isMorphemeLearned(progress, 'port')).toBe(false)
+    expect(progress.learnedMorphemeIds).toEqual([])
   })
 
   it('excludes killed words from the default study queue while keeping mistakes visible first', () => {
@@ -126,5 +148,17 @@ describe('vocab data helpers', () => {
       root: [roots[1]],
       suffix: [roots[2]],
     })
+  })
+
+  it('builds daily plan from unlearned and learned morphemes', () => {
+    const progress = normalizeProgress({
+      learnedMorphemeIds: ['port'],
+    })
+
+    const plan = getDailyPlan(roots, words, progress)
+
+    expect(plan.newItems).toHaveLength(2)
+    expect(new Set(plan.newItems.map((entry) => entry.id))).toEqual(new Set(['trans-', '-able']))
+    expect(plan.reviewItems.map((entry) => entry.id)).toEqual(['port'])
   })
 })

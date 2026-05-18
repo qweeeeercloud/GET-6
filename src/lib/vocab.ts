@@ -23,6 +23,7 @@ export type RootEntry = {
 export type ProgressState = {
   mistakeWords: string[]
   killedWords: string[]
+  learnedMorphemeIds: string[]
   lastStudiedRootId?: string
 }
 
@@ -43,9 +44,15 @@ export type RootDeckBuild = {
 
 export type RootGroups = Record<MorphemeKind, RootEntry[]>
 
+export type DailyPlan = {
+  newItems: RootDeck[]
+  reviewItems: RootDeck[]
+}
+
 const emptyProgress: ProgressState = {
   mistakeWords: [],
   killedWords: [],
+  learnedMorphemeIds: [],
 }
 
 const rootLabels: Record<string, Pick<RootEntry, 'meaning' | 'origin' | 'note' | 'kind'>> = {
@@ -61,6 +68,7 @@ export function normalizeProgress(progress: Partial<ProgressState> = {}): Progre
   return {
     mistakeWords: uniqueWords(progress.mistakeWords ?? emptyProgress.mistakeWords),
     killedWords: uniqueWords(progress.killedWords ?? emptyProgress.killedWords),
+    learnedMorphemeIds: uniqueWords(progress.learnedMorphemeIds ?? emptyProgress.learnedMorphemeIds),
     lastStudiedRootId: progress.lastStudiedRootId,
   }
 }
@@ -86,6 +94,24 @@ export function setWordBook(
   }
 
   return next
+}
+
+export function setMorphemeLearned(
+  progress: ProgressState,
+  rootId: string,
+  learned: boolean,
+): ProgressState {
+  const normalized = normalizeProgress(progress)
+  const learnedMorphemeIds = normalized.learnedMorphemeIds.filter((entry) => entry !== rootId)
+
+  return {
+    ...normalized,
+    learnedMorphemeIds: learned ? uniqueWords([rootId, ...learnedMorphemeIds]) : learnedMorphemeIds,
+  }
+}
+
+export function isMorphemeLearned(progress: ProgressState, rootId: string): boolean {
+  return normalizeProgress(progress).learnedMorphemeIds.includes(rootId)
 }
 
 export function getWordBook(progress: ProgressState, word: string): WordBook {
@@ -183,6 +209,20 @@ export function getRootGroups(word: WordEntry, roots: RootEntry[]): RootGroups {
   return groups
 }
 
+export function getDailyPlan(
+  roots: RootEntry[],
+  words: WordEntry[],
+  progress: ProgressState,
+): DailyPlan {
+  const learned = new Set(normalizeProgress(progress).learnedMorphemeIds)
+  const deck = buildRootDeck(words, roots).rootDecks
+
+  return {
+    newItems: sampleItems(deck.filter((entry) => !learned.has(entry.id)), 5),
+    reviewItems: sampleItems(deck.filter((entry) => learned.has(entry.id)), 5),
+  }
+}
+
 function createFallbackRoot(rootId: string): RootEntry {
   const label = rootLabels[rootId]
   const kind = label?.kind ?? inferKindFromId(rootId)
@@ -211,4 +251,10 @@ function inferKindFromId(rootId: string): MorphemeKind {
 
 function uniqueWords(words: string[]): string[] {
   return [...new Set(words.filter(Boolean))]
+}
+
+function sampleItems<T>(items: T[], limit: number): T[] {
+  return [...items]
+    .sort(() => Math.random() - 0.5)
+    .slice(0, limit)
 }

@@ -10,6 +10,7 @@ describe('progress storage', () => {
     expect(loadProgress()).toEqual({
       mistakeWords: [],
       killedWords: [],
+      learnedMorphemeIds: [],
       lastStudiedRootId: undefined,
     })
   })
@@ -18,12 +19,14 @@ describe('progress storage', () => {
     saveProgress({
       mistakeWords: ['abide'],
       killedWords: ['abolish'],
+      learnedMorphemeIds: ['port'],
       lastStudiedRootId: 'port',
     })
 
     expect(loadProgress()).toEqual({
       mistakeWords: ['abide'],
       killedWords: ['abolish'],
+      learnedMorphemeIds: ['port'],
       lastStudiedRootId: 'port',
     })
   })

@@ -50,18 +50,65 @@ describe('App', () => {
 
     render(<App />)
 
+    expect(screen.queryByRole('button', { name: '全部' })).not.toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '前缀' }))
 
-    expect(screen.getByText(/构词卡片/)).toBeInTheDocument()
+    expect(screen.getAllByText(/构词卡片/).length).toBeGreaterThan(0)
     expect(screen.getAllByText(/^前缀:/).length).toBeGreaterThan(0)
   })
+
+  it('shows morpheme meanings directly on word cards', () => {
+    const target = getVisibleMorphemeTarget()
+
+    render(<App />)
+
+    expect(
+      screen.getAllByRole('button', {
+        name: `查看构词 ${target.title}：${target.meaning}`,
+      }).length,
+    ).toBeGreaterThan(0)
+  })
+
+  it('lets a learner mark the current morpheme as learned and keeps it after reload', async () => {
+    const user = userEvent.setup()
+    const { unmount } = render(<App />)
+
+    await user.click(screen.getByRole('button', { name: '标记已学会' }))
+
+    expect(screen.getByRole('button', { name: '移回未学习' })).toBeInTheDocument()
+
+    unmount()
+    render(<App />)
+
+    expect(screen.getByRole('button', { name: '移回未学习' })).toBeInTheDocument()
+  })
+
+  it('shows daily new and review plans with clickable morphemes', async () => {
+    const user = userEvent.setup()
+
+    render(<App />)
+
+    expect(screen.getByText('今日新学')).toBeInTheDocument()
+    expect(screen.getByText('今日复习')).toBeInTheDocument()
+    expect(screen.getAllByLabelText(/^打开计划 /).length).toBeGreaterThan(0)
+
+    await user.click(screen.getByRole('button', { name: '标记已学会' }))
+
+    const reviewButtons = screen.getAllByLabelText(/^打开复习 /)
+    expect(reviewButtons).toHaveLength(1)
+
+    await user.click(reviewButtons[0])
+
+    expect(screen.getByRole('button', { name: '移回未学习' })).toBeInTheDocument()
+  })
+
   it('opens the matching morphology card when a word tag is clicked', async () => {
     const user = userEvent.setup()
     const target = getVisibleMorphemeTarget()
 
     render(<App />)
 
-    await user.click(screen.getAllByRole('button', { name: `查看构词 ${target.title}` })[0])
+    await user.click(screen.getAllByRole('button', { name: `查看构词 ${target.title}：${target.meaning}` })[0])
 
     expect(screen.getByRole('heading', { level: 2, name: target.title })).toBeInTheDocument()
   })
@@ -74,7 +121,7 @@ describe('App', () => {
 
     await user.click(screen.getAllByRole('button', { name: '加入斩词本' })[0])
     await user.click(screen.getByRole('button', { name: /^斩词本\s*1$/ }))
-    await user.click(screen.getAllByRole('button', { name: `查看构词 ${target.title}` })[0])
+    await user.click(screen.getAllByRole('button', { name: `查看构词 ${target.title}：${target.meaning}` })[0])
 
     expect(screen.getByRole('button', { name: /学习/ })).toHaveClass('active')
     expect(screen.getByRole('heading', { level: 2, name: target.title })).toBeInTheDocument()
@@ -82,7 +129,7 @@ describe('App', () => {
 })
 
 function getVisibleMorphemeTarget(): RootEntry {
-  const deck = buildRootDeck(cet6Words, cet6Roots)
+  const deck = buildRootDeck(cet6Words, cet6Roots, 'prefix')
   const firstRoot = deck.rootDecks[0]
   const visibleWord = firstRoot.words
     .slice(0, 36)

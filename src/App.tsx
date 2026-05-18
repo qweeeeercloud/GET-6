@@ -14,15 +14,18 @@ import { cet6Metadata, cet6Roots, cet6Words } from './data/cet6'
 import { loadProgress, saveProgress } from './lib/progressStorage'
 import {
   buildRootDeck,
+  getDailyPlan,
   getCoverageStats,
   getRootGroups,
   getStudyQueue,
   getWordBook,
+  isMorphemeLearned,
   setWordBook,
+  setMorphemeLearned,
   type MorphemeKind,
-  type MorphemeKindFilter,
   type ProgressState,
   type RootGroups,
+  type RootDeck,
   type RootEntry,
   type WordBook,
   type WordEntry,
@@ -36,8 +39,7 @@ const viewLabels: Record<ViewMode, string> = {
   killed: '斩词本',
 }
 
-const kindLabels: Record<MorphemeKindFilter, string> = {
-  all: '全部',
+const kindLabels: Record<MorphemeKind, string> = {
   prefix: '前缀',
   root: '词根',
   suffix: '后缀',
@@ -54,10 +56,11 @@ function App() {
   const [view, setView] = useState<ViewMode>('study')
   const [query, setQuery] = useState('')
   const [rootIndex, setRootIndex] = useState(0)
-  const [kindFilter, setKindFilter] = useState<MorphemeKindFilter>('all')
+  const [kindFilter, setKindFilter] = useState<MorphemeKind>('prefix')
 
   const coverage = useMemo(() => getCoverageStats(cet6Words), [])
   const deck = useMemo(() => buildRootDeck(cet6Words, cet6Roots, kindFilter), [kindFilter])
+  const dailyPlan = useMemo(() => getDailyPlan(cet6Roots, cet6Words, progress), [progress])
   const studyQueue = useMemo(() => getStudyQueue(cet6Words, progress), [progress])
   const normalizedRootIndex = wrapIndex(rootIndex, deck.rootDecks.length)
   const currentRoot = deck.rootDecks[normalizedRootIndex]
@@ -89,7 +92,7 @@ function App() {
     setProgress((current) => setWordBook(current, word, book))
   }
 
-  function changeKindFilter(kind: MorphemeKindFilter) {
+  function changeKindFilter(kind: MorphemeKind) {
     setKindFilter(kind)
     setRootIndex(0)
   }
@@ -105,6 +108,10 @@ function App() {
     setView('study')
     setKindFilter(root.kind)
     setRootIndex(nextIndex)
+  }
+
+  function changeMorphemeLearned(rootId: string, learned: boolean) {
+    setProgress((current) => setMorphemeLearned(current, rootId, learned))
   }
 
   const activeCount =
@@ -155,12 +162,16 @@ function App() {
         ))}
       </nav>
 
+      <DailyPlanPanel plan={dailyPlan} onOpen={openMorpheme} />
+
       <section className="workspace">
         {view === 'study' ? (
           <RootPanel
             currentRoot={currentRoot}
             index={normalizedRootIndex}
+            isLearned={isMorphemeLearned(progress, currentRoot.id)}
             kindFilter={kindFilter}
+            onLearnedChange={changeMorphemeLearned}
             onFilterChange={changeKindFilter}
             total={deck.rootDecks.length}
             onPrevious={() => setRootIndex((current) => current - 1)}
@@ -212,8 +223,10 @@ function StatCard({ icon, label, value }: StatCardProps) {
 type RootPanelProps = {
   currentRoot: ReturnType<typeof buildRootDeck>['rootDecks'][number]
   index: number
-  kindFilter: MorphemeKindFilter
-  onFilterChange: (kind: MorphemeKindFilter) => void
+  isLearned: boolean
+  kindFilter: MorphemeKind
+  onFilterChange: (kind: MorphemeKind) => void
+  onLearnedChange: (rootId: string, learned: boolean) => void
   total: number
   onPrevious: () => void
   onNext: () => void
@@ -222,8 +235,10 @@ type RootPanelProps = {
 function RootPanel({
   currentRoot,
   index,
+  isLearned,
   kindFilter,
   onFilterChange,
+  onLearnedChange,
   onNext,
   onPrevious,
   total,
@@ -246,7 +261,7 @@ function RootPanel({
 
       <p className="eyebrow">构词卡片</p>
       <div className="morpheme-tabs" aria-label="构词类型">
-        {(['all', 'prefix', 'root', 'suffix'] as const).map((kind) => (
+        {(['prefix', 'root', 'suffix'] as const).map((kind) => (
           <button
             className={kindFilter === kind ? 'active' : ''}
             key={kind}
@@ -264,7 +279,84 @@ function RootPanel({
       <div className="root-count">
         {groupLabels[currentRoot.kind]} · {currentRoot.words.length} 个六级词
       </div>
+      <button
+        className="learned-toggle"
+        onClick={() => onLearnedChange(currentRoot.id, !isLearned)}
+        type="button"
+      >
+        {isLearned ? '移回未学习' : '标记已学会'}
+      </button>
     </aside>
+  )
+}
+
+function DailyPlanPanel({
+  onOpen,
+  plan,
+}: {
+  onOpen: (root: RootEntry) => void
+  plan: { newItems: RootDeck[]; reviewItems: RootDeck[] }
+}) {
+  return (
+    <section className="daily-plan" aria-label="每日计划">
+      <div>
+        <p className="eyebrow">今日计划</p>
+        <h2>每日构词练习</h2>
+      </div>
+      <PlanGroup
+        emptyText="还有很多构词线索可学，刷新后会随机抽取。"
+        items={plan.newItems}
+        label="今日新学"
+        onOpen={onOpen}
+        type="plan"
+      />
+      <PlanGroup
+        emptyText="先把构词卡片标记为已学会，复习区就会出现内容。"
+        items={plan.reviewItems}
+        label="今日复习"
+        onOpen={onOpen}
+        type="review"
+      />
+    </section>
+  )
+}
+
+function PlanGroup({
+  emptyText,
+  items,
+  label,
+  onOpen,
+  type,
+}: {
+  emptyText: string
+  items: RootDeck[]
+  label: string
+  onOpen: (root: RootEntry) => void
+  type: 'plan' | 'review'
+}) {
+  const ariaPrefix = type === 'review' ? '打开复习' : '打开计划'
+
+  return (
+    <div className="plan-group">
+      <h3>{label}</h3>
+      {items.length > 0 ? (
+        <div className="plan-items">
+          {items.map((root) => (
+            <button
+              aria-label={`${ariaPrefix} ${root.title}`}
+              key={root.id}
+              onClick={() => onOpen(root)}
+              type="button"
+            >
+              <span>{root.title}</span>
+              <small>{groupLabels[root.kind]} · {root.meaning}</small>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <p>{emptyText}</p>
+      )}
+    </div>
   )
 }
 
@@ -346,13 +438,14 @@ function MorphemeTags({
             <span className="tag-label">{groupLabels[kind]}:</span>
             {groups[kind].map((root) => (
               <button
-                aria-label={`查看构词 ${root.title}`}
+                aria-label={`查看构词 ${root.title}：${root.meaning}`}
                 key={root.id}
                 onClick={() => onMorphemeSelect(root)}
                 title={root.meaning}
                 type="button"
               >
-                {root.title}
+                <span>{root.title}</span>
+                <small>{root.meaning}</small>
               </button>
             ))}
           </div>
