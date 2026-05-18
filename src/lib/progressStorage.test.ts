@@ -11,6 +11,8 @@ describe('progress storage', () => {
       mistakeWords: [],
       killedWords: [],
       learnedMorphemeIds: [],
+      wordNotes: {},
+      dailyPlan: undefined,
       lastStudiedRootId: undefined,
     })
   })
@@ -20,6 +22,14 @@ describe('progress storage', () => {
       mistakeWords: ['abide'],
       killedWords: ['abolish'],
       learnedMorphemeIds: ['port'],
+      wordNotes: {
+        abide: '容易忘记释义',
+      },
+      dailyPlan: {
+        date: '2026-05-18',
+        newItemIds: ['trans-'],
+        reviewItemIds: ['port'],
+      },
       lastStudiedRootId: 'port',
     })
 
@@ -27,6 +37,14 @@ describe('progress storage', () => {
       mistakeWords: ['abide'],
       killedWords: ['abolish'],
       learnedMorphemeIds: ['port'],
+      wordNotes: {
+        abide: '容易忘记释义',
+      },
+      dailyPlan: {
+        date: '2026-05-18',
+        newItemIds: ['trans-'],
+        reviewItemIds: ['port'],
+      },
       lastStudiedRootId: 'port',
     })
   })

@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { beforeEach, describe, expect, it } from 'vitest'
 import App from './App'
@@ -92,14 +92,51 @@ describe('App', () => {
     expect(screen.getByText('今日复习')).toBeInTheDocument()
     expect(screen.getAllByLabelText(/^打开计划 /).length).toBeGreaterThan(0)
 
-    await user.click(screen.getByRole('button', { name: '标记已学会' }))
+    await user.click(screen.getAllByLabelText(/^打开计划 /)[0])
 
-    const reviewButtons = screen.getAllByLabelText(/^打开复习 /)
-    expect(reviewButtons).toHaveLength(1)
+    expect(screen.getByRole('button', { name: /标记已学会|移回未学习/ })).toBeInTheDocument()
+  })
 
-    await user.click(reviewButtons[0])
+  it('keeps daily plan stable while switching views', async () => {
+    const user = userEvent.setup()
 
-    expect(screen.getByRole('button', { name: '移回未学习' })).toBeInTheDocument()
+    render(<App />)
+
+    const plan = screen.getByRole('region', { name: '每日计划' })
+    const before = within(plan).getAllByLabelText(/^打开计划 /).map((button) => button.textContent)
+    const modeNav = screen.getByRole('navigation', { name: '学习模式' })
+
+    await user.click(within(modeNav).getByRole('button', { name: /^错题本\s*0$/ }))
+    await user.click(within(modeNav).getByRole('button', { name: /^斩词本\s*0$/ }))
+    await user.click(within(modeNav).getByRole('button', { name: /^学习\s*\d+$/ }))
+
+    const after = within(plan).getAllByLabelText(/^打开计划 /).map((button) => button.textContent)
+    expect(after).toEqual(before)
+  })
+
+  it('shows automatic word memory notes', () => {
+    render(<App />)
+
+    expect(screen.getAllByText(/构词批注/).length).toBeGreaterThan(0)
+  })
+
+  it('lets learners write and persist mistake notes', async () => {
+    const user = userEvent.setup()
+    const { unmount } = render(<App />)
+
+    await user.click(screen.getAllByRole('button', { name: '加入错题本' })[0])
+    await user.click(screen.getByRole('button', { name: /^错题本\s*1$/ }))
+
+    const noteBox = screen.getByLabelText(/错题批注/)
+    await user.type(noteBox, '总是把词义记反，要联想构词线索。')
+
+    expect(noteBox).toHaveValue('总是把词义记反，要联想构词线索。')
+
+    unmount()
+    render(<App />)
+    await user.click(screen.getByRole('button', { name: /^错题本\s*1$/ }))
+
+    expect(screen.getByLabelText(/错题批注/)).toHaveValue('总是把词义记反，要联想构词线索。')
   })
 
   it('opens the matching morphology card when a word tag is clicked', async () => {

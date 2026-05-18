@@ -14,14 +14,18 @@ import { cet6Metadata, cet6Roots, cet6Words } from './data/cet6'
 import { loadProgress, saveProgress } from './lib/progressStorage'
 import {
   buildRootDeck,
+  ensureDailyPlanProgress,
   getDailyPlan,
   getCoverageStats,
   getRootGroups,
   getStudyQueue,
   getWordBook,
+  getWordMemoryNote,
+  getWordNote,
   isMorphemeLearned,
   setWordBook,
   setMorphemeLearned,
+  setWordNote,
   type MorphemeKind,
   type ProgressState,
   type RootGroups,
@@ -52,7 +56,9 @@ const groupLabels: Record<MorphemeKind, string> = {
 }
 
 function App() {
-  const [progress, setProgress] = useState<ProgressState>(() => loadProgress())
+  const [progress, setProgress] = useState<ProgressState>(() =>
+    ensureDailyPlanProgress(loadProgress(), cet6Roots, cet6Words),
+  )
   const [view, setView] = useState<ViewMode>('study')
   const [query, setQuery] = useState('')
   const [rootIndex, setRootIndex] = useState(0)
@@ -90,6 +96,10 @@ function App() {
 
   function moveWord(word: string, book: WordBook) {
     setProgress((current) => setWordBook(current, word, book))
+  }
+
+  function changeWordNote(word: string, note: string) {
+    setProgress((current) => setWordNote(current, word, note))
   }
 
   function changeKindFilter(kind: MorphemeKind) {
@@ -186,11 +196,14 @@ function App() {
             visibleWords.slice(0, 36).map((word) => (
               <WordCard
                 key={word.word}
+                memoryNote={getWordMemoryNote(word, cet6Roots)}
+                note={getWordNote(progress, word.word)}
                 progress={progress}
                 roots={getRootGroups(word, cet6Roots)}
                 word={word}
                 onMorphemeSelect={openMorpheme}
                 onMove={moveWord}
+                onNoteChange={changeWordNote}
               />
             ))
           ) : (
@@ -374,11 +387,23 @@ type WordCardProps = {
   word: WordEntry
   progress: ProgressState
   roots: RootGroups
+  memoryNote: string
+  note: string
   onMorphemeSelect: (root: RootEntry) => void
   onMove: (word: string, book: WordBook) => void
+  onNoteChange: (word: string, note: string) => void
 }
 
-function WordCard({ onMorphemeSelect, onMove, progress, roots, word }: WordCardProps) {
+function WordCard({
+  memoryNote,
+  note,
+  onMorphemeSelect,
+  onMove,
+  onNoteChange,
+  progress,
+  roots,
+  word,
+}: WordCardProps) {
   const book = getWordBook(progress, word.word)
 
   return (
@@ -392,6 +417,23 @@ function WordCard({ onMorphemeSelect, onMove, progress, roots, word }: WordCardP
       </div>
       <p>{word.translation}</p>
       <MorphemeTags groups={roots} onMorphemeSelect={onMorphemeSelect} />
+      {memoryNote ? (
+        <p className="word-memory-note">
+          <strong>构词批注</strong>
+          {memoryNote.replace(/^构词批注：/, '')}
+        </p>
+      ) : null}
+      {book === 'mistake' ? (
+        <label className="mistake-note">
+          <span>错题批注</span>
+          <textarea
+            aria-label={`${word.word} 错题批注`}
+            onChange={(event) => onNoteChange(word.word, event.target.value)}
+            placeholder="写下错因、混淆点或你的记忆方法"
+            value={note}
+          />
+        </label>
+      ) : null}
       <div className="word-actions">
         <button onClick={() => onMove(word.word, 'mistake')} type="button">
           <AlertCircle aria-hidden="true" size={16} />

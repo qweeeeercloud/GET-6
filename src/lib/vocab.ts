@@ -20,10 +20,18 @@ export type RootEntry = {
   kind: MorphemeKind
 }
 
+export type DailyPlanState = {
+  date: string
+  newItemIds: string[]
+  reviewItemIds: string[]
+}
+
 export type ProgressState = {
   mistakeWords: string[]
   killedWords: string[]
   learnedMorphemeIds: string[]
+  wordNotes: Record<string, string>
+  dailyPlan?: DailyPlanState
   lastStudiedRootId?: string
 }
 
@@ -53,6 +61,9 @@ const emptyProgress: ProgressState = {
   mistakeWords: [],
   killedWords: [],
   learnedMorphemeIds: [],
+  wordNotes: {},
+  dailyPlan: undefined,
+  lastStudiedRootId: undefined,
 }
 
 const rootLabels: Record<string, Pick<RootEntry, 'meaning' | 'origin' | 'note' | 'kind'>> = {
@@ -69,6 +80,8 @@ export function normalizeProgress(progress: Partial<ProgressState> = {}): Progre
     mistakeWords: uniqueWords(progress.mistakeWords ?? emptyProgress.mistakeWords),
     killedWords: uniqueWords(progress.killedWords ?? emptyProgress.killedWords),
     learnedMorphemeIds: uniqueWords(progress.learnedMorphemeIds ?? emptyProgress.learnedMorphemeIds),
+    wordNotes: normalizeWordNotes(progress.wordNotes),
+    dailyPlan: normalizeDailyPlan(progress.dailyPlan),
     lastStudiedRootId: progress.lastStudiedRootId,
   }
 }
@@ -112,6 +125,27 @@ export function setMorphemeLearned(
 
 export function isMorphemeLearned(progress: ProgressState, rootId: string): boolean {
   return normalizeProgress(progress).learnedMorphemeIds.includes(rootId)
+}
+
+export function setWordNote(progress: ProgressState, word: string, note: string): ProgressState {
+  const normalized = normalizeProgress(progress)
+  const wordNotes = { ...normalized.wordNotes }
+  const trimmed = note.trim()
+
+  if (trimmed) {
+    wordNotes[word] = note
+  } else {
+    delete wordNotes[word]
+  }
+
+  return {
+    ...normalized,
+    wordNotes,
+  }
+}
+
+export function getWordNote(progress: ProgressState, word: string): string {
+  return normalizeProgress(progress).wordNotes[word] ?? ''
 }
 
 export function getWordBook(progress: ProgressState, word: string): WordBook {
@@ -214,13 +248,71 @@ export function getDailyPlan(
   words: WordEntry[],
   progress: ProgressState,
 ): DailyPlan {
-  const learned = new Set(normalizeProgress(progress).learnedMorphemeIds)
+  const normalized = normalizeProgress(progress)
   const deck = buildRootDeck(words, roots).rootDecks
+  const deckById = new Map(deck.map((entry) => [entry.id, entry]))
+
+  if (normalized.dailyPlan) {
+    return {
+      newItems: normalized.dailyPlan.newItemIds
+        .map((id) => deckById.get(id))
+        .filter((entry): entry is RootDeck => Boolean(entry)),
+      reviewItems: normalized.dailyPlan.reviewItemIds
+        .map((id) => deckById.get(id))
+        .filter((entry): entry is RootDeck => Boolean(entry)),
+    }
+  }
+
+  const learned = new Set(normalized.learnedMorphemeIds)
 
   return {
     newItems: sampleItems(deck.filter((entry) => !learned.has(entry.id)), 5),
     reviewItems: sampleItems(deck.filter((entry) => learned.has(entry.id)), 5),
   }
+}
+
+export function ensureDailyPlanProgress(
+  progress: ProgressState,
+  roots: RootEntry[],
+  words: WordEntry[],
+  date = getTodayKey(),
+): ProgressState {
+  const normalized = normalizeProgress(progress)
+
+  if (normalized.dailyPlan?.date === date) {
+    return normalized
+  }
+
+  const learned = new Set(normalized.learnedMorphemeIds)
+  const deck = buildRootDeck(words, roots).rootDecks
+
+  return {
+    ...normalized,
+    dailyPlan: {
+      date,
+      newItemIds: sampleItems(deck.filter((entry) => !learned.has(entry.id)), 5).map((entry) => entry.id),
+      reviewItemIds: sampleItems(deck.filter((entry) => learned.has(entry.id)), 5).map((entry) => entry.id),
+    },
+  }
+}
+
+export function getWordMemoryNote(word: WordEntry, roots: RootEntry[]): string {
+  const groups = getRootGroups(word, roots)
+  const morphemes = (['prefix', 'root', 'suffix'] as const).flatMap((kind) => groups[kind])
+
+  if (morphemes.length === 0) {
+    return ''
+  }
+
+  const comRoot = morphemes.find((entry) => entry.id === 'com-')
+  const monRoot = morphemes.find((entry) => entry.id === 'mon')
+
+  if (word.word.toLowerCase() === 'common' && comRoot && monRoot) {
+    return `构词批注：common 可以拆成 com-（${comRoot.meaning}）+ mon（${monRoot.meaning}）。所有人一起遵守的提醒和约定，就形成 common：共同的、共识的、通常的。`
+  }
+
+  const clues = morphemes.map((entry) => `${entry.title}（${entry.meaning}）`).join(' + ')
+  return `构词批注：${word.word} 可以看作 ${clues}。把这些线索连起来，帮助记住：${word.translation}。`
 }
 
 function createFallbackRoot(rootId: string): RootEntry {
@@ -251,6 +343,37 @@ function inferKindFromId(rootId: string): MorphemeKind {
 
 function uniqueWords(words: string[]): string[] {
   return [...new Set(words.filter(Boolean))]
+}
+
+function normalizeWordNotes(notes: ProgressState['wordNotes'] | undefined): Record<string, string> {
+  if (!notes || typeof notes !== 'object') {
+    return {}
+  }
+
+  return Object.fromEntries(
+    Object.entries(notes).filter(([, note]) => typeof note === 'string' && note.trim()),
+  )
+}
+
+function normalizeDailyPlan(plan: ProgressState['dailyPlan'] | undefined): DailyPlanState | undefined {
+  if (!plan || typeof plan.date !== 'string') {
+    return undefined
+  }
+
+  return {
+    date: plan.date,
+    newItemIds: uniqueWords(plan.newItemIds ?? []),
+    reviewItemIds: uniqueWords(plan.reviewItemIds ?? []),
+  }
+}
+
+function getTodayKey(): string {
+  const now = new Date()
+  const year = now.getFullYear()
+  const month = String(now.getMonth() + 1).padStart(2, '0')
+  const day = String(now.getDate()).padStart(2, '0')
+
+  return `${year}-${month}-${day}`
 }
 
 function sampleItems<T>(items: T[], limit: number): T[] {

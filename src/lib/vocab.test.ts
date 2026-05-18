@@ -1,13 +1,17 @@
 import { describe, expect, it } from 'vitest'
 import {
   buildRootDeck,
+  ensureDailyPlanProgress,
   getDailyPlan,
   getCoverageStats,
   getRootGroups,
   getStudyQueue,
+  getWordMemoryNote,
+  getWordNote,
   isMorphemeLearned,
   normalizeProgress,
   setMorphemeLearned,
+  setWordNote,
   setWordBook,
   type ProgressState,
   type RootEntry,
@@ -63,6 +67,31 @@ const words: WordEntry[] = [
     tags: ['cet6'],
     rootIds: [],
   },
+  {
+    word: 'common',
+    phonetic: "'kɒmәn",
+    translation: 'a. 通常的, 共同的, 通俗的, 公共的',
+    pos: 'a',
+    tags: ['cet6'],
+    rootIds: ['com-', 'mon'],
+  },
+]
+
+const commonRoots: RootEntry[] = [
+  {
+    id: 'com-',
+    title: 'com-',
+    meaning: '共同，一起',
+    note: 'com- 表示共同、一起。',
+    kind: 'prefix',
+  },
+  {
+    id: 'mon',
+    title: 'mon',
+    meaning: '提醒，警告',
+    note: 'mon 表示提醒、警告。',
+    kind: 'root',
+  },
 ]
 
 describe('vocab progress', () => {
@@ -101,6 +130,20 @@ describe('vocab progress', () => {
     expect(progress.learnedMorphemeIds).toEqual([])
   })
 
+  it('stores personal notes for mistake words', () => {
+    let progress: ProgressState = normalizeProgress()
+
+    progress = setWordNote(progress, 'transport', '总把 trans- 忘成 transfer，记住跨过去再搬运。')
+
+    expect(getWordNote(progress, 'transport')).toBe('总把 trans- 忘成 transfer，记住跨过去再搬运。')
+    expect(progress.wordNotes.transport).toBe('总把 trans- 忘成 transfer，记住跨过去再搬运。')
+
+    progress = setWordNote(progress, 'transport', ' ')
+
+    expect(getWordNote(progress, 'transport')).toBe('')
+    expect(progress.wordNotes.transport).toBeUndefined()
+  })
+
   it('excludes killed words from the default study queue while keeping mistakes visible first', () => {
     const progress = normalizeProgress({
       mistakeWords: ['random'],
@@ -110,6 +153,7 @@ describe('vocab progress', () => {
     expect(getStudyQueue(words, progress).map((entry) => entry.word)).toEqual([
       'random',
       'portable',
+      'common',
     ])
   })
 })
@@ -117,8 +161,8 @@ describe('vocab progress', () => {
 describe('vocab data helpers', () => {
   it('counts imported CET-6 coverage and rooted words', () => {
     expect(getCoverageStats(words)).toEqual({
-      total: 3,
-      rooted: 2,
+      total: 4,
+      rooted: 3,
       supplemental: 1,
     })
   })
@@ -126,7 +170,7 @@ describe('vocab data helpers', () => {
   it('builds root decks and leaves unrooted words for supplemental learning', () => {
     const deck = buildRootDeck(words, roots)
 
-    expect(deck.rootDecks).toHaveLength(3)
+    expect(deck.rootDecks).toHaveLength(5)
     expect(deck.rootDecks.find((entry) => entry.id === 'port')).toMatchObject({
       id: 'port',
       title: 'port',
@@ -140,9 +184,10 @@ describe('vocab data helpers', () => {
     const prefixDeck = buildRootDeck(words, roots, 'prefix')
     const groups = getRootGroups(words[1], roots)
 
-    expect(prefixDeck.rootDecks).toEqual([
+    expect(prefixDeck.rootDecks).toHaveLength(2)
+    expect(prefixDeck.rootDecks).toEqual(expect.arrayContaining([
       expect.objectContaining({ id: 'trans-', kind: 'prefix', words: [words[0]] }),
-    ])
+    ]))
     expect(groups).toEqual({
       prefix: [],
       root: [roots[1]],
@@ -157,8 +202,28 @@ describe('vocab data helpers', () => {
 
     const plan = getDailyPlan(roots, words, progress)
 
-    expect(plan.newItems).toHaveLength(2)
-    expect(new Set(plan.newItems.map((entry) => entry.id))).toEqual(new Set(['trans-', '-able']))
+    expect(plan.newItems).toHaveLength(4)
+    expect(new Set(plan.newItems.map((entry) => entry.id))).toEqual(new Set(['trans-', '-able', 'com-', 'mon']))
     expect(plan.reviewItems.map((entry) => entry.id)).toEqual(['port'])
+  })
+
+  it('keeps a generated daily plan stable after unrelated progress changes', () => {
+    const progress = ensureDailyPlanProgress(normalizeProgress(), roots, words, '2026-05-18')
+    const firstPlan = getDailyPlan(roots, words, progress)
+    const changedProgress = setWordBook(progress, 'transport', 'mistake')
+    const secondPlan = getDailyPlan(roots, words, changedProgress)
+
+    expect(secondPlan.newItems.map((entry) => entry.id)).toEqual(firstPlan.newItems.map((entry) => entry.id))
+    expect(secondPlan.reviewItems.map((entry) => entry.id)).toEqual(firstPlan.reviewItems.map((entry) => entry.id))
+  })
+
+  it('explains common with prefix and root memory clues', () => {
+    const note = getWordMemoryNote(words[3], commonRoots)
+
+    expect(note).toContain('com-')
+    expect(note).toContain('共同，一起')
+    expect(note).toContain('mon')
+    expect(note).toContain('提醒，警告')
+    expect(note).toContain('common')
   })
 })
