@@ -308,11 +308,16 @@ export function getWordMemoryNote(word: WordEntry, roots: RootEntry[]): string {
   const monRoot = morphemes.find((entry) => entry.id === 'mon')
 
   if (word.word.toLowerCase() === 'common' && comRoot && monRoot) {
-    return `构词批注：common 可以拆成 com-（${comRoot.meaning}）+ mon（${monRoot.meaning}）。所有人一起遵守的提醒和约定，就形成 common：共同的、共识的、通常的。`
+    return `构词批注：不是死记 common。com- 是“${comRoot.meaning}”，mon 是“${monRoot.meaning}”。想象一群人被同一个提醒反复提示，慢慢形成大家都认可、大家都知道的东西，所以 common 就是“共同的、共识的、通常的”。`
   }
 
-  const clues = morphemes.map((entry) => `${entry.title}（${entry.meaning}）`).join(' + ')
-  return `构词批注：${word.word} 可以看作 ${clues}。把这些线索连起来，帮助记住：${word.translation}。`
+  const morphemeIntro = morphemes
+    .map((entry) => `${entry.title} 是“${entry.meaning}”`)
+    .join('，')
+  const scene = buildMemoryScene(word, morphemes)
+  const meaning = getReadableTranslation(word.translation)
+
+  return `构词批注：先别死记 ${word.word}。${morphemeIntro}。${scene}这样看到 ${word.word} 时，先想这个画面，再落到“${meaning}”。`
 }
 
 function createFallbackRoot(rootId: string): RootEntry {
@@ -374,6 +379,44 @@ function getTodayKey(): string {
   const day = String(now.getDate()).padStart(2, '0')
 
   return `${year}-${month}-${day}`
+}
+
+function buildMemoryScene(word: WordEntry, morphemes: RootEntry[]): string {
+  const ids = new Set(morphemes.map((entry) => entry.id))
+
+  if (word.word.toLowerCase() === 'transport' && ids.has('trans-') && ids.has('port')) {
+    return '先把它想成一个动作：带着东西穿过一段路，从一个地方送到另一个地方。'
+  }
+
+  if (word.word.toLowerCase() === 'portable' && ids.has('port') && ids.has('-able')) {
+    return '先把它想成一个随身动作：东西能被带着走、搬着用。'
+  }
+
+  const prefix = morphemes.find((entry) => entry.kind === 'prefix')
+  const root = morphemes.find((entry) => entry.kind === 'root')
+  const suffix = morphemes.find((entry) => entry.kind === 'suffix')
+
+  if (prefix && root && suffix) {
+    return `先抓住顺序：${prefix.title} 给方向，${root.title} 给核心动作，${suffix.title} 说明词性或结果。`
+  }
+
+  if (prefix && root) {
+    return `先抓住画面：${prefix.title} 像是在前面加了一个方向，${root.title} 是这个词真正要做的动作。`
+  }
+
+  if (root && suffix) {
+    return `先抓住画面：${root.title} 是核心动作，${suffix.title} 像是在后面补一句“能这样”或“这种结果”。`
+  }
+
+  return `先抓住它最重要的构词块：${morphemes[0].title}，把这个意思当成记忆入口。`
+}
+
+function getReadableTranslation(translation: string): string {
+  return translation
+    .replace(/\b[a-z]+\./gi, '')
+    .replace(/[;；]/g, '、')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 function sampleItems<T>(items: T[], limit: number): T[] {

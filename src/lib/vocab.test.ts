@@ -217,13 +217,28 @@ describe('vocab data helpers', () => {
     expect(secondPlan.reviewItems.map((entry) => entry.id)).toEqual(firstPlan.reviewItems.map((entry) => entry.id))
   })
 
-  it('explains common with prefix and root memory clues', () => {
+  it('explains common with a plain Chinese memory scene', () => {
     const note = getWordMemoryNote(words[3], commonRoots)
 
     expect(note).toContain('com-')
     expect(note).toContain('共同，一起')
     expect(note).toContain('mon')
     expect(note).toContain('提醒，警告')
+    expect(note).toContain('一群人')
+    expect(note).toContain('大家都认可')
+    expect(note).toContain('不是死记')
     expect(note).toContain('common')
+  })
+
+  it('turns generic morphemes into an easy Chinese memory scene', () => {
+    const note = getWordMemoryNote(words[0], roots)
+
+    expect(note).toContain('transport')
+    expect(note).toContain('trans-')
+    expect(note).toContain('port')
+    expect(note).toContain('先把它想成一个动作')
+    expect(note).toContain('带着东西')
+    expect(note).toContain('运输')
+    expect(note).not.toContain('可以看作')
   })
 })
