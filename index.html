@@ -1,13 +1,128 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>get-6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新能源汽车氮化硅陶瓷基板制备生产线设计｜动态资料</title>
+    <meta
+      name="description"
+      content="新能源汽车氮化硅陶瓷基板制备生产线设计毕业设计动态资料页，展示流延成型与气压烧结等关键设备动态图。"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header class="hero" aria-labelledby="page-title">
+      <canvas id="heroCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <section class="hero-copy">
+          <p class="eyebrow">毕业设计动态补充材料</p>
+          <h1 id="page-title">新能源汽车氮化硅陶瓷基板制备生产线设计</h1>
+          <p class="subtitle">关键设备与工艺环节动态图展示</p>
+          <p class="hero-note">
+            本页面用于展示毕业设计中关键设备与工艺环节的动态图，辅助理解氮化硅陶瓷基板生产线中流延成型和气压烧结等核心工序。
+          </p>
+          <div class="hero-tags" aria-label="页面关键词">
+            <span>Si3N4 陶瓷基板</span>
+            <span>流延成型</span>
+            <span>气压烧结</span>
+            <span>动态资料</span>
+          </div>
+        </section>
+
+        <section class="substrate-stage" aria-label="氮化硅陶瓷基板工艺动效">
+          <div class="stage-panel">
+            <div class="status-bar">
+              <span>Digital Process View</span>
+              <strong>运行中</strong>
+            </div>
+            <div class="substrate-scene">
+              <div
+                id="productViewer"
+                class="product-viewer"
+                role="img"
+                aria-label="可拖拽旋转的成品氮化硅陶瓷基板三维模型"
+              ></div>
+            </div>
+            <div class="process-strip" aria-label="工艺节点">
+              <span style="--step: 0">球磨</span>
+              <span style="--step: 1">流延</span>
+              <span style="--step: 2">排胶</span>
+              <span style="--step: 3">烧结</span>
+              <span style="--step: 4">抛光</span>
+              <span style="--step: 5">金属化</span>
+              <span style="--step: 6">检测</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <p class="section-kicker">Overview</p>
+        <h2 id="intro-title">页面说明</h2>
+        <p>
+          本页面用于展示毕业设计中关键设备与工艺环节的动态图，辅助理解氮化硅陶瓷基板生产线中球磨混料、流延成型和气压烧结等核心工序。动态图可作为论文纸质版的扫码补充材料，也可用于答辩展示。
+        </p>
+      </section>
+
+      <section class="figure-list" aria-label="动态图列表">
+        <article class="figure-panel">
+          <div class="figure-media">
+            <img
+              src="assets/figure-ball-milling-dynamic.gif"
+              alt="四罐位行星式球磨机工作原理动态展示"
+              loading="eager"
+            >
+          </div>
+          <div class="figure-copy">
+            <p class="figure-number">对应工艺环节：球磨混料</p>
+            <h2>四罐位行星式球磨机动态展示</h2>
+            <p>
+              该动态图展示了四罐位行星式球磨机的转盘公转、球磨罐自转以及研磨球冲击剪切作用。球磨混料是氮化硅陶瓷基板制备前端的重要工序，其作用是将 Si3N4 粉体、烧结助剂、分散剂和溶剂充分混合，并通过研磨细化团聚颗粒，改善浆料均匀性和后续流延成型稳定性。通过动态图可以直观理解公转与自转叠加形成的高能研磨轨迹，为获得粒径分布均匀、分散状态良好的陶瓷浆料提供基础。
+            </p>
+          </div>
+        </article>
+
+        <article class="figure-panel">
+          <div class="figure-media">
+            <img
+              src="assets/figure-4-1-dynamic.gif"
+              alt="精密流延机动态展示"
+              loading="lazy"
+            >
+          </div>
+          <div class="figure-copy">
+            <p class="figure-number">对应论文图号：图4-1</p>
+            <h2>精密流延机动态展示</h2>
+            <p>
+              该动态图展示了精密流延设备的基本结构与运行过程。流延成型是氮化硅陶瓷基板制备中的关键工序，其作用是将高固含量陶瓷浆料均匀铺展在载膜上，形成厚度稳定、表面平整的连续生坯带。通过动态图可以直观理解浆料供给、刮刀控厚、载膜输送和干燥成膜之间的协同关系，为后续排胶和烧结工序提供尺寸一致性良好的生坯基础。
+            </p>
+          </div>
+        </article>
+
+        <article class="figure-panel">
+          <div class="figure-media">
+            <img
+              src="assets/figure-5-2-dynamic.gif"
+              alt="气压烧结炉动态展示"
+              loading="lazy"
+            >
+          </div>
+          <div class="figure-copy">
+            <p class="figure-number">对应论文图号：图5-2</p>
+            <h2>气压烧结炉动态展示</h2>
+            <p>
+              该动态图展示了立式钟罩气压烧结炉的设备形态与工作过程。气压烧结是提升 Si3N4 陶瓷基板致密度、力学性能和热导率的核心环节。烧结过程中，炉体在高温和氮气压力条件下抑制 Si3N4 分解，并促进 β-Si3N4 晶粒生长和晶界相优化。通过动态图可以更直观地理解炉体升降、密封加压、温度控制和高压氮气保护等关键过程。
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>20223042 刘雨杰｜无机非金属材料工程</p>
+    </footer>
   </body>
 </html>
